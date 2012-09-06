@@ -1,4 +1,10 @@
-﻿using System;
+﻿/* 
+ * Spotify Ad Muter
+ * "Mutes" spotify ads based on a blacklist that resides in memory.
+ * 
+ * Author: Ben Katz (bakatz@vt.edu)
+ */
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,12 +25,14 @@ namespace SpotifyAdMuter
         static extern IntPtr SetWinEventHook(uint eventMin, uint eventMax, IntPtr
            hmodWinEventProc, WinEventDelegate lpfnWinEventProc, uint idProcess,
            uint idThread, uint dwFlags);
-        //[DllImport("user32.dll")]
+
+        [DllImport("user32.dll")]
         static extern bool UnhookWinEvent(IntPtr hWinEventHook);
 
-        //[DllImport("user32.dll", CharSet=CharSet.Auto)]
+        [DllImport("user32.dll")]
         public static extern int GetWindowTextLength(HandleRef hWnd);
-        //[DllImport("user32.dll", CharSet=CharSet.Auto)]
+
+        [DllImport("user32.dll")]
         public static extern int GetWindowText(HandleRef hWnd, StringBuilder lpString, int nMaxCount);
 
 
@@ -32,36 +40,38 @@ namespace SpotifyAdMuter
         const uint EVENT_SYSTEM_FOREGROUND = 3;
         const uint EVENT_OBJECT_NAMECHANGE = 0x800C;
         const uint WINEVENT_OUTOFCONTEXT = 0;
+        // End constants from winuser.h
 
         private static Process spotProc = null;
         private static float savedVol = 0;
         private static List<String> blackList;
         private static String lastItem = null;
 
-        private static MMDeviceEnumerator devEnum = null;
+        
         private static MMDevice defaultDevice = null;
-        // Need to ensure delegate is not collected while we're using it,
-        // storing it in a class field is simplest way to do this.
         static WinEventDelegate procDelegate;
 
         public static void Main()
         {
-	    devEnum = new MMDeviceEnumerator();
-	    defaultDevice = devEnum.GetDefaultAudioEndpoint(EDataFlow.eRender, ERole.eMultimedia);
+	        MMDeviceEnumerator devEnum = new MMDeviceEnumerator(); // get multimedia device enumerator.
+            defaultDevice = devEnum.GetDefaultAudioEndpoint(EDataFlow.eRender, ERole.eMultimedia); // grab our default sound device
             procDelegate = new WinEventDelegate(WinEventProc);
             blackList = new List<String>();
-            Process[] procs = Process.GetProcessesByName("spotify");
+            Process[] procs = Process.GetProcessesByName("spotify"); // find the spotify process by name.
             if (procs.Length > 0)
             {
-                spotProc = procs[0];
-                
-                // MessageBox provides the necessary mesage loop that SetWinEventHook requires.
-                //MessageBox.Show("Tracking focus, close message box to exit.");
-                // Listen for foreground changes across all processes/threads on current desktop...
+                spotProc = procs[0]; // in the case of multiple spotify processes, just use the first one.
+                // Listen for window title changes in the spotify process, using spotify's pid
                 IntPtr hhook = SetWinEventHook(EVENT_OBJECT_NAMECHANGE, EVENT_OBJECT_NAMECHANGE, IntPtr.Zero,
                         procDelegate, (uint)spotProc.Id, 0, WINEVENT_OUTOFCONTEXT);
+
+                // MessageBox provides the necessary mesage loop that SetWinEventHook requires.
                 MessageBox.Show("Click OK to stop muting ads.");
                 UnhookWinEvent(hhook);
+            }
+            else
+            {
+                MessageBox.Show("Spotify doesn't appear to be running. Start spotify normally and then run this program again.");
             }
             
         }
@@ -84,13 +94,15 @@ namespace SpotifyAdMuter
             Console.WriteLine("Got spotify volume: " + spotifyASC.SimpleAudioVolume.MasterVolume);
             savedVol = spotifyASC.SimpleAudioVolume.MasterVolume;
             Console.WriteLine("Setting to new volume: " + (0.05f / defaultDevice.AudioEndpointVolume.MasterVolumeLevelScalar));
+            // The description says "mute" because Spotify will pause entirely if the volume is muted. 5% is the minimum value
+            // to be quiet enough to be considered muted and still keep spotify running.
             spotifyASC.SimpleAudioVolume.MasterVolume = 0.05f / defaultDevice.AudioEndpointVolume.MasterVolumeLevelScalar;
+            //TODO: play elevator music (or user's choice) over the "muted" ad.
         }
 
         static void WinEventProc(IntPtr hWinEventHook, uint eventType,
             IntPtr hwnd, int idObject, int idChild, uint dwEventThread, uint dwmsEventTime)
         {
-            //if(hwnd.ToInt32() == spotProc.Handle.ToInt32())
             Process[] procs = Process.GetProcessesByName("spotify"); // we need to refresh the spotify process each time, because spotify tends to change process id when hiding/unhiding.
             if (procs.Length > 0)
             {
@@ -110,7 +122,6 @@ namespace SpotifyAdMuter
                         Console.ReadKey(false);
                     }
                     char resp = Console.ReadKey().KeyChar;
-                    Console.WriteLine("Got response: " + resp + " for " + spotProc.MainWindowTitle);
                     if (resp == 'n') {
                         Console.WriteLine("Current item will not be added to the blacklist.");
                         return;

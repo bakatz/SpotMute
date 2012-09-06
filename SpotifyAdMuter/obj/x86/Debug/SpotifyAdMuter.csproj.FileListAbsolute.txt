@@ -4,5 +4,9 @@ c:\users\ben\documents\visual studio 2010\Projects\SpotifyAdMuter\SpotifyAdMuter
 c:\users\ben\documents\visual studio 2010\Projects\SpotifyAdMuter\SpotifyAdMuter\obj\x86\Debug\SpotifyAdMuter.exe
 c:\users\ben\documents\visual studio 2010\Projects\SpotifyAdMuter\SpotifyAdMuter\obj\x86\Debug\SpotifyAdMuter.pdb
 c:\users\ben\documents\visual studio 2010\Projects\SpotifyAdMuter\SpotifyAdMuter\bin\Debug\CoreAudioApi.dll
+D:\Dropbox\Projects\Visual Studio\SpotifyAdMuter\SpotifyAdMuter\bin\Debug\SpotifyAdMuter.exe
+D:\Dropbox\Projects\Visual Studio\SpotifyAdMuter\SpotifyAdMuter\bin\Debug\SpotifyAdMuter.pdb
+D:\Dropbox\Projects\Visual Studio\SpotifyAdMuter\SpotifyAdMuter\bin\Debug\CoreAudioApi.dll
+D:\Dropbox\Projects\Visual Studio\SpotifyAdMuter\SpotifyAdMuter\obj\x86\Debug\ResolveAssemblyReference.cache
 D:\Dropbox\Projects\Visual Studio\SpotifyAdMuter\SpotifyAdMuter\obj\x86\Debug\SpotifyAdMuter.exe
 D:\Dropbox\Projects\Visual Studio\SpotifyAdMuter\SpotifyAdMuter\obj\x86\Debug\SpotifyAdMuter.pdb
