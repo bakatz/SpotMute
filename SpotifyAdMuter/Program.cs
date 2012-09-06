@@ -47,13 +47,13 @@ namespace SpotifyAdMuter
         private static List<String> blackList;
         private static String lastItem = null;
 
-        
+
         private static MMDevice defaultDevice = null;
         static WinEventDelegate procDelegate;
 
         public static void Main()
         {
-	        MMDeviceEnumerator devEnum = new MMDeviceEnumerator(); // get multimedia device enumerator.
+            MMDeviceEnumerator devEnum = new MMDeviceEnumerator(); // get multimedia device enumerator.
             defaultDevice = devEnum.GetDefaultAudioEndpoint(EDataFlow.eRender, ERole.eMultimedia); // grab our default sound device
             procDelegate = new WinEventDelegate(WinEventProc);
             blackList = new List<String>();
@@ -73,7 +73,7 @@ namespace SpotifyAdMuter
             {
                 MessageBox.Show("Spotify doesn't appear to be running. Start spotify normally and then run this program again.");
             }
-            
+
         }
 
         static AudioSessionControl getSpotifyAudioSession(int spotProcId)
@@ -91,12 +91,20 @@ namespace SpotifyAdMuter
 
         static void forceSpotifyMute(AudioSessionControl spotifyASC)
         {
-            Console.WriteLine("Got spotify volume: " + spotifyASC.SimpleAudioVolume.MasterVolume);
+            if (Math.Abs(spotifyASC.SimpleAudioVolume.MasterVolume - (0.05f / defaultDevice.AudioEndpointVolume.MasterVolumeLevelScalar)) < 0.0001 && savedVol > 0) // bugfix: muting twice leads to never unmuting even on a whitelisted song
+            {
+                Console.WriteLine("Not going to set savedvol, Difference: " + Math.Abs(savedVol - (0.05f / defaultDevice.AudioEndpointVolume.MasterVolumeLevelScalar)));
+                Console.WriteLine(savedVol + " vs calc: " + (0.05f / defaultDevice.AudioEndpointVolume.MasterVolumeLevelScalar));
+                Console.WriteLine("User's volume is already at 5%, ignoring mute request.");
+                return;
+            }
+            Console.WriteLine("Got spotify volume before mute: " + spotifyASC.SimpleAudioVolume.MasterVolume);
             savedVol = spotifyASC.SimpleAudioVolume.MasterVolume;
-            Console.WriteLine("Setting to new volume: " + (0.05f / defaultDevice.AudioEndpointVolume.MasterVolumeLevelScalar));
+            Console.WriteLine("Setting spotify volume to: " + (0.05f / defaultDevice.AudioEndpointVolume.MasterVolumeLevelScalar));
             // The description says "mute" because Spotify will pause entirely if the volume is muted. 5% is the minimum value
             // to be quiet enough to be considered muted and still keep spotify running.
             spotifyASC.SimpleAudioVolume.MasterVolume = 0.05f / defaultDevice.AudioEndpointVolume.MasterVolumeLevelScalar;
+
             //TODO: play elevator music (or user's choice) over the "muted" ad.
         }
 
@@ -110,11 +118,17 @@ namespace SpotifyAdMuter
                 AudioSessionControl spotifyASC = getSpotifyAudioSession(spotProc.Id);
                 if (spotifyASC == null) return;
 
-                if (spotProc.MainWindowTitle.Equals(lastItem)) { // Spotify likes to change the window title to the same thing over and over when you highlight things. Hackaround for this one.
+                if (spotProc.MainWindowTitle.Equals(lastItem))
+                { // Spotify likes to change the window title to the same thing over and over when you highlight things. Hackaround for this one.
                     return;
-                } else if (!blackList.Contains(spotProc.MainWindowTitle)) {
+                }
+                else if (!blackList.Contains(spotProc.MainWindowTitle))
+                {
                     if (savedVol > 0)
+                    {
+                        Console.WriteLine("Resetting master volume to: " + savedVol);
                         spotifyASC.SimpleAudioVolume.MasterVolume = savedVol;
+                    }
                     lastItem = spotProc.MainWindowTitle;
                     Console.WriteLine("Got new Spotify item: " + spotProc.MainWindowTitle + ". Add to blacklist? (y/n)");
                     while (Console.KeyAvailable)
@@ -122,7 +136,8 @@ namespace SpotifyAdMuter
                         Console.ReadKey(false);
                     }
                     char resp = Console.ReadKey().KeyChar;
-                    if (resp == 'n') {
+                    if (resp == 'n')
+                    {
                         Console.WriteLine("Current item will not be added to the blacklist.");
                         return;
                     }
@@ -130,8 +145,10 @@ namespace SpotifyAdMuter
                     blackList.Add(spotProc.MainWindowTitle);
                     forceSpotifyMute(spotifyASC);
 
-                } else {
-                    Console.WriteLine("Found an ad in the blacklist! Muting for duration of the ad.");
+                }
+                else
+                {
+                    Console.WriteLine("Found an ad in the blacklist: " + (spotProc.MainWindowTitle) + ". Muting for duration of the ad.");
                     forceSpotifyMute(spotifyASC);
                 }
             }
