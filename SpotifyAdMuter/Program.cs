@@ -38,14 +38,17 @@ namespace SpotifyAdMuter
         private static List<String> blackList;
         private static String lastItem = null;
 
-        private static MMDeviceEnumerator devEnum = new MMDeviceEnumerator();
-        private static MMDevice defaultDevice = devEnum.GetDefaultAudioEndpoint(EDataFlow.eRender, ERole.eMultimedia);
+        private static MMDeviceEnumerator devEnum = null;
+        private static MMDevice defaultDevice = null;
         // Need to ensure delegate is not collected while we're using it,
         // storing it in a class field is simplest way to do this.
-        static WinEventDelegate procDelegate = new WinEventDelegate(WinEventProc);
+        static WinEventDelegate procDelegate;
 
         public static void Main()
         {
+	    devEnum = new MMDeviceEnumerator();
+	    defaultDevice = devEnum.GetDefaultAudioEndpoint(EDataFlow.eRender, ERole.eMultimedia);
+            procDelegate = new WinEventDelegate(WinEventProc);
             blackList = new List<String>();
             Process[] procs = Process.GetProcessesByName("spotify");
             if (procs.Length > 0)
