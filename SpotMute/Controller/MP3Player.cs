@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Runtime.InteropServices;
+using System.IO;
 
 namespace SpotMute.Controller
 {
@@ -32,9 +33,12 @@ namespace SpotMute.Controller
          */
         public void Open(string sFileName)
         {
-            _command = "open \"" + sFileName + "\" type mpegvideo alias MediaFile";
-            mciSendString(_command, null, 0, IntPtr.Zero);
-            isOpen = true;
+            if (File.Exists(sFileName))
+            {
+                _command = "open \"" + sFileName + "\" type mpegvideo alias MediaFile";
+                mciSendString(_command, null, 0, IntPtr.Zero);
+                isOpen = true;
+            }
         }
 
         /*
