@@ -1,16 +1,15 @@
-SpotifyAdMuter
+SpotMute v0.1
 ================
-
-"Mutes" spotify ads based on a user-created blacklist.
-
+A simple blacklist and volume control application for Spotify
+Author: Ben Katz (bakatz@vt.edu)
+Bug tracker: <https://github.com/bakatz/SpotifyAdMuter/issues>
 Instructions:
 
-1. Open Spotify
-2. Open SpotifyAdMuter.exe
-3. Wait for an ad to show up on the screen.
-4. Check the SpotifyAdMuter console window - it will ask you if you want to block the current ad from playing.
-5. Press y for Yes or n for No.
-6. Rinse and repeat steps 3 through 5 for each ad you want to block.
+1. Click start.
+1. Verify that SpotMute has detected the current song.
+1. Click 'block artist' to block all songs by the current artist, or 'block song' to block the current song. 
+Elevator music will be played over the song in question.
 
-Note: For this initial version, the blacklist resides in memory. Future versions will support a blacklist 
-configuration file and will whitelist everything else. Please message me with any feature suggestions!
+Note: pressing stop will reset your volume to what it was before the mute operation.
+
+*PayPal donations as well as feature suggestions are appreciated and accepted at the given email. Thanks for checking out SpotMute!*
