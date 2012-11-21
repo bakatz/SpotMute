@@ -12,4 +12,4 @@ Elevator music will be played over the song in question.
 
 Note: pressing stop will reset your volume to what it was before the mute operation.
 
-*PayPal donations as well as feature suggestions are appreciated and accepted at the given email. Thanks for checking out SpotMute!*
+**PayPal donations as well as feature suggestions are appreciated and accepted at the given email. Thanks for checking out SpotMute!**
