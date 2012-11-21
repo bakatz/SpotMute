@@ -1,9 +1,10 @@
 SpotMute v0.1
 ================
 A simple blacklist and volume control application for Spotify
-Author: Ben Katz (bakatz@vt.edu)
-Bug tracker: <https://github.com/bakatz/SpotifyAdMuter/issues>
-Instructions:
+
+* Author: Ben Katz (bakatz@vt.edu)
+* Bug tracker: <https://github.com/bakatz/SpotifyAdMuter/issues>
+* Instructions:
 
 1. Click start.
 1. Verify that SpotMute has detected the current song.
@@ -12,4 +13,4 @@ Elevator music will be played over the song in question.
 
 Note: pressing stop will reset your volume to what it was before the mute operation.
 
-**PayPal donations as well as feature suggestions are appreciated and accepted at the given email. Thanks for checking out SpotMute!**
+**Feature suggestions are appreciated and accepted at the given email. Thanks for checking out SpotMute!**
