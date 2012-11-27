@@ -50,7 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controller\MP3Player.cs" />
-    <Compile Include="Model\BlackList.cs" />
+    <Compile Include="Model\BlockTable.cs" />
     <Compile Include="Model\SpotifyInformation.cs" />
     <Compile Include="View\BlackListForm.cs">
       <SubType>Form</SubType>

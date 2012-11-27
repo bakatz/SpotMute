@@ -9,6 +9,7 @@ using System.Windows.Forms;
 using SpotMute.Model;
 using System.Media;
 using System.Threading;
+using System.IO;
 
 namespace SpotMute.Controller
 {
@@ -32,8 +33,9 @@ namespace SpotMute.Controller
         private static extern int GetWindowText(HandleRef hWnd, StringBuilder lpString, int nMaxCount);
 
         //TODO: put these in some external configuration file
-        private const String BLACKLIST_FILE_PATH = "blacklist.conf"; // TODO: should move to BlackList if decision is made to remove/modify 2nd constructor from BlackList
+        private const String BLOCKTABLE_FILE_PATH = "blocktable.conf"; // TODO: should move to blocktable if decision is made to remove/modify 2nd constructor from blocktable
         private String REPLACEMENT_AUDIO_PATH = "elevator.mp3";
+        private const String LOG_FILE_PATH = "log.txt";
 
         // Constants from winuser.h
         private const uint EVENT_SYSTEM_FOREGROUND = 3;
@@ -46,7 +48,7 @@ namespace SpotMute.Controller
         private IntPtr spotHook;
         private Process spotProc = null;
 
-        private BlackList blackList;
+        private BlockTable blockTable;
         private SpotifyInformation spotInfo;
         private WinEventDelegate procDelegate;
         private MMDevice defaultDevice = null;
@@ -62,7 +64,7 @@ namespace SpotMute.Controller
             this.console = console;
             this.nowPlayingLabel = nowPlaying;
             player = new MP3Player();
-            blackList = new BlackList(BLACKLIST_FILE_PATH);
+            blockTable = new BlockTable(BLOCKTABLE_FILE_PATH);
             spotInfo = new SpotifyInformation(this);
             savedVol = -1;
         }
@@ -127,7 +129,7 @@ namespace SpotMute.Controller
         {
             if (console != null)
             {
-                console.AppendText(line + "\n");
+                console.AppendText(DateTime.Now.ToString() + ": " + line + "\n");
             }
         }
 
@@ -169,42 +171,58 @@ namespace SpotMute.Controller
         }
 
         /*
-         * Adds Spotify's current song to the blacklist, mutes it, and plays elevator music over it.
+         * Adds Spotify's current song to the blockTable, mutes it, and plays elevator music over it.
          */
         public void blockCurrentSong()
         {
-            addLog("Current song added to the blacklist. Muting volume.");
-            blackList.addSong(spotInfo.getCurrentArtist(), spotInfo.getCurrentSong());
+            addLog("Current song added to the blockTable. Muting volume.");
+            blockTable.addSong(spotInfo.getCurrentArtist(), spotInfo.getCurrentSong());
             forceSpotifyMute();
             playReplacementMusic();
         }
 
         /*
-         * Adds Spotify's current artist to the blacklist, mutes it, and plays elevator music over it.
+         * Adds Spotify's current artist to the blockTable, mutes it, and plays elevator music over it.
          */
         public void blockCurrentArtist()
         {
-            addLog("Current artist added to the blacklist. Muting volume.");
-            blackList.addArtist(spotInfo.getCurrentArtist());
+            addLog("Current artist added to the blockTable. Muting volume.");
+            blockTable.addArtist(spotInfo.getCurrentArtist());
             forceSpotifyMute();
             playReplacementMusic();
         }
 
         /*
-        * Called on application exit to save the blacklist to the disk.
+        * Called on application exit to save the blockTable to the disk.
         */
-        public void persistBlacklist()
+        public void persistBlockTable()
         {
-            addLog("Saving " + blackList.size() + " items to disk.");
-            blackList.save();
+            addLog("Saving " + blockTable.size() + " blockTable items to disk.");
+            blockTable.save();
         }
 
         /*
-        * Returns the blacklist associated with this instance of the controller.
+        * Called on application exit to save the blockTable to the disk.
         */
-        public BlackList getBlacklist()
+        public void persistLogs()
         {
-            return blackList;
+            addLog("Saving " + console.Text.Length + " bytes of logs to disk.");
+            try
+            {
+                File.WriteAllText(LOG_FILE_PATH, console.Text);
+            }
+            catch (IOException e)
+            {
+                Console.WriteLine("Got exception while saving logs with filepath '" + LOG_FILE_PATH + "': " + e);
+            }
+        }
+
+        /*
+        * Returns the blockTable associated with this instance of the controller.
+        */
+        public BlockTable getBlockTable()
+        {
+            return blockTable;
         }
 
         /*
@@ -228,14 +246,14 @@ namespace SpotMute.Controller
         }
 
         /*
-         * Validates that the current song is not in the blacklist. If it is in the blacklist, the song is muted and startReplacementMusic() is called. 
+         * Validates that the current song is not in the blockTable. If it is in the blockTable, the song is muted and startReplacementMusic() is called. 
          */
         private void checkCurrentSong()
         {
             String artist = spotInfo.getCurrentArtist();
             String song = spotInfo.getCurrentSong();
             nowPlayingLabel.Text = artist + " - " + song;
-            if (!blackList.contains(artist, song))
+            if (!blockTable.contains(artist, song))
             {
                 stopReplacementMusic();
                 if (savedVol > 0)
@@ -244,12 +262,12 @@ namespace SpotMute.Controller
                     AudioSessionControl spotifyASC = spotInfo.getSpotifyAudioSession();
                     spotifyASC.SimpleAudioVolume.MasterVolume = savedVol;
                 }
-                addLog("Got new Spotify item: " + spotProc.MainWindowTitle + ". Add to blacklist?");
+                addLog("Got new Spotify item: " + spotProc.MainWindowTitle + ". Add to blockTable?");
 
             }
             else
             {
-                addLog("Found an ad in the blacklist: " + (spotProc.MainWindowTitle) + ". Muting for duration of the ad.");
+                addLog("Found an ad in the blockTable: " + (spotProc.MainWindowTitle) + ". Muting for duration of the ad.");
                 forceSpotifyMute();
                 playReplacementMusic();
             }

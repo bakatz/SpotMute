@@ -13,10 +13,10 @@ namespace SpotMute.View
     /*
      * Simple class showing the contents of the blacklist.
      */
-    public partial class BlackListForm : Form
+    public partial class BlockTableForm : Form
     {
-        private BlackList blist;
-        public BlackListForm(BlackList blist)
+        private BlockTable blist;
+        public BlockTableForm(BlockTable blist)
         {
             this.blist = blist;
             InitializeComponent();
@@ -27,7 +27,7 @@ namespace SpotMute.View
          */
         private void BlackListForm_Load(object sender, EventArgs e)
         {
-            blacklistTable.DataSource = blist.getDictionary().ToList();
+            blacklistTable.DataSource = blist.toList();
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)

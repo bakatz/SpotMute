@@ -28,12 +28,13 @@ namespace SpotMute
         }
 
         /*
-         * MainForm_FormClosing - when the user closes the application, save the blacklist to a file so it can be reloaded when the program re-opens
+         * MainForm_FormClosing - when the user closes the application, save the blacklist to a file so it can be reloaded when the program re-opens. Also save the logs for easy viewing.
          */
         private void MainForm_FormClosing(Object sender, FormClosingEventArgs e)
         {
             spotControl.addLog("Got FormClosing event in MainForm view. Trying to persist blacklist for use next time...");
-            spotControl.persistBlacklist();
+            spotControl.persistBlockTable();
+            spotControl.persistLogs();
         }
 
 
@@ -74,7 +75,7 @@ namespace SpotMute
             }
             else
             {
-                MessageBox.Show("ERROR: Spotify doesn't appear to be running. Start Spotify and then click the Start button again.");
+                MessageBox.Show(this, "ERROR: Spotify doesn't appear to be running. Start Spotify and then click the Start button again.", "SpotMute - Error");
             }
         }
 
@@ -108,7 +109,7 @@ namespace SpotMute
          */
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(this, "SpotMute v0.1 - a simple blacklist and volume control application for Spotify\n\nAuthor: Ben Katz (bakatz@vt.edu)\nBug tracker: https://github.com/bakatz/SpotifyAdMuter/issues\n\nPayPal donations as well as feature suggestions are appreciated and accepted at the above email. Thanks for using SpotMute!", "About SpotMute");
+            MessageBox.Show(this, "SpotMute v0.1.1 - a simple blacklist and volume control application for Spotify\n\nAuthor: Ben Katz (bakatz@vt.edu)\nBug tracker: https://github.com/bakatz/SpotifyAdMuter/issues\n\nPayPal donations as well as feature suggestions are appreciated and accepted at the above email. Thanks for using SpotMute!", "About SpotMute");
         }
 
         
@@ -131,7 +132,7 @@ namespace SpotMute
          */
         private void blacklistContentsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            BlackListForm blForm = new BlackListForm(spotControl.getBlacklist());
+            BlockTableForm blForm = new BlockTableForm(spotControl.getBlockTable());
             blForm.Show();
         }
     }

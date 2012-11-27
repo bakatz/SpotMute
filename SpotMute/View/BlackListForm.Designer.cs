@@ -1,6 +1,6 @@
 ﻿namespace SpotMute.View
 {
-    partial class BlackListForm
+    partial class BlockTableForm
     {
         /// <summary>
         /// Required designer variable.

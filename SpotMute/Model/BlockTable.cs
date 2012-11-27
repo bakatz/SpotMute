@@ -10,18 +10,18 @@ namespace SpotMute.Model
     /*
      * A dictionary of blacklisted songs and artists. Each key is an artist name, while each value contains another dictionary of songs for this artist. 
      */
-    public class BlackList
+    public class BlockTable
     {
         private Dictionary<String, Dictionary<String, Boolean>> dict; // Key: Artist, Value: [Key: Song title - string, Value: dummy - bool] -- value is a dummy because all we need is the song title & we want O(1) lookup.
         private String persistFilePath;
         private int count; // we need to keep our own size because we want the total # of entries, not just # of key:value pairs
-        public BlackList() // create new blank blacklist
+        public BlockTable() // create new blank blockTable
         {
             dict = new Dictionary<String, Dictionary<String, Boolean>>();
             count = 0;
         }
 
-        public BlackList(String filePath) : this() // call blank constructor, then try to add songs/artists from the blacklist conf file. Format example: S|artistnamehere|songnamehere or A|artistnamehere
+        public BlockTable(String filePath) : this() // call blank constructor, then try to add songs/artists from the blockTable conf file. Format example: S|artistnamehere|songnamehere or A|artistnamehere
         {
             this.persistFilePath = filePath;
             try
@@ -41,7 +41,6 @@ namespace SpotMute.Model
                             addSong(args[1], args[2]);
                         }
                     }
-                    //System.Windows.Forms.MessageBox.Show(ToString());
                 }
                 else
                 {
@@ -50,12 +49,12 @@ namespace SpotMute.Model
             }
             catch (IOException e)
             {
-                Console.WriteLine("Got exception while instantiating blacklist with filepath '" + filePath + "': " + e);
+                Console.WriteLine("Got exception while instantiating blockTable with filepath '" + filePath + "': " + e);
             }
         }
 
         /*
-         * Adds song by artistName to the blacklist. Single block. 
+         * Adds song by artistName to the blockTable. Single block. 
          */
         public void addSong(String artistName, String song)
         {
@@ -77,7 +76,24 @@ namespace SpotMute.Model
         }
 
         /*
-         * Adds all songs by artistName to the blacklist. Full block.
+         * Removes song by artistName from the blockTable.
+         */
+        public void removeSong(String artistName, String song)
+        {
+            if (artistName == null || song == null || artistName.Length == 0 || song.Length == 0)
+            {
+                throw new ArgumentException("Null or zero-length artist or song specified.");
+            }
+            else if (dict.ContainsKey(artistName)) 
+            {
+                if (dict[artistName] == null) return; // can't remove one song from a globally blocked artist.
+                dict[artistName].Remove(song);
+                count--;
+            }
+        }
+
+        /*
+         * Adds all songs by artistName to the blockTable. Full block.
          */
         public void addArtist(String artistName)
         {
@@ -93,9 +109,46 @@ namespace SpotMute.Model
             }
         }
 
+        /*
+         * Removes artistName from the blockTable and all of its associated songs.
+         */
+        public void removeArtist(String artistName)
+        {
+            if (artistName == null || artistName.Length == 0)
+            {
+                throw new ArgumentException("Null or zero-length artist name specified.");
+            } 
+            else if(dict.ContainsKey(artistName))
+            {
+                if (dict[artistName] != null)
+                    count -= dict[artistName].Count; // subtract the number of songs by artist
+                else
+                    count--; // if we blocked all the songs by the artist, just subtract 1 (for the artist itself)
+                dict.Remove(artistName);
+            }
+        }
 
         /*
-         * Returns the number of songs and artists in the blacklist. 
+         * Just a shortcut to remove an old song->add a new song 
+         */
+        public void updateSong(String artistName, String oldSong, String newSong)
+        {
+            removeSong(artistName, oldSong);
+            addSong(artistName, newSong);
+        }
+
+        /*
+         * Just a shortcut to remove an old artist->add a new artist
+         */
+        public void updateArtist(String oldArtistName, String newArtistName)
+        {
+            removeArtist(oldArtistName);
+            addArtist(newArtistName);
+        }
+
+
+        /*
+         * Returns the number of songs and artists in the blockTable. 
          */
         public int size()
         {
@@ -113,12 +166,12 @@ namespace SpotMute.Model
             }
             catch (IOException e)
             {
-                Console.WriteLine("Got exception while saving blacklist with filepath '" + persistFilePath + "': " + e);
+                Console.WriteLine("Got exception while saving blockTable with filepath '" + persistFilePath + "': " + e);
             }
         }
 
         /*
-         * Does the blacklist contain song by artistName? 
+         * Does the blockTable contain song by artistName? 
          */
         public Boolean contains(String artistName, String song)
         {
@@ -155,9 +208,9 @@ namespace SpotMute.Model
         /*
          * TODO: don't return the underlying data structure here. Return list representation.
          */
-        public Dictionary<String, Dictionary<String, Boolean>> getDictionary()
+        public List<KeyValuePair<String, Dictionary<String, Boolean>>> toList()
         {
-            return dict;
+            return dict.ToList();
         }
     }
 }
