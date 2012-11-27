@@ -101,8 +101,11 @@ namespace SpotMute.Model
             {
                 throw new ArgumentException("Null or zero-length artist name specified.");
             }
-
-            if (!dict.ContainsKey(artistName))
+            else if (dict.ContainsKey(artistName) && dict[artistName] != null)
+            {
+                dict[artistName] = null;
+            }
+            else if (!dict.ContainsKey(artistName))
             {
                 dict.Add(artistName, null);
                 count++;
