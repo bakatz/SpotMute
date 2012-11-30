@@ -36,14 +36,14 @@
             this.nowPlayingLabel = new System.Windows.Forms.Label();
             this.blacklistArtistButton = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.showToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.blacklistContentsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.showLogToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.saveToServerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.usageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.showToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.blacklistContentsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -63,7 +63,7 @@
             this.consoleBox.Multiline = true;
             this.consoleBox.Name = "consoleBox";
             this.consoleBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.consoleBox.Size = new System.Drawing.Size(424, 185);
+            this.consoleBox.Size = new System.Drawing.Size(345, 185);
             this.consoleBox.TabIndex = 1;
             this.consoleBox.Visible = false;
             // 
@@ -123,9 +123,24 @@
             this.helpToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(466, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(387, 24);
             this.menuStrip1.TabIndex = 9;
             this.menuStrip1.Text = "menuStrip1";
+            // 
+            // showToolStripMenuItem
+            // 
+            this.showToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.blacklistContentsToolStripMenuItem});
+            this.showToolStripMenuItem.Name = "showToolStripMenuItem";
+            this.showToolStripMenuItem.Size = new System.Drawing.Size(39, 20);
+            this.showToolStripMenuItem.Text = "Edit";
+            // 
+            // blacklistContentsToolStripMenuItem
+            // 
+            this.blacklistContentsToolStripMenuItem.Name = "blacklistContentsToolStripMenuItem";
+            this.blacklistContentsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.blacklistContentsToolStripMenuItem.Text = "Blacklist Contents ...";
+            this.blacklistContentsToolStripMenuItem.Click += new System.EventHandler(this.blacklistContentsToolStripMenuItem_Click);
             // 
             // fileToolStripMenuItem
             // 
@@ -162,37 +177,22 @@
             // usageToolStripMenuItem
             // 
             this.usageToolStripMenuItem.Name = "usageToolStripMenuItem";
-            this.usageToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
+            this.usageToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.usageToolStripMenuItem.Text = "Usage";
             this.usageToolStripMenuItem.Click += new System.EventHandler(this.usageToolStripMenuItem_Click);
             // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.aboutToolStripMenuItem.Text = "About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
-            // 
-            // showToolStripMenuItem
-            // 
-            this.showToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.blacklistContentsToolStripMenuItem});
-            this.showToolStripMenuItem.Name = "showToolStripMenuItem";
-            this.showToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
-            this.showToolStripMenuItem.Text = "Show";
-            // 
-            // blacklistContentsToolStripMenuItem
-            // 
-            this.blacklistContentsToolStripMenuItem.Name = "blacklistContentsToolStripMenuItem";
-            this.blacklistContentsToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
-            this.blacklistContentsToolStripMenuItem.Text = "Blacklist Contents";
-            this.blacklistContentsToolStripMenuItem.Click += new System.EventHandler(this.blacklistContentsToolStripMenuItem_Click);
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(466, 285);
+            this.ClientSize = new System.Drawing.Size(387, 285);
             this.Controls.Add(this.blacklistArtistButton);
             this.Controls.Add(this.nowPlayingLabel);
             this.Controls.Add(this.label1);

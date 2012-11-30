@@ -10,14 +10,18 @@ using SpotMute.Model;
 using System.Media;
 using System.Threading;
 using System.IO;
+using WMPLib;
 
 namespace SpotMute.Controller
 {
     /*
      * Checks the Spotify window for title updates, mutes songs appropriately, and receives update requests to update the model/view.
      */
-    class SpotifyController
+    public class SpotifyController
     {
+        private delegate void WinEventDelegate(IntPtr hWinEventHook, uint eventType, IntPtr hwnd, 
+            int idObject, int idChild, uint dwEventThread, uint dwmsEventTime);
+
         [DllImport("user32.dll")]
         private static extern IntPtr SetWinEventHook(uint eventMin, uint eventMax, IntPtr
            hmodWinEventProc, WinEventDelegate lpfnWinEventProc, uint idProcess,
@@ -25,12 +29,6 @@ namespace SpotMute.Controller
 
         [DllImport("user32.dll")]
         private static extern bool UnhookWinEvent(IntPtr hWinEventHook);
-
-        [DllImport("user32.dll")]
-        private static extern int GetWindowTextLength(HandleRef hWnd);
-
-        [DllImport("user32.dll")]
-        private static extern int GetWindowText(HandleRef hWnd, StringBuilder lpString, int nMaxCount);
 
         //TODO: put these in some external configuration file
         private const String BLOCKTABLE_FILE_PATH = "blocktable.conf"; // TODO: should move to blocktable if decision is made to remove/modify 2nd constructor from blocktable
@@ -43,8 +41,7 @@ namespace SpotMute.Controller
         private const uint WINEVENT_OUTOFCONTEXT = 0;
         // End constants from winuser.h
 
-        private delegate void WinEventDelegate(IntPtr hWinEventHook, uint eventType, IntPtr hwnd,
-            int idObject, int idChild, uint dwEventThread, uint dwmsEventTime);
+
         private IntPtr spotHook;
         private Process spotProc = null;
 
@@ -55,15 +52,16 @@ namespace SpotMute.Controller
         private TextBox console;
         private Label nowPlayingLabel;
         private float savedVol;
-        private MP3Player player;
-
+        private WindowsMediaPlayer player;
 
 
         public SpotifyController(TextBox console, Label nowPlaying)
         {
             this.console = console;
             this.nowPlayingLabel = nowPlaying;
-            player = new MP3Player();
+            player = new WindowsMediaPlayer();
+            player.URL = REPLACEMENT_AUDIO_PATH;
+            player.controls.stop();
             blockTable = new BlockTable(BLOCKTABLE_FILE_PATH);
             spotInfo = new SpotifyInformation(this);
             savedVol = -1;
@@ -90,8 +88,6 @@ namespace SpotMute.Controller
                 if (spotHook != null)
                 {
                     addLog("Spotify hook successful. Started.");
-                    //nowPlayingLabel.Text = spotInfo.getCurrentArtist() + " - " + spotInfo.getCurrentSong();
-                    //updateSpotifyItem();
                     checkCurrentSong();
                     return true;
                 }
@@ -129,7 +125,7 @@ namespace SpotMute.Controller
         {
             if (console != null)
             {
-                console.AppendText(DateTime.Now.ToString() + ": " + line + "\n");
+                console.AppendText(DateTime.Now.ToString() + ": " + line + "\r\n");
             }
         }
 
@@ -167,6 +163,8 @@ namespace SpotMute.Controller
             addLog("Setting spotify volume to: " + (0.05f / defaultDevice.AudioEndpointVolume.MasterVolumeLevelScalar));
             // Spotify will pause entirely if the volume is muted. 5% is the minimum value
             // to be quiet enough to be considered muted and still keep spotify running.
+
+            //TODO: test further percentage values. might be able to push 4, 3, ... , 0.1%
             spotifyASC.SimpleAudioVolume.MasterVolume = 0.05f / defaultDevice.AudioEndpointVolume.MasterVolumeLevelScalar;
         }
 
@@ -231,9 +229,7 @@ namespace SpotMute.Controller
         private void playReplacementMusic()
         {
             addLog("Playing replacement music at: " + REPLACEMENT_AUDIO_PATH);
-            player.Close();
-            player.Open(REPLACEMENT_AUDIO_PATH);
-            player.Play(true);
+            player.controls.play();
         }
 
         /*
@@ -242,13 +238,13 @@ namespace SpotMute.Controller
         private void stopReplacementMusic()
         {
             addLog("Stopping replacement music.");
-            player.Close();
+            player.controls.stop();
         }
 
         /*
          * Validates that the current song is not in the blockTable. If it is in the blockTable, the song is muted and startReplacementMusic() is called. 
          */
-        private void checkCurrentSong()
+        public void checkCurrentSong()
         {
             String artist = spotInfo.getCurrentArtist();
             String song = spotInfo.getCurrentSong();
