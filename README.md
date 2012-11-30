@@ -1,4 +1,4 @@
-SpotMute v0.1.2
+SpotMute v0.2
 ================
 A simple blacklist and volume control application for Spotify
 
