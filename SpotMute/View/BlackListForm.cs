@@ -48,11 +48,6 @@ namespace SpotMute.View
             }
         }
 
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-           //TODO: delete option here.
-        }
-
         private void removeArtistButton_Click(object sender, EventArgs e)
         {
             if (blockedListBox.SelectedIndices.Count == 0) return;
@@ -70,16 +65,30 @@ namespace SpotMute.View
 
         private void removeSongButton_Click(object sender, EventArgs e)
         {
+            Boolean gotError = false;
             if (blockedListBox.SelectedIndices.Count == 0) return;
             foreach (int index in blockedListBox.SelectedIndices)
             {
                 ListItem currSelectedSong = (ListItem)blockedListBox.Items[index];
+                if (currSelectedSong.getSongTitle() == null)
+                {
+                    spotControl.addLog("Error - can't remove song. Reason: " + currSelectedSong.getArtistName() + " is blocked globally. Use the 'remove artist' button.");
+                    gotError = true;
+                    continue;
+                }
                 spotControl.getBlockTable().removeSong(currSelectedSong.getArtistName(), currSelectedSong.getSongTitle());
                 blockedListBox.Items.RemoveAt(index);
                 spotControl.checkCurrentSong();
             }
 
-            MessageBox.Show(this, "Removed selected song(s) successfully.", "SpotMute - Remove");
+            if (!gotError)
+            {
+                MessageBox.Show(this, "Removed selected song(s) successfully.", "SpotMute - Remove");
+            }
+            else
+            {
+                MessageBox.Show(this, "One or more of the selected songs could not be removed. Check the log for details.", "SpotMute - Warning");
+            }
         }
     }
 }

@@ -1,19 +1,48 @@
-11/30/2012 3:20:51 AM: Found spotify proc.
-11/30/2012 3:20:51 AM: Spotify hook successful. Started.
-11/30/2012 3:20:51 AM: Artist: Sonic Youth, Title:  Silver Rocket (Album Version)
-11/30/2012 3:20:51 AM: Stopping replacement music.
-11/30/2012 3:20:51 AM: Got new Spotify item: Spotify - Sonic Youth – Silver Rocket (Album Version). Add to blockTable?
-11/30/2012 3:20:53 AM: Current song added to the blockTable. Muting volume.
-11/30/2012 3:20:53 AM: Got spotify volume before mute: 0.9999999
-11/30/2012 3:20:53 AM: Setting spotify volume to: 0.3333334
-11/30/2012 3:20:53 AM: Playing replacement music at: elevator.mp3
-11/30/2012 3:20:58 AM: Stopping replacement music.
-11/30/2012 3:20:58 AM: Resetting master volume to: 0.9999999
-11/30/2012 3:20:58 AM: Got new Spotify item: Spotify - Sonic Youth – Silver Rocket (Album Version). Add to blockTable?
-11/30/2012 3:21:03 AM: Artist: Sonic Youth, Title:  Teen Age Riot (Album Version)
-11/30/2012 3:21:03 AM: Stopping replacement music.
-11/30/2012 3:21:03 AM: Resetting master volume to: 0.9999999
-11/30/2012 3:21:03 AM: Got new Spotify item: Spotify - Sonic Youth – Silver Rocket (Album Version). Add to blockTable?
-11/30/2012 3:21:07 AM: Got FormClosing event in MainForm view. Trying to persist blacklist for use next time...
-11/30/2012 3:21:07 AM: Saving 0 blockTable items to disk.
-11/30/2012 3:21:07 AM: Saving 1351 bytes of logs to disk.
+12/1/2012 7:32:01 PM: Found spotify proc.
+12/1/2012 7:32:01 PM: Spotify hook successful. Started.
+12/1/2012 7:32:01 PM: Artist: Soundgarden, Title:  Eyelid's Mouth
+12/1/2012 7:32:01 PM: Stopping replacement music.
+12/1/2012 7:32:01 PM: Got new Spotify item: Spotify - Soundgarden – Eyelid's Mouth. Add to blockTable?
+12/1/2012 7:32:04 PM: Current song added to the blockTable. Muting volume.
+12/1/2012 7:32:04 PM: Got spotify volume before mute: 0.9999999
+12/1/2012 7:32:04 PM: Setting spotify volume to: 0.3333334
+12/1/2012 7:32:04 PM: Playing replacement music at: elevator.mp3
+12/1/2012 7:32:05 PM: Stopping replacement music.
+12/1/2012 7:32:05 PM: STOP!
+12/1/2012 7:32:06 PM: Found spotify proc.
+12/1/2012 7:32:06 PM: Spotify hook successful. Started.
+12/1/2012 7:32:06 PM: Found an ad in the blockTable: Spotify - Soundgarden – Eyelid's Mouth. Muting for duration of the ad.
+12/1/2012 7:32:06 PM: Got spotify volume before mute: 0.9999999
+12/1/2012 7:32:06 PM: Setting spotify volume to: 0.3333334
+12/1/2012 7:32:06 PM: Playing replacement music at: elevator.mp3
+12/1/2012 7:32:10 PM: Stopping replacement music.
+12/1/2012 7:32:10 PM: Resetting master volume to: 0.9999999
+12/1/2012 7:32:10 PM: Got new Spotify item: Spotify - Soundgarden – Eyelid's Mouth. Add to blockTable?
+12/1/2012 7:32:13 PM: Error - can't remove song. Reason: Chris Spheeris is blocked globally. Use the 'remove artist' button.
+12/1/2012 7:32:16 PM: Stopping replacement music.
+12/1/2012 7:32:16 PM: Resetting master volume to: 0.9999999
+12/1/2012 7:32:16 PM: Got new Spotify item: Spotify - Soundgarden – Eyelid's Mouth. Add to blockTable?
+12/1/2012 7:32:45 PM: Stopping replacement music.
+12/1/2012 7:32:45 PM: Resetting master volume to: 0.9999999
+12/1/2012 7:32:45 PM: Got new Spotify item: Spotify - Soundgarden – Eyelid's Mouth. Add to blockTable?
+12/1/2012 7:32:52 PM: Current song added to the blockTable. Muting volume.
+12/1/2012 7:32:52 PM: Got spotify volume before mute: 0.9999999
+12/1/2012 7:32:52 PM: Setting spotify volume to: 0.3333334
+12/1/2012 7:32:52 PM: Playing replacement music at: elevator.mp3
+12/1/2012 7:32:55 PM: Stopping replacement music.
+12/1/2012 7:32:55 PM: Resetting master volume to: 0.9999999
+12/1/2012 7:32:55 PM: Got new Spotify item: Spotify - Soundgarden – Eyelid's Mouth. Add to blockTable?
+12/1/2012 7:32:57 PM: Current artist added to the blockTable. Muting volume.
+12/1/2012 7:32:57 PM: Got spotify volume before mute: 0.9999999
+12/1/2012 7:32:57 PM: Setting spotify volume to: 0.3333334
+12/1/2012 7:32:57 PM: Playing replacement music at: elevator.mp3
+12/1/2012 7:33:00 PM: Error - can't remove song. Reason: Soundgarden is blocked globally. Use the 'remove artist' button.
+12/1/2012 7:33:02 PM: Error - can't remove song. Reason: Soundgarden is blocked globally. Use the 'remove artist' button.
+12/1/2012 7:33:04 PM: Stopping replacement music.
+12/1/2012 7:33:04 PM: Resetting master volume to: 0.9999999
+12/1/2012 7:33:04 PM: Got new Spotify item: Spotify - Soundgarden – Eyelid's Mouth. Add to blockTable?
+12/1/2012 7:33:16 PM: Stopping replacement music.
+12/1/2012 7:33:16 PM: STOP!
+12/1/2012 7:33:18 PM: Got FormClosing event in MainForm view. Trying to persist blacklist for use next time...
+12/1/2012 7:33:18 PM: Saving -1 blockTable items to disk.
+12/1/2012 7:33:18 PM: Saving 3324 bytes of logs to disk.

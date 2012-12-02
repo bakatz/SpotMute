@@ -39,7 +39,7 @@
             this.removeSongButton.Name = "removeSongButton";
             this.removeSongButton.Size = new System.Drawing.Size(98, 23);
             this.removeSongButton.TabIndex = 1;
-            this.removeSongButton.Text = "Remove Song";
+            this.removeSongButton.Text = "Remove Song(s)";
             this.removeSongButton.UseVisualStyleBackColor = true;
             this.removeSongButton.Click += new System.EventHandler(this.removeSongButton_Click);
             // 
@@ -55,9 +55,9 @@
             // 
             this.removeArtistButton.Location = new System.Drawing.Point(163, 210);
             this.removeArtistButton.Name = "removeArtistButton";
-            this.removeArtistButton.Size = new System.Drawing.Size(90, 23);
+            this.removeArtistButton.Size = new System.Drawing.Size(95, 23);
             this.removeArtistButton.TabIndex = 4;
-            this.removeArtistButton.Text = "Remove Artist";
+            this.removeArtistButton.Text = "Remove Artist(s)";
             this.removeArtistButton.UseVisualStyleBackColor = true;
             this.removeArtistButton.Click += new System.EventHandler(this.removeArtistButton_Click);
             // 

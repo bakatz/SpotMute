@@ -113,7 +113,7 @@ namespace SpotMute
          */
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(this, "SpotMute v0.2 - a simple blacklist and volume control application for Spotify\n\nAuthor: Ben Katz (bakatz@vt.edu)\nBug tracker: https://github.com/bakatz/SpotifyAdMuter/issues\n\nPayPal donations as well as feature suggestions are appreciated and accepted at the above email. Thanks for using SpotMute!", "About SpotMute");
+            MessageBox.Show(this, "SpotMute v0.2.1 - a simple blacklist and volume control application for Spotify\n\nAuthor: Ben Katz (bakatz@vt.edu)\nBug tracker: https://github.com/bakatz/SpotifyAdMuter/issues\n\nPayPal donations as well as feature suggestions are appreciated and accepted at the above email. Thanks for using SpotMute!", "About SpotMute");
         }
 
         
