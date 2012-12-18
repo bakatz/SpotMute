@@ -1,6 +1,6 @@
 SpotMute v0.2
 ================
-A simple blacklist and volume control application for Spotify
+A simple blacklist and volume control application for Spotify. Supports automatic artist/song skipping, automatic lowering of Spotify's volume, and playing MP3's over blocked songs if the song could not be skipped.
 
 * Author: Ben Katz (<bakatz@vt.edu>)
 * Bug tracker: <https://github.com/bakatz/SpotifyAdMuter/issues>
