@@ -110,8 +110,8 @@ namespace SpotMute
         
         private void usageToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(this, "Instructions:\n\n1. Click start.\n2. Verify that SpotMute has detected the current song.\n3. Click 'block artist' to block all songs by the"+
-            "current artist, or 'block song'to block the current song. Elevator music will be played over the song in question.\n\nNote: pressing stop will reset your volume to what it was before the mute operation.", "SpotMute Usage");
+            MessageBox.Show(this, "Instructions:\n\n1. Click start.\n2. Verify that SpotMute has detected the current song.\n3. Click 'Block Artist' to block all songs by the"+
+            "current artist, or 'Block Song'to block the current song. SpotMute will attempt to skip this song - if this fails, elevator music will be played over the song in question.\n\nNotes: You can manually edit the blacklist by clicking Edit -> Blacklist contents.\nPressing stop will reset your volume to what it was before the mute operation.\nYou can disable the elevator music by unchecking the option in the Options menu.", "SpotMute Usage");
         }
 
         /*

@@ -207,8 +207,6 @@ namespace SpotMute.Controller
                 addLog("Current song added to the blockTable.");
                 trySkipSong();
             }
-            //forceSpotifyMute();
-            //playReplacementMusic();
         }
 
         private void sendKeyPress(Keys key)
@@ -232,11 +230,6 @@ namespace SpotMute.Controller
                 addLog("Current artist added to the blockTable.");
                 trySkipSong();
             }
-            // Automatically move to the next song.
-            //sendKeyPress(Keys.MediaNextTrack);
-            
-            //forceSpotifyMute();
-            //playReplacementMusic();
         }
 
         /*
@@ -314,8 +307,6 @@ namespace SpotMute.Controller
             {
                 addLog("Found a match for the current song in the blockTable: " + spotInfo.getCurrentSong() + ". Trying to skip, muting for duration of the song on failure.");
                 trySkipSong();
-                //forceSpotifyMute();
-                //playReplacementMusic();
             }
         }
 

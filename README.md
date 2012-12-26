@@ -1,4 +1,4 @@
-SpotMute v0.3
+SpotMute v0.3 (12/26/2012)
 ================
 A simple blacklist and volume control application for Spotify. Uses a blacklist to determine what songs to automatically skip for you. 
 If a song cannot be skipped, some happy elevator music will be played over the song, and the song's individual volume will be reduced to 2%.
