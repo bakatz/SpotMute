@@ -22,6 +22,9 @@ namespace SpotMute.Controller
         private delegate void WinEventDelegate(IntPtr hWinEventHook, uint eventType, IntPtr hwnd, 
             int idObject, int idChild, uint dwEventThread, uint dwmsEventTime);
 
+        [DllImport("user32.dll", SetLastError = true)]
+        static extern void keybd_event(byte bVk, byte bScan, uint dwFlags, UIntPtr dwExtraInfo);
+
         [DllImport("user32.dll")]
         private static extern IntPtr SetWinEventHook(uint eventMin, uint eventMax, IntPtr
            hmodWinEventProc, WinEventDelegate lpfnWinEventProc, uint idProcess,
@@ -41,6 +44,11 @@ namespace SpotMute.Controller
         private const uint WINEVENT_OUTOFCONTEXT = 0;
         // End constants from winuser.h
 
+        // Set volume to 2% to simulate a "mute" of ads.
+        private const float VOLUME_SCALED_PCT = 0.02F;
+
+        // Enable logging?
+        private const bool ENABLE_LOGGING = true;
 
         private IntPtr spotHook;
         private Process spotProc = null;
@@ -49,16 +57,24 @@ namespace SpotMute.Controller
         private SpotifyInformation spotInfo;
         private WinEventDelegate procDelegate;
         private MMDevice defaultDevice = null;
-        private TextBox console;
         private Label nowPlayingLabel;
+        private ToolStripMenuItem playElevatorMusic;
         private float savedVol;
         private WindowsMediaPlayer player;
 
+        private Boolean isRunning;
 
-        public SpotifyController(TextBox console, Label nowPlaying)
+        private StringBuilder logs;
+
+        //private static Mutex muteSoundMutex = new Mutex();
+
+
+        public SpotifyController(Label nowPlaying, ToolStripMenuItem playElevatorMusic)
         {
-            this.console = console;
+            this.playElevatorMusic = playElevatorMusic;
             this.nowPlayingLabel = nowPlaying;
+            this.logs = new StringBuilder();
+            isRunning = false;
             player = new WindowsMediaPlayer();
             player.URL = REPLACEMENT_AUDIO_PATH;
             player.controls.stop();
@@ -67,11 +83,17 @@ namespace SpotMute.Controller
             savedVol = -1;
         }
 
+        public Boolean isListening()
+        {
+            return isRunning;
+        }
+
         /*
          * Makes a Win32 API call to start listening for window title changes in Spotify. Returns true if we got a successful hook. 
          */
         public Boolean startListening()
         {
+            
             MMDeviceEnumerator devEnum = new MMDeviceEnumerator(); // get multimedia device enumerator.
             defaultDevice = devEnum.GetDefaultAudioEndpoint(EDataFlow.eRender, ERole.eMultimedia); // grab our default sound device
             procDelegate = new WinEventDelegate(WinEventProc);
@@ -88,7 +110,9 @@ namespace SpotMute.Controller
                 if (spotHook != null)
                 {
                     addLog("Spotify hook successful. Started.");
+                    isRunning = true;
                     checkCurrentSong();
+                    
                     return true;
                 }
                 else
@@ -116,6 +140,7 @@ namespace SpotMute.Controller
             }
             stopReplacementMusic();
             addLog("STOP!");
+            isRunning = false;
         }
 
         /*
@@ -123,10 +148,10 @@ namespace SpotMute.Controller
          */
         public void addLog(String line)
         {
-            if (console != null)
-            {
-                console.AppendText(DateTime.Now.ToString() + ": " + line + "\r\n");
-            }
+            String currTime = DateTime.Now.ToString();
+            String outputLine = currTime + ": " + line;
+            logs.AppendLine(outputLine);
+            Console.WriteLine(outputLine);
         }
 
         /*
@@ -146,26 +171,24 @@ namespace SpotMute.Controller
         }
 
         /*
-         * Changes spotify's individual volume to 5% of the master volume for the system, saving the user's previous volume beforehand for restoring later.
+         * Changes spotify's individual volume to a percentage of the master volume for the system, saving the user's previous volume beforehand for restoring later.
          */
         private void forceSpotifyMute()
         {
             AudioSessionControl spotifyASC = spotInfo.getSpotifyAudioSession();
-            if (Math.Abs(spotifyASC.SimpleAudioVolume.MasterVolume - (0.05f / defaultDevice.AudioEndpointVolume.MasterVolumeLevelScalar)) < 0.0001 && savedVol > 0) // bugfix: muting twice leads to never unmuting even on a whitelisted song
+            if (Math.Abs(spotifyASC.SimpleAudioVolume.MasterVolume - (VOLUME_SCALED_PCT / defaultDevice.AudioEndpointVolume.MasterVolumeLevelScalar)) < 0.0001 && savedVol > 0) // bugfix: muting twice leads to never unmuting even on a whitelisted song
             {
-                addLog("Not going to set savedvol, Difference: " + Math.Abs(savedVol - (0.05f / defaultDevice.AudioEndpointVolume.MasterVolumeLevelScalar)));
-                addLog(savedVol + " vs calc: " + (0.05f / defaultDevice.AudioEndpointVolume.MasterVolumeLevelScalar));
-                addLog("User's volume is already at 5%, ignoring mute request.");
+                addLog("User's volume is already at 5%, will not try to change vol.");
                 return;
             }
+
+            // Spotify will pause entirely if the volume is at 0%
             addLog("Got spotify volume before mute: " + spotifyASC.SimpleAudioVolume.MasterVolume);
             savedVol = spotifyASC.SimpleAudioVolume.MasterVolume;
-            addLog("Setting spotify volume to: " + (0.05f / defaultDevice.AudioEndpointVolume.MasterVolumeLevelScalar));
-            // Spotify will pause entirely if the volume is muted. 5% is the minimum value
-            // to be quiet enough to be considered muted and still keep spotify running.
-
-            //TODO: test further percentage values. might be able to push 4, 3, ... , 0.1%
-            spotifyASC.SimpleAudioVolume.MasterVolume = 0.05f / defaultDevice.AudioEndpointVolume.MasterVolumeLevelScalar;
+            addLog("Setting spotify volume to: " + (VOLUME_SCALED_PCT / defaultDevice.AudioEndpointVolume.MasterVolumeLevelScalar));
+            
+            //TODO: test further percentage values. might be able to push 2%, 1%, ... , 0.01%
+            spotifyASC.SimpleAudioVolume.MasterVolume = VOLUME_SCALED_PCT / defaultDevice.AudioEndpointVolume.MasterVolumeLevelScalar;
         }
 
         /*
@@ -173,10 +196,24 @@ namespace SpotMute.Controller
          */
         public void blockCurrentSong()
         {
-            addLog("Current song added to the blockTable. Muting volume.");
-            blockTable.addSong(spotInfo.getCurrentArtist(), spotInfo.getCurrentSong());
-            forceSpotifyMute();
-            playReplacementMusic();
+            Song currSong = spotInfo.getCurrentSong();
+            if (currSong != null)
+            {
+                
+                blockTable.addSong(currSong);
+                addLog("Current song added to the blockTable.");
+                trySkipSong();
+            }
+            //forceSpotifyMute();
+            //playReplacementMusic();
+        }
+
+        private void sendKeyPress(Keys key)
+        {
+            const int KEYEVENTF_EXTENDEDKEY = 0x1;
+            const int KEYEVENTF_KEYUP = 0x2;
+            keybd_event((byte)key, 0x45, KEYEVENTF_EXTENDEDKEY | KEYEVENTF_KEYUP, (UIntPtr)0);
+            keybd_event((byte)key, 0x45, KEYEVENTF_EXTENDEDKEY, (UIntPtr)0);
         }
 
         /*
@@ -184,10 +221,19 @@ namespace SpotMute.Controller
          */
         public void blockCurrentArtist()
         {
-            addLog("Current artist added to the blockTable. Muting volume.");
-            blockTable.addArtist(spotInfo.getCurrentArtist());
-            forceSpotifyMute();
-            playReplacementMusic();
+            Song currSong = spotInfo.getCurrentSong();
+            if (currSong != null)
+            {
+                
+                blockTable.addArtist(new Artist(currSong.getArtistName()));
+                addLog("Current artist added to the blockTable.");
+                trySkipSong();
+            }
+            // Automatically move to the next song.
+            //sendKeyPress(Keys.MediaNextTrack);
+            
+            //forceSpotifyMute();
+            //playReplacementMusic();
         }
 
         /*
@@ -204,10 +250,10 @@ namespace SpotMute.Controller
         */
         public void persistLogs()
         {
-            addLog("Saving " + console.Text.Length + " bytes of logs to disk.");
+            addLog("Saving " + logs.Length + " bytes of logs to disk.");
             try
             {
-                File.WriteAllText(LOG_FILE_PATH, console.Text);
+                File.WriteAllText(LOG_FILE_PATH, logs.ToString());
             }
             catch (IOException e)
             {
@@ -246,10 +292,10 @@ namespace SpotMute.Controller
          */
         public void checkCurrentSong()
         {
-            String artist = spotInfo.getCurrentArtist();
-            String song = spotInfo.getCurrentSong();
-            nowPlayingLabel.Text = artist + " - " + song;
-            if (!blockTable.contains(artist, song))
+            Song currSong = spotInfo.getCurrentSong();
+            if (currSong == null) return;
+            nowPlayingLabel.Text = currSong.getArtistName() + " - " + currSong.getSongTitle();
+            if (!blockTable.contains(currSong))
             {
                 stopReplacementMusic();
                 if (savedVol > 0)
@@ -258,19 +304,58 @@ namespace SpotMute.Controller
                     AudioSessionControl spotifyASC = spotInfo.getSpotifyAudioSession();
                     spotifyASC.SimpleAudioVolume.MasterVolume = savedVol;
                 }
-                addLog("Got new Spotify item: " + spotProc.MainWindowTitle + ". Add to blockTable?");
+                addLog("Got new Spotify item: " + spotInfo.getCurrentSong());
 
             }
             else
             {
-                addLog("Found an ad in the blockTable: " + (spotProc.MainWindowTitle) + ". Muting for duration of the ad.");
-                forceSpotifyMute();
-                playReplacementMusic();
+                addLog("Found a match for the current song in the blockTable: " + spotInfo.getCurrentSong() + ". Trying to skip, muting for duration of the song on failure.");
+                trySkipSong();
+                //forceSpotifyMute();
+                //playReplacementMusic();
             }
         }
 
+        public void trySkipSong()
+        {
+            
+            AutoResetEvent autoEvent = new AutoResetEvent(false);
+            Object[] retObj = { autoEvent, false };
+
+            new Thread(new ParameterizedThreadStart(trySkipSongThread)).Start(retObj);
+            addLog("Trying to skip song - waiting for a return from worker thread.");
+            autoEvent.WaitOne();
+            addLog("Got our return, failure value: " + (Boolean)retObj[1]);
+            if ((Boolean)retObj[1])
+            {
+                addLog("Failed to skip the song. Muting song.");
+               forceSpotifyMute();
+               sendKeyPress(Keys.MediaPlayPause);
+               if (playElevatorMusic.Checked)
+               {
+                   playReplacementMusic();
+               }
+            }
+        }
+
+        private void trySkipSongThread(object stateInfo)
+        {
+            Song songBefore = spotInfo.getCurrentSong();
+            sendKeyPress(Keys.MediaNextTrack);
+
+            Thread.Sleep(1000); // give some time for events to be sent to spotify, window title to be changed, etc. TODO: add some sort of event to avoid sleeping.
+            Song songAfter = spotInfo.getCurrentSong();
+            Console.WriteLine("Worker thread: Tried to skip, song before: " + songBefore + " vs. "  + songAfter);
+            if (songAfter == null || songBefore.Equals(songAfter))
+            {   
+                ((Object[])stateInfo)[1] = true;
+            }
+            ((AutoResetEvent)(((Object[])stateInfo)[0])).Set();
+        }
+
+        
         /*
-         * Every time the window title is updated for our spotify process, this Win32 event gets fired. See delegate declaration.
+         * Every time the window title is updated for our spotify process, a Win32 event gets fired. See delegate declaration.
          */
         private void WinEventProc(IntPtr hWinEventHook, uint eventType,
             IntPtr hwnd, int idObject, int idChild, uint dwEventThread, uint dwmsEventTime)

@@ -5,6 +5,7 @@ using System.Text;
 using System.Diagnostics;
 using SpotMute.Controller;
 using CoreAudioApi;
+using System.Threading;
 
 namespace SpotMute.Model
 {
@@ -15,10 +16,12 @@ namespace SpotMute.Model
     class SpotifyInformation
     {
         private String lastItem;
-        private String currArtist;
-        private String currSong;
+        private Song currSong;
         private SpotifyController controller;
         private AudioSessionControl spotifyASC;
+
+       // private static Mutex modifySongMutex = new Mutex();
+       // private static object modifySongLock;
 
         private Process spotProc;
 
@@ -28,19 +31,9 @@ namespace SpotMute.Model
         }
 
         /*
-         * Returns the current artist from the window title of spotify.
-         */
-        public String getCurrentArtist()
-        {
-            updateNowPlaying();
-            return currArtist;
-
-        }
-
-        /*
          * Returns the current song from the window title of spotify.
          */
-        public String getCurrentSong()
+        public Song getCurrentSong()
         {
             updateNowPlaying();
             return currSong;
@@ -60,6 +53,7 @@ namespace SpotMute.Model
          */
         public void updateNowPlaying()
         {
+            if (!controller.isListening()) return;
             Process[] procs = Process.GetProcessesByName("spotify"); // we need to refresh the spotify process each time, because spotify tends to change process id when hiding/unhiding.
             if (procs.Length > 0)
             {
@@ -76,12 +70,12 @@ namespace SpotMute.Model
                     String title = theItem[1].Trim();
                     String artist = theItem[0].Remove(0, 10).Trim(); // remove the prefix: "Spotify - "
                     controller.addLog("Artist: " + artist + ", Title: " + theItem[1]);
-                    currArtist = artist;
-                    currSong = title;
+                    currSong = new Song(artist, title);
                     lastItem = spotProc.MainWindowTitle;
                 }
                 else
                 {
+                    currSong = null;
                     controller.addLog("WARN: couldn't parse the artist/title from the raw window title.");
                 }
             }

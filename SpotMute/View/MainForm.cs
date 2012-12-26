@@ -21,7 +21,7 @@ namespace SpotMute
         private SpotifyController spotControl;
         private void MainForm_Load(object sender, EventArgs e)
         {
-            spotControl = new SpotifyController(consoleBox, nowPlayingLabel); // TODO: awkward to pass the console object and label to Spotify controller; kind of unrelated.
+            spotControl = new SpotifyController(nowPlayingLabel, playMusicToolStripMenuItem);
             stopButton.Enabled = false;
             blacklistArtistButton.Enabled = false;
             blacklistSongButton.Enabled = false;
@@ -71,7 +71,7 @@ namespace SpotMute
         {
             if (spotControl.startListening())
             {
-                stopButton.Enabled = true; //success case
+                stopButton.Enabled = true;
                 startButton.Enabled = false;
                 blacklistArtistButton.Enabled = true;
                 blacklistSongButton.Enabled = true;
@@ -100,20 +100,11 @@ namespace SpotMute
         }
 
         /*
-         * Toggles the visiblity of the log textarea - "console"
-         */
-        private void showLogToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            consoleBox.Visible = !consoleBox.Visible;
-            showLogToolStripMenuItem.Checked = !showLogToolStripMenuItem.Checked;
-        }
-
-        /*
          * The below 2 funtions display an about menu and usage menu for the application. TODO: extend to contain rich text.
          */
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(this, "SpotMute v0.2.1 - a simple blacklist and volume control application for Spotify\n\nAuthor: Ben Katz (bakatz@vt.edu)\nBug tracker: https://github.com/bakatz/SpotifyAdMuter/issues\n\nPayPal donations as well as feature suggestions are appreciated and accepted at the above email. Thanks for using SpotMute!", "About SpotMute");
+            new AboutBox().Show();
         }
 
         
@@ -124,20 +115,16 @@ namespace SpotMute
         }
 
         /*
-         * TODO: save blacklists to server? retreive blacklists FROM server? determine.
-         */
-        private void saveToServerToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show(this, "Unimplemented functionality.", "SpotMute Save to Server");
-        }
-
-        /*
          * Displays a very simple form showing the contents of the blacklist. TODO: add some options to remove blacklist items here. TODO: fix song titles showing as 'Collection'
          */
         private void blacklistContentsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            BlockTableForm blForm = new BlockTableForm(spotControl);
-            blForm.Show();
+            new BlockTableEditorForm(spotControl).Show();
+        }
+
+        private void playMusicToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            playMusicToolStripMenuItem.Checked = !playMusicToolStripMenuItem.Checked;
         }
     }
 }

@@ -12,12 +12,13 @@ namespace SpotMute.Model
      */
     public class BlockTable
     {
-        private Dictionary<String, Dictionary<String, Boolean>> dict; // Key: Artist, Value: [Key: Song title - string, Value: dummy - bool] -- value is a dummy because all we need is the song title & we want O(1) lookup.
+        //TODO: change this data structure to use Dictionary<BlockedArtist, Dictionary<BlockedSong, Boolean>> instead
+        private Dictionary<Artist, Dictionary<Song, Boolean>> dict; // Key: Artist, Value: [Key: Song title - string, Value: dummy - bool] -- value is a dummy because all we need is the song title & we want O(1) lookup.
         private String persistFilePath;
         private int count; // we need to keep our own size because we want the total # of entries, not just # of key:value pairs
         public BlockTable() // create new blank blockTable
         {
-            dict = new Dictionary<String, Dictionary<String, Boolean>>();
+            dict = new Dictionary<Artist, Dictionary<Song, Boolean>>();
             count = 0;
         }
 
@@ -34,11 +35,11 @@ namespace SpotMute.Model
                         String[] args = line.Split('|');
                         if (args.Length == 2 && args[0][0] == 'A') // artist block
                         {
-                            addArtist(args[1]);
+                            addArtist(new Artist(args[1]));
                         }
                         else if (args.Length == 3 && args[0][0] == 'S') // song block
                         {
-                            addSong(args[1], args[2]);
+                            addSong(new Song(args[1], args[2]));
                         }
                     }
                 }
@@ -56,21 +57,22 @@ namespace SpotMute.Model
         /*
          * Adds song by artistName to the blockTable. Single block. 
          */
-        public void addSong(String artistName, String song)
+        public void addSong(Song song)
         {
-            if (artistName == null || song == null || artistName.Length == 0 || song.Length == 0)
+            if (song.getArtistName() == null || song.getSongTitle() == null || song.getArtistName().Length == 0 || song.getSongTitle().Length == 0)
             {
                 throw new ArgumentException("Null or zero-length artist or song specified.");
             }
             else
             {
-                if (dict.ContainsKey(artistName) && dict[artistName] == null) return; // artist's songs are all blocked, ignore and return
+                Artist reqArtist = new Artist(song.getArtistName());
+                if (dict.ContainsKey(reqArtist) && dict[reqArtist] == null) return; // artist's songs are all blocked, ignore and return
 
-                if (!dict.ContainsKey(artistName))
+                if (!dict.ContainsKey(reqArtist))
                 {
-                    dict.Add(artistName, new Dictionary<String, Boolean>());
+                    dict.Add(reqArtist, new Dictionary<Song, Boolean>());
                 }
-                dict[artistName].Add(song, true);
+                dict[reqArtist].Add(song, true);
                 count++;
             }
         }
@@ -78,16 +80,17 @@ namespace SpotMute.Model
         /*
          * Removes song by artistName from the blockTable.
          */
-        public void removeSong(String artistName, String song)
+        public void removeSong(Song song)
         {
-            if (artistName == null || song == null || artistName.Length == 0 || song.Length == 0)
+            if (song.getArtistName() == null || song.getSongTitle() == null || song.getArtistName().Length == 0 || song.getSongTitle().Length == 0)
             {
                 throw new ArgumentException("Null or zero-length artist or song specified.");
             }
-            else if (dict.ContainsKey(artistName)) 
+            Artist reqArtist = new Artist(song.getArtistName());
+            if (dict.ContainsKey(reqArtist)) 
             {
-                if (dict[artistName] == null) return; // can't remove one song from a globally blocked artist.
-                dict[artistName].Remove(song);
+                if (dict[reqArtist] == null) return; // can't remove one song from a globally blocked artist.
+                dict[reqArtist].Remove(song);
                 count--;
             }
         }
@@ -95,19 +98,20 @@ namespace SpotMute.Model
         /*
          * Adds all songs by artistName to the blockTable. Full block.
          */
-        public void addArtist(String artistName)
+        public void addArtist(Artist artist)
         {
-            if (artistName == null || artistName.Length == 0)
+            if (artist.getArtistName() == null || artist.getArtistName().Length == 0)
             {
                 throw new ArgumentException("Null or zero-length artist name specified.");
             }
-            else if (dict.ContainsKey(artistName) && dict[artistName] != null)
+            else if (dict.ContainsKey(artist) && dict[artist] != null)
             {
-                dict[artistName] = null;
+                count = count - dict[artist].Count + 1; // remove all the songs from the count, but add 1 for the new artist block
+                dict[artist] = null;
             }
-            else if (!dict.ContainsKey(artistName))
+            else if (!dict.ContainsKey(artist))
             {
-                dict.Add(artistName, null);
+                dict.Add(artist, null);
                 count++;
             }
         }
@@ -115,38 +119,38 @@ namespace SpotMute.Model
         /*
          * Removes artistName from the blockTable and all of its associated songs.
          */
-        public void removeArtist(String artistName)
+        public void removeArtist(Artist artist)
         {
-            if (artistName == null || artistName.Length == 0)
+            if (artist == null || artist.getArtistName().Length == 0)
             {
                 throw new ArgumentException("Null or zero-length artist name specified.");
             } 
-            else if(dict.ContainsKey(artistName))
+            else if(dict.ContainsKey(artist))
             {
-                if (dict[artistName] != null)
-                    count -= dict[artistName].Count; // subtract the number of songs by artist
+                if (dict[artist] != null)
+                    count -= dict[artist].Count; // subtract the number of songs by artist
                 else
                     count--; // if we blocked all the songs by the artist, just subtract 1 (for the artist itself)
-                dict.Remove(artistName);
+                dict.Remove(artist);
             }
         }
 
         /*
          * Just a shortcut to remove an old song->add a new song 
          */
-        public void updateSong(String artistName, String oldSong, String newSong)
+        public void updateSong(Song oldSong, Song newSong)
         {
-            removeSong(artistName, oldSong);
-            addSong(artistName, newSong);
+            removeSong(oldSong);
+            addSong(newSong);
         }
 
         /*
          * Just a shortcut to remove an old artist->add a new artist
          */
-        public void updateArtist(String oldArtistName, String newArtistName)
+        public void updateArtist(Artist oldArtist, Artist newArtist)
         {
-            removeArtist(oldArtistName);
-            addArtist(newArtistName);
+            removeArtist(oldArtist);
+            addArtist(newArtist);
         }
 
 
@@ -176,13 +180,14 @@ namespace SpotMute.Model
         /*
          * Does the blockTable contain song by artistName? 
          */
-        public Boolean contains(String artistName, String song)
+        public Boolean contains(Song song)
         {
-            if (artistName == null || song == null)
+            if (song == null || song.getArtistName() == null || song.getSongTitle() == null)
             {
                 return false;
             }
-            return dict.ContainsKey(artistName) && (dict[artistName] == null || dict[artistName].ContainsKey(song)); // true if the artistname is in the dict, and we either have an artist full block or the artist's dictionary object contains the song...
+            Artist reqArtist = new Artist(song.getArtistName());
+            return dict.ContainsKey(reqArtist) && (dict[reqArtist] == null || dict[reqArtist].ContainsKey(song)); // true if the artistname is in the dict, and we either have an artist full block or the artist's dictionary object contains the song...
         }
 
         /*
@@ -191,27 +196,24 @@ namespace SpotMute.Model
         public override String ToString()
         {
             StringBuilder str = new StringBuilder(); // used simply to save memory - no need to += a string and allocate new mem each time
-            foreach (String artistName in dict.Keys)
+            foreach (Artist artist in dict.Keys)
             {
-                if (dict[artistName] == null) // output artist line
+                if (dict[artist] == null) // output artist line
                 {
-                    str.AppendLine("A|" + artistName);
+                    str.AppendLine("A|" + artist.getArtistName());
                 }
                 else // output song line
                 {
-                    foreach (String songName in dict[artistName].Keys)
+                    foreach (Song song in dict[artist].Keys)
                     {
-                        str.AppendLine("S|" + artistName + "|" + songName);
+                        str.AppendLine("S|" + song.getArtistName() + "|" + song.getSongTitle());
                     }
                 }
             }
             return str.ToString();
         }
 
-        /*
-         * TODO: don't return the underlying data structure here. Return list representation.
-         */
-        public List<KeyValuePair<String, Dictionary<String, Boolean>>> toList()
+        public List<KeyValuePair<Artist, Dictionary<Song, Boolean>>> toList()
         {
             return dict.ToList();
         }
