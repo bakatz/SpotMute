@@ -148,10 +148,13 @@ namespace SpotMute.Controller
          */
         public void addLog(String line)
         {
-            String currTime = DateTime.Now.ToString();
-            String outputLine = currTime + ": " + line;
-            logs.AppendLine(outputLine);
-            Console.WriteLine(outputLine);
+            if (ENABLE_LOGGING)
+            {
+                String currTime = DateTime.Now.ToString();
+                String outputLine = currTime + ": " + line;
+                logs.AppendLine(outputLine);
+                Console.WriteLine(outputLine);
+            }
         }
 
         /*
