@@ -1,15 +1,17 @@
 SpotMute v0.3
 ================
-A simple blacklist and volume control application for Spotify.
+A simple blacklist and volume control application for Spotify. Uses a blacklist to determine what songs to automatically skip for you. 
+If a song cannot be skipped, some happy elevator music will be played over the song, and the song's individual volume will be reduced to 2%.
 
 * Author: Ben Katz (<bakatz@vt.edu>)
 * Bug tracker: <https://github.com/bakatz/SpotifyAdMuter/issues>
-* Instructions:
+
+Instructions:
 
 1. Click start.
 1. Verify that SpotMute has detected the current song.
 1. Click 'block artist' to block all songs by the current artist, or 'block song' to block the current song. 
-SpotMute will try to skip the song - if this fails, some elevator music will be played over the song in question until the song ends.
+SpotMute will automatically try to skip the item you've tried to block - if this fails, some elevator music will be played over the song in question until the song ends.
 1. To remove songs/artists off the blacklist, navigate to Edit -> "Blacklist Contents...". You can also add artists/songs manually here.
 
 
