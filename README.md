@@ -4,6 +4,7 @@ A simple blacklist and volume control application for Spotify. Uses a blacklist 
 If a song cannot be skipped, some happy elevator music will be played over the song, and the song's individual volume will be reduced to 2%.
 
 * Author: Ben Katz (<bakatz@vt.edu>)
+* Download link: <http://www.bakatz.com/scripts/download.php?id=SpotMute>
 * Bug tracker: <https://github.com/bakatz/SpotifyAdMuter/issues>
 
 Instructions:
