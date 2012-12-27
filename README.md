@@ -5,7 +5,7 @@ If a song cannot be skipped, some happy elevator music will be played over the s
 
 * Author: Ben Katz (<bakatz@vt.edu>)
 * Download link: <http://www.bakatz.com/scripts/download.php?id=SpotMute>
-* Bug tracker: <https://github.com/bakatz/SpotifyAdMuter/issues>
+* Bug tracker: <https://github.com/bakatz/SpotMute/issues>
 
 Instructions:
 
