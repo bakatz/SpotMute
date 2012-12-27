@@ -115,5 +115,10 @@ namespace SpotMute.View
         {
             Process.Start("http://www.github.com/bakatz/SpotMute/issues");
         }
+
+        private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Process.Start("http://blog.artcore-illustrations.de");
+        }
     }
 }

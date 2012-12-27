@@ -13,6 +13,7 @@ namespace SpotMute.View
     {
         public const int RESULT_ARTIST = 1;
         public const int RESULT_SONG = 2;
+        public const int RESULT_NONE = -1;
         public String song { get; set; }
         public String artist { get; set; }
         public int resultType { get; set; }
@@ -22,14 +23,15 @@ namespace SpotMute.View
             InitializeComponent();
             song = "";
             artist = "";
+            resultType = RESULT_NONE;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             if (songTextBox.Text.Length == 0 && artistTextBox.Text.Length > 0)
             {
-                resultType = RESULT_ARTIST;
                 artist = artistTextBox.Text;
+                resultType = RESULT_ARTIST;
                 this.Close();
             }
             else if (songTextBox.Text.Length > 0 && artistTextBox.Text.Length > 0)
@@ -45,6 +47,11 @@ namespace SpotMute.View
             }
 
             
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

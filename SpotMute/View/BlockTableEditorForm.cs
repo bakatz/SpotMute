@@ -81,7 +81,7 @@ namespace SpotMute.View
                     BlackListForm_Load(sender, e);
                     MessageBox.Show(this, "Added artist successfully.", "SpotMute - Add");
                 }
-                else
+                else if(form.resultType == AddItemDialog.RESULT_SONG)
                 {
                     spotControl.getBlockTable().addSong(new Song(form.artist, form.song));
                     BlackListForm_Load(sender, e);
