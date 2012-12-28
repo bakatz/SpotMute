@@ -50,6 +50,7 @@ namespace SpotMute.Controller
         // Enable logging?
         private const bool ENABLE_LOGGING = true;
 
+
         private IntPtr spotHook;
         private Process spotProc = null;
 
@@ -63,7 +64,7 @@ namespace SpotMute.Controller
         private WindowsMediaPlayer player;
 
         private Boolean isRunning;
-
+        private Boolean isMusicPlaying;
         private StringBuilder logs;
 
         //private static Mutex muteSoundMutex = new Mutex();
@@ -211,10 +212,11 @@ namespace SpotMute.Controller
 
         private void sendKeyPress(Keys key)
         {
+            Console.WriteLine("Sending keypress: " + key);
             const int KEYEVENTF_EXTENDEDKEY = 0x1;
             const int KEYEVENTF_KEYUP = 0x2;
-            keybd_event((byte)key, 0x45, KEYEVENTF_EXTENDEDKEY | KEYEVENTF_KEYUP, (UIntPtr)0);
             keybd_event((byte)key, 0x45, KEYEVENTF_EXTENDEDKEY, (UIntPtr)0);
+            keybd_event((byte)key, 0x45, KEYEVENTF_EXTENDEDKEY | KEYEVENTF_KEYUP, (UIntPtr)0);
         }
 
         /*
@@ -272,6 +274,7 @@ namespace SpotMute.Controller
         {
             addLog("Playing replacement music at: " + REPLACEMENT_AUDIO_PATH);
             player.controls.play();
+            isMusicPlaying = true;
         }
 
         /*
@@ -281,6 +284,12 @@ namespace SpotMute.Controller
         {
             addLog("Stopping replacement music.");
             player.controls.stop();
+            isMusicPlaying = false;
+        }
+
+        private Boolean isReplacementMusicPlaying()
+        {
+            return isMusicPlaying;
         }
 
         /*
@@ -310,9 +319,12 @@ namespace SpotMute.Controller
             }
         }
 
+        private static Mutex skipLock = new Mutex();
+        private Boolean isSkipping = false;
         public void trySkipSong()
         {
-            
+            if (isSkipping) return; // bugfix: song would be attempted to be skipped over and over because spotify was sending multiple window title events.
+            isSkipping = true;
             AutoResetEvent autoEvent = new AutoResetEvent(false);
             Object[] retObj = { autoEvent, false };
 
@@ -323,28 +335,29 @@ namespace SpotMute.Controller
             if ((Boolean)retObj[1])
             {
                 addLog("Failed to skip the song. Muting song.");
-               forceSpotifyMute();
-               sendKeyPress(Keys.MediaPlayPause);
-               if (playElevatorMusic.Checked)
-               {
-                   playReplacementMusic();
-               }
+                forceSpotifyMute(); 
+                if (playElevatorMusic.Checked)
+                {
+                    playReplacementMusic();
+                }
+                sendKeyPress(Keys.MediaPlayPause);
             }
+            isSkipping = false;
         }
 
         private void trySkipSongThread(object stateInfo)
         {
-            Song songBefore = spotInfo.getCurrentSong();
-            sendKeyPress(Keys.MediaNextTrack);
+                Song songBefore = spotInfo.getCurrentSong();
+                sendKeyPress(Keys.MediaNextTrack);
 
-            Thread.Sleep(1000); // give some time for events to be sent to spotify, window title to be changed, etc. TODO: add some sort of event to avoid sleeping.
-            Song songAfter = spotInfo.getCurrentSong();
-            Console.WriteLine("Worker thread: Tried to skip, song before: " + songBefore + " vs. "  + songAfter);
-            if (songAfter == null || songBefore.Equals(songAfter))
-            {   
-                ((Object[])stateInfo)[1] = true;
-            }
-            ((AutoResetEvent)(((Object[])stateInfo)[0])).Set();
+                Thread.Sleep(1000); // give some time for events to be sent to spotify, window title to be changed, etc. TODO: add some sort of event to avoid sleeping.
+                Song songAfter = spotInfo.getCurrentSong();
+                addLog("Worker thread: Tried to skip, song before: " + songBefore + " vs. " + songAfter);
+                if (songAfter == null || songBefore.Equals(songAfter))
+                {
+                    ((Object[])stateInfo)[1] = true;
+                }
+                ((AutoResetEvent)(((Object[])stateInfo)[0])).Set();
         }
 
         
@@ -354,6 +367,7 @@ namespace SpotMute.Controller
         private void WinEventProc(IntPtr hWinEventHook, uint eventType,
             IntPtr hwnd, int idObject, int idChild, uint dwEventThread, uint dwmsEventTime)
         {
+            addLog("WinEventProc: got new window title");
             checkCurrentSong();
         }
     }

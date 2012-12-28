@@ -19,10 +19,6 @@ namespace SpotMute.Model
         private Song currSong;
         private SpotifyController controller;
         private AudioSessionControl spotifyASC;
-
-       // private static Mutex modifySongMutex = new Mutex();
-       // private static object modifySongLock;
-
         private Process spotProc;
 
         public SpotifyInformation(SpotifyController controller) // our constructor has a controller reference so we can retreive information from the current audio session.
