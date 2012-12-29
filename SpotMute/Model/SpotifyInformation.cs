@@ -56,7 +56,7 @@ namespace SpotMute.Model
                 spotProc = procs[0];
                 spotifyASC = controller.getSpotifyAudioSession(spotProc.Id);
 
-                if (spotifyASC == null || spotProc.MainWindowTitle.Equals(lastItem)) // if we couldn't open an audio session or the song is the same as the last one, ignore
+                if (spotifyASC == null /*|| spotProc.MainWindowTitle.Equals(lastItem)*/) // if we couldn't open an audio session //or the song is the same as the last one, ignore
                 {
                     return;
                 }

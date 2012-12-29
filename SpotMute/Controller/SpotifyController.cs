@@ -44,7 +44,7 @@ namespace SpotMute.Controller
         private const uint WINEVENT_OUTOFCONTEXT = 0;
         // End constants from winuser.h
 
-        // Set volume to 2% to simulate a "mute" of ads.
+        // Set volume to 2% to simulate a "mute"
         private const float VOLUME_SCALED_PCT = 0.02F;
 
         // Enable logging?
@@ -176,23 +176,24 @@ namespace SpotMute.Controller
 
         /*
          * Changes spotify's individual volume to a percentage of the master volume for the system, saving the user's previous volume beforehand for restoring later.
+         * Returns false if the volume was already muted, otherwise true
          */
-        private void forceSpotifyMute()
+        private Boolean forceSpotifyMute()
         {
             AudioSessionControl spotifyASC = spotInfo.getSpotifyAudioSession();
             if (Math.Abs(spotifyASC.SimpleAudioVolume.MasterVolume - (VOLUME_SCALED_PCT / defaultDevice.AudioEndpointVolume.MasterVolumeLevelScalar)) < 0.0001 && savedVol > 0) // bugfix: muting twice leads to never unmuting even on a whitelisted song
             {
                 addLog("User's volume is already at 5%, will not try to change vol.");
-                return;
+                return false;
             }
 
-            // Spotify will pause entirely if the volume is at 0%
             addLog("Got spotify volume before mute: " + spotifyASC.SimpleAudioVolume.MasterVolume);
             savedVol = spotifyASC.SimpleAudioVolume.MasterVolume;
             addLog("Setting spotify volume to: " + (VOLUME_SCALED_PCT / defaultDevice.AudioEndpointVolume.MasterVolumeLevelScalar));
             
             //TODO: test further percentage values. might be able to push 2%, 1%, ... , 0.01%
             spotifyASC.SimpleAudioVolume.MasterVolume = VOLUME_SCALED_PCT / defaultDevice.AudioEndpointVolume.MasterVolumeLevelScalar;
+            return true;
         }
 
         /*
@@ -212,7 +213,7 @@ namespace SpotMute.Controller
 
         private void sendKeyPress(Keys key)
         {
-            Console.WriteLine("Sending keypress: " + key);
+            addLog("Sending keypress: " + key);
             const int KEYEVENTF_EXTENDEDKEY = 0x1;
             const int KEYEVENTF_KEYUP = 0x2;
             keybd_event((byte)key, 0x45, KEYEVENTF_EXTENDEDKEY, (UIntPtr)0);
@@ -306,7 +307,10 @@ namespace SpotMute.Controller
             nowPlayingLabel.Text = currSong.getArtistName() + " - " + currSong.getSongTitle();
             if (!blockTable.contains(currSong))
             {
-                stopReplacementMusic();
+                if (isReplacementMusicPlaying())
+                {
+                    stopReplacementMusic();
+                }
                 if (savedVol > 0)
                 {
                     addLog("Resetting master volume to: " + savedVol);
@@ -318,7 +322,10 @@ namespace SpotMute.Controller
             }
             else
             {
-                addLog("Found a match for the current song in the blockTable: " + spotInfo.getCurrentSong() + ". Trying to skip, muting for duration of the song on failure.");
+                //if (isReplacementMusicPlaying() && !isSkipping)
+                //{
+                //    stopReplacementMusic();
+                //}
                 trySkipSong();
             }
         }
@@ -327,7 +334,8 @@ namespace SpotMute.Controller
         private Boolean isSkipping = false;
         public void trySkipSong()
         {
-            if (isSkipping || isReplacementMusicPlaying()) return; // bugfix: song would be attempted to be skipped over and over because spotify was sending multiple window title events.
+            Console.WriteLine("in trySkip");
+            if (isSkipping) return; // bugfix: song would be attempted to be skipped over and over because spotify was sending multiple window title events.
             isSkipping = true;
             AutoResetEvent autoEvent = new AutoResetEvent(false);
             Object[] retObj = { autoEvent, false };
@@ -339,19 +347,33 @@ namespace SpotMute.Controller
             if ((Boolean)retObj[1])
             {
                 addLog("Failed to skip the song. Muting song.");
-                forceSpotifyMute(); 
+                Boolean muteSuccess = forceSpotifyMute();
                 if (playElevatorMusic.Checked)
                 {
                     playReplacementMusic();
                 }
-                sendKeyPress(Keys.MediaPlayPause);
+
+                // spotify will try to stop when its individual volume is changed on an unskippable song. if we were already muted and made no changes to the volume, no need to try to counter this.
+                if (muteSuccess)
+                {
+                    sendKeyPress(Keys.MediaPlayPause);
+                    addLog("After play, got this song: " + spotInfo.getCurrentSong());
+                }
+                isSkipping = false;
             }
-            isSkipping = false;
+            else
+            {
+                Console.WriteLine("Checking current song after skip for bad values...");
+                isSkipping = false;
+                checkCurrentSong();
+            }
+            
         }
 
         private void trySkipSongThread(object stateInfo)
         {
                 Song songBefore = spotInfo.getCurrentSong();
+                
                 sendKeyPress(Keys.MediaNextTrack);
 
                 Thread.Sleep(1000); // give some time for events to be sent to spotify, window title to be changed, etc. TODO: add some sort of event to avoid sleeping.

@@ -1,242 +1,1615 @@
-12/28/2012 10:49:15 PM: Found spotify proc.
-12/28/2012 10:49:15 PM: Spotify hook successful. Started.
-12/28/2012 10:49:15 PM: WARN: couldn't parse the artist/title from the raw window title.
-12/28/2012 10:49:22 PM: WinEventProc: got new window title.
-12/28/2012 10:49:22 PM: WARN: couldn't parse the artist/title from the raw window title.
-12/28/2012 10:49:22 PM: WinEventProc: got new window title.
-12/28/2012 10:49:22 PM: WARN: couldn't parse the artist/title from the raw window title.
-12/28/2012 10:49:22 PM: WinEventProc: got new window title.
-12/28/2012 10:49:22 PM: WARN: couldn't parse the artist/title from the raw window title.
-12/28/2012 10:49:22 PM: WinEventProc: got new window title.
-12/28/2012 10:49:22 PM: WARN: couldn't parse the artist/title from the raw window title.
-12/28/2012 10:49:22 PM: WinEventProc: got new window title.
-12/28/2012 10:49:22 PM: WARN: couldn't parse the artist/title from the raw window title.
-12/28/2012 10:49:23 PM: WinEventProc: got new window title.
-12/28/2012 10:49:23 PM: WARN: couldn't parse the artist/title from the raw window title.
-12/28/2012 10:49:23 PM: WinEventProc: got new window title.
-12/28/2012 10:49:23 PM: Artist: The Kooks, Title:  You Don't Love Me
-12/28/2012 10:49:23 PM: Stopping replacement music.
-12/28/2012 10:49:23 PM: Got new Spotify item: [Song] The Kooks - You Don't Love Me
-12/28/2012 10:49:24 PM: WinEventProc: got new window title.
-12/28/2012 10:49:24 PM: Stopping replacement music.
-12/28/2012 10:49:24 PM: Got new Spotify item: [Song] The Kooks - You Don't Love Me
-12/28/2012 10:49:24 PM: WinEventProc: got new window title.
-12/28/2012 10:49:24 PM: Stopping replacement music.
-12/28/2012 10:49:24 PM: Got new Spotify item: [Song] The Kooks - You Don't Love Me
-12/28/2012 10:49:27 PM: WinEventProc: got new window title.
-12/28/2012 10:49:27 PM: Stopping replacement music.
-12/28/2012 10:49:27 PM: Got new Spotify item: [Song] The Kooks - You Don't Love Me
-12/28/2012 10:49:27 PM: WinEventProc: got new window title.
-12/28/2012 10:49:27 PM: Stopping replacement music.
-12/28/2012 10:49:27 PM: Got new Spotify item: [Song] The Kooks - You Don't Love Me
-12/28/2012 10:49:27 PM: WinEventProc: got new window title.
-12/28/2012 10:49:27 PM: Stopping replacement music.
-12/28/2012 10:49:27 PM: Got new Spotify item: [Song] The Kooks - You Don't Love Me
-12/28/2012 10:49:27 PM: WinEventProc: got new window title.
-12/28/2012 10:49:27 PM: Stopping replacement music.
-12/28/2012 10:49:27 PM: Got new Spotify item: [Song] The Kooks - You Don't Love Me
-12/28/2012 10:49:27 PM: WinEventProc: got new window title.
-12/28/2012 10:49:27 PM: Stopping replacement music.
-12/28/2012 10:49:27 PM: Got new Spotify item: [Song] The Kooks - You Don't Love Me
-12/28/2012 10:49:27 PM: WinEventProc: got new window title.
-12/28/2012 10:49:27 PM: Stopping replacement music.
-12/28/2012 10:49:27 PM: Got new Spotify item: [Song] The Kooks - You Don't Love Me
-12/28/2012 10:49:28 PM: WinEventProc: got new window title.
-12/28/2012 10:49:28 PM: Stopping replacement music.
-12/28/2012 10:49:28 PM: Got new Spotify item: [Song] The Kooks - You Don't Love Me
-12/28/2012 10:49:28 PM: WinEventProc: got new window title.
-12/28/2012 10:49:28 PM: Stopping replacement music.
-12/28/2012 10:49:28 PM: Got new Spotify item: [Song] The Kooks - You Don't Love Me
-12/28/2012 10:49:29 PM: WinEventProc: got new window title.
-12/28/2012 10:49:29 PM: Artist: Spotify, Title:  Spotify
-12/28/2012 10:49:29 PM: Found a match for the current song in the blockTable: [Song] Spotify - Spotify. Trying to skip, muting for duration of the song on failure.
-12/28/2012 10:49:29 PM: Trying to skip song - waiting for a return from worker thread.
-12/28/2012 10:49:29 PM: WinEventProc: got new window title.
-12/28/2012 10:49:29 PM: Found a match for the current song in the blockTable: [Song] Spotify - Spotify. Trying to skip, muting for duration of the song on failure.
-12/28/2012 10:49:29 PM: WinEventProc: got new window title.
-12/28/2012 10:49:29 PM: Found a match for the current song in the blockTable: [Song] Spotify - Spotify. Trying to skip, muting for duration of the song on failure.
-12/28/2012 10:49:29 PM: WinEventProc: got new window title.
-12/28/2012 10:49:29 PM: Found a match for the current song in the blockTable: [Song] Spotify - Spotify. Trying to skip, muting for duration of the song on failure.
-12/28/2012 10:49:29 PM: WinEventProc: got new window title.
-12/28/2012 10:49:29 PM: Found a match for the current song in the blockTable: [Song] Spotify - Spotify. Trying to skip, muting for duration of the song on failure.
-12/28/2012 10:49:29 PM: WinEventProc: got new window title.
-12/28/2012 10:49:29 PM: Found a match for the current song in the blockTable: [Song] Spotify - Spotify. Trying to skip, muting for duration of the song on failure.
-12/28/2012 10:49:29 PM: WinEventProc: got new window title.
-12/28/2012 10:49:29 PM: Found a match for the current song in the blockTable: [Song] Spotify - Spotify. Trying to skip, muting for duration of the song on failure.
-12/28/2012 10:49:29 PM: WinEventProc: got new window title.
-12/28/2012 10:49:30 PM: Found a match for the current song in the blockTable: [Song] Spotify - Spotify. Trying to skip, muting for duration of the song on failure.
-12/28/2012 10:49:30 PM: WinEventProc: got new window title.
-12/28/2012 10:49:30 PM: Found a match for the current song in the blockTable: [Song] Spotify - Spotify. Trying to skip, muting for duration of the song on failure.
-12/28/2012 10:49:30 PM: Worker thread: Tried to skip, song before: [Song] Spotify - Spotify vs. [Song] Spotify - Spotify
-12/28/2012 10:49:30 PM: Got our return, failure value: True
-12/28/2012 10:49:30 PM: Failed to skip the song. Muting song.
-12/28/2012 10:49:30 PM: Got spotify volume before mute: 1
-12/28/2012 10:49:30 PM: Setting spotify volume to: 0.04
-12/28/2012 10:49:30 PM: Playing replacement music at: elevator.mp3
-12/28/2012 10:49:30 PM: WinEventProc: got new window title.
-12/28/2012 10:49:30 PM: WARN: couldn't parse the artist/title from the raw window title.
-12/28/2012 10:49:30 PM: WinEventProc: got new window title.
-12/28/2012 10:49:32 PM: WinEventProc: got new window title.
-12/28/2012 10:49:32 PM: WinEventProc: got new window title.
-12/28/2012 10:49:32 PM: WinEventProc: got new window title.
-12/28/2012 10:49:56 PM: WinEventProc: got new window title.
-12/28/2012 10:49:56 PM: Artist: Nickelback, Title:  How You Remind Me - LP Mix
-12/28/2012 10:49:56 PM: Stopping replacement music.
-12/28/2012 10:49:57 PM: Resetting master volume to: 1
-12/28/2012 10:49:57 PM: Got new Spotify item: [Song] Nickelback - How You Remind Me - LP Mix
-12/28/2012 10:50:02 PM: WinEventProc: got new window title.
-12/28/2012 10:50:02 PM: Stopping replacement music.
-12/28/2012 10:50:02 PM: Resetting master volume to: 1
-12/28/2012 10:50:02 PM: Got new Spotify item: [Song] Nickelback - How You Remind Me - LP Mix
-12/28/2012 10:50:03 PM: WinEventProc: got new window title.
-12/28/2012 10:50:03 PM: Stopping replacement music.
-12/28/2012 10:50:03 PM: Resetting master volume to: 1
-12/28/2012 10:50:03 PM: Got new Spotify item: [Song] Nickelback - How You Remind Me - LP Mix
-12/28/2012 10:50:03 PM: WinEventProc: got new window title.
-12/28/2012 10:50:03 PM: Stopping replacement music.
-12/28/2012 10:50:03 PM: Resetting master volume to: 1
-12/28/2012 10:50:03 PM: Got new Spotify item: [Song] Nickelback - How You Remind Me - LP Mix
-12/28/2012 10:50:03 PM: WinEventProc: got new window title.
-12/28/2012 10:50:03 PM: Stopping replacement music.
-12/28/2012 10:50:03 PM: Resetting master volume to: 1
-12/28/2012 10:50:03 PM: Got new Spotify item: [Song] Nickelback - How You Remind Me - LP Mix
-12/28/2012 10:50:03 PM: WinEventProc: got new window title.
-12/28/2012 10:50:03 PM: Stopping replacement music.
-12/28/2012 10:50:03 PM: Resetting master volume to: 1
-12/28/2012 10:50:03 PM: Got new Spotify item: [Song] Nickelback - How You Remind Me - LP Mix
-12/28/2012 10:50:04 PM: WinEventProc: got new window title.
-12/28/2012 10:50:04 PM: Stopping replacement music.
-12/28/2012 10:50:04 PM: Resetting master volume to: 1
-12/28/2012 10:50:04 PM: Got new Spotify item: [Song] Nickelback - How You Remind Me - LP Mix
-12/28/2012 10:50:04 PM: WinEventProc: got new window title.
-12/28/2012 10:50:04 PM: Stopping replacement music.
-12/28/2012 10:50:04 PM: Resetting master volume to: 1
-12/28/2012 10:50:04 PM: Got new Spotify item: [Song] Nickelback - How You Remind Me - LP Mix
-12/28/2012 10:51:47 PM: WinEventProc: got new window title.
-12/28/2012 10:51:47 PM: WinEventProc: got new window title.
-12/28/2012 10:51:47 PM: Stopping replacement music.
-12/28/2012 10:51:47 PM: Resetting master volume to: 1
-12/28/2012 10:51:47 PM: Got new Spotify item: [Song] Nickelback - How You Remind Me - LP Mix
-12/28/2012 10:51:47 PM: Stopping replacement music.
-12/28/2012 10:51:47 PM: Resetting master volume to: 1
-12/28/2012 10:51:47 PM: Got new Spotify item: [Song] Nickelback - How You Remind Me - LP Mix
-12/28/2012 10:51:48 PM: WinEventProc: got new window title.
-12/28/2012 10:51:48 PM: Stopping replacement music.
-12/28/2012 10:51:48 PM: Resetting master volume to: 1
-12/28/2012 10:51:48 PM: Got new Spotify item: [Song] Nickelback - How You Remind Me - LP Mix
-12/28/2012 10:51:48 PM: WinEventProc: got new window title.
-12/28/2012 10:51:48 PM: Stopping replacement music.
-12/28/2012 10:51:48 PM: Resetting master volume to: 1
-12/28/2012 10:51:48 PM: Got new Spotify item: [Song] Nickelback - How You Remind Me - LP Mix
-12/28/2012 10:51:48 PM: WinEventProc: got new window title.
-12/28/2012 10:51:48 PM: Stopping replacement music.
-12/28/2012 10:51:48 PM: Resetting master volume to: 1
-12/28/2012 10:51:48 PM: Got new Spotify item: [Song] Nickelback - How You Remind Me - LP Mix
-12/28/2012 10:51:48 PM: WinEventProc: got new window title.
-12/28/2012 10:51:48 PM: Stopping replacement music.
-12/28/2012 10:51:48 PM: Resetting master volume to: 1
-12/28/2012 10:51:48 PM: Got new Spotify item: [Song] Nickelback - How You Remind Me - LP Mix
-12/28/2012 10:51:52 PM: WinEventProc: got new window title.
-12/28/2012 10:51:52 PM: Artist: Klaxons, Title:  Echoes
-12/28/2012 10:51:52 PM: Stopping replacement music.
-12/28/2012 10:51:52 PM: Resetting master volume to: 1
-12/28/2012 10:51:52 PM: Got new Spotify item: [Song] Klaxons - Echoes
-12/28/2012 10:51:53 PM: WinEventProc: got new window title.
-12/28/2012 10:51:53 PM: Stopping replacement music.
-12/28/2012 10:51:53 PM: Resetting master volume to: 1
-12/28/2012 10:51:53 PM: Got new Spotify item: [Song] Klaxons - Echoes
-12/28/2012 10:51:53 PM: WinEventProc: got new window title.
-12/28/2012 10:51:53 PM: Stopping replacement music.
-12/28/2012 10:51:53 PM: Resetting master volume to: 1
-12/28/2012 10:51:53 PM: Got new Spotify item: [Song] Klaxons - Echoes
-12/28/2012 10:51:54 PM: WinEventProc: got new window title.
-12/28/2012 10:51:54 PM: Stopping replacement music.
-12/28/2012 10:51:54 PM: Resetting master volume to: 1
-12/28/2012 10:51:54 PM: Got new Spotify item: [Song] Klaxons - Echoes
-12/28/2012 10:51:54 PM: WinEventProc: got new window title.
-12/28/2012 10:51:54 PM: Stopping replacement music.
-12/28/2012 10:51:54 PM: Resetting master volume to: 1
-12/28/2012 10:51:54 PM: Got new Spotify item: [Song] Klaxons - Echoes
-12/28/2012 10:51:58 PM: WinEventProc: got new window title.
-12/28/2012 10:51:58 PM: Stopping replacement music.
-12/28/2012 10:51:58 PM: Resetting master volume to: 1
-12/28/2012 10:51:58 PM: Got new Spotify item: [Song] Klaxons - Echoes
-12/28/2012 10:51:58 PM: WinEventProc: got new window title.
-12/28/2012 10:51:59 PM: Stopping replacement music.
-12/28/2012 10:51:59 PM: Resetting master volume to: 1
-12/28/2012 10:51:59 PM: Got new Spotify item: [Song] Klaxons - Echoes
-12/28/2012 10:52:06 PM: WinEventProc: got new window title.
-12/28/2012 10:52:06 PM: Stopping replacement music.
-12/28/2012 10:52:06 PM: Resetting master volume to: 1
-12/28/2012 10:52:06 PM: Got new Spotify item: [Song] Klaxons - Echoes
-12/28/2012 10:52:06 PM: WinEventProc: got new window title.
-12/28/2012 10:52:06 PM: Stopping replacement music.
-12/28/2012 10:52:06 PM: Resetting master volume to: 1
-12/28/2012 10:52:06 PM: Got new Spotify item: [Song] Klaxons - Echoes
-12/28/2012 10:52:16 PM: WinEventProc: got new window title.
-12/28/2012 10:52:16 PM: Stopping replacement music.
-12/28/2012 10:52:16 PM: Resetting master volume to: 1
-12/28/2012 10:52:16 PM: Got new Spotify item: [Song] Klaxons - Echoes
-12/28/2012 10:52:16 PM: WinEventProc: got new window title.
-12/28/2012 10:52:16 PM: Stopping replacement music.
-12/28/2012 10:52:16 PM: Resetting master volume to: 1
-12/28/2012 10:52:16 PM: Got new Spotify item: [Song] Klaxons - Echoes
-12/28/2012 10:52:16 PM: WinEventProc: got new window title.
-12/28/2012 10:52:16 PM: Stopping replacement music.
-12/28/2012 10:52:16 PM: Resetting master volume to: 1
-12/28/2012 10:52:16 PM: Got new Spotify item: [Song] Klaxons - Echoes
-12/28/2012 10:52:17 PM: WinEventProc: got new window title.
-12/28/2012 10:52:17 PM: Stopping replacement music.
-12/28/2012 10:52:17 PM: Resetting master volume to: 1
-12/28/2012 10:52:17 PM: Got new Spotify item: [Song] Klaxons - Echoes
-12/28/2012 10:52:17 PM: WinEventProc: got new window title.
-12/28/2012 10:52:17 PM: Stopping replacement music.
-12/28/2012 10:52:17 PM: Resetting master volume to: 1
-12/28/2012 10:52:17 PM: Got new Spotify item: [Song] Klaxons - Echoes
-12/28/2012 10:52:17 PM: WinEventProc: got new window title.
-12/28/2012 10:52:17 PM: Stopping replacement music.
-12/28/2012 10:52:17 PM: Resetting master volume to: 1
-12/28/2012 10:52:17 PM: Got new Spotify item: [Song] Klaxons - Echoes
-12/28/2012 10:52:17 PM: WinEventProc: got new window title.
-12/28/2012 10:52:17 PM: Stopping replacement music.
-12/28/2012 10:52:17 PM: Resetting master volume to: 1
-12/28/2012 10:52:17 PM: Got new Spotify item: [Song] Klaxons - Echoes
-12/28/2012 10:52:18 PM: WinEventProc: got new window title.
-12/28/2012 10:52:18 PM: Stopping replacement music.
-12/28/2012 10:52:18 PM: Resetting master volume to: 1
-12/28/2012 10:52:18 PM: Got new Spotify item: [Song] Klaxons - Echoes
-12/28/2012 10:52:18 PM: WinEventProc: got new window title.
-12/28/2012 10:52:18 PM: WinEventProc: got new window title.
-12/28/2012 10:52:18 PM: Stopping replacement music.
-12/28/2012 10:52:18 PM: Resetting master volume to: 1
-12/28/2012 10:52:18 PM: Got new Spotify item: [Song] Klaxons - Echoes
-12/28/2012 10:52:18 PM: Stopping replacement music.
-12/28/2012 10:52:18 PM: Resetting master volume to: 1
-12/28/2012 10:52:18 PM: Got new Spotify item: [Song] Klaxons - Echoes
-12/28/2012 10:52:18 PM: WinEventProc: got new window title.
-12/28/2012 10:52:18 PM: Stopping replacement music.
-12/28/2012 10:52:18 PM: Resetting master volume to: 1
-12/28/2012 10:52:18 PM: Got new Spotify item: [Song] Klaxons - Echoes
-12/28/2012 10:52:18 PM: WinEventProc: got new window title.
-12/28/2012 10:52:18 PM: Stopping replacement music.
-12/28/2012 10:52:18 PM: Resetting master volume to: 1
-12/28/2012 10:52:18 PM: Got new Spotify item: [Song] Klaxons - Echoes
-12/28/2012 10:52:56 PM: WinEventProc: got new window title.
-12/28/2012 10:52:56 PM: Stopping replacement music.
-12/28/2012 10:52:56 PM: Resetting master volume to: 1
-12/28/2012 10:52:56 PM: Got new Spotify item: [Song] Klaxons - Echoes
-12/28/2012 10:52:56 PM: WinEventProc: got new window title.
-12/28/2012 10:52:56 PM: Stopping replacement music.
-12/28/2012 10:52:56 PM: Resetting master volume to: 1
-12/28/2012 10:52:56 PM: Got new Spotify item: [Song] Klaxons - Echoes
-12/28/2012 10:52:56 PM: WinEventProc: got new window title.
-12/28/2012 10:52:56 PM: Stopping replacement music.
-12/28/2012 10:52:56 PM: Resetting master volume to: 1
-12/28/2012 10:52:56 PM: Got new Spotify item: [Song] Klaxons - Echoes
-12/28/2012 10:52:56 PM: WinEventProc: got new window title.
-12/28/2012 10:52:56 PM: Stopping replacement music.
-12/28/2012 10:52:56 PM: Resetting master volume to: 1
-12/28/2012 10:52:56 PM: Got new Spotify item: [Song] Klaxons - Echoes
-12/28/2012 10:53:08 PM: Got FormClosing event in MainForm view. Trying to persist blacklist for use next time...
-12/28/2012 10:53:08 PM: Saving 6 blockTable items to disk.
-12/28/2012 10:53:08 PM: Saving 16346 bytes of logs to disk.
+12/29/2012 4:21:05 AM: Found spotify proc.
+12/29/2012 4:21:05 AM: Spotify hook successful. Started.
+12/29/2012 4:21:10 AM: Artist: Nickelback, Title:  Just For
+12/29/2012 4:21:10 AM: Trying to skip song - waiting for a return from worker thread.
+12/29/2012 4:21:10 AM: Artist: Nickelback, Title:  Just For
+12/29/2012 4:21:10 AM: Sending keypress: MediaNextTrack
+12/29/2012 4:21:10 AM: WinEventProc: got new window title.
+12/29/2012 4:21:10 AM: Artist: Nickelback, Title:  Hollywood
+12/29/2012 4:21:11 AM: Artist: Nickelback, Title:  Hollywood
+12/29/2012 4:21:11 AM: Worker thread: Tried to skip, song before: [Song] Nickelback - Just For vs. [Song] Nickelback - Hollywood
+12/29/2012 4:21:11 AM: Got our return, failure value: False
+12/29/2012 4:21:11 AM: Artist: Nickelback, Title:  Hollywood
+12/29/2012 4:21:11 AM: Trying to skip song - waiting for a return from worker thread.
+12/29/2012 4:21:11 AM: Artist: Nickelback, Title:  Hollywood
+12/29/2012 4:21:11 AM: Sending keypress: MediaNextTrack
+12/29/2012 4:21:11 AM: WinEventProc: got new window title.
+12/29/2012 4:21:11 AM: Artist: Nickelback, Title:  Money Bought
+12/29/2012 4:21:12 AM: Artist: Nickelback, Title:  Money Bought
+12/29/2012 4:21:12 AM: Worker thread: Tried to skip, song before: [Song] Nickelback - Hollywood vs. [Song] Nickelback - Money Bought
+12/29/2012 4:21:12 AM: Got our return, failure value: False
+12/29/2012 4:21:12 AM: Artist: Nickelback, Title:  Money Bought
+12/29/2012 4:21:12 AM: Trying to skip song - waiting for a return from worker thread.
+12/29/2012 4:21:12 AM: Artist: Nickelback, Title:  Money Bought
+12/29/2012 4:21:12 AM: Sending keypress: MediaNextTrack
+12/29/2012 4:21:12 AM: WinEventProc: got new window title.
+12/29/2012 4:21:12 AM: Artist: Nickelback, Title:  Where Do I Hide
+12/29/2012 4:21:13 AM: Artist: Nickelback, Title:  Where Do I Hide
+12/29/2012 4:21:13 AM: Worker thread: Tried to skip, song before: [Song] Nickelback - Money Bought vs. [Song] Nickelback - Where Do I Hide
+12/29/2012 4:21:13 AM: Got our return, failure value: False
+12/29/2012 4:21:13 AM: Artist: Nickelback, Title:  Where Do I Hide
+12/29/2012 4:21:13 AM: Trying to skip song - waiting for a return from worker thread.
+12/29/2012 4:21:13 AM: Artist: Nickelback, Title:  Where Do I Hide
+12/29/2012 4:21:13 AM: Sending keypress: MediaNextTrack
+12/29/2012 4:21:13 AM: WinEventProc: got new window title.
+12/29/2012 4:21:13 AM: Artist: Nickelback, Title:  Hangnail
+12/29/2012 4:21:14 AM: Artist: Nickelback, Title:  Hangnail
+12/29/2012 4:21:14 AM: Worker thread: Tried to skip, song before: [Song] Nickelback - Where Do I Hide vs. [Song] Nickelback - Hangnail
+12/29/2012 4:21:14 AM: Got our return, failure value: False
+12/29/2012 4:21:14 AM: Artist: Nickelback, Title:  Hangnail
+12/29/2012 4:21:14 AM: Trying to skip song - waiting for a return from worker thread.
+12/29/2012 4:21:14 AM: Artist: Nickelback, Title:  Hangnail
+12/29/2012 4:21:14 AM: Sending keypress: MediaNextTrack
+12/29/2012 4:21:14 AM: WinEventProc: got new window title.
+12/29/2012 4:21:14 AM: Artist: Nickelback, Title:  Good Times Gone
+12/29/2012 4:21:15 AM: Artist: Nickelback, Title:  Good Times Gone
+12/29/2012 4:21:15 AM: Worker thread: Tried to skip, song before: [Song] Nickelback - Hangnail vs. [Song] Nickelback - Good Times Gone
+12/29/2012 4:21:15 AM: Got our return, failure value: False
+12/29/2012 4:21:15 AM: Artist: Nickelback, Title:  Good Times Gone
+12/29/2012 4:21:15 AM: Trying to skip song - waiting for a return from worker thread.
+12/29/2012 4:21:15 AM: Artist: Nickelback, Title:  Good Times Gone
+12/29/2012 4:21:15 AM: Sending keypress: MediaNextTrack
+12/29/2012 4:21:15 AM: WinEventProc: got new window title.
+12/29/2012 4:21:15 AM: Artist: Nickelback, Title:  Breathe
+12/29/2012 4:21:16 AM: Artist: Nickelback, Title:  Breathe
+12/29/2012 4:21:16 AM: Worker thread: Tried to skip, song before: [Song] Nickelback - Good Times Gone vs. [Song] Nickelback - Breathe
+12/29/2012 4:21:16 AM: Got our return, failure value: False
+12/29/2012 4:21:16 AM: Artist: Nickelback, Title:  Breathe
+12/29/2012 4:21:16 AM: Trying to skip song - waiting for a return from worker thread.
+12/29/2012 4:21:16 AM: Artist: Nickelback, Title:  Breathe
+12/29/2012 4:21:16 AM: Sending keypress: MediaNextTrack
+12/29/2012 4:21:16 AM: WinEventProc: got new window title.
+12/29/2012 4:21:16 AM: Artist: Nickelback, Title:  Cowboy Hat
+12/29/2012 4:21:17 AM: Artist: Nickelback, Title:  Cowboy Hat
+12/29/2012 4:21:17 AM: Worker thread: Tried to skip, song before: [Song] Nickelback - Breathe vs. [Song] Nickelback - Cowboy Hat
+12/29/2012 4:21:17 AM: Got our return, failure value: False
+12/29/2012 4:21:17 AM: Artist: Nickelback, Title:  Cowboy Hat
+12/29/2012 4:21:17 AM: Trying to skip song - waiting for a return from worker thread.
+12/29/2012 4:21:17 AM: Artist: Nickelback, Title:  Cowboy Hat
+12/29/2012 4:21:17 AM: Sending keypress: MediaNextTrack
+12/29/2012 4:21:17 AM: WinEventProc: got new window title.
+12/29/2012 4:21:17 AM: Artist: Nickelback, Title:  Leader Of Men
+12/29/2012 4:21:17 AM: WinEventProc: got new window title.
+12/29/2012 4:21:17 AM: Artist: Nickelback, Title:  Leader Of Men
+12/29/2012 4:21:17 AM: WinEventProc: got new window title.
+12/29/2012 4:21:17 AM: Artist: Nickelback, Title:  Leader Of Men
+12/29/2012 4:21:18 AM: Artist: Nickelback, Title:  Leader Of Men
+12/29/2012 4:21:18 AM: Worker thread: Tried to skip, song before: [Song] Nickelback - Cowboy Hat vs. [Song] Nickelback - Leader Of Men
+12/29/2012 4:21:18 AM: Got our return, failure value: False
+12/29/2012 4:21:18 AM: Artist: Nickelback, Title:  Leader Of Men
+12/29/2012 4:21:18 AM: Trying to skip song - waiting for a return from worker thread.
+12/29/2012 4:21:18 AM: Artist: Nickelback, Title:  Leader Of Men
+12/29/2012 4:21:18 AM: Sending keypress: MediaNextTrack
+12/29/2012 4:21:18 AM: WinEventProc: got new window title.
+12/29/2012 4:21:18 AM: Artist: Nickelback, Title:  Old Enough
+12/29/2012 4:21:19 AM: Artist: Nickelback, Title:  Old Enough
+12/29/2012 4:21:19 AM: Worker thread: Tried to skip, song before: [Song] Nickelback - Leader Of Men vs. [Song] Nickelback - Old Enough
+12/29/2012 4:21:19 AM: Got our return, failure value: False
+12/29/2012 4:21:19 AM: Artist: Nickelback, Title:  Old Enough
+12/29/2012 4:21:19 AM: Trying to skip song - waiting for a return from worker thread.
+12/29/2012 4:21:19 AM: Artist: Nickelback, Title:  Old Enough
+12/29/2012 4:21:19 AM: Sending keypress: MediaNextTrack
+12/29/2012 4:21:19 AM: WinEventProc: got new window title.
+12/29/2012 4:21:19 AM: Artist: Nickelback, Title:  Worthy To Say
+12/29/2012 4:21:19 AM: WinEventProc: got new window title.
+12/29/2012 4:21:19 AM: Artist: Eve 6, Title:  Inside Out
+12/29/2012 4:21:19 AM: Artist: Eve 6, Title:  Inside Out
+12/29/2012 4:21:19 AM: Got new Spotify item: [Song] Eve 6 - Inside Out
+12/29/2012 4:21:20 AM: Artist: Eve 6, Title:  Inside Out
+12/29/2012 4:21:20 AM: Worker thread: Tried to skip, song before: [Song] Nickelback - Old Enough vs. [Song] Eve 6 - Inside Out
+12/29/2012 4:21:20 AM: Got our return, failure value: False
+12/29/2012 4:21:20 AM: Artist: Eve 6, Title:  Inside Out
+12/29/2012 4:21:20 AM: Artist: Eve 6, Title:  Inside Out
+12/29/2012 4:21:20 AM: Got new Spotify item: [Song] Eve 6 - Inside Out
+12/29/2012 4:21:31 AM: WinEventProc: got new window title.
+12/29/2012 4:21:31 AM: Artist: Eve 6, Title:  Inside Out
+12/29/2012 4:21:31 AM: Artist: Eve 6, Title:  Inside Out
+12/29/2012 4:21:31 AM: Got new Spotify item: [Song] Eve 6 - Inside Out
+12/29/2012 4:21:31 AM: WinEventProc: got new window title.
+12/29/2012 4:21:31 AM: Artist: Eve 6, Title:  Inside Out
+12/29/2012 4:21:31 AM: Artist: Eve 6, Title:  Inside Out
+12/29/2012 4:21:31 AM: Got new Spotify item: [Song] Eve 6 - Inside Out
+12/29/2012 4:21:32 AM: WinEventProc: got new window title.
+12/29/2012 4:21:32 AM: Artist: Eve 6, Title:  Inside Out
+12/29/2012 4:21:32 AM: Artist: Eve 6, Title:  Inside Out
+12/29/2012 4:21:32 AM: Got new Spotify item: [Song] Eve 6 - Inside Out
+12/29/2012 4:21:32 AM: WinEventProc: got new window title.
+12/29/2012 4:21:32 AM: Artist: Eve 6, Title:  Inside Out
+12/29/2012 4:21:32 AM: Artist: Eve 6, Title:  Inside Out
+12/29/2012 4:21:32 AM: Got new Spotify item: [Song] Eve 6 - Inside Out
+12/29/2012 4:21:37 AM: WinEventProc: got new window title.
+12/29/2012 4:21:37 AM: Artist: Eve 6, Title:  Inside Out
+12/29/2012 4:21:37 AM: Artist: Eve 6, Title:  Inside Out
+12/29/2012 4:21:37 AM: Got new Spotify item: [Song] Eve 6 - Inside Out
+12/29/2012 4:21:37 AM: WinEventProc: got new window title.
+12/29/2012 4:21:37 AM: Artist: Eve 6, Title:  Inside Out
+12/29/2012 4:21:37 AM: Artist: Eve 6, Title:  Inside Out
+12/29/2012 4:21:37 AM: Got new Spotify item: [Song] Eve 6 - Inside Out
+12/29/2012 4:21:41 AM: WinEventProc: got new window title.
+12/29/2012 4:21:41 AM: Artist: Eve 6, Title:  Inside Out
+12/29/2012 4:21:41 AM: Artist: Eve 6, Title:  Inside Out
+12/29/2012 4:21:41 AM: Got new Spotify item: [Song] Eve 6 - Inside Out
+12/29/2012 4:21:42 AM: WinEventProc: got new window title.
+12/29/2012 4:21:42 AM: Artist: Eve 6, Title:  Inside Out
+12/29/2012 4:21:42 AM: Artist: Eve 6, Title:  Inside Out
+12/29/2012 4:21:42 AM: Got new Spotify item: [Song] Eve 6 - Inside Out
+12/29/2012 4:21:42 AM: WinEventProc: got new window title.
+12/29/2012 4:21:42 AM: Artist: Eve 6, Title:  Inside Out
+12/29/2012 4:21:42 AM: Artist: Eve 6, Title:  Inside Out
+12/29/2012 4:21:42 AM: Got new Spotify item: [Song] Eve 6 - Inside Out
+12/29/2012 4:21:42 AM: WinEventProc: got new window title.
+12/29/2012 4:21:42 AM: Artist: Eve 6, Title:  Inside Out
+12/29/2012 4:21:42 AM: Artist: Eve 6, Title:  Inside Out
+12/29/2012 4:21:42 AM: Got new Spotify item: [Song] Eve 6 - Inside Out
+12/29/2012 4:21:42 AM: WinEventProc: got new window title.
+12/29/2012 4:21:42 AM: Artist: Eve 6, Title:  Inside Out
+12/29/2012 4:21:42 AM: Artist: Eve 6, Title:  Inside Out
+12/29/2012 4:21:42 AM: Got new Spotify item: [Song] Eve 6 - Inside Out
+12/29/2012 4:21:42 AM: WinEventProc: got new window title.
+12/29/2012 4:21:42 AM: Artist: Eve 6, Title:  Inside Out
+12/29/2012 4:21:42 AM: Artist: Eve 6, Title:  Inside Out
+12/29/2012 4:21:42 AM: Got new Spotify item: [Song] Eve 6 - Inside Out
+12/29/2012 4:21:43 AM: WinEventProc: got new window title.
+12/29/2012 4:21:43 AM: Artist: Eve 6, Title:  Inside Out
+12/29/2012 4:21:43 AM: Artist: Eve 6, Title:  Inside Out
+12/29/2012 4:21:43 AM: Got new Spotify item: [Song] Eve 6 - Inside Out
+12/29/2012 4:21:43 AM: WinEventProc: got new window title.
+12/29/2012 4:21:43 AM: Artist: Eve 6, Title:  Inside Out
+12/29/2012 4:21:43 AM: Artist: Eve 6, Title:  Inside Out
+12/29/2012 4:21:43 AM: Got new Spotify item: [Song] Eve 6 - Inside Out
+12/29/2012 4:21:50 AM: WinEventProc: got new window title.
+12/29/2012 4:21:50 AM: Artist: Eve 6, Title:  Inside Out
+12/29/2012 4:21:50 AM: Artist: Eve 6, Title:  Inside Out
+12/29/2012 4:21:50 AM: Got new Spotify item: [Song] Eve 6 - Inside Out
+12/29/2012 4:21:50 AM: WinEventProc: got new window title.
+12/29/2012 4:21:50 AM: Artist: Eve 6, Title:  Inside Out
+12/29/2012 4:21:50 AM: Artist: Eve 6, Title:  Inside Out
+12/29/2012 4:21:50 AM: Got new Spotify item: [Song] Eve 6 - Inside Out
+12/29/2012 4:21:51 AM: WinEventProc: got new window title.
+12/29/2012 4:21:51 AM: Artist: Eve 6, Title:  Inside Out
+12/29/2012 4:21:51 AM: Artist: Eve 6, Title:  Inside Out
+12/29/2012 4:21:51 AM: Got new Spotify item: [Song] Eve 6 - Inside Out
+12/29/2012 4:21:51 AM: WinEventProc: got new window title.
+12/29/2012 4:21:51 AM: Artist: Eve 6, Title:  Inside Out
+12/29/2012 4:21:51 AM: Artist: Eve 6, Title:  Inside Out
+12/29/2012 4:21:51 AM: Got new Spotify item: [Song] Eve 6 - Inside Out
+12/29/2012 4:23:48 AM: WinEventProc: got new window title.
+12/29/2012 4:23:48 AM: Artist: Eve 6, Title:  Inside Out
+12/29/2012 4:23:48 AM: Artist: Eve 6, Title:  Inside Out
+12/29/2012 4:23:48 AM: Got new Spotify item: [Song] Eve 6 - Inside Out
+12/29/2012 4:23:49 AM: WinEventProc: got new window title.
+12/29/2012 4:23:49 AM: Artist: Eve 6, Title:  Inside Out
+12/29/2012 4:23:49 AM: Artist: Eve 6, Title:  Inside Out
+12/29/2012 4:23:49 AM: Got new Spotify item: [Song] Eve 6 - Inside Out
+12/29/2012 4:23:49 AM: WinEventProc: got new window title.
+12/29/2012 4:23:49 AM: Artist: Eve 6, Title:  Inside Out
+12/29/2012 4:23:49 AM: Artist: Eve 6, Title:  Inside Out
+12/29/2012 4:23:49 AM: Got new Spotify item: [Song] Eve 6 - Inside Out
+12/29/2012 4:23:49 AM: WinEventProc: got new window title.
+12/29/2012 4:23:49 AM: Artist: Eve 6, Title:  Inside Out
+12/29/2012 4:23:49 AM: Artist: Eve 6, Title:  Inside Out
+12/29/2012 4:23:49 AM: Got new Spotify item: [Song] Eve 6 - Inside Out
+12/29/2012 4:23:49 AM: WinEventProc: got new window title.
+12/29/2012 4:23:49 AM: Artist: Eve 6, Title:  Inside Out
+12/29/2012 4:23:49 AM: Artist: Eve 6, Title:  Inside Out
+12/29/2012 4:23:49 AM: Got new Spotify item: [Song] Eve 6 - Inside Out
+12/29/2012 4:23:49 AM: WinEventProc: got new window title.
+12/29/2012 4:23:49 AM: Artist: Eve 6, Title:  Inside Out
+12/29/2012 4:23:49 AM: Artist: Eve 6, Title:  Inside Out
+12/29/2012 4:23:49 AM: Got new Spotify item: [Song] Eve 6 - Inside Out
+12/29/2012 4:23:49 AM: WinEventProc: got new window title.
+12/29/2012 4:23:49 AM: Artist: Eve 6, Title:  Inside Out
+12/29/2012 4:23:49 AM: Artist: Eve 6, Title:  Inside Out
+12/29/2012 4:23:49 AM: Got new Spotify item: [Song] Eve 6 - Inside Out
+12/29/2012 4:23:49 AM: WinEventProc: got new window title.
+12/29/2012 4:23:49 AM: Artist: Eve 6, Title:  Inside Out
+12/29/2012 4:23:49 AM: Artist: Eve 6, Title:  Inside Out
+12/29/2012 4:23:49 AM: Got new Spotify item: [Song] Eve 6 - Inside Out
+12/29/2012 4:23:49 AM: WinEventProc: got new window title.
+12/29/2012 4:23:49 AM: Artist: Eve 6, Title:  Inside Out
+12/29/2012 4:23:49 AM: Artist: Eve 6, Title:  Inside Out
+12/29/2012 4:23:49 AM: Got new Spotify item: [Song] Eve 6 - Inside Out
+12/29/2012 4:23:49 AM: WinEventProc: got new window title.
+12/29/2012 4:23:49 AM: Artist: Eve 6, Title:  Inside Out
+12/29/2012 4:23:49 AM: Artist: Eve 6, Title:  Inside Out
+12/29/2012 4:23:49 AM: Got new Spotify item: [Song] Eve 6 - Inside Out
+12/29/2012 4:23:51 AM: WinEventProc: got new window title.
+12/29/2012 4:23:51 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:23:51 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:23:51 AM: Got new Spotify item: [Song] Big Green Bus on Tour - Big Green Bus on Tour
+12/29/2012 4:23:53 AM: WinEventProc: got new window title.
+12/29/2012 4:23:53 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:23:53 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:23:53 AM: Got new Spotify item: [Song] Big Green Bus on Tour - Big Green Bus on Tour
+12/29/2012 4:23:53 AM: WinEventProc: got new window title.
+12/29/2012 4:23:53 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:23:53 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:23:53 AM: Got new Spotify item: [Song] Big Green Bus on Tour - Big Green Bus on Tour
+12/29/2012 4:23:53 AM: WinEventProc: got new window title.
+12/29/2012 4:23:53 AM: WinEventProc: got new window title.
+12/29/2012 4:23:53 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:23:53 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:23:53 AM: Got new Spotify item: [Song] Big Green Bus on Tour - Big Green Bus on Tour
+12/29/2012 4:23:53 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:23:53 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:23:53 AM: Got new Spotify item: [Song] Big Green Bus on Tour - Big Green Bus on Tour
+12/29/2012 4:23:53 AM: WinEventProc: got new window title.
+12/29/2012 4:23:53 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:23:53 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:23:53 AM: Got new Spotify item: [Song] Big Green Bus on Tour - Big Green Bus on Tour
+12/29/2012 4:23:55 AM: WinEventProc: got new window title.
+12/29/2012 4:23:55 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:23:55 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:23:55 AM: Got new Spotify item: [Song] Big Green Bus on Tour - Big Green Bus on Tour
+12/29/2012 4:23:55 AM: WinEventProc: got new window title.
+12/29/2012 4:23:55 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:23:55 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:23:55 AM: Got new Spotify item: [Song] Big Green Bus on Tour - Big Green Bus on Tour
+12/29/2012 4:23:55 AM: WinEventProc: got new window title.
+12/29/2012 4:23:55 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:23:55 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:23:55 AM: Got new Spotify item: [Song] Big Green Bus on Tour - Big Green Bus on Tour
+12/29/2012 4:23:55 AM: WinEventProc: got new window title.
+12/29/2012 4:23:55 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:23:55 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:23:55 AM: Got new Spotify item: [Song] Big Green Bus on Tour - Big Green Bus on Tour
+12/29/2012 4:23:55 AM: WinEventProc: got new window title.
+12/29/2012 4:23:55 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:23:55 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:23:55 AM: Got new Spotify item: [Song] Big Green Bus on Tour - Big Green Bus on Tour
+12/29/2012 4:23:55 AM: WinEventProc: got new window title.
+12/29/2012 4:23:55 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:23:55 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:23:55 AM: Got new Spotify item: [Song] Big Green Bus on Tour - Big Green Bus on Tour
+12/29/2012 4:23:55 AM: WinEventProc: got new window title.
+12/29/2012 4:23:55 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:23:55 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:23:55 AM: Got new Spotify item: [Song] Big Green Bus on Tour - Big Green Bus on Tour
+12/29/2012 4:23:55 AM: WinEventProc: got new window title.
+12/29/2012 4:23:55 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:23:55 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:23:55 AM: Got new Spotify item: [Song] Big Green Bus on Tour - Big Green Bus on Tour
+12/29/2012 4:23:55 AM: WinEventProc: got new window title.
+12/29/2012 4:23:55 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:23:55 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:23:55 AM: Got new Spotify item: [Song] Big Green Bus on Tour - Big Green Bus on Tour
+12/29/2012 4:24:00 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:24:00 AM: Current artist added to the blockTable.
+12/29/2012 4:24:00 AM: Trying to skip song - waiting for a return from worker thread.
+12/29/2012 4:24:00 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:24:00 AM: Sending keypress: MediaNextTrack
+12/29/2012 4:24:01 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:24:01 AM: Worker thread: Tried to skip, song before: [Song] Big Green Bus on Tour - Big Green Bus on Tour vs. [Song] Big Green Bus on Tour - Big Green Bus on Tour
+12/29/2012 4:24:01 AM: Got our return, failure value: True
+12/29/2012 4:24:01 AM: Failed to skip the song. Muting song.
+12/29/2012 4:24:01 AM: Got spotify volume before mute: 0.9999999
+12/29/2012 4:24:01 AM: Setting spotify volume to: 0.1333333
+12/29/2012 4:24:01 AM: Playing replacement music at: elevator.mp3
+12/29/2012 4:24:01 AM: Sending keypress: MediaPlayPause
+12/29/2012 4:24:01 AM: WARN: couldn't parse the artist/title from the raw window title.
+12/29/2012 4:24:01 AM: After play, got this song: 
+12/29/2012 4:24:01 AM: WinEventProc: got new window title.
+12/29/2012 4:24:01 AM: WARN: couldn't parse the artist/title from the raw window title.
+12/29/2012 4:24:01 AM: WinEventProc: got new window title.
+12/29/2012 4:24:01 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:24:01 AM: Trying to skip song - waiting for a return from worker thread.
+12/29/2012 4:24:01 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:24:01 AM: Sending keypress: MediaNextTrack
+12/29/2012 4:24:02 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:24:02 AM: Worker thread: Tried to skip, song before: [Song] Big Green Bus on Tour - Big Green Bus on Tour vs. [Song] Big Green Bus on Tour - Big Green Bus on Tour
+12/29/2012 4:24:02 AM: Got our return, failure value: True
+12/29/2012 4:24:02 AM: Failed to skip the song. Muting song.
+12/29/2012 4:24:02 AM: User's volume is already at 5%, will not try to change vol.
+12/29/2012 4:24:02 AM: Playing replacement music at: elevator.mp3
+12/29/2012 4:24:04 AM: WinEventProc: got new window title.
+12/29/2012 4:24:04 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:24:04 AM: Trying to skip song - waiting for a return from worker thread.
+12/29/2012 4:24:04 AM: WinEventProc: got new window title.
+12/29/2012 4:24:04 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:24:04 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:24:04 AM: Sending keypress: MediaNextTrack
+12/29/2012 4:24:04 AM: WinEventProc: got new window title.
+12/29/2012 4:24:04 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:24:04 AM: WinEventProc: got new window title.
+12/29/2012 4:24:04 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:24:05 AM: WinEventProc: got new window title.
+12/29/2012 4:24:05 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:24:05 AM: WinEventProc: got new window title.
+12/29/2012 4:24:05 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:24:05 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:24:05 AM: Worker thread: Tried to skip, song before: [Song] Big Green Bus on Tour - Big Green Bus on Tour vs. [Song] Big Green Bus on Tour - Big Green Bus on Tour
+12/29/2012 4:24:05 AM: Got our return, failure value: True
+12/29/2012 4:24:05 AM: Failed to skip the song. Muting song.
+12/29/2012 4:24:05 AM: User's volume is already at 5%, will not try to change vol.
+12/29/2012 4:24:05 AM: Playing replacement music at: elevator.mp3
+12/29/2012 4:24:06 AM: WinEventProc: got new window title.
+12/29/2012 4:24:06 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:24:06 AM: Trying to skip song - waiting for a return from worker thread.
+12/29/2012 4:24:06 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:24:06 AM: Sending keypress: MediaNextTrack
+12/29/2012 4:24:06 AM: WinEventProc: got new window title.
+12/29/2012 4:24:06 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:24:07 AM: WinEventProc: got new window title.
+12/29/2012 4:24:07 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:24:07 AM: WinEventProc: got new window title.
+12/29/2012 4:24:07 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:24:07 AM: WinEventProc: got new window title.
+12/29/2012 4:24:07 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:24:07 AM: WinEventProc: got new window title.
+12/29/2012 4:24:07 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:24:07 AM: WinEventProc: got new window title.
+12/29/2012 4:24:07 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:24:07 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:24:07 AM: Worker thread: Tried to skip, song before: [Song] Big Green Bus on Tour - Big Green Bus on Tour vs. [Song] Big Green Bus on Tour - Big Green Bus on Tour
+12/29/2012 4:24:07 AM: Got our return, failure value: True
+12/29/2012 4:24:07 AM: Failed to skip the song. Muting song.
+12/29/2012 4:24:07 AM: User's volume is already at 5%, will not try to change vol.
+12/29/2012 4:24:07 AM: Playing replacement music at: elevator.mp3
+12/29/2012 4:24:08 AM: WinEventProc: got new window title.
+12/29/2012 4:24:08 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:08 AM: Trying to skip song - waiting for a return from worker thread.
+12/29/2012 4:24:08 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:08 AM: Sending keypress: MediaNextTrack
+12/29/2012 4:24:09 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:09 AM: Worker thread: Tried to skip, song before: [Song] Universal Music - Pitch Perfect vs. [Song] Universal Music - Pitch Perfect
+12/29/2012 4:24:09 AM: Got our return, failure value: True
+12/29/2012 4:24:09 AM: Failed to skip the song. Muting song.
+12/29/2012 4:24:09 AM: User's volume is already at 5%, will not try to change vol.
+12/29/2012 4:24:09 AM: Playing replacement music at: elevator.mp3
+12/29/2012 4:24:33 AM: WinEventProc: got new window title.
+12/29/2012 4:24:33 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:33 AM: Trying to skip song - waiting for a return from worker thread.
+12/29/2012 4:24:33 AM: WinEventProc: got new window title.
+12/29/2012 4:24:33 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:33 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:33 AM: Sending keypress: MediaNextTrack
+12/29/2012 4:24:33 AM: WinEventProc: got new window title.
+12/29/2012 4:24:33 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:33 AM: WinEventProc: got new window title.
+12/29/2012 4:24:33 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:33 AM: WinEventProc: got new window title.
+12/29/2012 4:24:33 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:33 AM: WinEventProc: got new window title.
+12/29/2012 4:24:33 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:33 AM: WinEventProc: got new window title.
+12/29/2012 4:24:33 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:33 AM: WinEventProc: got new window title.
+12/29/2012 4:24:33 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:33 AM: WinEventProc: got new window title.
+12/29/2012 4:24:33 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:33 AM: WinEventProc: got new window title.
+12/29/2012 4:24:33 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:33 AM: WinEventProc: got new window title.
+12/29/2012 4:24:33 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:34 AM: WinEventProc: got new window title.
+12/29/2012 4:24:34 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:34 AM: Worker thread: Tried to skip, song before: [Song] Universal Music - Pitch Perfect vs. [Song] Universal Music - Pitch Perfect
+12/29/2012 4:24:34 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:34 AM: Got our return, failure value: True
+12/29/2012 4:24:34 AM: Failed to skip the song. Muting song.
+12/29/2012 4:24:34 AM: User's volume is already at 5%, will not try to change vol.
+12/29/2012 4:24:34 AM: Playing replacement music at: elevator.mp3
+12/29/2012 4:24:34 AM: WinEventProc: got new window title.
+12/29/2012 4:24:34 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:34 AM: Trying to skip song - waiting for a return from worker thread.
+12/29/2012 4:24:34 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:34 AM: Sending keypress: MediaNextTrack
+12/29/2012 4:24:34 AM: WinEventProc: got new window title.
+12/29/2012 4:24:34 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:34 AM: WinEventProc: got new window title.
+12/29/2012 4:24:34 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:34 AM: WinEventProc: got new window title.
+12/29/2012 4:24:34 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:34 AM: WinEventProc: got new window title.
+12/29/2012 4:24:34 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:34 AM: WinEventProc: got new window title.
+12/29/2012 4:24:34 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:34 AM: WinEventProc: got new window title.
+12/29/2012 4:24:34 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:34 AM: WinEventProc: got new window title.
+12/29/2012 4:24:34 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:34 AM: WinEventProc: got new window title.
+12/29/2012 4:24:34 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:34 AM: WinEventProc: got new window title.
+12/29/2012 4:24:34 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:34 AM: WinEventProc: got new window title.
+12/29/2012 4:24:34 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:34 AM: WinEventProc: got new window title.
+12/29/2012 4:24:34 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:34 AM: WinEventProc: got new window title.
+12/29/2012 4:24:34 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:34 AM: WinEventProc: got new window title.
+12/29/2012 4:24:34 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:34 AM: WinEventProc: got new window title.
+12/29/2012 4:24:34 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:34 AM: WinEventProc: got new window title.
+12/29/2012 4:24:34 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:35 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:35 AM: Worker thread: Tried to skip, song before: [Song] Universal Music - Pitch Perfect vs. [Song] Universal Music - Pitch Perfect
+12/29/2012 4:24:35 AM: Got our return, failure value: True
+12/29/2012 4:24:35 AM: Failed to skip the song. Muting song.
+12/29/2012 4:24:35 AM: User's volume is already at 5%, will not try to change vol.
+12/29/2012 4:24:35 AM: Playing replacement music at: elevator.mp3
+12/29/2012 4:24:35 AM: WinEventProc: got new window title.
+12/29/2012 4:24:35 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:35 AM: Trying to skip song - waiting for a return from worker thread.
+12/29/2012 4:24:35 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:35 AM: Sending keypress: MediaNextTrack
+12/29/2012 4:24:35 AM: WinEventProc: got new window title.
+12/29/2012 4:24:35 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:35 AM: WinEventProc: got new window title.
+12/29/2012 4:24:35 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:35 AM: WinEventProc: got new window title.
+12/29/2012 4:24:35 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:35 AM: WinEventProc: got new window title.
+12/29/2012 4:24:35 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:35 AM: WinEventProc: got new window title.
+12/29/2012 4:24:35 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:35 AM: WinEventProc: got new window title.
+12/29/2012 4:24:35 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:35 AM: WinEventProc: got new window title.
+12/29/2012 4:24:35 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:35 AM: WinEventProc: got new window title.
+12/29/2012 4:24:35 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:35 AM: WinEventProc: got new window title.
+12/29/2012 4:24:35 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:35 AM: WinEventProc: got new window title.
+12/29/2012 4:24:35 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:35 AM: WinEventProc: got new window title.
+12/29/2012 4:24:35 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:35 AM: WinEventProc: got new window title.
+12/29/2012 4:24:35 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:35 AM: WinEventProc: got new window title.
+12/29/2012 4:24:35 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:35 AM: WinEventProc: got new window title.
+12/29/2012 4:24:35 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:36 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:36 AM: Worker thread: Tried to skip, song before: [Song] Universal Music - Pitch Perfect vs. [Song] Universal Music - Pitch Perfect
+12/29/2012 4:24:36 AM: Got our return, failure value: True
+12/29/2012 4:24:36 AM: Failed to skip the song. Muting song.
+12/29/2012 4:24:36 AM: User's volume is already at 5%, will not try to change vol.
+12/29/2012 4:24:36 AM: Playing replacement music at: elevator.mp3
+12/29/2012 4:24:36 AM: WinEventProc: got new window title.
+12/29/2012 4:24:36 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:36 AM: Trying to skip song - waiting for a return from worker thread.
+12/29/2012 4:24:36 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:36 AM: Sending keypress: MediaNextTrack
+12/29/2012 4:24:36 AM: WinEventProc: got new window title.
+12/29/2012 4:24:36 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:36 AM: WinEventProc: got new window title.
+12/29/2012 4:24:36 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:36 AM: WinEventProc: got new window title.
+12/29/2012 4:24:36 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:36 AM: WinEventProc: got new window title.
+12/29/2012 4:24:36 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:36 AM: WinEventProc: got new window title.
+12/29/2012 4:24:36 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:36 AM: WinEventProc: got new window title.
+12/29/2012 4:24:36 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:37 AM: WinEventProc: got new window title.
+12/29/2012 4:24:37 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:37 AM: WinEventProc: got new window title.
+12/29/2012 4:24:37 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:37 AM: WinEventProc: got new window title.
+12/29/2012 4:24:37 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:37 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:37 AM: Worker thread: Tried to skip, song before: [Song] Universal Music - Pitch Perfect vs. [Song] Universal Music - Pitch Perfect
+12/29/2012 4:24:37 AM: Got our return, failure value: True
+12/29/2012 4:24:37 AM: Failed to skip the song. Muting song.
+12/29/2012 4:24:37 AM: User's volume is already at 5%, will not try to change vol.
+12/29/2012 4:24:37 AM: Playing replacement music at: elevator.mp3
+12/29/2012 4:24:37 AM: WinEventProc: got new window title.
+12/29/2012 4:24:37 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:37 AM: Trying to skip song - waiting for a return from worker thread.
+12/29/2012 4:24:37 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:37 AM: Sending keypress: MediaNextTrack
+12/29/2012 4:24:37 AM: WinEventProc: got new window title.
+12/29/2012 4:24:37 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:38 AM: Artist: Universal Music, Title:  Pitch Perfect
+12/29/2012 4:24:38 AM: Worker thread: Tried to skip, song before: [Song] Universal Music - Pitch Perfect vs. [Song] Universal Music - Pitch Perfect
+12/29/2012 4:24:38 AM: Got our return, failure value: True
+12/29/2012 4:24:38 AM: Failed to skip the song. Muting song.
+12/29/2012 4:24:38 AM: User's volume is already at 5%, will not try to change vol.
+12/29/2012 4:24:38 AM: Playing replacement music at: elevator.mp3
+12/29/2012 4:24:39 AM: WinEventProc: got new window title.
+12/29/2012 4:24:39 AM: Artist: Nickelback, Title:  Diggin' This
+12/29/2012 4:24:39 AM: Trying to skip song - waiting for a return from worker thread.
+12/29/2012 4:24:39 AM: Artist: Nickelback, Title:  Diggin' This
+12/29/2012 4:24:39 AM: Sending keypress: MediaNextTrack
+12/29/2012 4:24:39 AM: WinEventProc: got new window title.
+12/29/2012 4:24:39 AM: Artist: Nickelback, Title:  Deep
+12/29/2012 4:24:40 AM: Artist: Nickelback, Title:  Deep
+12/29/2012 4:24:40 AM: Worker thread: Tried to skip, song before: [Song] Nickelback - Diggin' This vs. [Song] Nickelback - Deep
+12/29/2012 4:24:40 AM: Got our return, failure value: False
+12/29/2012 4:24:40 AM: Artist: Nickelback, Title:  Deep
+12/29/2012 4:24:40 AM: Trying to skip song - waiting for a return from worker thread.
+12/29/2012 4:24:40 AM: Artist: Nickelback, Title:  Deep
+12/29/2012 4:24:40 AM: Sending keypress: MediaNextTrack
+12/29/2012 4:24:40 AM: WinEventProc: got new window title.
+12/29/2012 4:24:40 AM: Artist: Nickelback, Title:  One Last Run
+12/29/2012 4:24:41 AM: Artist: Nickelback, Title:  One Last Run
+12/29/2012 4:24:41 AM: Worker thread: Tried to skip, song before: [Song] Nickelback - Deep vs. [Song] Nickelback - One Last Run
+12/29/2012 4:24:41 AM: Got our return, failure value: False
+12/29/2012 4:24:41 AM: Artist: Nickelback, Title:  One Last Run
+12/29/2012 4:24:41 AM: Trying to skip song - waiting for a return from worker thread.
+12/29/2012 4:24:41 AM: Artist: Nickelback, Title:  One Last Run
+12/29/2012 4:24:41 AM: Sending keypress: MediaNextTrack
+12/29/2012 4:24:41 AM: WinEventProc: got new window title.
+12/29/2012 4:24:41 AM: Artist: Nickelback, Title:  Not Leavin' Yet
+12/29/2012 4:24:41 AM: WinEventProc: got new window title.
+12/29/2012 4:24:41 AM: Artist: Nickelback, Title:  Not Leavin' Yet
+12/29/2012 4:24:41 AM: WinEventProc: got new window title.
+12/29/2012 4:24:41 AM: Artist: Nickelback, Title:  Not Leavin' Yet
+12/29/2012 4:24:41 AM: WinEventProc: got new window title.
+12/29/2012 4:24:41 AM: Artist: Nickelback, Title:  Not Leavin' Yet
+12/29/2012 4:24:41 AM: WinEventProc: got new window title.
+12/29/2012 4:24:41 AM: Artist: Nickelback, Title:  Not Leavin' Yet
+12/29/2012 4:24:42 AM: Artist: Nickelback, Title:  Not Leavin' Yet
+12/29/2012 4:24:42 AM: Worker thread: Tried to skip, song before: [Song] Nickelback - One Last Run vs. [Song] Nickelback - Not Leavin' Yet
+12/29/2012 4:24:42 AM: Got our return, failure value: False
+12/29/2012 4:24:42 AM: Artist: Nickelback, Title:  Not Leavin' Yet
+12/29/2012 4:24:42 AM: Trying to skip song - waiting for a return from worker thread.
+12/29/2012 4:24:42 AM: Artist: Nickelback, Title:  Not Leavin' Yet
+12/29/2012 4:24:42 AM: Sending keypress: MediaNextTrack
+12/29/2012 4:24:42 AM: WinEventProc: got new window title.
+12/29/2012 4:24:42 AM: Artist: Nickelback, Title:  Hold Out Your Hand
+12/29/2012 4:24:43 AM: Artist: Nickelback, Title:  Hold Out Your Hand
+12/29/2012 4:24:43 AM: Worker thread: Tried to skip, song before: [Song] Nickelback - Not Leavin' Yet vs. [Song] Nickelback - Hold Out Your Hand
+12/29/2012 4:24:43 AM: Got our return, failure value: False
+12/29/2012 4:24:43 AM: Artist: Nickelback, Title:  Hold Out Your Hand
+12/29/2012 4:24:43 AM: Trying to skip song - waiting for a return from worker thread.
+12/29/2012 4:24:43 AM: Artist: Nickelback, Title:  Hold Out Your Hand
+12/29/2012 4:24:43 AM: Sending keypress: MediaNextTrack
+12/29/2012 4:24:43 AM: WinEventProc: got new window title.
+12/29/2012 4:24:43 AM: Artist: Aqualung & Lucy Schwartz, Title:  Cold
+12/29/2012 4:24:43 AM: Stopping replacement music.
+12/29/2012 4:24:43 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:24:43 AM: Artist: Aqualung & Lucy Schwartz, Title:  Cold
+12/29/2012 4:24:43 AM: Got new Spotify item: [Song] Aqualung & Lucy Schwartz - Cold
+12/29/2012 4:24:43 AM: WinEventProc: got new window title.
+12/29/2012 4:24:43 AM: Artist: Nickelback, Title:  Leader Of Men - Acoustic
+12/29/2012 4:24:43 AM: WinEventProc: got new window title.
+12/29/2012 4:24:43 AM: Artist: Nickelback, Title:  Leader Of Men - Acoustic
+12/29/2012 4:24:44 AM: Artist: Nickelback, Title:  Leader Of Men - Acoustic
+12/29/2012 4:24:44 AM: Worker thread: Tried to skip, song before: [Song] Nickelback - Hold Out Your Hand vs. [Song] Nickelback - Leader Of Men - Acoustic
+12/29/2012 4:24:44 AM: Got our return, failure value: False
+12/29/2012 4:24:44 AM: Artist: Nickelback, Title:  Leader Of Men - Acoustic
+12/29/2012 4:24:44 AM: Trying to skip song - waiting for a return from worker thread.
+12/29/2012 4:24:44 AM: Artist: Nickelback, Title:  Leader Of Men - Acoustic
+12/29/2012 4:24:44 AM: Sending keypress: MediaNextTrack
+12/29/2012 4:24:44 AM: WinEventProc: got new window title.
+12/29/2012 4:24:44 AM: Artist: Nickelback, Title:  Little Friend
+12/29/2012 4:24:44 AM: WinEventProc: got new window title.
+12/29/2012 4:24:44 AM: Artist: Nickelback, Title:  Little Friend
+12/29/2012 4:24:45 AM: Artist: Nickelback, Title:  Little Friend
+12/29/2012 4:24:45 AM: Worker thread: Tried to skip, song before: [Song] Nickelback - Leader Of Men - Acoustic vs. [Song] Nickelback - Little Friend
+12/29/2012 4:24:45 AM: Got our return, failure value: False
+12/29/2012 4:24:45 AM: Artist: Nickelback, Title:  Little Friend
+12/29/2012 4:24:45 AM: Trying to skip song - waiting for a return from worker thread.
+12/29/2012 4:24:45 AM: Artist: Nickelback, Title:  Little Friend
+12/29/2012 4:24:45 AM: Sending keypress: MediaNextTrack
+12/29/2012 4:24:45 AM: WinEventProc: got new window title.
+12/29/2012 4:24:45 AM: Artist: Nickelback, Title:  Pusher
+12/29/2012 4:24:45 AM: WinEventProc: got new window title.
+12/29/2012 4:24:45 AM: Artist: Nickelback, Title:  Pusher
+12/29/2012 4:24:45 AM: WinEventProc: got new window title.
+12/29/2012 4:24:45 AM: Artist: Nickelback, Title:  Pusher
+12/29/2012 4:24:46 AM: Artist: Nickelback, Title:  Pusher
+12/29/2012 4:24:46 AM: Worker thread: Tried to skip, song before: [Song] Nickelback - Little Friend vs. [Song] Nickelback - Pusher
+12/29/2012 4:24:46 AM: Got our return, failure value: False
+12/29/2012 4:24:46 AM: Artist: Nickelback, Title:  Pusher
+12/29/2012 4:24:46 AM: Trying to skip song - waiting for a return from worker thread.
+12/29/2012 4:24:46 AM: Artist: Nickelback, Title:  Pusher
+12/29/2012 4:24:46 AM: Sending keypress: MediaNextTrack
+12/29/2012 4:24:46 AM: WinEventProc: got new window title.
+12/29/2012 4:24:46 AM: Artist: Nickelback, Title:  Detangler
+12/29/2012 4:24:46 AM: WinEventProc: got new window title.
+12/29/2012 4:24:46 AM: Artist: Aqualung & Lucy Schwartz, Title:  Cold
+12/29/2012 4:24:46 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:24:46 AM: Artist: Aqualung & Lucy Schwartz, Title:  Cold
+12/29/2012 4:24:46 AM: Got new Spotify item: [Song] Aqualung & Lucy Schwartz - Cold
+12/29/2012 4:24:47 AM: Artist: Aqualung & Lucy Schwartz, Title:  Cold
+12/29/2012 4:24:47 AM: Worker thread: Tried to skip, song before: [Song] Nickelback - Pusher vs. [Song] Aqualung & Lucy Schwartz - Cold
+12/29/2012 4:24:47 AM: Got our return, failure value: False
+12/29/2012 4:24:47 AM: Artist: Aqualung & Lucy Schwartz, Title:  Cold
+12/29/2012 4:24:47 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:24:47 AM: Artist: Aqualung & Lucy Schwartz, Title:  Cold
+12/29/2012 4:24:47 AM: Got new Spotify item: [Song] Aqualung & Lucy Schwartz - Cold
+12/29/2012 4:24:50 AM: WinEventProc: got new window title.
+12/29/2012 4:24:50 AM: Artist: Aqualung & Lucy Schwartz, Title:  Cold
+12/29/2012 4:24:50 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:24:50 AM: Artist: Aqualung & Lucy Schwartz, Title:  Cold
+12/29/2012 4:24:50 AM: Got new Spotify item: [Song] Aqualung & Lucy Schwartz - Cold
+12/29/2012 4:24:50 AM: WinEventProc: got new window title.
+12/29/2012 4:24:50 AM: Artist: Aqualung & Lucy Schwartz, Title:  Cold
+12/29/2012 4:24:50 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:24:50 AM: Artist: Aqualung & Lucy Schwartz, Title:  Cold
+12/29/2012 4:24:50 AM: Got new Spotify item: [Song] Aqualung & Lucy Schwartz - Cold
+12/29/2012 4:24:51 AM: WinEventProc: got new window title.
+12/29/2012 4:24:51 AM: Artist: Aqualung & Lucy Schwartz, Title:  Cold
+12/29/2012 4:24:51 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:24:51 AM: Artist: Aqualung & Lucy Schwartz, Title:  Cold
+12/29/2012 4:24:51 AM: Got new Spotify item: [Song] Aqualung & Lucy Schwartz - Cold
+12/29/2012 4:24:51 AM: WinEventProc: got new window title.
+12/29/2012 4:24:51 AM: Artist: Aqualung & Lucy Schwartz, Title:  Cold
+12/29/2012 4:24:51 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:24:51 AM: Artist: Aqualung & Lucy Schwartz, Title:  Cold
+12/29/2012 4:24:51 AM: Got new Spotify item: [Song] Aqualung & Lucy Schwartz - Cold
+12/29/2012 4:24:51 AM: WinEventProc: got new window title.
+12/29/2012 4:24:51 AM: Artist: Aqualung & Lucy Schwartz, Title:  Cold
+12/29/2012 4:24:51 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:24:51 AM: Artist: Aqualung & Lucy Schwartz, Title:  Cold
+12/29/2012 4:24:51 AM: Got new Spotify item: [Song] Aqualung & Lucy Schwartz - Cold
+12/29/2012 4:24:51 AM: WinEventProc: got new window title.
+12/29/2012 4:24:51 AM: Artist: Aqualung & Lucy Schwartz, Title:  Cold
+12/29/2012 4:24:51 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:24:51 AM: Artist: Aqualung & Lucy Schwartz, Title:  Cold
+12/29/2012 4:24:51 AM: Got new Spotify item: [Song] Aqualung & Lucy Schwartz - Cold
+12/29/2012 4:24:51 AM: WinEventProc: got new window title.
+12/29/2012 4:24:51 AM: Artist: Aqualung & Lucy Schwartz, Title:  Cold
+12/29/2012 4:24:51 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:24:51 AM: Artist: Aqualung & Lucy Schwartz, Title:  Cold
+12/29/2012 4:24:51 AM: Got new Spotify item: [Song] Aqualung & Lucy Schwartz - Cold
+12/29/2012 4:24:51 AM: WinEventProc: got new window title.
+12/29/2012 4:24:51 AM: Artist: Aqualung & Lucy Schwartz, Title:  Cold
+12/29/2012 4:24:51 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:24:51 AM: Artist: Aqualung & Lucy Schwartz, Title:  Cold
+12/29/2012 4:24:51 AM: Got new Spotify item: [Song] Aqualung & Lucy Schwartz - Cold
+12/29/2012 4:24:56 AM: WinEventProc: got new window title.
+12/29/2012 4:24:56 AM: Artist: Aqualung & Lucy Schwartz, Title:  Cold
+12/29/2012 4:24:56 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:24:56 AM: Artist: Aqualung & Lucy Schwartz, Title:  Cold
+12/29/2012 4:24:56 AM: Got new Spotify item: [Song] Aqualung & Lucy Schwartz - Cold
+12/29/2012 4:24:56 AM: WinEventProc: got new window title.
+12/29/2012 4:24:56 AM: Artist: Aqualung & Lucy Schwartz, Title:  Cold
+12/29/2012 4:24:56 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:24:56 AM: Artist: Aqualung & Lucy Schwartz, Title:  Cold
+12/29/2012 4:24:56 AM: Got new Spotify item: [Song] Aqualung & Lucy Schwartz - Cold
+12/29/2012 4:25:00 AM: WinEventProc: got new window title.
+12/29/2012 4:25:00 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:25:00 AM: Trying to skip song - waiting for a return from worker thread.
+12/29/2012 4:25:00 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:25:00 AM: Sending keypress: MediaNextTrack
+12/29/2012 4:25:01 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:25:01 AM: Worker thread: Tried to skip, song before: [Song] Big Green Bus on Tour - Big Green Bus on Tour vs. [Song] Big Green Bus on Tour - Big Green Bus on Tour
+12/29/2012 4:25:01 AM: Got our return, failure value: True
+12/29/2012 4:25:01 AM: Failed to skip the song. Muting song.
+12/29/2012 4:25:01 AM: Got spotify volume before mute: 0.9999999
+12/29/2012 4:25:01 AM: Setting spotify volume to: 0.1333333
+12/29/2012 4:25:01 AM: Playing replacement music at: elevator.mp3
+12/29/2012 4:25:01 AM: Sending keypress: MediaPlayPause
+12/29/2012 4:25:01 AM: WARN: couldn't parse the artist/title from the raw window title.
+12/29/2012 4:25:01 AM: After play, got this song: 
+12/29/2012 4:25:01 AM: WinEventProc: got new window title.
+12/29/2012 4:25:01 AM: WARN: couldn't parse the artist/title from the raw window title.
+12/29/2012 4:25:01 AM: WinEventProc: got new window title.
+12/29/2012 4:25:01 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:25:01 AM: Trying to skip song - waiting for a return from worker thread.
+12/29/2012 4:25:01 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:25:01 AM: Sending keypress: MediaNextTrack
+12/29/2012 4:25:02 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:25:02 AM: Worker thread: Tried to skip, song before: [Song] Big Green Bus on Tour - Big Green Bus on Tour vs. [Song] Big Green Bus on Tour - Big Green Bus on Tour
+12/29/2012 4:25:02 AM: Got our return, failure value: True
+12/29/2012 4:25:02 AM: Failed to skip the song. Muting song.
+12/29/2012 4:25:02 AM: User's volume is already at 5%, will not try to change vol.
+12/29/2012 4:25:02 AM: Playing replacement music at: elevator.mp3
+12/29/2012 4:25:03 AM: WinEventProc: got new window title.
+12/29/2012 4:25:03 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:25:03 AM: Trying to skip song - waiting for a return from worker thread.
+12/29/2012 4:25:03 AM: WinEventProc: got new window title.
+12/29/2012 4:25:03 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:25:03 AM: WinEventProc: got new window title.
+12/29/2012 4:25:03 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:25:03 AM: Sending keypress: MediaNextTrack
+12/29/2012 4:25:03 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:25:04 AM: WinEventProc: got new window title.
+12/29/2012 4:25:04 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:25:04 AM: WinEventProc: got new window title.
+12/29/2012 4:25:04 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:25:04 AM: WinEventProc: got new window title.
+12/29/2012 4:25:04 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:25:04 AM: WinEventProc: got new window title.
+12/29/2012 4:25:04 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:25:04 AM: WinEventProc: got new window title.
+12/29/2012 4:25:04 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:25:04 AM: WinEventProc: got new window title.
+12/29/2012 4:25:04 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:25:04 AM: WinEventProc: got new window title.
+12/29/2012 4:25:04 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:25:04 AM: WinEventProc: got new window title.
+12/29/2012 4:25:04 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:25:04 AM: WinEventProc: got new window title.
+12/29/2012 4:25:04 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:25:04 AM: WinEventProc: got new window title.
+12/29/2012 4:25:04 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:25:04 AM: WinEventProc: got new window title.
+12/29/2012 4:25:04 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:25:04 AM: WinEventProc: got new window title.
+12/29/2012 4:25:04 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:25:04 AM: WinEventProc: got new window title.
+12/29/2012 4:25:04 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:25:04 AM: WinEventProc: got new window title.
+12/29/2012 4:25:04 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:25:04 AM: WinEventProc: got new window title.
+12/29/2012 4:25:04 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:25:04 AM: WinEventProc: got new window title.
+12/29/2012 4:25:04 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:25:04 AM: WinEventProc: got new window title.
+12/29/2012 4:25:04 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:25:04 AM: WinEventProc: got new window title.
+12/29/2012 4:25:04 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:25:04 AM: WinEventProc: got new window title.
+12/29/2012 4:25:04 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:25:04 AM: WinEventProc: got new window title.
+12/29/2012 4:25:04 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:25:04 AM: WinEventProc: got new window title.
+12/29/2012 4:25:04 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:25:04 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:25:04 AM: Worker thread: Tried to skip, song before: [Song] Big Green Bus on Tour - Big Green Bus on Tour vs. [Song] Big Green Bus on Tour - Big Green Bus on Tour
+12/29/2012 4:25:04 AM: Got our return, failure value: True
+12/29/2012 4:25:04 AM: Failed to skip the song. Muting song.
+12/29/2012 4:25:04 AM: User's volume is already at 5%, will not try to change vol.
+12/29/2012 4:25:04 AM: Playing replacement music at: elevator.mp3
+12/29/2012 4:25:05 AM: WinEventProc: got new window title.
+12/29/2012 4:25:05 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:25:05 AM: Trying to skip song - waiting for a return from worker thread.
+12/29/2012 4:25:05 AM: WinEventProc: got new window title.
+12/29/2012 4:25:05 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:25:05 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:25:05 AM: Sending keypress: MediaNextTrack
+12/29/2012 4:25:06 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:25:06 AM: Worker thread: Tried to skip, song before: [Song] Big Green Bus on Tour - Big Green Bus on Tour vs. [Song] Big Green Bus on Tour - Big Green Bus on Tour
+12/29/2012 4:25:06 AM: Got our return, failure value: True
+12/29/2012 4:25:06 AM: Failed to skip the song. Muting song.
+12/29/2012 4:25:06 AM: User's volume is already at 5%, will not try to change vol.
+12/29/2012 4:25:06 AM: Playing replacement music at: elevator.mp3
+12/29/2012 4:25:15 AM: WinEventProc: got new window title.
+12/29/2012 4:25:15 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:25:15 AM: Trying to skip song - waiting for a return from worker thread.
+12/29/2012 4:25:15 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:25:15 AM: Sending keypress: MediaNextTrack
+12/29/2012 4:25:15 AM: WinEventProc: got new window title.
+12/29/2012 4:25:15 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:25:15 AM: WinEventProc: got new window title.
+12/29/2012 4:25:15 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:25:16 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:25:16 AM: Worker thread: Tried to skip, song before: [Song] Big Green Bus on Tour - Big Green Bus on Tour vs. [Song] Big Green Bus on Tour - Big Green Bus on Tour
+12/29/2012 4:25:16 AM: Got our return, failure value: True
+12/29/2012 4:25:16 AM: Failed to skip the song. Muting song.
+12/29/2012 4:25:16 AM: User's volume is already at 5%, will not try to change vol.
+12/29/2012 4:25:16 AM: Playing replacement music at: elevator.mp3
+12/29/2012 4:25:17 AM: WinEventProc: got new window title.
+12/29/2012 4:25:17 AM: Artist: Pond, Title:  You Broke My Cool
+12/29/2012 4:25:17 AM: Stopping replacement music.
+12/29/2012 4:25:17 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:25:17 AM: Artist: Pond, Title:  You Broke My Cool
+12/29/2012 4:25:17 AM: Got new Spotify item: [Song] Pond - You Broke My Cool
+12/29/2012 4:25:17 AM: WinEventProc: got new window title.
+12/29/2012 4:25:17 AM: Artist: Pond, Title:  You Broke My Cool
+12/29/2012 4:25:17 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:25:17 AM: Artist: Pond, Title:  You Broke My Cool
+12/29/2012 4:25:17 AM: Got new Spotify item: [Song] Pond - You Broke My Cool
+12/29/2012 4:25:27 AM: WinEventProc: got new window title.
+12/29/2012 4:25:27 AM: Artist: xfinity, Title:  xfinity
+12/29/2012 4:25:27 AM: Trying to skip song - waiting for a return from worker thread.
+12/29/2012 4:25:27 AM: Artist: xfinity, Title:  xfinity
+12/29/2012 4:25:27 AM: Sending keypress: MediaNextTrack
+12/29/2012 4:25:27 AM: WinEventProc: got new window title.
+12/29/2012 4:25:27 AM: Artist: xfinity, Title:  xfinity
+12/29/2012 4:25:28 AM: WinEventProc: got new window title.
+12/29/2012 4:25:28 AM: Artist: xfinity, Title:  xfinity
+12/29/2012 4:25:28 AM: WinEventProc: got new window title.
+12/29/2012 4:25:28 AM: Artist: xfinity, Title:  xfinity
+12/29/2012 4:25:28 AM: Artist: xfinity, Title:  xfinity
+12/29/2012 4:25:28 AM: Worker thread: Tried to skip, song before: [Song] xfinity - xfinity vs. [Song] xfinity - xfinity
+12/29/2012 4:25:28 AM: Got our return, failure value: True
+12/29/2012 4:25:28 AM: Failed to skip the song. Muting song.
+12/29/2012 4:25:28 AM: Got spotify volume before mute: 0.9999999
+12/29/2012 4:25:28 AM: Setting spotify volume to: 0.1333333
+12/29/2012 4:25:28 AM: Playing replacement music at: elevator.mp3
+12/29/2012 4:25:28 AM: Sending keypress: MediaPlayPause
+12/29/2012 4:25:28 AM: WARN: couldn't parse the artist/title from the raw window title.
+12/29/2012 4:25:28 AM: After play, got this song: 
+12/29/2012 4:25:28 AM: WinEventProc: got new window title.
+12/29/2012 4:25:28 AM: WARN: couldn't parse the artist/title from the raw window title.
+12/29/2012 4:25:28 AM: WinEventProc: got new window title.
+12/29/2012 4:25:28 AM: Artist: xfinity, Title:  xfinity
+12/29/2012 4:25:28 AM: Trying to skip song - waiting for a return from worker thread.
+12/29/2012 4:25:28 AM: WinEventProc: got new window title.
+12/29/2012 4:25:28 AM: Artist: xfinity, Title:  xfinity
+12/29/2012 4:25:28 AM: Sending keypress: MediaNextTrack
+12/29/2012 4:25:28 AM: Artist: xfinity, Title:  xfinity
+12/29/2012 4:25:29 AM: Artist: xfinity, Title:  xfinity
+12/29/2012 4:25:29 AM: Worker thread: Tried to skip, song before: [Song] xfinity - xfinity vs. [Song] xfinity - xfinity
+12/29/2012 4:25:29 AM: Got our return, failure value: True
+12/29/2012 4:25:29 AM: Failed to skip the song. Muting song.
+12/29/2012 4:25:29 AM: User's volume is already at 5%, will not try to change vol.
+12/29/2012 4:25:29 AM: Playing replacement music at: elevator.mp3
+12/29/2012 4:25:29 AM: WinEventProc: got new window title.
+12/29/2012 4:25:29 AM: Artist: xfinity, Title:  xfinity
+12/29/2012 4:25:29 AM: Trying to skip song - waiting for a return from worker thread.
+12/29/2012 4:25:29 AM: Artist: xfinity, Title:  xfinity
+12/29/2012 4:25:29 AM: Sending keypress: MediaNextTrack
+12/29/2012 4:25:29 AM: WinEventProc: got new window title.
+12/29/2012 4:25:29 AM: Artist: xfinity, Title:  xfinity
+12/29/2012 4:25:30 AM: Artist: xfinity, Title:  xfinity
+12/29/2012 4:25:30 AM: Worker thread: Tried to skip, song before: [Song] xfinity - xfinity vs. [Song] xfinity - xfinity
+12/29/2012 4:25:30 AM: Got our return, failure value: True
+12/29/2012 4:25:30 AM: Failed to skip the song. Muting song.
+12/29/2012 4:25:30 AM: User's volume is already at 5%, will not try to change vol.
+12/29/2012 4:25:30 AM: Playing replacement music at: elevator.mp3
+12/29/2012 4:25:40 AM: WinEventProc: got new window title.
+12/29/2012 4:25:40 AM: Artist: xfinity, Title:  xfinity
+12/29/2012 4:25:40 AM: Trying to skip song - waiting for a return from worker thread.
+12/29/2012 4:25:40 AM: Artist: xfinity, Title:  xfinity
+12/29/2012 4:25:40 AM: Sending keypress: MediaNextTrack
+12/29/2012 4:25:40 AM: WinEventProc: got new window title.
+12/29/2012 4:25:40 AM: WinEventProc: got new window title.
+12/29/2012 4:25:40 AM: Artist: xfinity, Title:  xfinity
+12/29/2012 4:25:40 AM: WinEventProc: got new window title.
+12/29/2012 4:25:40 AM: Artist: xfinity, Title:  xfinity
+12/29/2012 4:25:40 AM: WinEventProc: got new window title.
+12/29/2012 4:25:40 AM: Artist: xfinity, Title:  xfinity
+12/29/2012 4:25:40 AM: Artist: xfinity, Title:  xfinity
+12/29/2012 4:25:40 AM: WinEventProc: got new window title.
+12/29/2012 4:25:40 AM: Artist: xfinity, Title:  xfinity
+12/29/2012 4:25:40 AM: WinEventProc: got new window title.
+12/29/2012 4:25:40 AM: Artist: xfinity, Title:  xfinity
+12/29/2012 4:25:40 AM: WinEventProc: got new window title.
+12/29/2012 4:25:40 AM: Artist: xfinity, Title:  xfinity
+12/29/2012 4:25:40 AM: WinEventProc: got new window title.
+12/29/2012 4:25:40 AM: Artist: xfinity, Title:  xfinity
+12/29/2012 4:25:40 AM: WinEventProc: got new window title.
+12/29/2012 4:25:40 AM: Artist: xfinity, Title:  xfinity
+12/29/2012 4:25:40 AM: WinEventProc: got new window title.
+12/29/2012 4:25:40 AM: Artist: xfinity, Title:  xfinity
+12/29/2012 4:25:41 AM: WinEventProc: got new window title.
+12/29/2012 4:25:41 AM: Artist: xfinity, Title:  xfinity
+12/29/2012 4:25:41 AM: WinEventProc: got new window title.
+12/29/2012 4:25:41 AM: Artist: xfinity, Title:  xfinity
+12/29/2012 4:25:41 AM: WinEventProc: got new window title.
+12/29/2012 4:25:41 AM: Artist: xfinity, Title:  xfinity
+12/29/2012 4:25:41 AM: WinEventProc: got new window title.
+12/29/2012 4:25:41 AM: Artist: xfinity, Title:  xfinity
+12/29/2012 4:25:41 AM: Artist: xfinity, Title:  xfinity
+12/29/2012 4:25:41 AM: Worker thread: Tried to skip, song before: [Song] xfinity - xfinity vs. [Song] xfinity - xfinity
+12/29/2012 4:25:41 AM: Got our return, failure value: True
+12/29/2012 4:25:41 AM: Failed to skip the song. Muting song.
+12/29/2012 4:25:41 AM: User's volume is already at 5%, will not try to change vol.
+12/29/2012 4:25:41 AM: Playing replacement music at: elevator.mp3
+12/29/2012 4:25:54 AM: WinEventProc: got new window title.
+12/29/2012 4:25:54 AM: Artist: Nickelback, Title:  Curb
+12/29/2012 4:25:54 AM: Trying to skip song - waiting for a return from worker thread.
+12/29/2012 4:25:54 AM: Artist: Nickelback, Title:  Curb
+12/29/2012 4:25:54 AM: Sending keypress: MediaNextTrack
+12/29/2012 4:25:55 AM: WinEventProc: got new window title.
+12/29/2012 4:25:55 AM: Artist: Nickelback, Title:  Where?
+12/29/2012 4:25:55 AM: Artist: Nickelback, Title:  Where?
+12/29/2012 4:25:55 AM: Worker thread: Tried to skip, song before: [Song] Nickelback - Curb vs. [Song] Nickelback - Where?
+12/29/2012 4:25:55 AM: Got our return, failure value: False
+12/29/2012 4:25:55 AM: Artist: Nickelback, Title:  Where?
+12/29/2012 4:25:55 AM: Trying to skip song - waiting for a return from worker thread.
+12/29/2012 4:25:56 AM: Artist: Nickelback, Title:  Where?
+12/29/2012 4:25:56 AM: Sending keypress: MediaNextTrack
+12/29/2012 4:25:56 AM: WinEventProc: got new window title.
+12/29/2012 4:25:56 AM: Artist: Nickelback, Title:  Falls Back On
+12/29/2012 4:25:57 AM: Artist: Nickelback, Title:  Falls Back On
+12/29/2012 4:25:57 AM: Worker thread: Tried to skip, song before: [Song] Nickelback - Where? vs. [Song] Nickelback - Falls Back On
+12/29/2012 4:25:57 AM: Got our return, failure value: False
+12/29/2012 4:25:57 AM: Artist: Nickelback, Title:  Falls Back On
+12/29/2012 4:25:57 AM: Trying to skip song - waiting for a return from worker thread.
+12/29/2012 4:25:57 AM: Artist: Nickelback, Title:  Falls Back On
+12/29/2012 4:25:57 AM: Sending keypress: MediaNextTrack
+12/29/2012 4:25:57 AM: WinEventProc: got new window title.
+12/29/2012 4:25:57 AM: Artist: Nickelback, Title:  Sea Groove
+12/29/2012 4:25:58 AM: Artist: Nickelback, Title:  Sea Groove
+12/29/2012 4:25:58 AM: Worker thread: Tried to skip, song before: [Song] Nickelback - Falls Back On vs. [Song] Nickelback - Sea Groove
+12/29/2012 4:25:58 AM: Got our return, failure value: False
+12/29/2012 4:25:58 AM: Artist: Nickelback, Title:  Sea Groove
+12/29/2012 4:25:58 AM: Trying to skip song - waiting for a return from worker thread.
+12/29/2012 4:25:58 AM: Artist: Nickelback, Title:  Sea Groove
+12/29/2012 4:25:58 AM: Sending keypress: MediaNextTrack
+12/29/2012 4:25:58 AM: WinEventProc: got new window title.
+12/29/2012 4:25:58 AM: Artist: Nickelback, Title:  Fly
+12/29/2012 4:25:59 AM: Artist: Nickelback, Title:  Fly
+12/29/2012 4:25:59 AM: Worker thread: Tried to skip, song before: [Song] Nickelback - Sea Groove vs. [Song] Nickelback - Fly
+12/29/2012 4:25:59 AM: Got our return, failure value: False
+12/29/2012 4:25:59 AM: Artist: Nickelback, Title:  Fly
+12/29/2012 4:25:59 AM: Trying to skip song - waiting for a return from worker thread.
+12/29/2012 4:25:59 AM: Artist: Nickelback, Title:  Fly
+12/29/2012 4:25:59 AM: Sending keypress: MediaNextTrack
+12/29/2012 4:25:59 AM: WinEventProc: got new window title.
+12/29/2012 4:25:59 AM: Artist: Nickelback, Title:  Just Four
+12/29/2012 4:26:00 AM: Artist: Nickelback, Title:  Just Four
+12/29/2012 4:26:00 AM: Worker thread: Tried to skip, song before: [Song] Nickelback - Fly vs. [Song] Nickelback - Just Four
+12/29/2012 4:26:00 AM: Got our return, failure value: False
+12/29/2012 4:26:00 AM: Artist: Nickelback, Title:  Just Four
+12/29/2012 4:26:00 AM: Trying to skip song - waiting for a return from worker thread.
+12/29/2012 4:26:00 AM: Artist: Nickelback, Title:  Just Four
+12/29/2012 4:26:00 AM: Sending keypress: MediaNextTrack
+12/29/2012 4:26:00 AM: WinEventProc: got new window title.
+12/29/2012 4:26:00 AM: Artist: Nickelback, Title:  Left
+12/29/2012 4:26:01 AM: Artist: Nickelback, Title:  Left
+12/29/2012 4:26:01 AM: Worker thread: Tried to skip, song before: [Song] Nickelback - Just Four vs. [Song] Nickelback - Left
+12/29/2012 4:26:01 AM: Got our return, failure value: False
+12/29/2012 4:26:01 AM: Artist: Nickelback, Title:  Left
+12/29/2012 4:26:01 AM: Trying to skip song - waiting for a return from worker thread.
+12/29/2012 4:26:01 AM: Artist: Nickelback, Title:  Left
+12/29/2012 4:26:01 AM: Sending keypress: MediaNextTrack
+12/29/2012 4:26:01 AM: WinEventProc: got new window title.
+12/29/2012 4:26:01 AM: Artist: Nickelback, Title:  Window Shopper
+12/29/2012 4:26:02 AM: Artist: Nickelback, Title:  Window Shopper
+12/29/2012 4:26:02 AM: Worker thread: Tried to skip, song before: [Song] Nickelback - Left vs. [Song] Nickelback - Window Shopper
+12/29/2012 4:26:02 AM: Got our return, failure value: False
+12/29/2012 4:26:02 AM: Artist: Nickelback, Title:  Window Shopper
+12/29/2012 4:26:02 AM: Trying to skip song - waiting for a return from worker thread.
+12/29/2012 4:26:02 AM: Artist: Nickelback, Title:  Window Shopper
+12/29/2012 4:26:02 AM: Sending keypress: MediaNextTrack
+12/29/2012 4:26:02 AM: WinEventProc: got new window title.
+12/29/2012 4:26:02 AM: Artist: Nickelback, Title:  I Don't Have
+12/29/2012 4:26:03 AM: Artist: Nickelback, Title:  I Don't Have
+12/29/2012 4:26:03 AM: Worker thread: Tried to skip, song before: [Song] Nickelback - Window Shopper vs. [Song] Nickelback - I Don't Have
+12/29/2012 4:26:03 AM: Got our return, failure value: False
+12/29/2012 4:26:03 AM: Artist: Nickelback, Title:  I Don't Have
+12/29/2012 4:26:03 AM: Trying to skip song - waiting for a return from worker thread.
+12/29/2012 4:26:03 AM: Artist: Nickelback, Title:  I Don't Have
+12/29/2012 4:26:03 AM: Sending keypress: MediaNextTrack
+12/29/2012 4:26:03 AM: WinEventProc: got new window title.
+12/29/2012 4:26:03 AM: Artist: Nickelback, Title:  Legs
+12/29/2012 4:26:04 AM: Artist: Nickelback, Title:  Legs
+12/29/2012 4:26:04 AM: Worker thread: Tried to skip, song before: [Song] Nickelback - I Don't Have vs. [Song] Nickelback - Legs
+12/29/2012 4:26:04 AM: Got our return, failure value: False
+12/29/2012 4:26:04 AM: Artist: Nickelback, Title:  Legs
+12/29/2012 4:26:04 AM: Trying to skip song - waiting for a return from worker thread.
+12/29/2012 4:26:04 AM: Artist: Nickelback, Title:  Legs
+12/29/2012 4:26:04 AM: Sending keypress: MediaNextTrack
+12/29/2012 4:26:04 AM: WinEventProc: got new window title.
+12/29/2012 4:26:04 AM: Artist: Nickelback, Title:  Burn It To The Ground
+12/29/2012 4:26:05 AM: Artist: Nickelback, Title:  Burn It To The Ground
+12/29/2012 4:26:05 AM: Worker thread: Tried to skip, song before: [Song] Nickelback - Legs vs. [Song] Nickelback - Burn It To The Ground
+12/29/2012 4:26:05 AM: Got our return, failure value: False
+12/29/2012 4:26:05 AM: Artist: Nickelback, Title:  Burn It To The Ground
+12/29/2012 4:26:05 AM: Trying to skip song - waiting for a return from worker thread.
+12/29/2012 4:26:05 AM: Artist: Nickelback, Title:  Burn It To The Ground
+12/29/2012 4:26:05 AM: Sending keypress: MediaNextTrack
+12/29/2012 4:26:05 AM: WinEventProc: got new window title.
+12/29/2012 4:26:05 AM: WARN: couldn't parse the artist/title from the raw window title.
+12/29/2012 4:26:06 AM: WARN: couldn't parse the artist/title from the raw window title.
+12/29/2012 4:26:06 AM: Worker thread: Tried to skip, song before: [Song] Nickelback - Burn It To The Ground vs. 
+12/29/2012 4:26:06 AM: Got our return, failure value: True
+12/29/2012 4:26:06 AM: Failed to skip the song. Muting song.
+12/29/2012 4:26:06 AM: User's volume is already at 5%, will not try to change vol.
+12/29/2012 4:26:06 AM: Playing replacement music at: elevator.mp3
+12/29/2012 4:26:07 AM: WinEventProc: got new window title.
+12/29/2012 4:26:07 AM: WARN: couldn't parse the artist/title from the raw window title.
+12/29/2012 4:26:12 AM: WinEventProc: got new window title.
+12/29/2012 4:26:12 AM: Artist: Deep Sea Arcade, Title:  Together
+12/29/2012 4:26:12 AM: Stopping replacement music.
+12/29/2012 4:26:12 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:26:12 AM: Artist: Deep Sea Arcade, Title:  Together
+12/29/2012 4:26:12 AM: Got new Spotify item: [Song] Deep Sea Arcade - Together
+12/29/2012 4:26:23 AM: WinEventProc: got new window title.
+12/29/2012 4:26:23 AM: Artist: Nickelback, Title:  Diggin' This
+12/29/2012 4:26:23 AM: Trying to skip song - waiting for a return from worker thread.
+12/29/2012 4:26:24 AM: Artist: Nickelback, Title:  Diggin' This
+12/29/2012 4:26:24 AM: Sending keypress: MediaNextTrack
+12/29/2012 4:26:24 AM: WinEventProc: got new window title.
+12/29/2012 4:26:24 AM: WARN: couldn't parse the artist/title from the raw window title.
+12/29/2012 4:26:25 AM: WARN: couldn't parse the artist/title from the raw window title.
+12/29/2012 4:26:25 AM: Worker thread: Tried to skip, song before: [Song] Nickelback - Diggin' This vs. 
+12/29/2012 4:26:25 AM: Got our return, failure value: True
+12/29/2012 4:26:25 AM: Failed to skip the song. Muting song.
+12/29/2012 4:26:25 AM: Got spotify volume before mute: 0.9999999
+12/29/2012 4:26:25 AM: Setting spotify volume to: 0.1333333
+12/29/2012 4:26:25 AM: Playing replacement music at: elevator.mp3
+12/29/2012 4:26:25 AM: Sending keypress: MediaPlayPause
+12/29/2012 4:26:25 AM: WARN: couldn't parse the artist/title from the raw window title.
+12/29/2012 4:26:25 AM: After play, got this song: 
+12/29/2012 4:26:27 AM: WinEventProc: got new window title.
+12/29/2012 4:26:27 AM: Artist: Nickelback, Title:  Diggin' This
+12/29/2012 4:26:27 AM: Trying to skip song - waiting for a return from worker thread.
+12/29/2012 4:26:27 AM: Artist: Nickelback, Title:  Diggin' This
+12/29/2012 4:26:27 AM: Sending keypress: MediaNextTrack
+12/29/2012 4:26:27 AM: WinEventProc: got new window title.
+12/29/2012 4:26:27 AM: WARN: couldn't parse the artist/title from the raw window title.
+12/29/2012 4:26:28 AM: WinEventProc: got new window title.
+12/29/2012 4:26:28 AM: Artist: Nickelback, Title:  Diggin' This
+12/29/2012 4:26:28 AM: Artist: Nickelback, Title:  Diggin' This
+12/29/2012 4:26:28 AM: Worker thread: Tried to skip, song before: [Song] Nickelback - Diggin' This vs. [Song] Nickelback - Diggin' This
+12/29/2012 4:26:28 AM: Got our return, failure value: True
+12/29/2012 4:26:28 AM: Failed to skip the song. Muting song.
+12/29/2012 4:26:28 AM: User's volume is already at 5%, will not try to change vol.
+12/29/2012 4:26:28 AM: Playing replacement music at: elevator.mp3
+12/29/2012 4:26:32 AM: WinEventProc: got new window title.
+12/29/2012 4:26:32 AM: Artist: Nickelback, Title:  Diggin' This
+12/29/2012 4:26:32 AM: Trying to skip song - waiting for a return from worker thread.
+12/29/2012 4:26:32 AM: Artist: Nickelback, Title:  Diggin' This
+12/29/2012 4:26:32 AM: Sending keypress: MediaNextTrack
+12/29/2012 4:26:32 AM: WinEventProc: got new window title.
+12/29/2012 4:26:32 AM: WARN: couldn't parse the artist/title from the raw window title.
+12/29/2012 4:26:32 AM: WinEventProc: got new window title.
+12/29/2012 4:26:32 AM: WARN: couldn't parse the artist/title from the raw window title.
+12/29/2012 4:26:33 AM: WARN: couldn't parse the artist/title from the raw window title.
+12/29/2012 4:26:33 AM: Worker thread: Tried to skip, song before: [Song] Nickelback - Diggin' This vs. 
+12/29/2012 4:26:33 AM: Got our return, failure value: True
+12/29/2012 4:26:33 AM: Failed to skip the song. Muting song.
+12/29/2012 4:26:33 AM: User's volume is already at 5%, will not try to change vol.
+12/29/2012 4:26:33 AM: Playing replacement music at: elevator.mp3
+12/29/2012 4:26:34 AM: WinEventProc: got new window title.
+12/29/2012 4:26:34 AM: WARN: couldn't parse the artist/title from the raw window title.
+12/29/2012 4:26:34 AM: WinEventProc: got new window title.
+12/29/2012 4:26:34 AM: WARN: couldn't parse the artist/title from the raw window title.
+12/29/2012 4:26:34 AM: WinEventProc: got new window title.
+12/29/2012 4:26:34 AM: WARN: couldn't parse the artist/title from the raw window title.
+12/29/2012 4:26:34 AM: WinEventProc: got new window title.
+12/29/2012 4:26:34 AM: WARN: couldn't parse the artist/title from the raw window title.
+12/29/2012 4:26:35 AM: WinEventProc: got new window title.
+12/29/2012 4:26:35 AM: WARN: couldn't parse the artist/title from the raw window title.
+12/29/2012 4:26:35 AM: WinEventProc: got new window title.
+12/29/2012 4:26:35 AM: WARN: couldn't parse the artist/title from the raw window title.
+12/29/2012 4:26:35 AM: WinEventProc: got new window title.
+12/29/2012 4:26:35 AM: WARN: couldn't parse the artist/title from the raw window title.
+12/29/2012 4:26:35 AM: WinEventProc: got new window title.
+12/29/2012 4:26:35 AM: WARN: couldn't parse the artist/title from the raw window title.
+12/29/2012 4:26:36 AM: WinEventProc: got new window title.
+12/29/2012 4:26:36 AM: WARN: couldn't parse the artist/title from the raw window title.
+12/29/2012 4:26:36 AM: WinEventProc: got new window title.
+12/29/2012 4:26:36 AM: WARN: couldn't parse the artist/title from the raw window title.
+12/29/2012 4:26:36 AM: WinEventProc: got new window title.
+12/29/2012 4:26:36 AM: Artist: Everything Everything, Title:  MY KZ, UR BF
+12/29/2012 4:26:36 AM: Stopping replacement music.
+12/29/2012 4:26:36 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:26:36 AM: Artist: Everything Everything, Title:  MY KZ, UR BF
+12/29/2012 4:26:36 AM: Got new Spotify item: [Song] Everything Everything - MY KZ, UR BF
+12/29/2012 4:26:37 AM: WinEventProc: got new window title.
+12/29/2012 4:26:37 AM: Artist: Everything Everything, Title:  MY KZ, UR BF
+12/29/2012 4:26:37 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:26:37 AM: Artist: Everything Everything, Title:  MY KZ, UR BF
+12/29/2012 4:26:37 AM: Got new Spotify item: [Song] Everything Everything - MY KZ, UR BF
+12/29/2012 4:26:37 AM: WinEventProc: got new window title.
+12/29/2012 4:26:37 AM: Artist: Everything Everything, Title:  MY KZ, UR BF
+12/29/2012 4:26:37 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:26:37 AM: Artist: Everything Everything, Title:  MY KZ, UR BF
+12/29/2012 4:26:37 AM: Got new Spotify item: [Song] Everything Everything - MY KZ, UR BF
+12/29/2012 4:26:37 AM: WinEventProc: got new window title.
+12/29/2012 4:26:37 AM: Artist: Everything Everything, Title:  MY KZ, UR BF
+12/29/2012 4:26:37 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:26:37 AM: Artist: Everything Everything, Title:  MY KZ, UR BF
+12/29/2012 4:26:37 AM: Got new Spotify item: [Song] Everything Everything - MY KZ, UR BF
+12/29/2012 4:26:37 AM: WinEventProc: got new window title.
+12/29/2012 4:26:37 AM: Artist: Everything Everything, Title:  MY KZ, UR BF
+12/29/2012 4:26:37 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:26:37 AM: Artist: Everything Everything, Title:  MY KZ, UR BF
+12/29/2012 4:26:37 AM: Got new Spotify item: [Song] Everything Everything - MY KZ, UR BF
+12/29/2012 4:26:38 AM: WinEventProc: got new window title.
+12/29/2012 4:26:38 AM: Artist: Everything Everything, Title:  MY KZ, UR BF
+12/29/2012 4:26:38 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:26:38 AM: Artist: Everything Everything, Title:  MY KZ, UR BF
+12/29/2012 4:26:38 AM: Got new Spotify item: [Song] Everything Everything - MY KZ, UR BF
+12/29/2012 4:26:38 AM: WinEventProc: got new window title.
+12/29/2012 4:26:38 AM: Artist: Everything Everything, Title:  MY KZ, UR BF
+12/29/2012 4:26:38 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:26:38 AM: Artist: Everything Everything, Title:  MY KZ, UR BF
+12/29/2012 4:26:38 AM: Got new Spotify item: [Song] Everything Everything - MY KZ, UR BF
+12/29/2012 4:26:38 AM: WinEventProc: got new window title.
+12/29/2012 4:26:38 AM: Artist: Everything Everything, Title:  MY KZ, UR BF
+12/29/2012 4:26:38 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:26:38 AM: Artist: Everything Everything, Title:  MY KZ, UR BF
+12/29/2012 4:26:38 AM: Got new Spotify item: [Song] Everything Everything - MY KZ, UR BF
+12/29/2012 4:26:38 AM: WinEventProc: got new window title.
+12/29/2012 4:26:38 AM: Artist: Everything Everything, Title:  MY KZ, UR BF
+12/29/2012 4:26:38 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:26:38 AM: Artist: Everything Everything, Title:  MY KZ, UR BF
+12/29/2012 4:26:38 AM: Got new Spotify item: [Song] Everything Everything - MY KZ, UR BF
+12/29/2012 4:26:38 AM: WinEventProc: got new window title.
+12/29/2012 4:26:38 AM: Artist: Everything Everything, Title:  MY KZ, UR BF
+12/29/2012 4:26:38 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:26:38 AM: Artist: Everything Everything, Title:  MY KZ, UR BF
+12/29/2012 4:26:38 AM: Got new Spotify item: [Song] Everything Everything - MY KZ, UR BF
+12/29/2012 4:26:38 AM: WinEventProc: got new window title.
+12/29/2012 4:26:38 AM: Artist: Everything Everything, Title:  MY KZ, UR BF
+12/29/2012 4:26:38 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:26:38 AM: Artist: Everything Everything, Title:  MY KZ, UR BF
+12/29/2012 4:26:38 AM: Got new Spotify item: [Song] Everything Everything - MY KZ, UR BF
+12/29/2012 4:26:38 AM: WinEventProc: got new window title.
+12/29/2012 4:26:39 AM: Artist: Everything Everything, Title:  MY KZ, UR BF
+12/29/2012 4:26:39 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:26:39 AM: Artist: Everything Everything, Title:  MY KZ, UR BF
+12/29/2012 4:26:39 AM: Got new Spotify item: [Song] Everything Everything - MY KZ, UR BF
+12/29/2012 4:26:39 AM: WinEventProc: got new window title.
+12/29/2012 4:26:39 AM: Artist: Everything Everything, Title:  MY KZ, UR BF
+12/29/2012 4:26:39 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:26:39 AM: Artist: Everything Everything, Title:  MY KZ, UR BF
+12/29/2012 4:26:39 AM: Got new Spotify item: [Song] Everything Everything - MY KZ, UR BF
+12/29/2012 4:26:39 AM: WinEventProc: got new window title.
+12/29/2012 4:26:39 AM: Artist: Everything Everything, Title:  MY KZ, UR BF
+12/29/2012 4:26:39 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:26:39 AM: Artist: Everything Everything, Title:  MY KZ, UR BF
+12/29/2012 4:26:39 AM: Got new Spotify item: [Song] Everything Everything - MY KZ, UR BF
+12/29/2012 4:26:39 AM: WinEventProc: got new window title.
+12/29/2012 4:26:39 AM: Artist: Everything Everything, Title:  MY KZ, UR BF
+12/29/2012 4:26:39 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:26:39 AM: Artist: Everything Everything, Title:  MY KZ, UR BF
+12/29/2012 4:26:39 AM: Got new Spotify item: [Song] Everything Everything - MY KZ, UR BF
+12/29/2012 4:26:40 AM: WinEventProc: got new window title.
+12/29/2012 4:26:40 AM: Artist: Museum of Bellas Artes, Title:  Dead Silence
+12/29/2012 4:26:40 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:26:40 AM: Artist: Museum of Bellas Artes, Title:  Dead Silence
+12/29/2012 4:26:40 AM: Got new Spotify item: [Song] Museum of Bellas Artes - Dead Silence
+12/29/2012 4:26:41 AM: WinEventProc: got new window title.
+12/29/2012 4:26:41 AM: Artist: Museum of Bellas Artes, Title:  Dead Silence
+12/29/2012 4:26:41 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:26:41 AM: Artist: Museum of Bellas Artes, Title:  Dead Silence
+12/29/2012 4:26:41 AM: Got new Spotify item: [Song] Museum of Bellas Artes - Dead Silence
+12/29/2012 4:26:41 AM: WinEventProc: got new window title.
+12/29/2012 4:26:41 AM: Artist: Museum of Bellas Artes, Title:  Dead Silence
+12/29/2012 4:26:41 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:26:41 AM: Artist: Museum of Bellas Artes, Title:  Dead Silence
+12/29/2012 4:26:41 AM: Got new Spotify item: [Song] Museum of Bellas Artes - Dead Silence
+12/29/2012 4:26:55 AM: WinEventProc: got new window title.
+12/29/2012 4:26:55 AM: Artist: Museum of Bellas Artes, Title:  Dead Silence
+12/29/2012 4:26:55 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:26:55 AM: Artist: Museum of Bellas Artes, Title:  Dead Silence
+12/29/2012 4:26:55 AM: Got new Spotify item: [Song] Museum of Bellas Artes - Dead Silence
+12/29/2012 4:26:55 AM: WinEventProc: got new window title.
+12/29/2012 4:26:55 AM: Artist: Museum of Bellas Artes, Title:  Dead Silence
+12/29/2012 4:26:55 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:26:55 AM: Artist: Museum of Bellas Artes, Title:  Dead Silence
+12/29/2012 4:26:55 AM: Got new Spotify item: [Song] Museum of Bellas Artes - Dead Silence
+12/29/2012 4:26:56 AM: WinEventProc: got new window title.
+12/29/2012 4:26:56 AM: Artist: Museum of Bellas Artes, Title:  Dead Silence
+12/29/2012 4:26:56 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:26:56 AM: Artist: Museum of Bellas Artes, Title:  Dead Silence
+12/29/2012 4:26:56 AM: Got new Spotify item: [Song] Museum of Bellas Artes - Dead Silence
+12/29/2012 4:26:56 AM: WinEventProc: got new window title.
+12/29/2012 4:26:56 AM: Artist: Museum of Bellas Artes, Title:  Dead Silence
+12/29/2012 4:26:56 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:26:56 AM: Artist: Museum of Bellas Artes, Title:  Dead Silence
+12/29/2012 4:26:56 AM: Got new Spotify item: [Song] Museum of Bellas Artes - Dead Silence
+12/29/2012 4:26:56 AM: WinEventProc: got new window title.
+12/29/2012 4:26:56 AM: Artist: Museum of Bellas Artes, Title:  Dead Silence
+12/29/2012 4:26:56 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:26:56 AM: Artist: Museum of Bellas Artes, Title:  Dead Silence
+12/29/2012 4:26:56 AM: Got new Spotify item: [Song] Museum of Bellas Artes - Dead Silence
+12/29/2012 4:26:56 AM: WinEventProc: got new window title.
+12/29/2012 4:26:56 AM: Artist: Museum of Bellas Artes, Title:  Dead Silence
+12/29/2012 4:26:56 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:26:56 AM: Artist: Museum of Bellas Artes, Title:  Dead Silence
+12/29/2012 4:26:56 AM: Got new Spotify item: [Song] Museum of Bellas Artes - Dead Silence
+12/29/2012 4:27:06 AM: WinEventProc: got new window title.
+12/29/2012 4:27:06 AM: Artist: Interpol, Title:  Evil
+12/29/2012 4:27:06 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:27:06 AM: Artist: Interpol, Title:  Evil
+12/29/2012 4:27:06 AM: Got new Spotify item: [Song] Interpol - Evil
+12/29/2012 4:27:07 AM: WinEventProc: got new window title.
+12/29/2012 4:27:07 AM: Artist: Interpol, Title:  Evil
+12/29/2012 4:27:07 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:27:07 AM: Artist: Interpol, Title:  Evil
+12/29/2012 4:27:07 AM: Got new Spotify item: [Song] Interpol - Evil
+12/29/2012 4:27:07 AM: WinEventProc: got new window title.
+12/29/2012 4:27:07 AM: Artist: Interpol, Title:  Evil
+12/29/2012 4:27:07 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:27:07 AM: Artist: Interpol, Title:  Evil
+12/29/2012 4:27:07 AM: Got new Spotify item: [Song] Interpol - Evil
+12/29/2012 4:27:09 AM: WinEventProc: got new window title.
+12/29/2012 4:27:09 AM: Artist: Interpol, Title:  Evil
+12/29/2012 4:27:09 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:27:09 AM: Artist: Interpol, Title:  Evil
+12/29/2012 4:27:09 AM: Got new Spotify item: [Song] Interpol - Evil
+12/29/2012 4:27:09 AM: WinEventProc: got new window title.
+12/29/2012 4:27:09 AM: Artist: Interpol, Title:  Evil
+12/29/2012 4:27:09 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:27:09 AM: Artist: Interpol, Title:  Evil
+12/29/2012 4:27:09 AM: Got new Spotify item: [Song] Interpol - Evil
+12/29/2012 4:27:10 AM: WinEventProc: got new window title.
+12/29/2012 4:27:10 AM: Artist: The Twilight Singers, Title:  Last Night in Town
+12/29/2012 4:27:10 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:27:10 AM: Artist: The Twilight Singers, Title:  Last Night in Town
+12/29/2012 4:27:10 AM: Got new Spotify item: [Song] The Twilight Singers - Last Night in Town
+12/29/2012 4:27:12 AM: WinEventProc: got new window title.
+12/29/2012 4:27:12 AM: Artist: L7, Title:  Shove
+12/29/2012 4:27:12 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:27:12 AM: Artist: L7, Title:  Shove
+12/29/2012 4:27:12 AM: Got new Spotify item: [Song] L7 - Shove
+12/29/2012 4:27:19 AM: WinEventProc: got new window title.
+12/29/2012 4:27:19 AM: Artist: L7, Title:  Shove
+12/29/2012 4:27:19 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:27:19 AM: Artist: L7, Title:  Shove
+12/29/2012 4:27:19 AM: Got new Spotify item: [Song] L7 - Shove
+12/29/2012 4:27:19 AM: WinEventProc: got new window title.
+12/29/2012 4:27:19 AM: Artist: L7, Title:  Shove
+12/29/2012 4:27:19 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:27:19 AM: Artist: L7, Title:  Shove
+12/29/2012 4:27:19 AM: Got new Spotify item: [Song] L7 - Shove
+12/29/2012 4:27:21 AM: WinEventProc: got new window title.
+12/29/2012 4:27:21 AM: Artist: L7, Title:  Shove
+12/29/2012 4:27:21 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:27:21 AM: Artist: L7, Title:  Shove
+12/29/2012 4:27:21 AM: Got new Spotify item: [Song] L7 - Shove
+12/29/2012 4:27:21 AM: WinEventProc: got new window title.
+12/29/2012 4:27:21 AM: Artist: L7, Title:  Shove
+12/29/2012 4:27:21 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:27:21 AM: Artist: L7, Title:  Shove
+12/29/2012 4:27:21 AM: Got new Spotify item: [Song] L7 - Shove
+12/29/2012 4:27:21 AM: WinEventProc: got new window title.
+12/29/2012 4:27:21 AM: Artist: L7, Title:  Shove
+12/29/2012 4:27:21 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:27:21 AM: Artist: L7, Title:  Shove
+12/29/2012 4:27:21 AM: Got new Spotify item: [Song] L7 - Shove
+12/29/2012 4:27:21 AM: WinEventProc: got new window title.
+12/29/2012 4:27:21 AM: Artist: L7, Title:  Shove
+12/29/2012 4:27:21 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:27:21 AM: Artist: L7, Title:  Shove
+12/29/2012 4:27:21 AM: Got new Spotify item: [Song] L7 - Shove
+12/29/2012 4:27:21 AM: WinEventProc: got new window title.
+12/29/2012 4:27:21 AM: Artist: L7, Title:  Shove
+12/29/2012 4:27:21 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:27:21 AM: Artist: L7, Title:  Shove
+12/29/2012 4:27:21 AM: Got new Spotify item: [Song] L7 - Shove
+12/29/2012 4:27:21 AM: WinEventProc: got new window title.
+12/29/2012 4:27:21 AM: Artist: L7, Title:  Shove
+12/29/2012 4:27:21 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:27:21 AM: Artist: L7, Title:  Shove
+12/29/2012 4:27:21 AM: Got new Spotify item: [Song] L7 - Shove
+12/29/2012 4:27:21 AM: WinEventProc: got new window title.
+12/29/2012 4:27:21 AM: Artist: L7, Title:  Shove
+12/29/2012 4:27:21 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:27:21 AM: Artist: L7, Title:  Shove
+12/29/2012 4:27:21 AM: Got new Spotify item: [Song] L7 - Shove
+12/29/2012 4:27:21 AM: WinEventProc: got new window title.
+12/29/2012 4:27:21 AM: Artist: L7, Title:  Shove
+12/29/2012 4:27:21 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:27:21 AM: Artist: L7, Title:  Shove
+12/29/2012 4:27:21 AM: Got new Spotify item: [Song] L7 - Shove
+12/29/2012 4:27:21 AM: WinEventProc: got new window title.
+12/29/2012 4:27:21 AM: Artist: L7, Title:  Shove
+12/29/2012 4:27:21 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:27:21 AM: Artist: L7, Title:  Shove
+12/29/2012 4:27:21 AM: Got new Spotify item: [Song] L7 - Shove
+12/29/2012 4:27:21 AM: WinEventProc: got new window title.
+12/29/2012 4:27:21 AM: Artist: L7, Title:  Shove
+12/29/2012 4:27:21 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:27:21 AM: Artist: L7, Title:  Shove
+12/29/2012 4:27:21 AM: Got new Spotify item: [Song] L7 - Shove
+12/29/2012 4:27:21 AM: WinEventProc: got new window title.
+12/29/2012 4:27:21 AM: Artist: L7, Title:  Shove
+12/29/2012 4:27:21 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:27:21 AM: Artist: L7, Title:  Shove
+12/29/2012 4:27:21 AM: Got new Spotify item: [Song] L7 - Shove
+12/29/2012 4:27:21 AM: WinEventProc: got new window title.
+12/29/2012 4:27:21 AM: Artist: L7, Title:  Shove
+12/29/2012 4:27:21 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:27:21 AM: Artist: L7, Title:  Shove
+12/29/2012 4:27:21 AM: Got new Spotify item: [Song] L7 - Shove
+12/29/2012 4:27:21 AM: WinEventProc: got new window title.
+12/29/2012 4:27:21 AM: Artist: L7, Title:  Shove
+12/29/2012 4:27:21 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:27:21 AM: Artist: L7, Title:  Shove
+12/29/2012 4:27:21 AM: Got new Spotify item: [Song] L7 - Shove
+12/29/2012 4:27:22 AM: WinEventProc: got new window title.
+12/29/2012 4:27:22 AM: Artist: L7, Title:  Shove
+12/29/2012 4:27:22 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:27:22 AM: Artist: L7, Title:  Shove
+12/29/2012 4:27:22 AM: Got new Spotify item: [Song] L7 - Shove
+12/29/2012 4:27:22 AM: WinEventProc: got new window title.
+12/29/2012 4:27:22 AM: Artist: L7, Title:  Shove
+12/29/2012 4:27:22 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:27:22 AM: Artist: L7, Title:  Shove
+12/29/2012 4:27:22 AM: Got new Spotify item: [Song] L7 - Shove
+12/29/2012 4:27:22 AM: WinEventProc: got new window title.
+12/29/2012 4:27:22 AM: Artist: L7, Title:  Shove
+12/29/2012 4:27:22 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:27:22 AM: Artist: L7, Title:  Shove
+12/29/2012 4:27:22 AM: Got new Spotify item: [Song] L7 - Shove
+12/29/2012 4:27:22 AM: WinEventProc: got new window title.
+12/29/2012 4:27:22 AM: Artist: L7, Title:  Shove
+12/29/2012 4:27:22 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:27:22 AM: Artist: L7, Title:  Shove
+12/29/2012 4:27:22 AM: Got new Spotify item: [Song] L7 - Shove
+12/29/2012 4:27:22 AM: WinEventProc: got new window title.
+12/29/2012 4:27:22 AM: Artist: L7, Title:  Shove
+12/29/2012 4:27:22 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:27:22 AM: Artist: L7, Title:  Shove
+12/29/2012 4:27:22 AM: Got new Spotify item: [Song] L7 - Shove
+12/29/2012 4:27:23 AM: WinEventProc: got new window title.
+12/29/2012 4:27:23 AM: Artist: L7, Title:  Shove
+12/29/2012 4:27:23 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:27:23 AM: Artist: L7, Title:  Shove
+12/29/2012 4:27:23 AM: Got new Spotify item: [Song] L7 - Shove
+12/29/2012 4:27:23 AM: WinEventProc: got new window title.
+12/29/2012 4:27:23 AM: Artist: L7, Title:  Shove
+12/29/2012 4:27:23 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:27:23 AM: Artist: L7, Title:  Shove
+12/29/2012 4:27:23 AM: Got new Spotify item: [Song] L7 - Shove
+12/29/2012 4:27:23 AM: WinEventProc: got new window title.
+12/29/2012 4:27:23 AM: Artist: L7, Title:  Shove
+12/29/2012 4:27:23 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:27:23 AM: Artist: L7, Title:  Shove
+12/29/2012 4:27:23 AM: Got new Spotify item: [Song] L7 - Shove
+12/29/2012 4:27:24 AM: WinEventProc: got new window title.
+12/29/2012 4:27:24 AM: Artist: L7, Title:  Shove
+12/29/2012 4:27:24 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:27:24 AM: Artist: L7, Title:  Shove
+12/29/2012 4:27:24 AM: Got new Spotify item: [Song] L7 - Shove
+12/29/2012 4:27:24 AM: WinEventProc: got new window title.
+12/29/2012 4:27:24 AM: Artist: L7, Title:  Shove
+12/29/2012 4:27:24 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:27:24 AM: Artist: L7, Title:  Shove
+12/29/2012 4:27:24 AM: Got new Spotify item: [Song] L7 - Shove
+12/29/2012 4:27:24 AM: WinEventProc: got new window title.
+12/29/2012 4:27:24 AM: Artist: L7, Title:  Shove
+12/29/2012 4:27:24 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:27:24 AM: Artist: L7, Title:  Shove
+12/29/2012 4:27:24 AM: Got new Spotify item: [Song] L7 - Shove
+12/29/2012 4:27:24 AM: WinEventProc: got new window title.
+12/29/2012 4:27:24 AM: Artist: L7, Title:  Shove
+12/29/2012 4:27:24 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:27:24 AM: Artist: L7, Title:  Shove
+12/29/2012 4:27:24 AM: Got new Spotify item: [Song] L7 - Shove
+12/29/2012 4:27:24 AM: WinEventProc: got new window title.
+12/29/2012 4:27:24 AM: Artist: L7, Title:  Shove
+12/29/2012 4:27:24 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:27:24 AM: Artist: L7, Title:  Shove
+12/29/2012 4:27:24 AM: Got new Spotify item: [Song] L7 - Shove
+12/29/2012 4:27:26 AM: WinEventProc: got new window title.
+12/29/2012 4:27:26 AM: Artist: xfinity, Title:  xfinity
+12/29/2012 4:27:26 AM: Trying to skip song - waiting for a return from worker thread.
+12/29/2012 4:27:26 AM: Artist: xfinity, Title:  xfinity
+12/29/2012 4:27:26 AM: Sending keypress: MediaNextTrack
+12/29/2012 4:27:27 AM: Artist: xfinity, Title:  xfinity
+12/29/2012 4:27:27 AM: Worker thread: Tried to skip, song before: [Song] xfinity - xfinity vs. [Song] xfinity - xfinity
+12/29/2012 4:27:27 AM: Got our return, failure value: True
+12/29/2012 4:27:27 AM: Failed to skip the song. Muting song.
+12/29/2012 4:27:27 AM: Got spotify volume before mute: 0.9999999
+12/29/2012 4:27:27 AM: Setting spotify volume to: 0.1333333
+12/29/2012 4:27:27 AM: Playing replacement music at: elevator.mp3
+12/29/2012 4:27:27 AM: Sending keypress: MediaPlayPause
+12/29/2012 4:27:27 AM: Artist: xfinity, Title:  xfinity
+12/29/2012 4:27:27 AM: After play, got this song: [Song] xfinity - xfinity
+12/29/2012 4:27:27 AM: WinEventProc: got new window title.
+12/29/2012 4:27:27 AM: WARN: couldn't parse the artist/title from the raw window title.
+12/29/2012 4:27:27 AM: WinEventProc: got new window title.
+12/29/2012 4:27:27 AM: Artist: xfinity, Title:  xfinity
+12/29/2012 4:27:27 AM: Trying to skip song - waiting for a return from worker thread.
+12/29/2012 4:27:27 AM: Artist: xfinity, Title:  xfinity
+12/29/2012 4:27:27 AM: Sending keypress: MediaNextTrack
+12/29/2012 4:27:28 AM: Artist: xfinity, Title:  xfinity
+12/29/2012 4:27:28 AM: Worker thread: Tried to skip, song before: [Song] xfinity - xfinity vs. [Song] xfinity - xfinity
+12/29/2012 4:27:28 AM: Got our return, failure value: True
+12/29/2012 4:27:28 AM: Failed to skip the song. Muting song.
+12/29/2012 4:27:28 AM: User's volume is already at 5%, will not try to change vol.
+12/29/2012 4:27:28 AM: Playing replacement music at: elevator.mp3
+12/29/2012 4:27:29 AM: WinEventProc: got new window title.
+12/29/2012 4:27:29 AM: Artist: xfinity, Title:  xfinity
+12/29/2012 4:27:29 AM: Trying to skip song - waiting for a return from worker thread.
+12/29/2012 4:27:29 AM: Artist: xfinity, Title:  xfinity
+12/29/2012 4:27:29 AM: Sending keypress: MediaNextTrack
+12/29/2012 4:27:29 AM: WinEventProc: got new window title.
+12/29/2012 4:27:29 AM: Artist: xfinity, Title:  xfinity
+12/29/2012 4:27:29 AM: WinEventProc: got new window title.
+12/29/2012 4:27:29 AM: WinEventProc: got new window title.
+12/29/2012 4:27:29 AM: Artist: xfinity, Title:  xfinity
+12/29/2012 4:27:29 AM: Artist: xfinity, Title:  xfinity
+12/29/2012 4:27:30 AM: Artist: xfinity, Title:  xfinity
+12/29/2012 4:27:30 AM: Worker thread: Tried to skip, song before: [Song] xfinity - xfinity vs. [Song] xfinity - xfinity
+12/29/2012 4:27:30 AM: Got our return, failure value: True
+12/29/2012 4:27:30 AM: Failed to skip the song. Muting song.
+12/29/2012 4:27:30 AM: User's volume is already at 5%, will not try to change vol.
+12/29/2012 4:27:30 AM: Playing replacement music at: elevator.mp3
+12/29/2012 4:27:54 AM: WinEventProc: got new window title.
+12/29/2012 4:27:54 AM: Artist: Pond, Title:  You Broke My Cool
+12/29/2012 4:27:54 AM: Stopping replacement music.
+12/29/2012 4:27:54 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:27:54 AM: Artist: Pond, Title:  You Broke My Cool
+12/29/2012 4:27:54 AM: Got new Spotify item: [Song] Pond - You Broke My Cool
+12/29/2012 4:28:03 AM: WinEventProc: got new window title.
+12/29/2012 4:28:03 AM: Artist: Pond, Title:  You Broke My Cool
+12/29/2012 4:28:03 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:28:03 AM: Artist: Pond, Title:  You Broke My Cool
+12/29/2012 4:28:03 AM: Got new Spotify item: [Song] Pond - You Broke My Cool
+12/29/2012 4:28:03 AM: WinEventProc: got new window title.
+12/29/2012 4:28:03 AM: Artist: Pond, Title:  You Broke My Cool
+12/29/2012 4:28:03 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:28:03 AM: Artist: Pond, Title:  You Broke My Cool
+12/29/2012 4:28:03 AM: Got new Spotify item: [Song] Pond - You Broke My Cool
+12/29/2012 4:28:03 AM: WinEventProc: got new window title.
+12/29/2012 4:28:03 AM: Artist: Pond, Title:  You Broke My Cool
+12/29/2012 4:28:03 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:28:03 AM: Artist: Pond, Title:  You Broke My Cool
+12/29/2012 4:28:03 AM: Got new Spotify item: [Song] Pond - You Broke My Cool
+12/29/2012 4:28:03 AM: WinEventProc: got new window title.
+12/29/2012 4:28:03 AM: Artist: Pond, Title:  You Broke My Cool
+12/29/2012 4:28:03 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:28:03 AM: Artist: Pond, Title:  You Broke My Cool
+12/29/2012 4:28:03 AM: Got new Spotify item: [Song] Pond - You Broke My Cool
+12/29/2012 4:28:03 AM: WinEventProc: got new window title.
+12/29/2012 4:28:03 AM: Artist: Pond, Title:  You Broke My Cool
+12/29/2012 4:28:03 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:28:03 AM: Artist: Pond, Title:  You Broke My Cool
+12/29/2012 4:28:03 AM: Got new Spotify item: [Song] Pond - You Broke My Cool
+12/29/2012 4:28:03 AM: WinEventProc: got new window title.
+12/29/2012 4:28:03 AM: WinEventProc: got new window title.
+12/29/2012 4:28:03 AM: Artist: Pond, Title:  You Broke My Cool
+12/29/2012 4:28:03 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:28:03 AM: Artist: Pond, Title:  You Broke My Cool
+12/29/2012 4:28:03 AM: Got new Spotify item: [Song] Pond - You Broke My Cool
+12/29/2012 4:28:03 AM: Artist: Pond, Title:  You Broke My Cool
+12/29/2012 4:28:03 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:28:03 AM: Artist: Pond, Title:  You Broke My Cool
+12/29/2012 4:28:03 AM: Got new Spotify item: [Song] Pond - You Broke My Cool
+12/29/2012 4:28:03 AM: WinEventProc: got new window title.
+12/29/2012 4:28:03 AM: Artist: Pond, Title:  You Broke My Cool
+12/29/2012 4:28:03 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:28:03 AM: Artist: Pond, Title:  You Broke My Cool
+12/29/2012 4:28:03 AM: Got new Spotify item: [Song] Pond - You Broke My Cool
+12/29/2012 4:28:04 AM: WinEventProc: got new window title.
+12/29/2012 4:28:04 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:28:04 AM: Trying to skip song - waiting for a return from worker thread.
+12/29/2012 4:28:04 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:28:04 AM: Sending keypress: MediaNextTrack
+12/29/2012 4:28:05 AM: WinEventProc: got new window title.
+12/29/2012 4:28:05 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:28:05 AM: WinEventProc: got new window title.
+12/29/2012 4:28:05 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:28:05 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:28:05 AM: Worker thread: Tried to skip, song before: [Song] Big Green Bus on Tour - Big Green Bus on Tour vs. [Song] Big Green Bus on Tour - Big Green Bus on Tour
+12/29/2012 4:28:05 AM: Got our return, failure value: True
+12/29/2012 4:28:05 AM: Failed to skip the song. Muting song.
+12/29/2012 4:28:05 AM: Got spotify volume before mute: 0.9999999
+12/29/2012 4:28:05 AM: Setting spotify volume to: 0.1333333
+12/29/2012 4:28:05 AM: Playing replacement music at: elevator.mp3
+12/29/2012 4:28:05 AM: Sending keypress: MediaPlayPause
+12/29/2012 4:28:05 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:28:05 AM: After play, got this song: [Song] Big Green Bus on Tour - Big Green Bus on Tour
+12/29/2012 4:28:06 AM: WinEventProc: got new window title.
+12/29/2012 4:28:06 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:28:06 AM: Trying to skip song - waiting for a return from worker thread.
+12/29/2012 4:28:06 AM: WinEventProc: got new window title.
+12/29/2012 4:28:06 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:28:06 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:28:06 AM: Sending keypress: MediaNextTrack
+12/29/2012 4:28:07 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:28:07 AM: Worker thread: Tried to skip, song before: [Song] Big Green Bus on Tour - Big Green Bus on Tour vs. [Song] Big Green Bus on Tour - Big Green Bus on Tour
+12/29/2012 4:28:07 AM: Got our return, failure value: True
+12/29/2012 4:28:07 AM: Failed to skip the song. Muting song.
+12/29/2012 4:28:07 AM: User's volume is already at 5%, will not try to change vol.
+12/29/2012 4:28:07 AM: Playing replacement music at: elevator.mp3
+12/29/2012 4:28:11 AM: WinEventProc: got new window title.
+12/29/2012 4:28:11 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:28:11 AM: Trying to skip song - waiting for a return from worker thread.
+12/29/2012 4:28:11 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:28:11 AM: Sending keypress: MediaNextTrack
+12/29/2012 4:28:11 AM: WinEventProc: got new window title.
+12/29/2012 4:28:11 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:28:11 AM: WinEventProc: got new window title.
+12/29/2012 4:28:11 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:28:11 AM: WinEventProc: got new window title.
+12/29/2012 4:28:11 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:28:12 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:28:12 AM: Worker thread: Tried to skip, song before: [Song] Big Green Bus on Tour - Big Green Bus on Tour vs. [Song] Big Green Bus on Tour - Big Green Bus on Tour
+12/29/2012 4:28:12 AM: Got our return, failure value: True
+12/29/2012 4:28:12 AM: Failed to skip the song. Muting song.
+12/29/2012 4:28:12 AM: User's volume is already at 5%, will not try to change vol.
+12/29/2012 4:28:12 AM: Playing replacement music at: elevator.mp3
+12/29/2012 4:28:17 AM: WinEventProc: got new window title.
+12/29/2012 4:28:17 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:28:17 AM: Trying to skip song - waiting for a return from worker thread.
+12/29/2012 4:28:17 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:28:17 AM: Sending keypress: MediaNextTrack
+12/29/2012 4:28:17 AM: WinEventProc: got new window title.
+12/29/2012 4:28:17 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:28:17 AM: WinEventProc: got new window title.
+12/29/2012 4:28:17 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:28:17 AM: WinEventProc: got new window title.
+12/29/2012 4:28:17 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:28:17 AM: WinEventProc: got new window title.
+12/29/2012 4:28:17 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:28:17 AM: WinEventProc: got new window title.
+12/29/2012 4:28:17 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:28:18 AM: Artist: Big Green Bus on Tour, Title:  Big Green Bus on Tour
+12/29/2012 4:28:18 AM: Worker thread: Tried to skip, song before: [Song] Big Green Bus on Tour - Big Green Bus on Tour vs. [Song] Big Green Bus on Tour - Big Green Bus on Tour
+12/29/2012 4:28:18 AM: Got our return, failure value: True
+12/29/2012 4:28:18 AM: Failed to skip the song. Muting song.
+12/29/2012 4:28:18 AM: User's volume is already at 5%, will not try to change vol.
+12/29/2012 4:28:18 AM: Playing replacement music at: elevator.mp3
+12/29/2012 4:28:21 AM: WinEventProc: got new window title.
+12/29/2012 4:28:21 AM: Artist: Breaking Benjamin, Title:  So Cold
+12/29/2012 4:28:21 AM: Stopping replacement music.
+12/29/2012 4:28:21 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:28:21 AM: Artist: Breaking Benjamin, Title:  So Cold
+12/29/2012 4:28:21 AM: Got new Spotify item: [Song] Breaking Benjamin - So Cold
+12/29/2012 4:28:28 AM: WinEventProc: got new window title.
+12/29/2012 4:28:28 AM: Artist: Breaking Benjamin, Title:  So Cold
+12/29/2012 4:28:28 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:28:28 AM: Artist: Breaking Benjamin, Title:  So Cold
+12/29/2012 4:28:28 AM: Got new Spotify item: [Song] Breaking Benjamin - So Cold
+12/29/2012 4:28:28 AM: WinEventProc: got new window title.
+12/29/2012 4:28:28 AM: Artist: Breaking Benjamin, Title:  So Cold
+12/29/2012 4:28:28 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:28:28 AM: Artist: Breaking Benjamin, Title:  So Cold
+12/29/2012 4:28:28 AM: Got new Spotify item: [Song] Breaking Benjamin - So Cold
+12/29/2012 4:28:28 AM: WinEventProc: got new window title.
+12/29/2012 4:28:28 AM: Artist: Breaking Benjamin, Title:  So Cold
+12/29/2012 4:28:28 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:28:28 AM: Artist: Breaking Benjamin, Title:  So Cold
+12/29/2012 4:28:28 AM: Got new Spotify item: [Song] Breaking Benjamin - So Cold
+12/29/2012 4:28:28 AM: WinEventProc: got new window title.
+12/29/2012 4:28:28 AM: Artist: Breaking Benjamin, Title:  So Cold
+12/29/2012 4:28:28 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:28:28 AM: Artist: Breaking Benjamin, Title:  So Cold
+12/29/2012 4:28:28 AM: Got new Spotify item: [Song] Breaking Benjamin - So Cold
+12/29/2012 4:28:28 AM: WinEventProc: got new window title.
+12/29/2012 4:28:28 AM: Artist: Breaking Benjamin, Title:  So Cold
+12/29/2012 4:28:28 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:28:28 AM: Artist: Breaking Benjamin, Title:  So Cold
+12/29/2012 4:28:28 AM: Got new Spotify item: [Song] Breaking Benjamin - So Cold
+12/29/2012 4:28:28 AM: WinEventProc: got new window title.
+12/29/2012 4:28:28 AM: Artist: Breaking Benjamin, Title:  So Cold
+12/29/2012 4:28:28 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:28:28 AM: Artist: Breaking Benjamin, Title:  So Cold
+12/29/2012 4:28:28 AM: Got new Spotify item: [Song] Breaking Benjamin - So Cold
+12/29/2012 4:28:28 AM: WinEventProc: got new window title.
+12/29/2012 4:28:28 AM: Artist: Breaking Benjamin, Title:  So Cold
+12/29/2012 4:28:28 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:28:28 AM: Artist: Breaking Benjamin, Title:  So Cold
+12/29/2012 4:28:28 AM: Got new Spotify item: [Song] Breaking Benjamin - So Cold
+12/29/2012 4:28:28 AM: WinEventProc: got new window title.
+12/29/2012 4:28:28 AM: Artist: Breaking Benjamin, Title:  So Cold
+12/29/2012 4:28:28 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:28:28 AM: Artist: Breaking Benjamin, Title:  So Cold
+12/29/2012 4:28:28 AM: Got new Spotify item: [Song] Breaking Benjamin - So Cold
+12/29/2012 4:28:28 AM: WinEventProc: got new window title.
+12/29/2012 4:28:28 AM: Artist: Breaking Benjamin, Title:  So Cold
+12/29/2012 4:28:28 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:28:28 AM: Artist: Breaking Benjamin, Title:  So Cold
+12/29/2012 4:28:28 AM: Got new Spotify item: [Song] Breaking Benjamin - So Cold
+12/29/2012 4:28:28 AM: WinEventProc: got new window title.
+12/29/2012 4:28:28 AM: Artist: Breaking Benjamin, Title:  So Cold
+12/29/2012 4:28:28 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:28:28 AM: Artist: Breaking Benjamin, Title:  So Cold
+12/29/2012 4:28:28 AM: Got new Spotify item: [Song] Breaking Benjamin - So Cold
+12/29/2012 4:28:28 AM: WinEventProc: got new window title.
+12/29/2012 4:28:28 AM: Artist: Breaking Benjamin, Title:  So Cold
+12/29/2012 4:28:28 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:28:28 AM: Artist: Breaking Benjamin, Title:  So Cold
+12/29/2012 4:28:28 AM: Got new Spotify item: [Song] Breaking Benjamin - So Cold
+12/29/2012 4:28:28 AM: WinEventProc: got new window title.
+12/29/2012 4:28:28 AM: Artist: Breaking Benjamin, Title:  So Cold
+12/29/2012 4:28:28 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:28:28 AM: Artist: Breaking Benjamin, Title:  So Cold
+12/29/2012 4:28:28 AM: Got new Spotify item: [Song] Breaking Benjamin - So Cold
+12/29/2012 4:30:46 AM: WinEventProc: got new window title.
+12/29/2012 4:30:46 AM: Artist: Breaking Benjamin, Title:  So Cold
+12/29/2012 4:30:46 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:30:46 AM: Artist: Breaking Benjamin, Title:  So Cold
+12/29/2012 4:30:46 AM: Got new Spotify item: [Song] Breaking Benjamin - So Cold
+12/29/2012 4:30:51 AM: WinEventProc: got new window title.
+12/29/2012 4:30:51 AM: Artist: Breaking Benjamin, Title:  So Cold
+12/29/2012 4:30:51 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:30:51 AM: Artist: Breaking Benjamin, Title:  So Cold
+12/29/2012 4:30:51 AM: Got new Spotify item: [Song] Breaking Benjamin - So Cold
+12/29/2012 4:30:51 AM: WinEventProc: got new window title.
+12/29/2012 4:30:51 AM: Artist: Breaking Benjamin, Title:  So Cold
+12/29/2012 4:30:51 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:30:51 AM: Artist: Breaking Benjamin, Title:  So Cold
+12/29/2012 4:30:51 AM: Got new Spotify item: [Song] Breaking Benjamin - So Cold
+12/29/2012 4:30:51 AM: WinEventProc: got new window title.
+12/29/2012 4:30:51 AM: Artist: Breaking Benjamin, Title:  So Cold
+12/29/2012 4:30:51 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:30:51 AM: Artist: Breaking Benjamin, Title:  So Cold
+12/29/2012 4:30:51 AM: Got new Spotify item: [Song] Breaking Benjamin - So Cold
+12/29/2012 4:30:51 AM: WinEventProc: got new window title.
+12/29/2012 4:30:51 AM: Artist: Breaking Benjamin, Title:  So Cold
+12/29/2012 4:30:51 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:30:51 AM: Artist: Breaking Benjamin, Title:  So Cold
+12/29/2012 4:30:51 AM: Got new Spotify item: [Song] Breaking Benjamin - So Cold
+12/29/2012 4:30:51 AM: WinEventProc: got new window title.
+12/29/2012 4:30:51 AM: Artist: Breaking Benjamin, Title:  So Cold
+12/29/2012 4:30:51 AM: Resetting master volume to: 0.9999999
+12/29/2012 4:30:51 AM: Artist: Breaking Benjamin, Title:  So Cold
+12/29/2012 4:30:51 AM: Got new Spotify item: [Song] Breaking Benjamin - So Cold
+12/29/2012 4:30:57 AM: Stopping replacement music.
+12/29/2012 4:30:57 AM: STOP!
+12/29/2012 4:30:57 AM: Got FormClosing event in MainForm view. Trying to persist blacklist for use next time...
+12/29/2012 4:30:57 AM: Saving 11 blockTable items to disk.
+12/29/2012 4:30:57 AM: Saving 112543 bytes of logs to disk.
