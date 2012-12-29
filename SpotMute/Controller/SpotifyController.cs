@@ -298,7 +298,11 @@ namespace SpotMute.Controller
         public void checkCurrentSong()
         {
             Song currSong = spotInfo.getCurrentSong();
-            if (currSong == null) return;
+            if (currSong == null)
+            {
+                nowPlayingLabel.Text = "[PAUSED]";
+                return;
+            }
             nowPlayingLabel.Text = currSong.getArtistName() + " - " + currSong.getSongTitle();
             if (!blockTable.contains(currSong))
             {
@@ -323,7 +327,7 @@ namespace SpotMute.Controller
         private Boolean isSkipping = false;
         public void trySkipSong()
         {
-            if (isSkipping) return; // bugfix: song would be attempted to be skipped over and over because spotify was sending multiple window title events.
+            if (isSkipping || isReplacementMusicPlaying()) return; // bugfix: song would be attempted to be skipped over and over because spotify was sending multiple window title events.
             isSkipping = true;
             AutoResetEvent autoEvent = new AutoResetEvent(false);
             Object[] retObj = { autoEvent, false };
@@ -367,7 +371,7 @@ namespace SpotMute.Controller
         private void WinEventProc(IntPtr hWinEventHook, uint eventType,
             IntPtr hwnd, int idObject, int idChild, uint dwEventThread, uint dwmsEventTime)
         {
-            addLog("WinEventProc: got new window title");
+            addLog("WinEventProc: got new window title.");
             checkCurrentSong();
         }
     }

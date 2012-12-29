@@ -1,0 +1,242 @@
+12/28/2012 10:49:15 PM: Found spotify proc.
+12/28/2012 10:49:15 PM: Spotify hook successful. Started.
+12/28/2012 10:49:15 PM: WARN: couldn't parse the artist/title from the raw window title.
+12/28/2012 10:49:22 PM: WinEventProc: got new window title.
+12/28/2012 10:49:22 PM: WARN: couldn't parse the artist/title from the raw window title.
+12/28/2012 10:49:22 PM: WinEventProc: got new window title.
+12/28/2012 10:49:22 PM: WARN: couldn't parse the artist/title from the raw window title.
+12/28/2012 10:49:22 PM: WinEventProc: got new window title.
+12/28/2012 10:49:22 PM: WARN: couldn't parse the artist/title from the raw window title.
+12/28/2012 10:49:22 PM: WinEventProc: got new window title.
+12/28/2012 10:49:22 PM: WARN: couldn't parse the artist/title from the raw window title.
+12/28/2012 10:49:22 PM: WinEventProc: got new window title.
+12/28/2012 10:49:22 PM: WARN: couldn't parse the artist/title from the raw window title.
+12/28/2012 10:49:23 PM: WinEventProc: got new window title.
+12/28/2012 10:49:23 PM: WARN: couldn't parse the artist/title from the raw window title.
+12/28/2012 10:49:23 PM: WinEventProc: got new window title.
+12/28/2012 10:49:23 PM: Artist: The Kooks, Title:  You Don't Love Me
+12/28/2012 10:49:23 PM: Stopping replacement music.
+12/28/2012 10:49:23 PM: Got new Spotify item: [Song] The Kooks - You Don't Love Me
+12/28/2012 10:49:24 PM: WinEventProc: got new window title.
+12/28/2012 10:49:24 PM: Stopping replacement music.
+12/28/2012 10:49:24 PM: Got new Spotify item: [Song] The Kooks - You Don't Love Me
+12/28/2012 10:49:24 PM: WinEventProc: got new window title.
+12/28/2012 10:49:24 PM: Stopping replacement music.
+12/28/2012 10:49:24 PM: Got new Spotify item: [Song] The Kooks - You Don't Love Me
+12/28/2012 10:49:27 PM: WinEventProc: got new window title.
+12/28/2012 10:49:27 PM: Stopping replacement music.
+12/28/2012 10:49:27 PM: Got new Spotify item: [Song] The Kooks - You Don't Love Me
+12/28/2012 10:49:27 PM: WinEventProc: got new window title.
+12/28/2012 10:49:27 PM: Stopping replacement music.
+12/28/2012 10:49:27 PM: Got new Spotify item: [Song] The Kooks - You Don't Love Me
+12/28/2012 10:49:27 PM: WinEventProc: got new window title.
+12/28/2012 10:49:27 PM: Stopping replacement music.
+12/28/2012 10:49:27 PM: Got new Spotify item: [Song] The Kooks - You Don't Love Me
+12/28/2012 10:49:27 PM: WinEventProc: got new window title.
+12/28/2012 10:49:27 PM: Stopping replacement music.
+12/28/2012 10:49:27 PM: Got new Spotify item: [Song] The Kooks - You Don't Love Me
+12/28/2012 10:49:27 PM: WinEventProc: got new window title.
+12/28/2012 10:49:27 PM: Stopping replacement music.
+12/28/2012 10:49:27 PM: Got new Spotify item: [Song] The Kooks - You Don't Love Me
+12/28/2012 10:49:27 PM: WinEventProc: got new window title.
+12/28/2012 10:49:27 PM: Stopping replacement music.
+12/28/2012 10:49:27 PM: Got new Spotify item: [Song] The Kooks - You Don't Love Me
+12/28/2012 10:49:28 PM: WinEventProc: got new window title.
+12/28/2012 10:49:28 PM: Stopping replacement music.
+12/28/2012 10:49:28 PM: Got new Spotify item: [Song] The Kooks - You Don't Love Me
+12/28/2012 10:49:28 PM: WinEventProc: got new window title.
+12/28/2012 10:49:28 PM: Stopping replacement music.
+12/28/2012 10:49:28 PM: Got new Spotify item: [Song] The Kooks - You Don't Love Me
+12/28/2012 10:49:29 PM: WinEventProc: got new window title.
+12/28/2012 10:49:29 PM: Artist: Spotify, Title:  Spotify
+12/28/2012 10:49:29 PM: Found a match for the current song in the blockTable: [Song] Spotify - Spotify. Trying to skip, muting for duration of the song on failure.
+12/28/2012 10:49:29 PM: Trying to skip song - waiting for a return from worker thread.
+12/28/2012 10:49:29 PM: WinEventProc: got new window title.
+12/28/2012 10:49:29 PM: Found a match for the current song in the blockTable: [Song] Spotify - Spotify. Trying to skip, muting for duration of the song on failure.
+12/28/2012 10:49:29 PM: WinEventProc: got new window title.
+12/28/2012 10:49:29 PM: Found a match for the current song in the blockTable: [Song] Spotify - Spotify. Trying to skip, muting for duration of the song on failure.
+12/28/2012 10:49:29 PM: WinEventProc: got new window title.
+12/28/2012 10:49:29 PM: Found a match for the current song in the blockTable: [Song] Spotify - Spotify. Trying to skip, muting for duration of the song on failure.
+12/28/2012 10:49:29 PM: WinEventProc: got new window title.
+12/28/2012 10:49:29 PM: Found a match for the current song in the blockTable: [Song] Spotify - Spotify. Trying to skip, muting for duration of the song on failure.
+12/28/2012 10:49:29 PM: WinEventProc: got new window title.
+12/28/2012 10:49:29 PM: Found a match for the current song in the blockTable: [Song] Spotify - Spotify. Trying to skip, muting for duration of the song on failure.
+12/28/2012 10:49:29 PM: WinEventProc: got new window title.
+12/28/2012 10:49:29 PM: Found a match for the current song in the blockTable: [Song] Spotify - Spotify. Trying to skip, muting for duration of the song on failure.
+12/28/2012 10:49:29 PM: WinEventProc: got new window title.
+12/28/2012 10:49:30 PM: Found a match for the current song in the blockTable: [Song] Spotify - Spotify. Trying to skip, muting for duration of the song on failure.
+12/28/2012 10:49:30 PM: WinEventProc: got new window title.
+12/28/2012 10:49:30 PM: Found a match for the current song in the blockTable: [Song] Spotify - Spotify. Trying to skip, muting for duration of the song on failure.
+12/28/2012 10:49:30 PM: Worker thread: Tried to skip, song before: [Song] Spotify - Spotify vs. [Song] Spotify - Spotify
+12/28/2012 10:49:30 PM: Got our return, failure value: True
+12/28/2012 10:49:30 PM: Failed to skip the song. Muting song.
+12/28/2012 10:49:30 PM: Got spotify volume before mute: 1
+12/28/2012 10:49:30 PM: Setting spotify volume to: 0.04
+12/28/2012 10:49:30 PM: Playing replacement music at: elevator.mp3
+12/28/2012 10:49:30 PM: WinEventProc: got new window title.
+12/28/2012 10:49:30 PM: WARN: couldn't parse the artist/title from the raw window title.
+12/28/2012 10:49:30 PM: WinEventProc: got new window title.
+12/28/2012 10:49:32 PM: WinEventProc: got new window title.
+12/28/2012 10:49:32 PM: WinEventProc: got new window title.
+12/28/2012 10:49:32 PM: WinEventProc: got new window title.
+12/28/2012 10:49:56 PM: WinEventProc: got new window title.
+12/28/2012 10:49:56 PM: Artist: Nickelback, Title:  How You Remind Me - LP Mix
+12/28/2012 10:49:56 PM: Stopping replacement music.
+12/28/2012 10:49:57 PM: Resetting master volume to: 1
+12/28/2012 10:49:57 PM: Got new Spotify item: [Song] Nickelback - How You Remind Me - LP Mix
+12/28/2012 10:50:02 PM: WinEventProc: got new window title.
+12/28/2012 10:50:02 PM: Stopping replacement music.
+12/28/2012 10:50:02 PM: Resetting master volume to: 1
+12/28/2012 10:50:02 PM: Got new Spotify item: [Song] Nickelback - How You Remind Me - LP Mix
+12/28/2012 10:50:03 PM: WinEventProc: got new window title.
+12/28/2012 10:50:03 PM: Stopping replacement music.
+12/28/2012 10:50:03 PM: Resetting master volume to: 1
+12/28/2012 10:50:03 PM: Got new Spotify item: [Song] Nickelback - How You Remind Me - LP Mix
+12/28/2012 10:50:03 PM: WinEventProc: got new window title.
+12/28/2012 10:50:03 PM: Stopping replacement music.
+12/28/2012 10:50:03 PM: Resetting master volume to: 1
+12/28/2012 10:50:03 PM: Got new Spotify item: [Song] Nickelback - How You Remind Me - LP Mix
+12/28/2012 10:50:03 PM: WinEventProc: got new window title.
+12/28/2012 10:50:03 PM: Stopping replacement music.
+12/28/2012 10:50:03 PM: Resetting master volume to: 1
+12/28/2012 10:50:03 PM: Got new Spotify item: [Song] Nickelback - How You Remind Me - LP Mix
+12/28/2012 10:50:03 PM: WinEventProc: got new window title.
+12/28/2012 10:50:03 PM: Stopping replacement music.
+12/28/2012 10:50:03 PM: Resetting master volume to: 1
+12/28/2012 10:50:03 PM: Got new Spotify item: [Song] Nickelback - How You Remind Me - LP Mix
+12/28/2012 10:50:04 PM: WinEventProc: got new window title.
+12/28/2012 10:50:04 PM: Stopping replacement music.
+12/28/2012 10:50:04 PM: Resetting master volume to: 1
+12/28/2012 10:50:04 PM: Got new Spotify item: [Song] Nickelback - How You Remind Me - LP Mix
+12/28/2012 10:50:04 PM: WinEventProc: got new window title.
+12/28/2012 10:50:04 PM: Stopping replacement music.
+12/28/2012 10:50:04 PM: Resetting master volume to: 1
+12/28/2012 10:50:04 PM: Got new Spotify item: [Song] Nickelback - How You Remind Me - LP Mix
+12/28/2012 10:51:47 PM: WinEventProc: got new window title.
+12/28/2012 10:51:47 PM: WinEventProc: got new window title.
+12/28/2012 10:51:47 PM: Stopping replacement music.
+12/28/2012 10:51:47 PM: Resetting master volume to: 1
+12/28/2012 10:51:47 PM: Got new Spotify item: [Song] Nickelback - How You Remind Me - LP Mix
+12/28/2012 10:51:47 PM: Stopping replacement music.
+12/28/2012 10:51:47 PM: Resetting master volume to: 1
+12/28/2012 10:51:47 PM: Got new Spotify item: [Song] Nickelback - How You Remind Me - LP Mix
+12/28/2012 10:51:48 PM: WinEventProc: got new window title.
+12/28/2012 10:51:48 PM: Stopping replacement music.
+12/28/2012 10:51:48 PM: Resetting master volume to: 1
+12/28/2012 10:51:48 PM: Got new Spotify item: [Song] Nickelback - How You Remind Me - LP Mix
+12/28/2012 10:51:48 PM: WinEventProc: got new window title.
+12/28/2012 10:51:48 PM: Stopping replacement music.
+12/28/2012 10:51:48 PM: Resetting master volume to: 1
+12/28/2012 10:51:48 PM: Got new Spotify item: [Song] Nickelback - How You Remind Me - LP Mix
+12/28/2012 10:51:48 PM: WinEventProc: got new window title.
+12/28/2012 10:51:48 PM: Stopping replacement music.
+12/28/2012 10:51:48 PM: Resetting master volume to: 1
+12/28/2012 10:51:48 PM: Got new Spotify item: [Song] Nickelback - How You Remind Me - LP Mix
+12/28/2012 10:51:48 PM: WinEventProc: got new window title.
+12/28/2012 10:51:48 PM: Stopping replacement music.
+12/28/2012 10:51:48 PM: Resetting master volume to: 1
+12/28/2012 10:51:48 PM: Got new Spotify item: [Song] Nickelback - How You Remind Me - LP Mix
+12/28/2012 10:51:52 PM: WinEventProc: got new window title.
+12/28/2012 10:51:52 PM: Artist: Klaxons, Title:  Echoes
+12/28/2012 10:51:52 PM: Stopping replacement music.
+12/28/2012 10:51:52 PM: Resetting master volume to: 1
+12/28/2012 10:51:52 PM: Got new Spotify item: [Song] Klaxons - Echoes
+12/28/2012 10:51:53 PM: WinEventProc: got new window title.
+12/28/2012 10:51:53 PM: Stopping replacement music.
+12/28/2012 10:51:53 PM: Resetting master volume to: 1
+12/28/2012 10:51:53 PM: Got new Spotify item: [Song] Klaxons - Echoes
+12/28/2012 10:51:53 PM: WinEventProc: got new window title.
+12/28/2012 10:51:53 PM: Stopping replacement music.
+12/28/2012 10:51:53 PM: Resetting master volume to: 1
+12/28/2012 10:51:53 PM: Got new Spotify item: [Song] Klaxons - Echoes
+12/28/2012 10:51:54 PM: WinEventProc: got new window title.
+12/28/2012 10:51:54 PM: Stopping replacement music.
+12/28/2012 10:51:54 PM: Resetting master volume to: 1
+12/28/2012 10:51:54 PM: Got new Spotify item: [Song] Klaxons - Echoes
+12/28/2012 10:51:54 PM: WinEventProc: got new window title.
+12/28/2012 10:51:54 PM: Stopping replacement music.
+12/28/2012 10:51:54 PM: Resetting master volume to: 1
+12/28/2012 10:51:54 PM: Got new Spotify item: [Song] Klaxons - Echoes
+12/28/2012 10:51:58 PM: WinEventProc: got new window title.
+12/28/2012 10:51:58 PM: Stopping replacement music.
+12/28/2012 10:51:58 PM: Resetting master volume to: 1
+12/28/2012 10:51:58 PM: Got new Spotify item: [Song] Klaxons - Echoes
+12/28/2012 10:51:58 PM: WinEventProc: got new window title.
+12/28/2012 10:51:59 PM: Stopping replacement music.
+12/28/2012 10:51:59 PM: Resetting master volume to: 1
+12/28/2012 10:51:59 PM: Got new Spotify item: [Song] Klaxons - Echoes
+12/28/2012 10:52:06 PM: WinEventProc: got new window title.
+12/28/2012 10:52:06 PM: Stopping replacement music.
+12/28/2012 10:52:06 PM: Resetting master volume to: 1
+12/28/2012 10:52:06 PM: Got new Spotify item: [Song] Klaxons - Echoes
+12/28/2012 10:52:06 PM: WinEventProc: got new window title.
+12/28/2012 10:52:06 PM: Stopping replacement music.
+12/28/2012 10:52:06 PM: Resetting master volume to: 1
+12/28/2012 10:52:06 PM: Got new Spotify item: [Song] Klaxons - Echoes
+12/28/2012 10:52:16 PM: WinEventProc: got new window title.
+12/28/2012 10:52:16 PM: Stopping replacement music.
+12/28/2012 10:52:16 PM: Resetting master volume to: 1
+12/28/2012 10:52:16 PM: Got new Spotify item: [Song] Klaxons - Echoes
+12/28/2012 10:52:16 PM: WinEventProc: got new window title.
+12/28/2012 10:52:16 PM: Stopping replacement music.
+12/28/2012 10:52:16 PM: Resetting master volume to: 1
+12/28/2012 10:52:16 PM: Got new Spotify item: [Song] Klaxons - Echoes
+12/28/2012 10:52:16 PM: WinEventProc: got new window title.
+12/28/2012 10:52:16 PM: Stopping replacement music.
+12/28/2012 10:52:16 PM: Resetting master volume to: 1
+12/28/2012 10:52:16 PM: Got new Spotify item: [Song] Klaxons - Echoes
+12/28/2012 10:52:17 PM: WinEventProc: got new window title.
+12/28/2012 10:52:17 PM: Stopping replacement music.
+12/28/2012 10:52:17 PM: Resetting master volume to: 1
+12/28/2012 10:52:17 PM: Got new Spotify item: [Song] Klaxons - Echoes
+12/28/2012 10:52:17 PM: WinEventProc: got new window title.
+12/28/2012 10:52:17 PM: Stopping replacement music.
+12/28/2012 10:52:17 PM: Resetting master volume to: 1
+12/28/2012 10:52:17 PM: Got new Spotify item: [Song] Klaxons - Echoes
+12/28/2012 10:52:17 PM: WinEventProc: got new window title.
+12/28/2012 10:52:17 PM: Stopping replacement music.
+12/28/2012 10:52:17 PM: Resetting master volume to: 1
+12/28/2012 10:52:17 PM: Got new Spotify item: [Song] Klaxons - Echoes
+12/28/2012 10:52:17 PM: WinEventProc: got new window title.
+12/28/2012 10:52:17 PM: Stopping replacement music.
+12/28/2012 10:52:17 PM: Resetting master volume to: 1
+12/28/2012 10:52:17 PM: Got new Spotify item: [Song] Klaxons - Echoes
+12/28/2012 10:52:18 PM: WinEventProc: got new window title.
+12/28/2012 10:52:18 PM: Stopping replacement music.
+12/28/2012 10:52:18 PM: Resetting master volume to: 1
+12/28/2012 10:52:18 PM: Got new Spotify item: [Song] Klaxons - Echoes
+12/28/2012 10:52:18 PM: WinEventProc: got new window title.
+12/28/2012 10:52:18 PM: WinEventProc: got new window title.
+12/28/2012 10:52:18 PM: Stopping replacement music.
+12/28/2012 10:52:18 PM: Resetting master volume to: 1
+12/28/2012 10:52:18 PM: Got new Spotify item: [Song] Klaxons - Echoes
+12/28/2012 10:52:18 PM: Stopping replacement music.
+12/28/2012 10:52:18 PM: Resetting master volume to: 1
+12/28/2012 10:52:18 PM: Got new Spotify item: [Song] Klaxons - Echoes
+12/28/2012 10:52:18 PM: WinEventProc: got new window title.
+12/28/2012 10:52:18 PM: Stopping replacement music.
+12/28/2012 10:52:18 PM: Resetting master volume to: 1
+12/28/2012 10:52:18 PM: Got new Spotify item: [Song] Klaxons - Echoes
+12/28/2012 10:52:18 PM: WinEventProc: got new window title.
+12/28/2012 10:52:18 PM: Stopping replacement music.
+12/28/2012 10:52:18 PM: Resetting master volume to: 1
+12/28/2012 10:52:18 PM: Got new Spotify item: [Song] Klaxons - Echoes
+12/28/2012 10:52:56 PM: WinEventProc: got new window title.
+12/28/2012 10:52:56 PM: Stopping replacement music.
+12/28/2012 10:52:56 PM: Resetting master volume to: 1
+12/28/2012 10:52:56 PM: Got new Spotify item: [Song] Klaxons - Echoes
+12/28/2012 10:52:56 PM: WinEventProc: got new window title.
+12/28/2012 10:52:56 PM: Stopping replacement music.
+12/28/2012 10:52:56 PM: Resetting master volume to: 1
+12/28/2012 10:52:56 PM: Got new Spotify item: [Song] Klaxons - Echoes
+12/28/2012 10:52:56 PM: WinEventProc: got new window title.
+12/28/2012 10:52:56 PM: Stopping replacement music.
+12/28/2012 10:52:56 PM: Resetting master volume to: 1
+12/28/2012 10:52:56 PM: Got new Spotify item: [Song] Klaxons - Echoes
+12/28/2012 10:52:56 PM: WinEventProc: got new window title.
+12/28/2012 10:52:56 PM: Stopping replacement music.
+12/28/2012 10:52:56 PM: Resetting master volume to: 1
+12/28/2012 10:52:56 PM: Got new Spotify item: [Song] Klaxons - Echoes
+12/28/2012 10:53:08 PM: Got FormClosing event in MainForm view. Trying to persist blacklist for use next time...
+12/28/2012 10:53:08 PM: Saving 6 blockTable items to disk.
+12/28/2012 10:53:08 PM: Saving 16346 bytes of logs to disk.
