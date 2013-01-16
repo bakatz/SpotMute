@@ -330,8 +330,7 @@ namespace SpotMute.Controller
             }
         }
 
-        private static Mutex skipLock = new Mutex();
-        private Boolean isSkipping = false;
+        private static Boolean isSkipping = false;
         public void trySkipSong()
         {
             Console.WriteLine("in trySkip");
@@ -348,7 +347,7 @@ namespace SpotMute.Controller
             {
                 addLog("Failed to skip the song. Muting song.");
                 Boolean muteSuccess = forceSpotifyMute();
-                if (playElevatorMusic.Checked)
+                if (playElevatorMusic.Checked && !isReplacementMusicPlaying())
                 {
                     playReplacementMusic();
                 }
