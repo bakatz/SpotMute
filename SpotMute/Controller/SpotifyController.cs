@@ -67,9 +67,6 @@ namespace SpotMute.Controller
         private Boolean isMusicPlaying;
         private StringBuilder logs;
 
-        //private static Mutex muteSoundMutex = new Mutex();
-
-
         public SpotifyController(Label nowPlaying, ToolStripMenuItem playElevatorMusic)
         {
             this.playElevatorMusic = playElevatorMusic;
@@ -204,7 +201,6 @@ namespace SpotMute.Controller
             Song currSong = spotInfo.getCurrentSong();
             if (currSong != null)
             {
-                
                 blockTable.addSong(currSong);
                 addLog("Current song added to the blockTable.");
                 trySkipSong();
@@ -310,15 +306,14 @@ namespace SpotMute.Controller
                 if (isReplacementMusicPlaying())
                 {
                     stopReplacementMusic();
-                }
-                if (savedVol > 0)
-                {
-                    addLog("Resetting master volume to: " + savedVol);
-                    AudioSessionControl spotifyASC = spotInfo.getSpotifyAudioSession();
-                    spotifyASC.SimpleAudioVolume.MasterVolume = savedVol;
+                    if (savedVol > 0)
+                    {
+                        addLog("Resetting master volume to: " + savedVol);
+                        AudioSessionControl spotifyASC = spotInfo.getSpotifyAudioSession();
+                        spotifyASC.SimpleAudioVolume.MasterVolume = savedVol;
+                    }
                 }
                 addLog("Got new Spotify item: " + spotInfo.getCurrentSong());
-
             }
             else
             {

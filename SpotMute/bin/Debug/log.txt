@@ -1,1118 +1,1227 @@
-1/16/2013 11:04:17 AM: Found spotify proc.
-1/16/2013 11:04:17 AM: Spotify hook successful. Started.
-1/16/2013 11:04:17 AM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 11:04:19 AM: WinEventProc: got new window title.
-1/16/2013 11:04:19 AM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 11:04:19 AM: WinEventProc: got new window title.
-1/16/2013 11:04:19 AM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 11:04:20 AM: WinEventProc: got new window title.
-1/16/2013 11:04:20 AM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 11:04:20 AM: WinEventProc: got new window title.
-1/16/2013 11:04:20 AM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 11:04:20 AM: WinEventProc: got new window title.
-1/16/2013 11:04:20 AM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 11:04:20 AM: WinEventProc: got new window title.
-1/16/2013 11:04:20 AM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 11:04:20 AM: WinEventProc: got new window title.
-1/16/2013 11:04:20 AM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 11:04:20 AM: WinEventProc: got new window title.
-1/16/2013 11:04:20 AM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 11:04:20 AM: WinEventProc: got new window title.
-1/16/2013 11:04:20 AM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 11:04:20 AM: WinEventProc: got new window title.
-1/16/2013 11:04:20 AM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 11:04:20 AM: WinEventProc: got new window title.
-1/16/2013 11:04:20 AM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 11:04:20 AM: WinEventProc: got new window title.
-1/16/2013 11:04:20 AM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 11:04:20 AM: WinEventProc: got new window title.
-1/16/2013 11:04:20 AM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 11:04:20 AM: WinEventProc: got new window title.
-1/16/2013 11:04:20 AM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 11:04:20 AM: WinEventProc: got new window title.
-1/16/2013 11:04:20 AM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 11:04:21 AM: WinEventProc: got new window title.
-1/16/2013 11:04:21 AM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 11:04:24 AM: WinEventProc: got new window title.
-1/16/2013 11:04:24 AM: Artist: X, Title:  White Girl
-1/16/2013 11:04:24 AM: Artist: X, Title:  White Girl
-1/16/2013 11:04:24 AM: Got new Spotify item: [Song] X - White Girl
-1/16/2013 11:04:24 AM: WinEventProc: got new window title.
-1/16/2013 11:04:24 AM: Artist: X, Title:  White Girl
-1/16/2013 11:04:24 AM: Artist: X, Title:  White Girl
-1/16/2013 11:04:24 AM: Got new Spotify item: [Song] X - White Girl
-1/16/2013 11:04:24 AM: WinEventProc: got new window title.
-1/16/2013 11:04:24 AM: Artist: X, Title:  White Girl
-1/16/2013 11:04:24 AM: Artist: X, Title:  White Girl
-1/16/2013 11:04:24 AM: Got new Spotify item: [Song] X - White Girl
-1/16/2013 11:04:24 AM: WinEventProc: got new window title.
-1/16/2013 11:04:24 AM: Artist: X, Title:  White Girl
-1/16/2013 11:04:24 AM: Artist: X, Title:  White Girl
-1/16/2013 11:04:24 AM: Got new Spotify item: [Song] X - White Girl
-1/16/2013 11:04:24 AM: WinEventProc: got new window title.
-1/16/2013 11:04:24 AM: Artist: X, Title:  White Girl
-1/16/2013 11:04:24 AM: Artist: X, Title:  White Girl
-1/16/2013 11:04:24 AM: Got new Spotify item: [Song] X - White Girl
-1/16/2013 11:04:24 AM: WinEventProc: got new window title.
-1/16/2013 11:04:24 AM: Artist: X, Title:  White Girl
-1/16/2013 11:04:24 AM: Artist: X, Title:  White Girl
-1/16/2013 11:04:24 AM: Got new Spotify item: [Song] X - White Girl
-1/16/2013 11:04:24 AM: WinEventProc: got new window title.
-1/16/2013 11:04:24 AM: Artist: X, Title:  White Girl
-1/16/2013 11:04:24 AM: Artist: X, Title:  White Girl
-1/16/2013 11:04:24 AM: Got new Spotify item: [Song] X - White Girl
-1/16/2013 11:04:25 AM: WinEventProc: got new window title.
-1/16/2013 11:04:25 AM: Artist: X, Title:  White Girl
-1/16/2013 11:04:25 AM: Artist: X, Title:  White Girl
-1/16/2013 11:04:25 AM: Got new Spotify item: [Song] X - White Girl
-1/16/2013 11:04:25 AM: WinEventProc: got new window title.
-1/16/2013 11:04:25 AM: Artist: X, Title:  White Girl
-1/16/2013 11:04:25 AM: Artist: X, Title:  White Girl
-1/16/2013 11:04:25 AM: Got new Spotify item: [Song] X - White Girl
-1/16/2013 11:07:51 AM: WinEventProc: got new window title.
-1/16/2013 11:07:51 AM: Artist: Broken Bells, Title:  The Ghost Inside
-1/16/2013 11:07:51 AM: Artist: Broken Bells, Title:  The Ghost Inside
-1/16/2013 11:07:51 AM: Got new Spotify item: [Song] Broken Bells - The Ghost Inside
-1/16/2013 11:08:33 AM: WinEventProc: got new window title.
-1/16/2013 11:08:33 AM: Artist: The Smiths, Title:  This Charming Man
-1/16/2013 11:08:33 AM: Artist: The Smiths, Title:  This Charming Man
-1/16/2013 11:08:33 AM: Got new Spotify item: [Song] The Smiths - This Charming Man
-1/16/2013 11:08:36 AM: WinEventProc: got new window title.
-1/16/2013 11:08:36 AM: Artist: The Smiths, Title:  What Difference Does It Make? - 2011 Remastered Version
-1/16/2013 11:08:36 AM: Artist: The Smiths, Title:  What Difference Does It Make? - 2011 Remastered Version
-1/16/2013 11:08:36 AM: Got new Spotify item: [Song] The Smiths - What Difference Does It Make? - 2011 Remastered Version
-1/16/2013 11:12:25 AM: WinEventProc: got new window title.
-1/16/2013 11:12:25 AM: Artist: Deftones, Title:  Tempest
-1/16/2013 11:12:25 AM: Artist: Deftones, Title:  Tempest
-1/16/2013 11:12:25 AM: Got new Spotify item: [Song] Deftones - Tempest
-1/16/2013 11:17:41 AM: WinEventProc: got new window title.
-1/16/2013 11:17:41 AM: Artist: Deftones, Title:  Tempest
-1/16/2013 11:17:41 AM: Artist: Deftones, Title:  Tempest
-1/16/2013 11:17:41 AM: Got new Spotify item: [Song] Deftones - Tempest
-1/16/2013 11:17:41 AM: WinEventProc: got new window title.
-1/16/2013 11:17:41 AM: Artist: Deftones, Title:  Tempest
-1/16/2013 11:17:41 AM: Artist: Deftones, Title:  Tempest
-1/16/2013 11:17:41 AM: Got new Spotify item: [Song] Deftones - Tempest
-1/16/2013 11:17:41 AM: WinEventProc: got new window title.
-1/16/2013 11:17:41 AM: Artist: Deftones, Title:  Tempest
-1/16/2013 11:17:41 AM: Artist: Deftones, Title:  Tempest
-1/16/2013 11:17:41 AM: Got new Spotify item: [Song] Deftones - Tempest
-1/16/2013 11:17:41 AM: WinEventProc: got new window title.
-1/16/2013 11:17:41 AM: Artist: Deftones, Title:  Tempest
-1/16/2013 11:17:41 AM: Artist: Deftones, Title:  Tempest
-1/16/2013 11:17:41 AM: Got new Spotify item: [Song] Deftones - Tempest
-1/16/2013 11:17:41 AM: WinEventProc: got new window title.
-1/16/2013 11:17:41 AM: Artist: Deftones, Title:  Tempest
-1/16/2013 11:17:41 AM: Artist: Deftones, Title:  Tempest
-1/16/2013 11:17:41 AM: Got new Spotify item: [Song] Deftones - Tempest
-1/16/2013 11:17:41 AM: WinEventProc: got new window title.
-1/16/2013 11:17:41 AM: Artist: Deftones, Title:  Tempest
-1/16/2013 11:17:41 AM: Artist: Deftones, Title:  Tempest
-1/16/2013 11:17:41 AM: Got new Spotify item: [Song] Deftones - Tempest
-1/16/2013 11:17:41 AM: WinEventProc: got new window title.
-1/16/2013 11:17:41 AM: Artist: Deftones, Title:  Tempest
-1/16/2013 11:17:41 AM: Artist: Deftones, Title:  Tempest
-1/16/2013 11:17:41 AM: Got new Spotify item: [Song] Deftones - Tempest
-1/16/2013 11:17:41 AM: WinEventProc: got new window title.
-1/16/2013 11:17:41 AM: Artist: Deftones, Title:  Tempest
-1/16/2013 11:17:41 AM: Artist: Deftones, Title:  Tempest
-1/16/2013 11:17:41 AM: Got new Spotify item: [Song] Deftones - Tempest
-1/16/2013 11:17:41 AM: WinEventProc: got new window title.
-1/16/2013 11:17:41 AM: Artist: Deftones, Title:  Tempest
-1/16/2013 11:17:41 AM: Artist: Deftones, Title:  Tempest
-1/16/2013 11:17:41 AM: Got new Spotify item: [Song] Deftones - Tempest
-1/16/2013 11:17:41 AM: WinEventProc: got new window title.
-1/16/2013 11:17:41 AM: Artist: Deftones, Title:  Tempest
-1/16/2013 11:17:41 AM: Artist: Deftones, Title:  Tempest
-1/16/2013 11:17:41 AM: Got new Spotify item: [Song] Deftones - Tempest
-1/16/2013 11:17:41 AM: WinEventProc: got new window title.
-1/16/2013 11:17:41 AM: Artist: Deftones, Title:  Tempest
-1/16/2013 11:17:41 AM: Artist: Deftones, Title:  Tempest
-1/16/2013 11:17:41 AM: Got new Spotify item: [Song] Deftones - Tempest
-1/16/2013 11:17:41 AM: WinEventProc: got new window title.
-1/16/2013 11:17:41 AM: Artist: Deftones, Title:  Tempest
-1/16/2013 11:17:41 AM: Artist: Deftones, Title:  Tempest
-1/16/2013 11:17:41 AM: Got new Spotify item: [Song] Deftones - Tempest
-1/16/2013 11:17:42 AM: WinEventProc: got new window title.
-1/16/2013 11:17:42 AM: Artist: Deftones, Title:  Tempest
-1/16/2013 11:17:42 AM: Artist: Deftones, Title:  Tempest
-1/16/2013 11:17:42 AM: Got new Spotify item: [Song] Deftones - Tempest
-1/16/2013 11:17:42 AM: WinEventProc: got new window title.
-1/16/2013 11:17:42 AM: Artist: Deftones, Title:  Tempest
-1/16/2013 11:17:42 AM: Artist: Deftones, Title:  Tempest
-1/16/2013 11:17:42 AM: Got new Spotify item: [Song] Deftones - Tempest
-1/16/2013 11:17:42 AM: WinEventProc: got new window title.
-1/16/2013 11:17:42 AM: Artist: Deftones, Title:  Tempest
-1/16/2013 11:17:42 AM: Artist: Deftones, Title:  Tempest
-1/16/2013 11:17:42 AM: Got new Spotify item: [Song] Deftones - Tempest
-1/16/2013 11:17:42 AM: WinEventProc: got new window title.
-1/16/2013 11:17:42 AM: Artist: Deftones, Title:  Tempest
-1/16/2013 11:17:42 AM: Artist: Deftones, Title:  Tempest
-1/16/2013 11:17:42 AM: Got new Spotify item: [Song] Deftones - Tempest
-1/16/2013 11:17:56 AM: WinEventProc: got new window title.
-1/16/2013 11:17:56 AM: Artist: Deftones, Title:  Tempest
-1/16/2013 11:17:56 AM: Artist: Deftones, Title:  Tempest
-1/16/2013 11:17:56 AM: Got new Spotify item: [Song] Deftones - Tempest
-1/16/2013 11:17:56 AM: WinEventProc: got new window title.
-1/16/2013 11:17:56 AM: Artist: Deftones, Title:  Tempest
-1/16/2013 11:17:56 AM: Artist: Deftones, Title:  Tempest
-1/16/2013 11:17:56 AM: Got new Spotify item: [Song] Deftones - Tempest
-1/16/2013 11:17:57 AM: WinEventProc: got new window title.
-1/16/2013 11:17:57 AM: Artist: Deftones, Title:  Tempest
-1/16/2013 11:17:57 AM: Artist: Deftones, Title:  Tempest
-1/16/2013 11:17:57 AM: Got new Spotify item: [Song] Deftones - Tempest
-1/16/2013 11:17:57 AM: WinEventProc: got new window title.
-1/16/2013 11:17:57 AM: Artist: Deftones, Title:  Tempest
-1/16/2013 11:17:57 AM: Artist: Deftones, Title:  Tempest
-1/16/2013 11:17:57 AM: Got new Spotify item: [Song] Deftones - Tempest
-1/16/2013 11:18:31 AM: WinEventProc: got new window title.
-1/16/2013 11:18:31 AM: Artist: Spotify, Title:  Spotify
-1/16/2013 11:18:31 AM: Trying to skip song - waiting for a return from worker thread.
-1/16/2013 11:18:31 AM: Artist: Spotify, Title:  Spotify
-1/16/2013 11:18:31 AM: Sending keypress: MediaNextTrack
-1/16/2013 11:18:32 AM: Artist: Spotify, Title:  Spotify
-1/16/2013 11:18:32 AM: Worker thread: Tried to skip, song before: [Song] Spotify - Spotify vs. [Song] Spotify - Spotify
-1/16/2013 11:18:32 AM: Got our return, failure value: True
-1/16/2013 11:18:32 AM: Failed to skip the song. Muting song.
-1/16/2013 11:18:32 AM: Got spotify volume before mute: 0.332956
-1/16/2013 11:18:32 AM: Setting spotify volume to: 0.1331815
-1/16/2013 11:18:32 AM: Playing replacement music at: elevator.mp3
-1/16/2013 11:18:32 AM: Sending keypress: MediaPlayPause
-1/16/2013 11:18:32 AM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 11:18:32 AM: After play, got this song: 
-1/16/2013 11:18:32 AM: WinEventProc: got new window title.
-1/16/2013 11:18:32 AM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 11:18:32 AM: WinEventProc: got new window title.
-1/16/2013 11:18:32 AM: Artist: Spotify, Title:  Spotify
-1/16/2013 11:18:32 AM: Trying to skip song - waiting for a return from worker thread.
-1/16/2013 11:18:32 AM: Artist: Spotify, Title:  Spotify
-1/16/2013 11:18:32 AM: Sending keypress: MediaNextTrack
-1/16/2013 11:18:33 AM: Artist: Spotify, Title:  Spotify
-1/16/2013 11:18:33 AM: Worker thread: Tried to skip, song before: [Song] Spotify - Spotify vs. [Song] Spotify - Spotify
-1/16/2013 11:18:33 AM: Got our return, failure value: True
-1/16/2013 11:18:33 AM: Failed to skip the song. Muting song.
-1/16/2013 11:18:33 AM: User's volume is already at 5%, will not try to change vol.
-1/16/2013 11:18:59 AM: WinEventProc: got new window title.
-1/16/2013 11:18:59 AM: Artist: Clock Opera, Title:  Man Made
-1/16/2013 11:18:59 AM: Stopping replacement music.
-1/16/2013 11:18:59 AM: Resetting master volume to: 0.332956
-1/16/2013 11:18:59 AM: Artist: Clock Opera, Title:  Man Made
-1/16/2013 11:18:59 AM: Got new Spotify item: [Song] Clock Opera - Man Made
-1/16/2013 11:23:07 AM: WinEventProc: got new window title.
-1/16/2013 11:23:07 AM: Artist: Reverend And The Makers, Title:  Out of the Shadows
-1/16/2013 11:23:07 AM: Resetting master volume to: 0.332956
-1/16/2013 11:23:07 AM: Artist: Reverend And The Makers, Title:  Out of the Shadows
-1/16/2013 11:23:07 AM: Got new Spotify item: [Song] Reverend And The Makers - Out of the Shadows
-1/16/2013 11:23:49 AM: WinEventProc: got new window title.
-1/16/2013 11:23:49 AM: Artist: Reverend And The Makers, Title:  Out of the Shadows
-1/16/2013 11:23:49 AM: Resetting master volume to: 0.332956
-1/16/2013 11:23:49 AM: Artist: Reverend And The Makers, Title:  Out of the Shadows
-1/16/2013 11:23:49 AM: Got new Spotify item: [Song] Reverend And The Makers - Out of the Shadows
-1/16/2013 11:23:49 AM: WinEventProc: got new window title.
-1/16/2013 11:23:49 AM: Artist: Reverend And The Makers, Title:  Out of the Shadows
-1/16/2013 11:23:49 AM: Resetting master volume to: 0.332956
-1/16/2013 11:23:49 AM: Artist: Reverend And The Makers, Title:  Out of the Shadows
-1/16/2013 11:23:49 AM: Got new Spotify item: [Song] Reverend And The Makers - Out of the Shadows
-1/16/2013 11:24:22 AM: WinEventProc: got new window title.
-1/16/2013 11:24:22 AM: Artist: Reverend And The Makers, Title:  Out of the Shadows
-1/16/2013 11:24:22 AM: Resetting master volume to: 0.332956
-1/16/2013 11:24:22 AM: Artist: Reverend And The Makers, Title:  Out of the Shadows
-1/16/2013 11:24:22 AM: Got new Spotify item: [Song] Reverend And The Makers - Out of the Shadows
-1/16/2013 11:24:22 AM: WinEventProc: got new window title.
-1/16/2013 11:24:22 AM: Artist: Reverend And The Makers, Title:  Out of the Shadows
-1/16/2013 11:24:22 AM: Resetting master volume to: 0.332956
-1/16/2013 11:24:22 AM: Artist: Reverend And The Makers, Title:  Out of the Shadows
-1/16/2013 11:24:22 AM: Got new Spotify item: [Song] Reverend And The Makers - Out of the Shadows
-1/16/2013 11:24:27 AM: WinEventProc: got new window title.
-1/16/2013 11:24:27 AM: Artist: Reverend And The Makers, Title:  Out of the Shadows
-1/16/2013 11:24:27 AM: Resetting master volume to: 0.332956
-1/16/2013 11:24:27 AM: Artist: Reverend And The Makers, Title:  Out of the Shadows
-1/16/2013 11:24:27 AM: Got new Spotify item: [Song] Reverend And The Makers - Out of the Shadows
-1/16/2013 11:24:27 AM: WinEventProc: got new window title.
-1/16/2013 11:24:27 AM: Artist: Reverend And The Makers, Title:  Out of the Shadows
-1/16/2013 11:24:27 AM: Resetting master volume to: 0.332956
-1/16/2013 11:24:27 AM: Artist: Reverend And The Makers, Title:  Out of the Shadows
-1/16/2013 11:24:27 AM: Got new Spotify item: [Song] Reverend And The Makers - Out of the Shadows
-1/16/2013 11:24:27 AM: WinEventProc: got new window title.
-1/16/2013 11:24:27 AM: Artist: Reverend And The Makers, Title:  Out of the Shadows
-1/16/2013 11:24:27 AM: Resetting master volume to: 0.332956
-1/16/2013 11:24:27 AM: Artist: Reverend And The Makers, Title:  Out of the Shadows
-1/16/2013 11:24:27 AM: Got new Spotify item: [Song] Reverend And The Makers - Out of the Shadows
-1/16/2013 11:24:27 AM: WinEventProc: got new window title.
-1/16/2013 11:24:27 AM: Artist: Reverend And The Makers, Title:  Out of the Shadows
-1/16/2013 11:24:27 AM: Resetting master volume to: 0.332956
-1/16/2013 11:24:27 AM: Artist: Reverend And The Makers, Title:  Out of the Shadows
-1/16/2013 11:24:27 AM: Got new Spotify item: [Song] Reverend And The Makers - Out of the Shadows
-1/16/2013 11:24:27 AM: WinEventProc: got new window title.
-1/16/2013 11:24:27 AM: Artist: Reverend And The Makers, Title:  Out of the Shadows
-1/16/2013 11:24:27 AM: Resetting master volume to: 0.332956
-1/16/2013 11:24:27 AM: Artist: Reverend And The Makers, Title:  Out of the Shadows
-1/16/2013 11:24:27 AM: Got new Spotify item: [Song] Reverend And The Makers - Out of the Shadows
-1/16/2013 11:24:27 AM: WinEventProc: got new window title.
-1/16/2013 11:24:27 AM: Artist: Reverend And The Makers, Title:  Out of the Shadows
-1/16/2013 11:24:27 AM: Resetting master volume to: 0.332956
-1/16/2013 11:24:27 AM: Artist: Reverend And The Makers, Title:  Out of the Shadows
-1/16/2013 11:24:27 AM: Got new Spotify item: [Song] Reverend And The Makers - Out of the Shadows
-1/16/2013 11:26:25 AM: WinEventProc: got new window title.
-1/16/2013 11:26:25 AM: Artist: Kasabian, Title:  Shoot The Runner
-1/16/2013 11:26:25 AM: Resetting master volume to: 0.332956
-1/16/2013 11:26:25 AM: Artist: Kasabian, Title:  Shoot The Runner
-1/16/2013 11:26:25 AM: Got new Spotify item: [Song] Kasabian - Shoot The Runner
-1/16/2013 11:29:52 AM: WinEventProc: got new window title.
-1/16/2013 11:29:52 AM: Artist: Spotify, Title:  Spotify
-1/16/2013 11:29:52 AM: Trying to skip song - waiting for a return from worker thread.
-1/16/2013 11:29:52 AM: Artist: Spotify, Title:  Spotify
-1/16/2013 11:29:52 AM: Sending keypress: MediaNextTrack
-1/16/2013 11:29:53 AM: Artist: Spotify, Title:  Spotify
-1/16/2013 11:29:53 AM: Worker thread: Tried to skip, song before: [Song] Spotify - Spotify vs. [Song] Spotify - Spotify
-1/16/2013 11:29:53 AM: Got our return, failure value: True
-1/16/2013 11:29:53 AM: Failed to skip the song. Muting song.
-1/16/2013 11:29:53 AM: Got spotify volume before mute: 0.332956
-1/16/2013 11:29:53 AM: Setting spotify volume to: 0.06451613
-1/16/2013 11:29:53 AM: Playing replacement music at: elevator.mp3
-1/16/2013 11:29:53 AM: Sending keypress: MediaPlayPause
-1/16/2013 11:29:53 AM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 11:29:53 AM: After play, got this song: 
-1/16/2013 11:29:53 AM: WinEventProc: got new window title.
-1/16/2013 11:29:53 AM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 11:29:53 AM: WinEventProc: got new window title.
-1/16/2013 11:29:53 AM: Artist: Spotify, Title:  Spotify
-1/16/2013 11:29:53 AM: Trying to skip song - waiting for a return from worker thread.
-1/16/2013 11:29:53 AM: Artist: Spotify, Title:  Spotify
-1/16/2013 11:29:53 AM: Sending keypress: MediaNextTrack
-1/16/2013 11:29:54 AM: Artist: Spotify, Title:  Spotify
-1/16/2013 11:29:54 AM: Worker thread: Tried to skip, song before: [Song] Spotify - Spotify vs. [Song] Spotify - Spotify
-1/16/2013 11:29:54 AM: Got our return, failure value: True
-1/16/2013 11:29:54 AM: Failed to skip the song. Muting song.
-1/16/2013 11:29:54 AM: User's volume is already at 5%, will not try to change vol.
-1/16/2013 11:30:20 AM: WinEventProc: got new window title.
-1/16/2013 11:30:20 AM: Artist: Editors, Title:  An End Has A Start
-1/16/2013 11:30:20 AM: Stopping replacement music.
-1/16/2013 11:30:20 AM: Resetting master volume to: 0.332956
-1/16/2013 11:30:20 AM: Artist: Editors, Title:  An End Has A Start
-1/16/2013 11:30:20 AM: Got new Spotify item: [Song] Editors - An End Has A Start
-1/16/2013 11:34:03 AM: WinEventProc: got new window title.
-1/16/2013 11:34:03 AM: Artist: Saint Motel, Title:  Benny Goodman
-1/16/2013 11:34:03 AM: Resetting master volume to: 0.332956
-1/16/2013 11:34:03 AM: Artist: Saint Motel, Title:  Benny Goodman
-1/16/2013 11:34:03 AM: Got new Spotify item: [Song] Saint Motel - Benny Goodman
-1/16/2013 11:37:42 AM: WinEventProc: got new window title.
-1/16/2013 11:37:42 AM: Artist: The Temper Trap, Title:  Fader
-1/16/2013 11:37:42 AM: Resetting master volume to: 0.332956
-1/16/2013 11:37:42 AM: Artist: The Temper Trap, Title:  Fader
-1/16/2013 11:37:42 AM: Got new Spotify item: [Song] The Temper Trap - Fader
-1/16/2013 11:40:46 AM: WinEventProc: got new window title.
-1/16/2013 11:40:46 AM: Artist: The Sword, Title:  Freya
-1/16/2013 11:40:46 AM: Resetting master volume to: 0.332956
-1/16/2013 11:40:46 AM: Artist: The Sword, Title:  Freya
-1/16/2013 11:40:46 AM: Got new Spotify item: [Song] The Sword - Freya
-1/16/2013 11:45:21 AM: WinEventProc: got new window title.
-1/16/2013 11:45:21 AM: Artist: Spotify, Title:  Spotify
-1/16/2013 11:45:21 AM: Trying to skip song - waiting for a return from worker thread.
-1/16/2013 11:45:21 AM: Artist: Spotify, Title:  Spotify
-1/16/2013 11:45:21 AM: Sending keypress: MediaNextTrack
-1/16/2013 11:45:22 AM: Artist: Spotify, Title:  Spotify
-1/16/2013 11:45:22 AM: Worker thread: Tried to skip, song before: [Song] Spotify - Spotify vs. [Song] Spotify - Spotify
-1/16/2013 11:45:22 AM: Got our return, failure value: True
-1/16/2013 11:45:22 AM: Failed to skip the song. Muting song.
-1/16/2013 11:45:22 AM: Got spotify volume before mute: 0.332956
-1/16/2013 11:45:22 AM: Setting spotify volume to: 0.06451613
-1/16/2013 11:45:22 AM: Playing replacement music at: elevator.mp3
-1/16/2013 11:45:22 AM: Sending keypress: MediaPlayPause
-1/16/2013 11:45:22 AM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 11:45:22 AM: After play, got this song: 
-1/16/2013 11:45:22 AM: WinEventProc: got new window title.
-1/16/2013 11:45:22 AM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 11:45:22 AM: WinEventProc: got new window title.
-1/16/2013 11:45:22 AM: Artist: Spotify, Title:  Spotify
-1/16/2013 11:45:22 AM: Trying to skip song - waiting for a return from worker thread.
-1/16/2013 11:45:22 AM: Artist: Spotify, Title:  Spotify
-1/16/2013 11:45:22 AM: Sending keypress: MediaNextTrack
-1/16/2013 11:45:23 AM: Artist: Spotify, Title:  Spotify
-1/16/2013 11:45:23 AM: Worker thread: Tried to skip, song before: [Song] Spotify - Spotify vs. [Song] Spotify - Spotify
-1/16/2013 11:45:23 AM: Got our return, failure value: True
-1/16/2013 11:45:23 AM: Failed to skip the song. Muting song.
-1/16/2013 11:45:23 AM: User's volume is already at 5%, will not try to change vol.
-1/16/2013 11:45:53 AM: WinEventProc: got new window title.
-1/16/2013 11:45:53 AM: Artist: Spotify, Title:  Spotify
-1/16/2013 11:45:53 AM: Trying to skip song - waiting for a return from worker thread.
-1/16/2013 11:45:53 AM: Artist: Spotify, Title:  Spotify
-1/16/2013 11:45:53 AM: Sending keypress: MediaNextTrack
-1/16/2013 11:45:53 AM: WinEventProc: got new window title.
-1/16/2013 11:45:53 AM: Artist: Temple Of The Dog, Title:  Say Hello 2 Heaven
-1/16/2013 11:45:53 AM: Stopping replacement music.
-1/16/2013 11:45:53 AM: Resetting master volume to: 0.332956
-1/16/2013 11:45:53 AM: Artist: Temple Of The Dog, Title:  Say Hello 2 Heaven
-1/16/2013 11:45:53 AM: Got new Spotify item: [Song] Temple Of The Dog - Say Hello 2 Heaven
-1/16/2013 11:45:53 AM: WinEventProc: got new window title.
-1/16/2013 11:45:53 AM: Artist: Temple Of The Dog, Title:  Say Hello 2 Heaven
-1/16/2013 11:45:53 AM: Resetting master volume to: 0.332956
-1/16/2013 11:45:53 AM: Artist: Temple Of The Dog, Title:  Say Hello 2 Heaven
-1/16/2013 11:45:53 AM: Got new Spotify item: [Song] Temple Of The Dog - Say Hello 2 Heaven
-1/16/2013 11:45:53 AM: WinEventProc: got new window title.
-1/16/2013 11:45:53 AM: Artist: Temple Of The Dog, Title:  Say Hello 2 Heaven
-1/16/2013 11:45:53 AM: Resetting master volume to: 0.332956
-1/16/2013 11:45:53 AM: Artist: Temple Of The Dog, Title:  Say Hello 2 Heaven
-1/16/2013 11:45:53 AM: Got new Spotify item: [Song] Temple Of The Dog - Say Hello 2 Heaven
-1/16/2013 11:45:53 AM: WinEventProc: got new window title.
-1/16/2013 11:45:53 AM: Artist: Temple Of The Dog, Title:  Say Hello 2 Heaven
-1/16/2013 11:45:53 AM: Resetting master volume to: 0.332956
-1/16/2013 11:45:53 AM: Artist: Temple Of The Dog, Title:  Say Hello 2 Heaven
-1/16/2013 11:45:53 AM: Got new Spotify item: [Song] Temple Of The Dog - Say Hello 2 Heaven
-1/16/2013 11:45:53 AM: WinEventProc: got new window title.
-1/16/2013 11:45:53 AM: Artist: Temple Of The Dog, Title:  Say Hello 2 Heaven
-1/16/2013 11:45:53 AM: Resetting master volume to: 0.332956
-1/16/2013 11:45:53 AM: Artist: Temple Of The Dog, Title:  Say Hello 2 Heaven
-1/16/2013 11:45:53 AM: Got new Spotify item: [Song] Temple Of The Dog - Say Hello 2 Heaven
-1/16/2013 11:45:53 AM: WinEventProc: got new window title.
-1/16/2013 11:45:53 AM: Artist: Temple Of The Dog, Title:  Say Hello 2 Heaven
-1/16/2013 11:45:53 AM: Resetting master volume to: 0.332956
-1/16/2013 11:45:53 AM: Artist: Temple Of The Dog, Title:  Say Hello 2 Heaven
-1/16/2013 11:45:53 AM: Got new Spotify item: [Song] Temple Of The Dog - Say Hello 2 Heaven
-1/16/2013 11:45:54 AM: Artist: Temple Of The Dog, Title:  Say Hello 2 Heaven
-1/16/2013 11:45:54 AM: Worker thread: Tried to skip, song before: [Song] Spotify - Spotify vs. [Song] Temple Of The Dog - Say Hello 2 Heaven
-1/16/2013 11:45:54 AM: Got our return, failure value: False
-1/16/2013 11:45:54 AM: Artist: Temple Of The Dog, Title:  Say Hello 2 Heaven
-1/16/2013 11:45:54 AM: Resetting master volume to: 0.332956
-1/16/2013 11:45:54 AM: Artist: Temple Of The Dog, Title:  Say Hello 2 Heaven
-1/16/2013 11:45:54 AM: Got new Spotify item: [Song] Temple Of The Dog - Say Hello 2 Heaven
-1/16/2013 11:45:54 AM: WinEventProc: got new window title.
-1/16/2013 11:45:54 AM: Artist: Temple Of The Dog, Title:  Say Hello 2 Heaven
-1/16/2013 11:45:54 AM: Resetting master volume to: 0.332956
-1/16/2013 11:45:54 AM: Artist: Temple Of The Dog, Title:  Say Hello 2 Heaven
-1/16/2013 11:45:54 AM: Got new Spotify item: [Song] Temple Of The Dog - Say Hello 2 Heaven
-1/16/2013 11:45:54 AM: WinEventProc: got new window title.
-1/16/2013 11:45:54 AM: Artist: Temple Of The Dog, Title:  Say Hello 2 Heaven
-1/16/2013 11:45:54 AM: Resetting master volume to: 0.332956
-1/16/2013 11:45:54 AM: Artist: Temple Of The Dog, Title:  Say Hello 2 Heaven
-1/16/2013 11:45:54 AM: Got new Spotify item: [Song] Temple Of The Dog - Say Hello 2 Heaven
-1/16/2013 11:45:54 AM: WinEventProc: got new window title.
-1/16/2013 11:45:54 AM: Artist: Temple Of The Dog, Title:  Say Hello 2 Heaven
-1/16/2013 11:45:54 AM: Resetting master volume to: 0.332956
-1/16/2013 11:45:54 AM: Artist: Temple Of The Dog, Title:  Say Hello 2 Heaven
-1/16/2013 11:45:54 AM: Got new Spotify item: [Song] Temple Of The Dog - Say Hello 2 Heaven
-1/16/2013 11:45:54 AM: WinEventProc: got new window title.
-1/16/2013 11:45:54 AM: Artist: Temple Of The Dog, Title:  Say Hello 2 Heaven
-1/16/2013 11:45:54 AM: Resetting master volume to: 0.332956
-1/16/2013 11:45:54 AM: Artist: Temple Of The Dog, Title:  Say Hello 2 Heaven
-1/16/2013 11:45:54 AM: Got new Spotify item: [Song] Temple Of The Dog - Say Hello 2 Heaven
-1/16/2013 11:45:55 AM: WinEventProc: got new window title.
-1/16/2013 11:45:55 AM: Artist: Temple Of The Dog, Title:  Say Hello 2 Heaven
-1/16/2013 11:45:55 AM: Resetting master volume to: 0.332956
-1/16/2013 11:45:55 AM: Artist: Temple Of The Dog, Title:  Say Hello 2 Heaven
-1/16/2013 11:45:55 AM: Got new Spotify item: [Song] Temple Of The Dog - Say Hello 2 Heaven
-1/16/2013 11:45:55 AM: WinEventProc: got new window title.
-1/16/2013 11:45:55 AM: Artist: Temple Of The Dog, Title:  Say Hello 2 Heaven
-1/16/2013 11:45:55 AM: Resetting master volume to: 0.332956
-1/16/2013 11:45:55 AM: Artist: Temple Of The Dog, Title:  Say Hello 2 Heaven
-1/16/2013 11:45:55 AM: Got new Spotify item: [Song] Temple Of The Dog - Say Hello 2 Heaven
-1/16/2013 11:45:58 AM: WinEventProc: got new window title.
-1/16/2013 11:45:58 AM: Artist: Temple Of The Dog, Title:  Say Hello 2 Heaven
-1/16/2013 11:45:58 AM: Resetting master volume to: 0.332956
-1/16/2013 11:45:58 AM: Artist: Temple Of The Dog, Title:  Say Hello 2 Heaven
-1/16/2013 11:45:58 AM: Got new Spotify item: [Song] Temple Of The Dog - Say Hello 2 Heaven
-1/16/2013 11:45:58 AM: WinEventProc: got new window title.
-1/16/2013 11:45:58 AM: Artist: Temple Of The Dog, Title:  Say Hello 2 Heaven
-1/16/2013 11:45:58 AM: Resetting master volume to: 0.332956
-1/16/2013 11:45:58 AM: Artist: Temple Of The Dog, Title:  Say Hello 2 Heaven
-1/16/2013 11:45:58 AM: Got new Spotify item: [Song] Temple Of The Dog - Say Hello 2 Heaven
-1/16/2013 11:52:18 AM: WinEventProc: got new window title.
-1/16/2013 11:52:18 AM: Artist: Kasabian, Title:  Empire
-1/16/2013 11:52:18 AM: Resetting master volume to: 0.332956
-1/16/2013 11:52:18 AM: Artist: Kasabian, Title:  Empire
-1/16/2013 11:52:18 AM: Got new Spotify item: [Song] Kasabian - Empire
-1/16/2013 11:56:11 AM: WinEventProc: got new window title.
-1/16/2013 11:56:11 AM: Artist: Cheyenne Marie Mize, Title:  It Lingers
-1/16/2013 11:56:11 AM: Resetting master volume to: 0.332956
-1/16/2013 11:56:11 AM: Artist: Cheyenne Marie Mize, Title:  It Lingers
-1/16/2013 11:56:11 AM: Got new Spotify item: [Song] Cheyenne Marie Mize - It Lingers
-1/16/2013 12:01:11 PM: WinEventProc: got new window title.
-1/16/2013 12:01:11 PM: Artist: Spotify, Title:  Try Spotify Premium for Free
-1/16/2013 12:01:11 PM: Trying to skip song - waiting for a return from worker thread.
-1/16/2013 12:01:11 PM: Artist: Spotify, Title:  Try Spotify Premium for Free
-1/16/2013 12:01:11 PM: Sending keypress: MediaNextTrack
-1/16/2013 12:01:12 PM: Artist: Spotify, Title:  Try Spotify Premium for Free
-1/16/2013 12:01:12 PM: Worker thread: Tried to skip, song before: [Song] Spotify - Try Spotify Premium for Free vs. [Song] Spotify - Try Spotify Premium for Free
-1/16/2013 12:01:12 PM: Got our return, failure value: True
-1/16/2013 12:01:12 PM: Failed to skip the song. Muting song.
-1/16/2013 12:01:12 PM: Got spotify volume before mute: 0.332956
-1/16/2013 12:01:12 PM: Setting spotify volume to: 0.06451613
-1/16/2013 12:01:12 PM: Playing replacement music at: elevator.mp3
-1/16/2013 12:01:12 PM: Sending keypress: MediaPlayPause
-1/16/2013 12:01:12 PM: WinEventProc: got new window title.
-1/16/2013 12:01:12 PM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 12:01:12 PM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 12:01:12 PM: After play, got this song: 
-1/16/2013 12:01:12 PM: WinEventProc: got new window title.
-1/16/2013 12:01:12 PM: Artist: Spotify, Title:  Try Spotify Premium for Free
-1/16/2013 12:01:12 PM: Trying to skip song - waiting for a return from worker thread.
-1/16/2013 12:01:12 PM: Artist: Spotify, Title:  Try Spotify Premium for Free
-1/16/2013 12:01:12 PM: Sending keypress: MediaNextTrack
-1/16/2013 12:01:13 PM: Artist: Spotify, Title:  Try Spotify Premium for Free
-1/16/2013 12:01:13 PM: Worker thread: Tried to skip, song before: [Song] Spotify - Try Spotify Premium for Free vs. [Song] Spotify - Try Spotify Premium for Free
-1/16/2013 12:01:13 PM: Got our return, failure value: True
-1/16/2013 12:01:13 PM: Failed to skip the song. Muting song.
-1/16/2013 12:01:13 PM: User's volume is already at 5%, will not try to change vol.
-1/16/2013 12:01:31 PM: WinEventProc: got new window title.
-1/16/2013 12:01:31 PM: Artist: Spotify, Title:  Spotify
-1/16/2013 12:01:31 PM: Trying to skip song - waiting for a return from worker thread.
-1/16/2013 12:01:31 PM: Artist: Spotify, Title:  Spotify
-1/16/2013 12:01:31 PM: Sending keypress: MediaNextTrack
-1/16/2013 12:01:32 PM: Artist: Spotify, Title:  Spotify
-1/16/2013 12:01:32 PM: Worker thread: Tried to skip, song before: [Song] Spotify - Spotify vs. [Song] Spotify - Spotify
-1/16/2013 12:01:32 PM: Got our return, failure value: True
-1/16/2013 12:01:32 PM: Failed to skip the song. Muting song.
-1/16/2013 12:01:32 PM: User's volume is already at 5%, will not try to change vol.
-1/16/2013 12:01:51 PM: WinEventProc: got new window title.
-1/16/2013 12:01:51 PM: Artist: The Temper Trap, Title:  Soldier On
-1/16/2013 12:01:51 PM: Stopping replacement music.
-1/16/2013 12:01:51 PM: Resetting master volume to: 0.332956
-1/16/2013 12:01:51 PM: Artist: The Temper Trap, Title:  Soldier On
-1/16/2013 12:01:51 PM: Got new Spotify item: [Song] The Temper Trap - Soldier On
-1/16/2013 12:07:45 PM: WinEventProc: got new window title.
-1/16/2013 12:07:45 PM: Artist: The Morning After Girls, Title:  Hidden Spaces
-1/16/2013 12:07:45 PM: Resetting master volume to: 0.332956
-1/16/2013 12:07:45 PM: Artist: The Morning After Girls, Title:  Hidden Spaces
-1/16/2013 12:07:45 PM: Got new Spotify item: [Song] The Morning After Girls - Hidden Spaces
-1/16/2013 12:11:04 PM: WinEventProc: got new window title.
-1/16/2013 12:11:04 PM: Artist: The Black Ghosts, Title:  Full Moon
-1/16/2013 12:11:04 PM: Resetting master volume to: 0.332956
-1/16/2013 12:11:04 PM: Artist: The Black Ghosts, Title:  Full Moon
-1/16/2013 12:11:04 PM: Got new Spotify item: [Song] The Black Ghosts - Full Moon
-1/16/2013 12:14:08 PM: WinEventProc: got new window title.
-1/16/2013 12:14:08 PM: Artist: The Black Ghosts, Title:  Full Moon
-1/16/2013 12:14:08 PM: Resetting master volume to: 0.332956
-1/16/2013 12:14:08 PM: Artist: The Black Ghosts, Title:  Full Moon
-1/16/2013 12:14:08 PM: Got new Spotify item: [Song] The Black Ghosts - Full Moon
-1/16/2013 12:14:08 PM: WinEventProc: got new window title.
-1/16/2013 12:14:08 PM: Artist: The Black Ghosts, Title:  Full Moon
-1/16/2013 12:14:08 PM: Resetting master volume to: 0.332956
-1/16/2013 12:14:08 PM: Artist: The Black Ghosts, Title:  Full Moon
-1/16/2013 12:14:08 PM: Got new Spotify item: [Song] The Black Ghosts - Full Moon
-1/16/2013 12:14:09 PM: WinEventProc: got new window title.
-1/16/2013 12:14:09 PM: Artist: The Black Ghosts, Title:  Full Moon
-1/16/2013 12:14:09 PM: Resetting master volume to: 0.332956
-1/16/2013 12:14:09 PM: Artist: The Black Ghosts, Title:  Full Moon
-1/16/2013 12:14:09 PM: Got new Spotify item: [Song] The Black Ghosts - Full Moon
-1/16/2013 12:14:09 PM: WinEventProc: got new window title.
-1/16/2013 12:14:09 PM: Artist: The Black Ghosts, Title:  Full Moon
-1/16/2013 12:14:09 PM: Resetting master volume to: 0.332956
-1/16/2013 12:14:09 PM: Artist: The Black Ghosts, Title:  Full Moon
-1/16/2013 12:14:09 PM: Got new Spotify item: [Song] The Black Ghosts - Full Moon
-1/16/2013 12:14:10 PM: WinEventProc: got new window title.
-1/16/2013 12:14:10 PM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 12:27:28 PM: WinEventProc: got new window title.
-1/16/2013 12:27:28 PM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 12:27:28 PM: WinEventProc: got new window title.
-1/16/2013 12:27:28 PM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 12:27:28 PM: WinEventProc: got new window title.
-1/16/2013 12:27:28 PM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 12:27:28 PM: WinEventProc: got new window title.
-1/16/2013 12:27:28 PM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 12:27:28 PM: WinEventProc: got new window title.
-1/16/2013 12:27:28 PM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 12:27:28 PM: WinEventProc: got new window title.
-1/16/2013 12:27:28 PM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 12:27:29 PM: WinEventProc: got new window title.
-1/16/2013 12:27:29 PM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 12:27:29 PM: WinEventProc: got new window title.
-1/16/2013 12:27:29 PM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 12:27:29 PM: WinEventProc: got new window title.
-1/16/2013 12:27:29 PM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 12:27:29 PM: WinEventProc: got new window title.
-1/16/2013 12:27:29 PM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 12:27:29 PM: WinEventProc: got new window title.
-1/16/2013 12:27:29 PM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 12:27:29 PM: WinEventProc: got new window title.
-1/16/2013 12:27:29 PM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 12:27:30 PM: WinEventProc: got new window title.
-1/16/2013 12:27:30 PM: Artist: The Black Ghosts, Title:  Full Moon
-1/16/2013 12:27:30 PM: Resetting master volume to: 0.332956
-1/16/2013 12:27:30 PM: Artist: The Black Ghosts, Title:  Full Moon
-1/16/2013 12:27:30 PM: Got new Spotify item: [Song] The Black Ghosts - Full Moon
-1/16/2013 12:27:31 PM: WinEventProc: got new window title.
-1/16/2013 12:27:31 PM: Artist: The Black Ghosts, Title:  Full Moon
-1/16/2013 12:27:31 PM: Resetting master volume to: 0.332956
-1/16/2013 12:27:31 PM: Artist: The Black Ghosts, Title:  Full Moon
-1/16/2013 12:27:31 PM: Got new Spotify item: [Song] The Black Ghosts - Full Moon
-1/16/2013 12:27:31 PM: WinEventProc: got new window title.
-1/16/2013 12:27:31 PM: Artist: The Black Ghosts, Title:  Full Moon
-1/16/2013 12:27:31 PM: Resetting master volume to: 0.332956
-1/16/2013 12:27:31 PM: Artist: The Black Ghosts, Title:  Full Moon
-1/16/2013 12:27:31 PM: Got new Spotify item: [Song] The Black Ghosts - Full Moon
-1/16/2013 12:27:31 PM: WinEventProc: got new window title.
-1/16/2013 12:27:31 PM: Artist: The Black Ghosts, Title:  Full Moon
-1/16/2013 12:27:31 PM: Resetting master volume to: 0.332956
-1/16/2013 12:27:31 PM: Artist: The Black Ghosts, Title:  Full Moon
-1/16/2013 12:27:31 PM: Got new Spotify item: [Song] The Black Ghosts - Full Moon
-1/16/2013 12:27:31 PM: WinEventProc: got new window title.
-1/16/2013 12:27:31 PM: Artist: The Black Ghosts, Title:  Full Moon
-1/16/2013 12:27:31 PM: Resetting master volume to: 0.332956
-1/16/2013 12:27:31 PM: Artist: The Black Ghosts, Title:  Full Moon
-1/16/2013 12:27:31 PM: Got new Spotify item: [Song] The Black Ghosts - Full Moon
-1/16/2013 12:27:31 PM: WinEventProc: got new window title.
-1/16/2013 12:27:31 PM: Artist: The Black Ghosts, Title:  Full Moon
-1/16/2013 12:27:31 PM: Resetting master volume to: 0.332956
-1/16/2013 12:27:31 PM: Artist: The Black Ghosts, Title:  Full Moon
-1/16/2013 12:27:31 PM: Got new Spotify item: [Song] The Black Ghosts - Full Moon
-1/16/2013 12:27:31 PM: WinEventProc: got new window title.
-1/16/2013 12:27:31 PM: Artist: The Black Ghosts, Title:  Full Moon
-1/16/2013 12:27:31 PM: Resetting master volume to: 0.332956
-1/16/2013 12:27:31 PM: Artist: The Black Ghosts, Title:  Full Moon
-1/16/2013 12:27:31 PM: Got new Spotify item: [Song] The Black Ghosts - Full Moon
-1/16/2013 12:28:16 PM: WinEventProc: got new window title.
-1/16/2013 12:28:16 PM: Artist: Django Reinhardt, Title:  I'll See You In My Dreams - .
-1/16/2013 12:28:16 PM: Resetting master volume to: 0.332956
-1/16/2013 12:28:16 PM: Artist: Django Reinhardt, Title:  I'll See You In My Dreams - .
-1/16/2013 12:28:16 PM: Got new Spotify item: [Song] Django Reinhardt - I'll See You In My Dreams - .
-1/16/2013 12:30:50 PM: WinEventProc: got new window title.
-1/16/2013 12:30:50 PM: Artist: Spotify, Title:  Spotify
-1/16/2013 12:30:50 PM: Trying to skip song - waiting for a return from worker thread.
-1/16/2013 12:30:50 PM: Artist: Spotify, Title:  Spotify
-1/16/2013 12:30:50 PM: Sending keypress: MediaNextTrack
-1/16/2013 12:30:51 PM: Artist: Spotify, Title:  Spotify
-1/16/2013 12:30:51 PM: Worker thread: Tried to skip, song before: [Song] Spotify - Spotify vs. [Song] Spotify - Spotify
-1/16/2013 12:30:51 PM: Got our return, failure value: True
-1/16/2013 12:30:51 PM: Failed to skip the song. Muting song.
-1/16/2013 12:30:51 PM: Got spotify volume before mute: 0.332956
-1/16/2013 12:30:51 PM: Setting spotify volume to: 0.06451613
-1/16/2013 12:30:51 PM: Playing replacement music at: elevator.mp3
-1/16/2013 12:30:51 PM: Sending keypress: MediaPlayPause
-1/16/2013 12:30:51 PM: Artist: Spotify, Title:  Spotify
-1/16/2013 12:30:51 PM: After play, got this song: [Song] Spotify - Spotify
-1/16/2013 12:30:51 PM: WinEventProc: got new window title.
-1/16/2013 12:30:51 PM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 12:30:51 PM: WinEventProc: got new window title.
-1/16/2013 12:30:51 PM: Artist: Spotify, Title:  Spotify
-1/16/2013 12:30:51 PM: Trying to skip song - waiting for a return from worker thread.
-1/16/2013 12:30:51 PM: Artist: Spotify, Title:  Spotify
-1/16/2013 12:30:51 PM: Sending keypress: MediaNextTrack
-1/16/2013 12:30:52 PM: Artist: Spotify, Title:  Spotify
-1/16/2013 12:30:52 PM: Worker thread: Tried to skip, song before: [Song] Spotify - Spotify vs. [Song] Spotify - Spotify
-1/16/2013 12:30:52 PM: Got our return, failure value: True
-1/16/2013 12:30:52 PM: Failed to skip the song. Muting song.
-1/16/2013 12:30:52 PM: User's volume is already at 5%, will not try to change vol.
-1/16/2013 12:31:18 PM: WinEventProc: got new window title.
-1/16/2013 12:31:18 PM: Artist: Massive Attack, Title:  Risingson
-1/16/2013 12:31:18 PM: Stopping replacement music.
-1/16/2013 12:31:18 PM: Resetting master volume to: 0.332956
-1/16/2013 12:31:18 PM: Artist: Massive Attack, Title:  Risingson
-1/16/2013 12:31:18 PM: Got new Spotify item: [Song] Massive Attack - Risingson
-1/16/2013 12:36:17 PM: WinEventProc: got new window title.
-1/16/2013 12:36:17 PM: Artist: Massive Attack, Title:  Teardrop
-1/16/2013 12:36:17 PM: Resetting master volume to: 0.332956
-1/16/2013 12:36:17 PM: Artist: Massive Attack, Title:  Teardrop
-1/16/2013 12:36:17 PM: Got new Spotify item: [Song] Massive Attack - Teardrop
-1/16/2013 12:41:48 PM: WinEventProc: got new window title.
-1/16/2013 12:41:48 PM: Artist: Mark Lanegan, Title:  Shanty Man's Life
-1/16/2013 12:41:48 PM: Resetting master volume to: 0.332956
-1/16/2013 12:41:48 PM: Artist: Mark Lanegan, Title:  Shanty Man's Life
-1/16/2013 12:41:48 PM: Got new Spotify item: [Song] Mark Lanegan - Shanty Man's Life
-1/16/2013 12:45:01 PM: WinEventProc: got new window title.
-1/16/2013 12:45:01 PM: Artist: Spotify, Title:  Try Spotify Premium for Free
-1/16/2013 12:45:01 PM: Trying to skip song - waiting for a return from worker thread.
-1/16/2013 12:45:01 PM: Artist: Spotify, Title:  Try Spotify Premium for Free
-1/16/2013 12:45:01 PM: Sending keypress: MediaNextTrack
-1/16/2013 12:45:02 PM: Artist: Spotify, Title:  Try Spotify Premium for Free
-1/16/2013 12:45:02 PM: Worker thread: Tried to skip, song before: [Song] Spotify - Try Spotify Premium for Free vs. [Song] Spotify - Try Spotify Premium for Free
-1/16/2013 12:45:02 PM: Got our return, failure value: True
-1/16/2013 12:45:02 PM: Failed to skip the song. Muting song.
-1/16/2013 12:45:02 PM: Got spotify volume before mute: 0.332956
-1/16/2013 12:45:02 PM: Setting spotify volume to: 0.06451613
-1/16/2013 12:45:02 PM: Playing replacement music at: elevator.mp3
-1/16/2013 12:45:02 PM: Sending keypress: MediaPlayPause
-1/16/2013 12:45:02 PM: Artist: Spotify, Title:  Try Spotify Premium for Free
-1/16/2013 12:45:02 PM: After play, got this song: [Song] Spotify - Try Spotify Premium for Free
-1/16/2013 12:45:02 PM: WinEventProc: got new window title.
-1/16/2013 12:45:02 PM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 12:45:02 PM: WinEventProc: got new window title.
-1/16/2013 12:45:02 PM: Artist: Spotify, Title:  Try Spotify Premium for Free
-1/16/2013 12:45:02 PM: Trying to skip song - waiting for a return from worker thread.
-1/16/2013 12:45:02 PM: Artist: Spotify, Title:  Try Spotify Premium for Free
-1/16/2013 12:45:02 PM: Sending keypress: MediaNextTrack
-1/16/2013 12:45:03 PM: Artist: Spotify, Title:  Try Spotify Premium for Free
-1/16/2013 12:45:03 PM: Worker thread: Tried to skip, song before: [Song] Spotify - Try Spotify Premium for Free vs. [Song] Spotify - Try Spotify Premium for Free
-1/16/2013 12:45:03 PM: Got our return, failure value: True
-1/16/2013 12:45:03 PM: Failed to skip the song. Muting song.
-1/16/2013 12:45:03 PM: User's volume is already at 5%, will not try to change vol.
-1/16/2013 12:45:22 PM: WinEventProc: got new window title.
-1/16/2013 12:45:22 PM: Artist: Stevie Ray Vaughan And Double Trouble, Title:  Life By The Drop
-1/16/2013 12:45:22 PM: Stopping replacement music.
-1/16/2013 12:45:22 PM: Resetting master volume to: 0.332956
-1/16/2013 12:45:22 PM: Artist: Stevie Ray Vaughan And Double Trouble, Title:  Life By The Drop
-1/16/2013 12:45:22 PM: Got new Spotify item: [Song] Stevie Ray Vaughan And Double Trouble - Life By The Drop
-1/16/2013 12:47:49 PM: WinEventProc: got new window title.
-1/16/2013 12:47:49 PM: Artist: Emperors, Title:  Be Ready When I Say Go
-1/16/2013 12:47:49 PM: Resetting master volume to: 0.332956
-1/16/2013 12:47:49 PM: Artist: Emperors, Title:  Be Ready When I Say Go
-1/16/2013 12:47:49 PM: Got new Spotify item: [Song] Emperors - Be Ready When I Say Go
-1/16/2013 12:52:50 PM: WinEventProc: got new window title.
-1/16/2013 12:52:50 PM: Artist: Soundgarden, Title:  Taree
-1/16/2013 12:52:50 PM: Resetting master volume to: 0.332956
-1/16/2013 12:52:50 PM: Artist: Soundgarden, Title:  Taree
-1/16/2013 12:52:50 PM: Got new Spotify item: [Song] Soundgarden - Taree
-1/16/2013 12:56:29 PM: WinEventProc: got new window title.
-1/16/2013 12:56:29 PM: Artist: Chris Spheeris, Title:  Eros
-1/16/2013 12:56:29 PM: Resetting master volume to: 0.332956
-1/16/2013 12:56:29 PM: Artist: Chris Spheeris, Title:  Eros
-1/16/2013 12:56:29 PM: Got new Spotify item: [Song] Chris Spheeris - Eros
-1/16/2013 1:02:02 PM: WinEventProc: got new window title.
-1/16/2013 1:02:02 PM: Artist: Spotify, Title:  Spotify
-1/16/2013 1:02:02 PM: Trying to skip song - waiting for a return from worker thread.
-1/16/2013 1:02:02 PM: Artist: Spotify, Title:  Spotify
-1/16/2013 1:02:02 PM: Sending keypress: MediaNextTrack
-1/16/2013 1:02:03 PM: Artist: Spotify, Title:  Spotify
-1/16/2013 1:02:03 PM: Worker thread: Tried to skip, song before: [Song] Spotify - Spotify vs. [Song] Spotify - Spotify
-1/16/2013 1:02:03 PM: Got our return, failure value: True
-1/16/2013 1:02:03 PM: Failed to skip the song. Muting song.
-1/16/2013 1:02:03 PM: Got spotify volume before mute: 0.332956
-1/16/2013 1:02:03 PM: Setting spotify volume to: 0.06451613
-1/16/2013 1:02:03 PM: Playing replacement music at: elevator.mp3
-1/16/2013 1:02:03 PM: Sending keypress: MediaPlayPause
-1/16/2013 1:02:03 PM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 1:02:03 PM: After play, got this song: 
-1/16/2013 1:02:03 PM: WinEventProc: got new window title.
-1/16/2013 1:02:03 PM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 1:02:03 PM: WinEventProc: got new window title.
-1/16/2013 1:02:03 PM: Artist: Spotify, Title:  Spotify
-1/16/2013 1:02:03 PM: Trying to skip song - waiting for a return from worker thread.
-1/16/2013 1:02:03 PM: Artist: Spotify, Title:  Spotify
-1/16/2013 1:02:03 PM: Sending keypress: MediaNextTrack
-1/16/2013 1:02:04 PM: Artist: Spotify, Title:  Spotify
-1/16/2013 1:02:04 PM: Worker thread: Tried to skip, song before: [Song] Spotify - Spotify vs. [Song] Spotify - Spotify
-1/16/2013 1:02:04 PM: Got our return, failure value: True
-1/16/2013 1:02:04 PM: Failed to skip the song. Muting song.
-1/16/2013 1:02:04 PM: User's volume is already at 5%, will not try to change vol.
-1/16/2013 1:02:33 PM: WinEventProc: got new window title.
-1/16/2013 1:02:33 PM: Artist: Soundgarden, Title:  Eyelid's Mouth
-1/16/2013 1:02:33 PM: Stopping replacement music.
-1/16/2013 1:02:33 PM: Resetting master volume to: 0.332956
-1/16/2013 1:02:33 PM: Artist: Soundgarden, Title:  Eyelid's Mouth
-1/16/2013 1:02:33 PM: Got new Spotify item: [Song] Soundgarden - Eyelid's Mouth
-1/16/2013 1:07:13 PM: WinEventProc: got new window title.
-1/16/2013 1:07:13 PM: Artist: Soundgarden, Title:  Bones Of Birds
-1/16/2013 1:07:13 PM: Resetting master volume to: 0.332956
-1/16/2013 1:07:13 PM: Artist: Soundgarden, Title:  Bones Of Birds
-1/16/2013 1:07:13 PM: Got new Spotify item: [Song] Soundgarden - Bones Of Birds
-1/16/2013 1:11:36 PM: WinEventProc: got new window title.
-1/16/2013 1:11:36 PM: Artist: Black Mountain, Title:  Stay Free
-1/16/2013 1:11:36 PM: Resetting master volume to: 0.332956
-1/16/2013 1:11:36 PM: Artist: Black Mountain, Title:  Stay Free
-1/16/2013 1:11:36 PM: Got new Spotify item: [Song] Black Mountain - Stay Free
-1/16/2013 1:16:07 PM: WinEventProc: got new window title.
-1/16/2013 1:16:07 PM: Artist: Spotify, Title:  Spotify Birthday Gift Card
-1/16/2013 1:16:07 PM: Trying to skip song - waiting for a return from worker thread.
-1/16/2013 1:16:07 PM: Artist: Spotify, Title:  Spotify Birthday Gift Card
-1/16/2013 1:16:07 PM: Sending keypress: MediaNextTrack
-1/16/2013 1:16:08 PM: Artist: Spotify, Title:  Spotify Birthday Gift Card
-1/16/2013 1:16:08 PM: Worker thread: Tried to skip, song before: [Song] Spotify - Spotify Birthday Gift Card vs. [Song] Spotify - Spotify Birthday Gift Card
-1/16/2013 1:16:08 PM: Got our return, failure value: True
-1/16/2013 1:16:08 PM: Failed to skip the song. Muting song.
-1/16/2013 1:16:08 PM: Got spotify volume before mute: 0.332956
-1/16/2013 1:16:08 PM: Setting spotify volume to: 0.06451613
-1/16/2013 1:16:08 PM: Playing replacement music at: elevator.mp3
-1/16/2013 1:16:08 PM: Sending keypress: MediaPlayPause
-1/16/2013 1:16:08 PM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 1:16:08 PM: After play, got this song: 
-1/16/2013 1:16:08 PM: WinEventProc: got new window title.
-1/16/2013 1:16:08 PM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 1:16:08 PM: WinEventProc: got new window title.
-1/16/2013 1:16:08 PM: Artist: Spotify, Title:  Spotify Birthday Gift Card
-1/16/2013 1:16:08 PM: Trying to skip song - waiting for a return from worker thread.
-1/16/2013 1:16:08 PM: Artist: Spotify, Title:  Spotify Birthday Gift Card
-1/16/2013 1:16:08 PM: Sending keypress: MediaNextTrack
-1/16/2013 1:16:09 PM: Artist: Spotify, Title:  Spotify Birthday Gift Card
-1/16/2013 1:16:09 PM: Worker thread: Tried to skip, song before: [Song] Spotify - Spotify Birthday Gift Card vs. [Song] Spotify - Spotify Birthday Gift Card
-1/16/2013 1:16:09 PM: Got our return, failure value: True
-1/16/2013 1:16:09 PM: Failed to skip the song. Muting song.
-1/16/2013 1:16:09 PM: User's volume is already at 5%, will not try to change vol.
-1/16/2013 1:16:34 PM: WinEventProc: got new window title.
-1/16/2013 1:16:34 PM: Artist: The Twilight Singers, Title:  Last Night in Town
-1/16/2013 1:16:34 PM: Stopping replacement music.
-1/16/2013 1:16:34 PM: Resetting master volume to: 0.332956
-1/16/2013 1:16:34 PM: Artist: The Twilight Singers, Title:  Last Night in Town
-1/16/2013 1:16:34 PM: Got new Spotify item: [Song] The Twilight Singers - Last Night in Town
-1/16/2013 1:21:16 PM: WinEventProc: got new window title.
-1/16/2013 1:21:16 PM: Artist: L7, Title:  Shove
-1/16/2013 1:21:16 PM: Resetting master volume to: 0.332956
-1/16/2013 1:21:16 PM: Artist: L7, Title:  Shove
-1/16/2013 1:21:16 PM: Got new Spotify item: [Song] L7 - Shove
-1/16/2013 1:24:29 PM: WinEventProc: got new window title.
-1/16/2013 1:24:29 PM: Artist: Screaming Trees, Title:  Flower Web
-1/16/2013 1:24:29 PM: Resetting master volume to: 0.332956
-1/16/2013 1:24:29 PM: Artist: Screaming Trees, Title:  Flower Web
-1/16/2013 1:24:29 PM: Got new Spotify item: [Song] Screaming Trees - Flower Web
-1/16/2013 1:28:11 PM: WinEventProc: got new window title.
-1/16/2013 1:28:11 PM: Artist: Mark Lanegan, Title:  The Winding Sheet
-1/16/2013 1:28:11 PM: Resetting master volume to: 0.332956
-1/16/2013 1:28:11 PM: Artist: Mark Lanegan, Title:  The Winding Sheet
-1/16/2013 1:28:11 PM: Got new Spotify item: [Song] Mark Lanegan - The Winding Sheet
-1/16/2013 1:33:42 PM: WinEventProc: got new window title.
-1/16/2013 1:33:42 PM: Artist: Spotify, Title:  Spotify Mobile Free Radio
-1/16/2013 1:33:42 PM: Trying to skip song - waiting for a return from worker thread.
-1/16/2013 1:33:42 PM: Artist: Spotify, Title:  Spotify Mobile Free Radio
-1/16/2013 1:33:42 PM: Sending keypress: MediaNextTrack
-1/16/2013 1:33:43 PM: Artist: Spotify, Title:  Spotify Mobile Free Radio
-1/16/2013 1:33:43 PM: Worker thread: Tried to skip, song before: [Song] Spotify - Spotify Mobile Free Radio vs. [Song] Spotify - Spotify Mobile Free Radio
-1/16/2013 1:33:43 PM: Got our return, failure value: True
-1/16/2013 1:33:43 PM: Failed to skip the song. Muting song.
-1/16/2013 1:33:43 PM: Got spotify volume before mute: 0.332956
-1/16/2013 1:33:43 PM: Setting spotify volume to: 0.06451613
-1/16/2013 1:33:43 PM: Playing replacement music at: elevator.mp3
-1/16/2013 1:33:43 PM: Sending keypress: MediaPlayPause
-1/16/2013 1:33:43 PM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 1:33:43 PM: After play, got this song: 
-1/16/2013 1:33:43 PM: WinEventProc: got new window title.
-1/16/2013 1:33:43 PM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 1:33:43 PM: WinEventProc: got new window title.
-1/16/2013 1:33:43 PM: Artist: Spotify, Title:  Spotify Mobile Free Radio
-1/16/2013 1:33:43 PM: Trying to skip song - waiting for a return from worker thread.
-1/16/2013 1:33:43 PM: Artist: Spotify, Title:  Spotify Mobile Free Radio
-1/16/2013 1:33:43 PM: Sending keypress: MediaNextTrack
-1/16/2013 1:33:44 PM: Artist: Spotify, Title:  Spotify Mobile Free Radio
-1/16/2013 1:33:44 PM: Worker thread: Tried to skip, song before: [Song] Spotify - Spotify Mobile Free Radio vs. [Song] Spotify - Spotify Mobile Free Radio
-1/16/2013 1:33:44 PM: Got our return, failure value: True
-1/16/2013 1:33:44 PM: Failed to skip the song. Muting song.
-1/16/2013 1:33:44 PM: User's volume is already at 5%, will not try to change vol.
-1/16/2013 1:34:07 PM: WinEventProc: got new window title.
-1/16/2013 1:34:07 PM: Artist: Mark Lanegan, Title:  Wild Flowers
-1/16/2013 1:34:07 PM: Stopping replacement music.
-1/16/2013 1:34:07 PM: Resetting master volume to: 0.332956
-1/16/2013 1:34:07 PM: Artist: Mark Lanegan, Title:  Wild Flowers
-1/16/2013 1:34:07 PM: Got new Spotify item: [Song] Mark Lanegan - Wild Flowers
-1/16/2013 1:37:07 PM: WinEventProc: got new window title.
-1/16/2013 1:37:07 PM: Artist: Mark Lanegan, Title:  Down In The Dark
-1/16/2013 1:37:07 PM: Resetting master volume to: 0.332956
-1/16/2013 1:37:07 PM: Artist: Mark Lanegan, Title:  Down In The Dark
-1/16/2013 1:37:07 PM: Got new Spotify item: [Song] Mark Lanegan - Down In The Dark
-1/16/2013 1:40:29 PM: WinEventProc: got new window title.
-1/16/2013 1:40:29 PM: Artist: Mark Lanegan, Title:  Mockingbirds
-1/16/2013 1:40:29 PM: Resetting master volume to: 0.332956
-1/16/2013 1:40:29 PM: Artist: Mark Lanegan, Title:  Mockingbirds
-1/16/2013 1:40:29 PM: Got new Spotify item: [Song] Mark Lanegan - Mockingbirds
-1/16/2013 1:42:59 PM: WinEventProc: got new window title.
-1/16/2013 1:42:59 PM: Artist: Mark Lanegan, Title:  Hospital Roll Call
-1/16/2013 1:42:59 PM: Resetting master volume to: 0.332956
-1/16/2013 1:42:59 PM: Artist: Mark Lanegan, Title:  Hospital Roll Call
-1/16/2013 1:42:59 PM: Got new Spotify item: [Song] Mark Lanegan - Hospital Roll Call
-1/16/2013 1:45:58 PM: WinEventProc: got new window title.
-1/16/2013 1:45:58 PM: Artist: Mark Lanegan, Title:  Carry Home
-1/16/2013 1:45:58 PM: Resetting master volume to: 0.332956
-1/16/2013 1:45:58 PM: Artist: Mark Lanegan, Title:  Carry Home
-1/16/2013 1:45:58 PM: Got new Spotify item: [Song] Mark Lanegan - Carry Home
-1/16/2013 1:48:58 PM: WinEventProc: got new window title.
-1/16/2013 1:48:58 PM: Artist: Spotify, Title:  Go mobile with Spotify
-1/16/2013 1:48:58 PM: Trying to skip song - waiting for a return from worker thread.
-1/16/2013 1:48:58 PM: Artist: Spotify, Title:  Go mobile with Spotify
-1/16/2013 1:48:58 PM: Sending keypress: MediaNextTrack
-1/16/2013 1:48:59 PM: Artist: Spotify, Title:  Go mobile with Spotify
-1/16/2013 1:48:59 PM: Worker thread: Tried to skip, song before: [Song] Spotify - Go mobile with Spotify vs. [Song] Spotify - Go mobile with Spotify
-1/16/2013 1:48:59 PM: Got our return, failure value: True
-1/16/2013 1:48:59 PM: Failed to skip the song. Muting song.
-1/16/2013 1:48:59 PM: Got spotify volume before mute: 0.332956
-1/16/2013 1:48:59 PM: Setting spotify volume to: 0.06451613
-1/16/2013 1:48:59 PM: Playing replacement music at: elevator.mp3
-1/16/2013 1:48:59 PM: Sending keypress: MediaPlayPause
-1/16/2013 1:48:59 PM: Artist: Spotify, Title:  Go mobile with Spotify
-1/16/2013 1:48:59 PM: After play, got this song: [Song] Spotify - Go mobile with Spotify
-1/16/2013 1:48:59 PM: WinEventProc: got new window title.
-1/16/2013 1:48:59 PM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 1:48:59 PM: WinEventProc: got new window title.
-1/16/2013 1:48:59 PM: Artist: Spotify, Title:  Go mobile with Spotify
-1/16/2013 1:48:59 PM: Trying to skip song - waiting for a return from worker thread.
-1/16/2013 1:48:59 PM: Artist: Spotify, Title:  Go mobile with Spotify
-1/16/2013 1:48:59 PM: Sending keypress: MediaNextTrack
-1/16/2013 1:49:00 PM: Artist: Spotify, Title:  Go mobile with Spotify
-1/16/2013 1:49:00 PM: Worker thread: Tried to skip, song before: [Song] Spotify - Go mobile with Spotify vs. [Song] Spotify - Go mobile with Spotify
-1/16/2013 1:49:00 PM: Got our return, failure value: True
-1/16/2013 1:49:00 PM: Failed to skip the song. Muting song.
-1/16/2013 1:49:00 PM: User's volume is already at 5%, will not try to change vol.
-1/16/2013 1:49:20 PM: WinEventProc: got new window title.
-1/16/2013 1:49:20 PM: Artist: Spotify, Title:  Spotify
-1/16/2013 1:49:20 PM: Trying to skip song - waiting for a return from worker thread.
-1/16/2013 1:49:20 PM: Artist: Spotify, Title:  Spotify
-1/16/2013 1:49:20 PM: Sending keypress: MediaNextTrack
-1/16/2013 1:49:21 PM: Artist: Spotify, Title:  Spotify
-1/16/2013 1:49:21 PM: Worker thread: Tried to skip, song before: [Song] Spotify - Spotify vs. [Song] Spotify - Spotify
-1/16/2013 1:49:21 PM: Got our return, failure value: True
-1/16/2013 1:49:21 PM: Failed to skip the song. Muting song.
-1/16/2013 1:49:21 PM: User's volume is already at 5%, will not try to change vol.
-1/16/2013 1:49:51 PM: WinEventProc: got new window title.
-1/16/2013 1:49:51 PM: Artist: Mark Lanegan, Title:  Consider Me
-1/16/2013 1:49:51 PM: Stopping replacement music.
-1/16/2013 1:49:51 PM: Resetting master volume to: 0.332956
-1/16/2013 1:49:51 PM: Artist: Mark Lanegan, Title:  Consider Me
-1/16/2013 1:49:51 PM: Got new Spotify item: [Song] Mark Lanegan - Consider Me
-1/16/2013 1:53:41 PM: WinEventProc: got new window title.
-1/16/2013 1:53:41 PM: Artist: Mark Lanegan, Title:  Creeping Coastline Of Lights
-1/16/2013 1:53:41 PM: Resetting master volume to: 0.332956
-1/16/2013 1:53:41 PM: Artist: Mark Lanegan, Title:  Creeping Coastline Of Lights
-1/16/2013 1:53:41 PM: Got new Spotify item: [Song] Mark Lanegan - Creeping Coastline Of Lights
-1/16/2013 1:57:02 PM: WinEventProc: got new window title.
-1/16/2013 1:57:02 PM: Artist: Mark Lanegan, Title:  Shiloh Town
-1/16/2013 1:57:02 PM: Resetting master volume to: 0.332956
-1/16/2013 1:57:02 PM: Artist: Mark Lanegan, Title:  Shiloh Town
-1/16/2013 1:57:02 PM: Got new Spotify item: [Song] Mark Lanegan - Shiloh Town
-1/16/2013 2:00:25 PM: WinEventProc: got new window title.
-1/16/2013 2:00:25 PM: Artist: Mark Lanegan, Title:  I'll Take Care Of You
-1/16/2013 2:00:25 PM: Resetting master volume to: 0.332956
-1/16/2013 2:00:25 PM: Artist: Mark Lanegan, Title:  I'll Take Care Of You
-1/16/2013 2:00:25 PM: Got new Spotify item: [Song] Mark Lanegan - I'll Take Care Of You
-1/16/2013 2:03:16 PM: WinEventProc: got new window title.
-1/16/2013 2:03:16 PM: Artist: Spotify, Title:  Spotify
-1/16/2013 2:03:16 PM: Trying to skip song - waiting for a return from worker thread.
-1/16/2013 2:03:16 PM: Artist: Spotify, Title:  Spotify
-1/16/2013 2:03:16 PM: Sending keypress: MediaNextTrack
-1/16/2013 2:03:17 PM: Artist: Spotify, Title:  Spotify
-1/16/2013 2:03:17 PM: Worker thread: Tried to skip, song before: [Song] Spotify - Spotify vs. [Song] Spotify - Spotify
-1/16/2013 2:03:17 PM: Got our return, failure value: True
-1/16/2013 2:03:17 PM: Failed to skip the song. Muting song.
-1/16/2013 2:03:17 PM: Got spotify volume before mute: 0.332956
-1/16/2013 2:03:17 PM: Setting spotify volume to: 0.06451613
-1/16/2013 2:03:17 PM: Playing replacement music at: elevator.mp3
-1/16/2013 2:03:17 PM: Sending keypress: MediaPlayPause
-1/16/2013 2:03:17 PM: WinEventProc: got new window title.
-1/16/2013 2:03:17 PM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 2:03:17 PM: WinEventProc: got new window title.
-1/16/2013 2:03:17 PM: Artist: Spotify, Title:  Spotify
-1/16/2013 2:03:17 PM: Artist: Spotify, Title:  Spotify
-1/16/2013 2:03:17 PM: After play, got this song: [Song] Spotify - Spotify
-1/16/2013 2:03:48 PM: WinEventProc: got new window title.
-1/16/2013 2:03:48 PM: Artist: Mark Lanegan, Title:  Blues For D
-1/16/2013 2:03:48 PM: Stopping replacement music.
-1/16/2013 2:03:48 PM: Resetting master volume to: 0.332956
-1/16/2013 2:03:48 PM: Artist: Mark Lanegan, Title:  Blues For D
-1/16/2013 2:03:48 PM: Got new Spotify item: [Song] Mark Lanegan - Blues For D
-1/16/2013 2:07:24 PM: WinEventProc: got new window title.
-1/16/2013 2:07:24 PM: Artist: Mark Lanegan, Title:  Don't Forget Me
-1/16/2013 2:07:24 PM: Resetting master volume to: 0.332956
-1/16/2013 2:07:24 PM: Artist: Mark Lanegan, Title:  Don't Forget Me
-1/16/2013 2:07:24 PM: Got new Spotify item: [Song] Mark Lanegan - Don't Forget Me
-1/16/2013 2:10:12 PM: WinEventProc: got new window title.
-1/16/2013 2:10:12 PM: Artist: Mark Lanegan, Title:  Don't Forget Me
-1/16/2013 2:10:12 PM: Resetting master volume to: 0.332956
-1/16/2013 2:10:12 PM: Artist: Mark Lanegan, Title:  Don't Forget Me
-1/16/2013 2:10:12 PM: Got new Spotify item: [Song] Mark Lanegan - Don't Forget Me
-1/16/2013 2:10:12 PM: WinEventProc: got new window title.
-1/16/2013 2:10:12 PM: Artist: Mark Lanegan, Title:  Don't Forget Me
-1/16/2013 2:10:12 PM: Resetting master volume to: 0.332956
-1/16/2013 2:10:12 PM: Artist: Mark Lanegan, Title:  Don't Forget Me
-1/16/2013 2:10:12 PM: Got new Spotify item: [Song] Mark Lanegan - Don't Forget Me
-1/16/2013 2:10:12 PM: WinEventProc: got new window title.
-1/16/2013 2:10:12 PM: Artist: Mark Lanegan, Title:  Don't Forget Me
-1/16/2013 2:10:12 PM: Resetting master volume to: 0.332956
-1/16/2013 2:10:12 PM: Artist: Mark Lanegan, Title:  Don't Forget Me
-1/16/2013 2:10:12 PM: Got new Spotify item: [Song] Mark Lanegan - Don't Forget Me
-1/16/2013 2:10:12 PM: WinEventProc: got new window title.
-1/16/2013 2:10:12 PM: Artist: Mark Lanegan, Title:  Don't Forget Me
-1/16/2013 2:10:12 PM: Resetting master volume to: 0.332956
-1/16/2013 2:10:12 PM: Artist: Mark Lanegan, Title:  Don't Forget Me
-1/16/2013 2:10:12 PM: Got new Spotify item: [Song] Mark Lanegan - Don't Forget Me
-1/16/2013 2:10:12 PM: WinEventProc: got new window title.
-1/16/2013 2:10:12 PM: Artist: Mark Lanegan, Title:  Don't Forget Me
-1/16/2013 2:10:13 PM: Resetting master volume to: 0.332956
-1/16/2013 2:10:13 PM: Artist: Mark Lanegan, Title:  Don't Forget Me
-1/16/2013 2:10:13 PM: Got new Spotify item: [Song] Mark Lanegan - Don't Forget Me
-1/16/2013 2:10:13 PM: WinEventProc: got new window title.
-1/16/2013 2:10:13 PM: Artist: Mark Lanegan, Title:  Don't Forget Me
-1/16/2013 2:10:13 PM: Resetting master volume to: 0.332956
-1/16/2013 2:10:13 PM: WinEventProc: got new window title.
-1/16/2013 2:10:13 PM: Artist: Mark Lanegan, Title:  Don't Forget Me
-1/16/2013 2:10:13 PM: Resetting master volume to: 0.332956
-1/16/2013 2:10:13 PM: Artist: Mark Lanegan, Title:  Don't Forget Me
-1/16/2013 2:10:13 PM: Got new Spotify item: [Song] Mark Lanegan - Don't Forget Me
-1/16/2013 2:10:13 PM: Artist: Mark Lanegan, Title:  Don't Forget Me
-1/16/2013 2:10:13 PM: Got new Spotify item: [Song] Mark Lanegan - Don't Forget Me
-1/16/2013 2:10:13 PM: WinEventProc: got new window title.
-1/16/2013 2:10:13 PM: Artist: Mark Lanegan, Title:  Don't Forget Me
-1/16/2013 2:10:13 PM: Resetting master volume to: 0.332956
-1/16/2013 2:10:13 PM: Artist: Mark Lanegan, Title:  Don't Forget Me
-1/16/2013 2:10:13 PM: Got new Spotify item: [Song] Mark Lanegan - Don't Forget Me
-1/16/2013 2:10:13 PM: WinEventProc: got new window title.
-1/16/2013 2:10:13 PM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 3:18:46 PM: WinEventProc: got new window title.
-1/16/2013 3:18:46 PM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 3:18:46 PM: WinEventProc: got new window title.
-1/16/2013 3:18:46 PM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 3:18:46 PM: WinEventProc: got new window title.
-1/16/2013 3:18:46 PM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 3:18:47 PM: WinEventProc: got new window title.
-1/16/2013 3:18:47 PM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 3:18:47 PM: WinEventProc: got new window title.
-1/16/2013 3:18:47 PM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 3:18:47 PM: WinEventProc: got new window title.
-1/16/2013 3:18:47 PM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 3:18:47 PM: WinEventProc: got new window title.
-1/16/2013 3:18:47 PM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 3:18:47 PM: WinEventProc: got new window title.
-1/16/2013 3:18:47 PM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 3:18:47 PM: WinEventProc: got new window title.
-1/16/2013 3:18:47 PM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 3:18:47 PM: WinEventProc: got new window title.
-1/16/2013 3:18:47 PM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 3:18:48 PM: WinEventProc: got new window title.
-1/16/2013 3:18:48 PM: Artist: Mark Lanegan, Title:  Don't Forget Me
-1/16/2013 3:18:48 PM: Resetting master volume to: 0.332956
-1/16/2013 3:18:48 PM: Artist: Mark Lanegan, Title:  Don't Forget Me
-1/16/2013 3:18:48 PM: Got new Spotify item: [Song] Mark Lanegan - Don't Forget Me
-1/16/2013 3:19:14 PM: WinEventProc: got new window title.
-1/16/2013 3:19:14 PM: Artist: Mark Lanegan, Title:  One Way Street
-1/16/2013 3:19:14 PM: Resetting master volume to: 0.332956
-1/16/2013 3:19:14 PM: Artist: Mark Lanegan, Title:  One Way Street
-1/16/2013 3:19:14 PM: Got new Spotify item: [Song] Mark Lanegan - One Way Street
-1/16/2013 3:23:32 PM: WinEventProc: got new window title.
-1/16/2013 3:23:32 PM: Artist: Mark Lanegan, Title:  Hit The City
-1/16/2013 3:23:32 PM: Resetting master volume to: 0.332956
-1/16/2013 3:23:32 PM: Artist: Mark Lanegan, Title:  Hit The City
-1/16/2013 3:23:32 PM: Got new Spotify item: [Song] Mark Lanegan - Hit The City
-1/16/2013 3:26:11 PM: WinEventProc: got new window title.
-1/16/2013 3:26:11 PM: Artist: Mark Lanegan, Title:  Hit The City
-1/16/2013 3:26:11 PM: Resetting master volume to: 0.332956
-1/16/2013 3:26:11 PM: Artist: Mark Lanegan, Title:  Hit The City
-1/16/2013 3:26:11 PM: Got new Spotify item: [Song] Mark Lanegan - Hit The City
-1/16/2013 3:26:11 PM: WinEventProc: got new window title.
-1/16/2013 3:26:11 PM: Artist: Mark Lanegan, Title:  Hit The City
-1/16/2013 3:26:11 PM: Resetting master volume to: 0.332956
-1/16/2013 3:26:11 PM: Artist: Mark Lanegan, Title:  Hit The City
-1/16/2013 3:26:11 PM: Got new Spotify item: [Song] Mark Lanegan - Hit The City
-1/16/2013 3:26:13 PM: WinEventProc: got new window title.
-1/16/2013 3:26:13 PM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 3:38:13 PM: WinEventProc: got new window title.
-1/16/2013 3:38:13 PM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 3:38:13 PM: WinEventProc: got new window title.
-1/16/2013 3:38:13 PM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 3:38:13 PM: WinEventProc: got new window title.
-1/16/2013 3:38:13 PM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 3:38:13 PM: WinEventProc: got new window title.
-1/16/2013 3:38:13 PM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 3:38:13 PM: WinEventProc: got new window title.
-1/16/2013 3:38:13 PM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 3:38:13 PM: WinEventProc: got new window title.
-1/16/2013 3:38:13 PM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 3:38:13 PM: WinEventProc: got new window title.
-1/16/2013 3:38:13 PM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 3:38:14 PM: WinEventProc: got new window title.
-1/16/2013 3:38:14 PM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 3:38:15 PM: WinEventProc: got new window title.
-1/16/2013 3:38:15 PM: Artist: Mark Lanegan, Title:  Hit The City
-1/16/2013 3:38:15 PM: Resetting master volume to: 0.332956
-1/16/2013 3:38:15 PM: Artist: Mark Lanegan, Title:  Hit The City
-1/16/2013 3:38:15 PM: Got new Spotify item: [Song] Mark Lanegan - Hit The City
-1/16/2013 3:38:15 PM: WinEventProc: got new window title.
-1/16/2013 3:38:15 PM: Artist: Mark Lanegan, Title:  Hit The City
-1/16/2013 3:38:15 PM: Resetting master volume to: 0.332956
-1/16/2013 3:38:15 PM: Artist: Mark Lanegan, Title:  Hit The City
-1/16/2013 3:38:15 PM: Got new Spotify item: [Song] Mark Lanegan - Hit The City
-1/16/2013 3:38:15 PM: WinEventProc: got new window title.
-1/16/2013 3:38:15 PM: Artist: Mark Lanegan, Title:  Hit The City
-1/16/2013 3:38:15 PM: Resetting master volume to: 0.332956
-1/16/2013 3:38:15 PM: Artist: Mark Lanegan, Title:  Hit The City
-1/16/2013 3:38:15 PM: Got new Spotify item: [Song] Mark Lanegan - Hit The City
-1/16/2013 3:38:15 PM: WinEventProc: got new window title.
-1/16/2013 3:38:15 PM: Artist: Mark Lanegan, Title:  Hit The City
-1/16/2013 3:38:15 PM: Resetting master volume to: 0.332956
-1/16/2013 3:38:15 PM: Artist: Mark Lanegan, Title:  Hit The City
-1/16/2013 3:38:15 PM: Got new Spotify item: [Song] Mark Lanegan - Hit The City
-1/16/2013 3:38:24 PM: WinEventProc: got new window title.
-1/16/2013 3:38:24 PM: Artist: Spotify, Title:  Spotify
-1/16/2013 3:38:24 PM: Trying to skip song - waiting for a return from worker thread.
-1/16/2013 3:38:24 PM: Artist: Spotify, Title:  Spotify
-1/16/2013 3:38:24 PM: Sending keypress: MediaNextTrack
-1/16/2013 3:38:25 PM: Artist: Spotify, Title:  Spotify
-1/16/2013 3:38:25 PM: Worker thread: Tried to skip, song before: [Song] Spotify - Spotify vs. [Song] Spotify - Spotify
-1/16/2013 3:38:25 PM: Got our return, failure value: True
-1/16/2013 3:38:25 PM: Failed to skip the song. Muting song.
-1/16/2013 3:38:25 PM: Got spotify volume before mute: 0.332956
-1/16/2013 3:38:25 PM: Setting spotify volume to: 0.06451613
-1/16/2013 3:38:25 PM: Playing replacement music at: elevator.mp3
-1/16/2013 3:38:25 PM: Sending keypress: MediaPlayPause
-1/16/2013 3:38:25 PM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 3:38:25 PM: After play, got this song: 
-1/16/2013 3:38:25 PM: WinEventProc: got new window title.
-1/16/2013 3:38:25 PM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 3:38:25 PM: WinEventProc: got new window title.
-1/16/2013 3:38:25 PM: Artist: Spotify, Title:  Spotify
-1/16/2013 3:38:25 PM: Trying to skip song - waiting for a return from worker thread.
-1/16/2013 3:38:25 PM: Artist: Spotify, Title:  Spotify
-1/16/2013 3:38:25 PM: Sending keypress: MediaNextTrack
-1/16/2013 3:38:26 PM: Artist: Spotify, Title:  Spotify
-1/16/2013 3:38:26 PM: Worker thread: Tried to skip, song before: [Song] Spotify - Spotify vs. [Song] Spotify - Spotify
-1/16/2013 3:38:26 PM: Got our return, failure value: True
-1/16/2013 3:38:26 PM: Failed to skip the song. Muting song.
-1/16/2013 3:38:26 PM: User's volume is already at 5%, will not try to change vol.
-1/16/2013 3:38:49 PM: WinEventProc: got new window title.
-1/16/2013 3:38:49 PM: Artist: Mark Lanegan, Title:  Driving Death Valley Blues
-1/16/2013 3:38:49 PM: Stopping replacement music.
-1/16/2013 3:38:49 PM: Resetting master volume to: 0.332956
-1/16/2013 3:38:49 PM: Artist: Mark Lanegan, Title:  Driving Death Valley Blues
-1/16/2013 3:38:49 PM: Got new Spotify item: [Song] Mark Lanegan - Driving Death Valley Blues
-1/16/2013 3:38:53 PM: WinEventProc: got new window title.
-1/16/2013 3:38:53 PM: Artist: Mark Lanegan, Title:  Driving Death Valley Blues
-1/16/2013 3:38:53 PM: Resetting master volume to: 0.332956
-1/16/2013 3:38:53 PM: Artist: Mark Lanegan, Title:  Driving Death Valley Blues
-1/16/2013 3:38:53 PM: Got new Spotify item: [Song] Mark Lanegan - Driving Death Valley Blues
-1/16/2013 3:38:54 PM: WinEventProc: got new window title.
-1/16/2013 3:38:54 PM: Artist: Mark Lanegan, Title:  Driving Death Valley Blues
-1/16/2013 3:38:54 PM: Resetting master volume to: 0.332956
-1/16/2013 3:38:54 PM: Artist: Mark Lanegan, Title:  Driving Death Valley Blues
-1/16/2013 3:38:54 PM: Got new Spotify item: [Song] Mark Lanegan - Driving Death Valley Blues
-1/16/2013 3:38:55 PM: WinEventProc: got new window title.
-1/16/2013 3:38:55 PM: Artist: Mark Lanegan, Title:  Driving Death Valley Blues
-1/16/2013 3:38:55 PM: Resetting master volume to: 0.332956
-1/16/2013 3:38:55 PM: Artist: Mark Lanegan, Title:  Driving Death Valley Blues
-1/16/2013 3:38:55 PM: Got new Spotify item: [Song] Mark Lanegan - Driving Death Valley Blues
-1/16/2013 3:38:55 PM: WinEventProc: got new window title.
-1/16/2013 3:38:55 PM: Artist: Mark Lanegan, Title:  Driving Death Valley Blues
-1/16/2013 3:38:55 PM: Resetting master volume to: 0.332956
-1/16/2013 3:38:55 PM: Artist: Mark Lanegan, Title:  Driving Death Valley Blues
-1/16/2013 3:38:55 PM: Got new Spotify item: [Song] Mark Lanegan - Driving Death Valley Blues
-1/16/2013 3:38:57 PM: WinEventProc: got new window title.
-1/16/2013 3:38:57 PM: Artist: Mark Lanegan, Title:  Driving Death Valley Blues
-1/16/2013 3:38:57 PM: Resetting master volume to: 0.332956
-1/16/2013 3:38:57 PM: Artist: Mark Lanegan, Title:  Driving Death Valley Blues
-1/16/2013 3:38:57 PM: Got new Spotify item: [Song] Mark Lanegan - Driving Death Valley Blues
-1/16/2013 3:38:57 PM: WinEventProc: got new window title.
-1/16/2013 3:38:57 PM: Artist: Mark Lanegan, Title:  Driving Death Valley Blues
-1/16/2013 3:38:57 PM: Resetting master volume to: 0.332956
-1/16/2013 3:38:57 PM: Artist: Mark Lanegan, Title:  Driving Death Valley Blues
-1/16/2013 3:38:57 PM: Got new Spotify item: [Song] Mark Lanegan - Driving Death Valley Blues
-1/16/2013 3:38:58 PM: WinEventProc: got new window title.
-1/16/2013 3:38:58 PM: Artist: Mark Lanegan, Title:  Driving Death Valley Blues
-1/16/2013 3:38:58 PM: Resetting master volume to: 0.332956
-1/16/2013 3:38:58 PM: Artist: Mark Lanegan, Title:  Driving Death Valley Blues
-1/16/2013 3:38:58 PM: Got new Spotify item: [Song] Mark Lanegan - Driving Death Valley Blues
-1/16/2013 3:38:58 PM: WinEventProc: got new window title.
-1/16/2013 3:38:58 PM: Artist: Mark Lanegan, Title:  Driving Death Valley Blues
-1/16/2013 3:38:58 PM: Resetting master volume to: 0.332956
-1/16/2013 3:38:58 PM: Artist: Mark Lanegan, Title:  Driving Death Valley Blues
-1/16/2013 3:38:58 PM: Got new Spotify item: [Song] Mark Lanegan - Driving Death Valley Blues
-1/16/2013 3:38:58 PM: WinEventProc: got new window title.
-1/16/2013 3:38:58 PM: Artist: Mark Lanegan, Title:  Driving Death Valley Blues
-1/16/2013 3:38:58 PM: Resetting master volume to: 0.332956
-1/16/2013 3:38:58 PM: Artist: Mark Lanegan, Title:  Driving Death Valley Blues
-1/16/2013 3:38:58 PM: Got new Spotify item: [Song] Mark Lanegan - Driving Death Valley Blues
-1/16/2013 3:38:59 PM: WinEventProc: got new window title.
-1/16/2013 3:38:59 PM: Artist: Mark Lanegan, Title:  Driving Death Valley Blues
-1/16/2013 3:38:59 PM: Resetting master volume to: 0.332956
-1/16/2013 3:38:59 PM: Artist: Mark Lanegan, Title:  Driving Death Valley Blues
-1/16/2013 3:38:59 PM: Got new Spotify item: [Song] Mark Lanegan - Driving Death Valley Blues
-1/16/2013 3:39:01 PM: WinEventProc: got new window title.
-1/16/2013 3:39:01 PM: Artist: Mark Lanegan, Title:  Driving Death Valley Blues
-1/16/2013 3:39:01 PM: Resetting master volume to: 0.332956
-1/16/2013 3:39:01 PM: Artist: Mark Lanegan, Title:  Driving Death Valley Blues
-1/16/2013 3:39:01 PM: Got new Spotify item: [Song] Mark Lanegan - Driving Death Valley Blues
-1/16/2013 3:39:01 PM: WinEventProc: got new window title.
-1/16/2013 3:39:01 PM: Artist: Mark Lanegan, Title:  Driving Death Valley Blues
-1/16/2013 3:39:01 PM: Resetting master volume to: 0.332956
-1/16/2013 3:39:01 PM: Artist: Mark Lanegan, Title:  Driving Death Valley Blues
-1/16/2013 3:39:01 PM: Got new Spotify item: [Song] Mark Lanegan - Driving Death Valley Blues
-1/16/2013 3:39:01 PM: WinEventProc: got new window title.
-1/16/2013 3:39:01 PM: Artist: Mark Lanegan, Title:  Driving Death Valley Blues
-1/16/2013 3:39:01 PM: Resetting master volume to: 0.332956
-1/16/2013 3:39:01 PM: Artist: Mark Lanegan, Title:  Driving Death Valley Blues
-1/16/2013 3:39:01 PM: Got new Spotify item: [Song] Mark Lanegan - Driving Death Valley Blues
-1/16/2013 3:39:02 PM: WinEventProc: got new window title.
-1/16/2013 3:39:02 PM: WARN: couldn't parse the artist/title from the raw window title.
-1/16/2013 3:39:52 PM: Got FormClosing event in MainForm view. Trying to persist blacklist for use next time...
-1/16/2013 3:39:52 PM: Saving 13 blockTable items to disk.
-1/16/2013 3:39:52 PM: Saving 78209 bytes of logs to disk.
+1/30/2013 8:13:20 PM: Found spotify proc.
+1/30/2013 8:13:20 PM: Spotify hook successful. Started.
+1/30/2013 8:13:20 PM: Artist: MGMT, Title:  Electric Feel
+1/30/2013 8:13:20 PM: Artist: MGMT, Title:  Electric Feel
+1/30/2013 8:13:20 PM: Got new Spotify item: [Song] MGMT - Electric Feel
+1/30/2013 8:15:10 PM: WinEventProc: got new window title.
+1/30/2013 8:15:10 PM: Artist: Spotify, Title:  Spotify
+1/30/2013 8:15:10 PM: Trying to skip song - waiting for a return from worker thread.
+1/30/2013 8:15:10 PM: Artist: Spotify, Title:  Spotify
+1/30/2013 8:15:10 PM: Sending keypress: MediaNextTrack
+1/30/2013 8:15:11 PM: Artist: Spotify, Title:  Spotify
+1/30/2013 8:15:11 PM: Worker thread: Tried to skip, song before: [Song] Spotify - Spotify vs. [Song] Spotify - Spotify
+1/30/2013 8:15:11 PM: Got our return, failure value: True
+1/30/2013 8:15:11 PM: Failed to skip the song. Muting song.
+1/30/2013 8:15:11 PM: Got spotify volume before mute: 1
+1/30/2013 8:15:11 PM: Setting spotify volume to: 0.1333333
+1/30/2013 8:15:11 PM: Playing replacement music at: elevator.mp3
+1/30/2013 8:15:11 PM: Sending keypress: MediaPlayPause
+1/30/2013 8:15:11 PM: WinEventProc: got new window title.
+1/30/2013 8:15:11 PM: WARN: couldn't parse the artist/title from the raw window title.
+1/30/2013 8:15:11 PM: WARN: couldn't parse the artist/title from the raw window title.
+1/30/2013 8:15:11 PM: After play, got this song: 
+1/30/2013 8:15:11 PM: WinEventProc: got new window title.
+1/30/2013 8:15:11 PM: Artist: Spotify, Title:  Spotify
+1/30/2013 8:15:11 PM: Trying to skip song - waiting for a return from worker thread.
+1/30/2013 8:15:11 PM: Artist: Spotify, Title:  Spotify
+1/30/2013 8:15:11 PM: Sending keypress: MediaNextTrack
+1/30/2013 8:15:12 PM: Artist: Spotify, Title:  Spotify
+1/30/2013 8:15:12 PM: Worker thread: Tried to skip, song before: [Song] Spotify - Spotify vs. [Song] Spotify - Spotify
+1/30/2013 8:15:12 PM: Got our return, failure value: True
+1/30/2013 8:15:12 PM: Failed to skip the song. Muting song.
+1/30/2013 8:15:12 PM: User's volume is already at 5%, will not try to change vol.
+1/30/2013 8:15:35 PM: WinEventProc: got new window title.
+1/30/2013 8:15:35 PM: Artist: Pretty Lights, Title:  Keep Em Bouncin
+1/30/2013 8:15:35 PM: Stopping replacement music.
+1/30/2013 8:15:35 PM: Resetting master volume to: 1
+1/30/2013 8:15:35 PM: Artist: Pretty Lights, Title:  Keep Em Bouncin
+1/30/2013 8:15:35 PM: Got new Spotify item: [Song] Pretty Lights - Keep Em Bouncin
+1/30/2013 8:22:22 PM: WinEventProc: got new window title.
+1/30/2013 8:22:22 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 8:22:22 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 8:22:22 PM: Got new Spotify item: [Song] David Guetta - Titanium - feat. Sia
+1/30/2013 8:26:27 PM: WinEventProc: got new window title.
+1/30/2013 8:26:27 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 8:26:27 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 8:26:27 PM: Got new Spotify item: [Song] 311 - All Mixed Up
+1/30/2013 8:27:28 PM: WinEventProc: got new window title.
+1/30/2013 8:27:28 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 8:27:28 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 8:27:28 PM: Got new Spotify item: [Song] 311 - All Mixed Up
+1/30/2013 8:27:28 PM: WinEventProc: got new window title.
+1/30/2013 8:27:28 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 8:27:28 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 8:27:28 PM: Got new Spotify item: [Song] 311 - All Mixed Up
+1/30/2013 8:27:28 PM: WinEventProc: got new window title.
+1/30/2013 8:27:28 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 8:27:28 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 8:27:28 PM: Got new Spotify item: [Song] 311 - All Mixed Up
+1/30/2013 8:27:28 PM: WinEventProc: got new window title.
+1/30/2013 8:27:28 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 8:27:28 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 8:27:28 PM: Got new Spotify item: [Song] 311 - All Mixed Up
+1/30/2013 8:27:28 PM: WinEventProc: got new window title.
+1/30/2013 8:27:28 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 8:27:28 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 8:27:28 PM: Got new Spotify item: [Song] 311 - All Mixed Up
+1/30/2013 8:27:28 PM: WinEventProc: got new window title.
+1/30/2013 8:27:28 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 8:27:28 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 8:27:28 PM: Got new Spotify item: [Song] 311 - All Mixed Up
+1/30/2013 8:27:28 PM: WinEventProc: got new window title.
+1/30/2013 8:27:28 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 8:27:28 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 8:27:28 PM: Got new Spotify item: [Song] 311 - All Mixed Up
+1/30/2013 8:27:28 PM: WinEventProc: got new window title.
+1/30/2013 8:27:28 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 8:27:28 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 8:27:28 PM: Got new Spotify item: [Song] 311 - All Mixed Up
+1/30/2013 8:28:10 PM: WinEventProc: got new window title.
+1/30/2013 8:28:10 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 8:28:10 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 8:28:10 PM: Got new Spotify item: [Song] 311 - All Mixed Up
+1/30/2013 8:28:10 PM: WinEventProc: got new window title.
+1/30/2013 8:28:10 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 8:28:10 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 8:28:10 PM: Got new Spotify item: [Song] 311 - All Mixed Up
+1/30/2013 8:29:30 PM: WinEventProc: got new window title.
+1/30/2013 8:29:30 PM: Artist: Spotify, Title:  Spotify
+1/30/2013 8:29:30 PM: Trying to skip song - waiting for a return from worker thread.
+1/30/2013 8:29:30 PM: Artist: Spotify, Title:  Spotify
+1/30/2013 8:29:30 PM: Sending keypress: MediaNextTrack
+1/30/2013 8:29:31 PM: Artist: Spotify, Title:  Spotify
+1/30/2013 8:29:31 PM: Worker thread: Tried to skip, song before: [Song] Spotify - Spotify vs. [Song] Spotify - Spotify
+1/30/2013 8:29:31 PM: Got our return, failure value: True
+1/30/2013 8:29:31 PM: Failed to skip the song. Muting song.
+1/30/2013 8:29:31 PM: Got spotify volume before mute: 1
+1/30/2013 8:29:31 PM: Setting spotify volume to: 0.1333333
+1/30/2013 8:29:31 PM: Playing replacement music at: elevator.mp3
+1/30/2013 8:29:31 PM: Sending keypress: MediaPlayPause
+1/30/2013 8:29:31 PM: WinEventProc: got new window title.
+1/30/2013 8:29:31 PM: WARN: couldn't parse the artist/title from the raw window title.
+1/30/2013 8:29:31 PM: WARN: couldn't parse the artist/title from the raw window title.
+1/30/2013 8:29:31 PM: After play, got this song: 
+1/30/2013 8:29:31 PM: WinEventProc: got new window title.
+1/30/2013 8:29:31 PM: Artist: Spotify, Title:  Spotify
+1/30/2013 8:29:31 PM: Trying to skip song - waiting for a return from worker thread.
+1/30/2013 8:29:31 PM: Artist: Spotify, Title:  Spotify
+1/30/2013 8:29:31 PM: Sending keypress: MediaNextTrack
+1/30/2013 8:29:32 PM: Artist: Spotify, Title:  Spotify
+1/30/2013 8:29:32 PM: Worker thread: Tried to skip, song before: [Song] Spotify - Spotify vs. [Song] Spotify - Spotify
+1/30/2013 8:29:32 PM: Got our return, failure value: True
+1/30/2013 8:29:32 PM: Failed to skip the song. Muting song.
+1/30/2013 8:29:32 PM: User's volume is already at 5%, will not try to change vol.
+1/30/2013 8:30:01 PM: WinEventProc: got new window title.
+1/30/2013 8:30:01 PM: Artist: MGMT, Title:  Kids
+1/30/2013 8:30:01 PM: Stopping replacement music.
+1/30/2013 8:30:01 PM: Resetting master volume to: 1
+1/30/2013 8:30:01 PM: Artist: MGMT, Title:  Kids
+1/30/2013 8:30:01 PM: Got new Spotify item: [Song] MGMT - Kids
+1/30/2013 8:31:58 PM: WinEventProc: got new window title.
+1/30/2013 8:31:58 PM: Artist: MGMT, Title:  Kids
+1/30/2013 8:31:58 PM: Artist: MGMT, Title:  Kids
+1/30/2013 8:31:58 PM: Got new Spotify item: [Song] MGMT - Kids
+1/30/2013 8:31:58 PM: WinEventProc: got new window title.
+1/30/2013 8:31:58 PM: Artist: MGMT, Title:  Kids
+1/30/2013 8:31:58 PM: Artist: MGMT, Title:  Kids
+1/30/2013 8:31:58 PM: Got new Spotify item: [Song] MGMT - Kids
+1/30/2013 8:31:59 PM: WinEventProc: got new window title.
+1/30/2013 8:31:59 PM: Artist: MGMT, Title:  Kids
+1/30/2013 8:31:59 PM: Artist: MGMT, Title:  Kids
+1/30/2013 8:31:59 PM: Got new Spotify item: [Song] MGMT - Kids
+1/30/2013 8:31:59 PM: WinEventProc: got new window title.
+1/30/2013 8:31:59 PM: Artist: MGMT, Title:  Kids
+1/30/2013 8:31:59 PM: Artist: MGMT, Title:  Kids
+1/30/2013 8:31:59 PM: Got new Spotify item: [Song] MGMT - Kids
+1/30/2013 8:32:05 PM: WinEventProc: got new window title.
+1/30/2013 8:32:05 PM: Artist: MGMT, Title:  Kids
+1/30/2013 8:32:05 PM: Artist: MGMT, Title:  Kids
+1/30/2013 8:32:05 PM: Got new Spotify item: [Song] MGMT - Kids
+1/30/2013 8:32:05 PM: WinEventProc: got new window title.
+1/30/2013 8:32:05 PM: Artist: MGMT, Title:  Kids
+1/30/2013 8:32:05 PM: Artist: MGMT, Title:  Kids
+1/30/2013 8:32:05 PM: Got new Spotify item: [Song] MGMT - Kids
+1/30/2013 8:32:05 PM: WinEventProc: got new window title.
+1/30/2013 8:32:05 PM: Artist: MGMT, Title:  Kids
+1/30/2013 8:32:05 PM: Artist: MGMT, Title:  Kids
+1/30/2013 8:32:05 PM: Got new Spotify item: [Song] MGMT - Kids
+1/30/2013 8:32:05 PM: WinEventProc: got new window title.
+1/30/2013 8:32:05 PM: Artist: MGMT, Title:  Kids
+1/30/2013 8:32:05 PM: Artist: MGMT, Title:  Kids
+1/30/2013 8:32:05 PM: Got new Spotify item: [Song] MGMT - Kids
+1/30/2013 8:32:11 PM: WinEventProc: got new window title.
+1/30/2013 8:32:11 PM: Artist: MGMT, Title:  Kids
+1/30/2013 8:32:11 PM: Artist: MGMT, Title:  Kids
+1/30/2013 8:32:11 PM: Got new Spotify item: [Song] MGMT - Kids
+1/30/2013 8:32:11 PM: WinEventProc: got new window title.
+1/30/2013 8:32:11 PM: Artist: MGMT, Title:  Kids
+1/30/2013 8:32:11 PM: Artist: MGMT, Title:  Kids
+1/30/2013 8:32:11 PM: Got new Spotify item: [Song] MGMT - Kids
+1/30/2013 8:32:11 PM: WinEventProc: got new window title.
+1/30/2013 8:32:11 PM: Artist: MGMT, Title:  Kids
+1/30/2013 8:32:11 PM: Artist: MGMT, Title:  Kids
+1/30/2013 8:32:11 PM: Got new Spotify item: [Song] MGMT - Kids
+1/30/2013 8:32:12 PM: WinEventProc: got new window title.
+1/30/2013 8:32:12 PM: Artist: MGMT, Title:  Kids
+1/30/2013 8:32:12 PM: Artist: MGMT, Title:  Kids
+1/30/2013 8:32:12 PM: Got new Spotify item: [Song] MGMT - Kids
+1/30/2013 8:32:12 PM: WinEventProc: got new window title.
+1/30/2013 8:32:12 PM: Artist: Nero, Title:  Doomsday
+1/30/2013 8:32:12 PM: Artist: Nero, Title:  Doomsday
+1/30/2013 8:32:12 PM: Got new Spotify item: [Song] Nero - Doomsday
+1/30/2013 8:33:05 PM: WinEventProc: got new window title.
+1/30/2013 8:33:06 PM: Artist: Nero, Title:  Doomsday
+1/30/2013 8:33:06 PM: Artist: Nero, Title:  Doomsday
+1/30/2013 8:33:06 PM: Got new Spotify item: [Song] Nero - Doomsday
+1/30/2013 8:33:06 PM: WinEventProc: got new window title.
+1/30/2013 8:33:06 PM: Artist: Nero, Title:  Doomsday
+1/30/2013 8:33:06 PM: Artist: Nero, Title:  Doomsday
+1/30/2013 8:33:06 PM: Got new Spotify item: [Song] Nero - Doomsday
+1/30/2013 8:33:10 PM: WinEventProc: got new window title.
+1/30/2013 8:33:10 PM: Artist: Nero, Title:  Doomsday
+1/30/2013 8:33:10 PM: Artist: Nero, Title:  Doomsday
+1/30/2013 8:33:10 PM: Got new Spotify item: [Song] Nero - Doomsday
+1/30/2013 8:33:10 PM: WinEventProc: got new window title.
+1/30/2013 8:33:10 PM: Artist: Nero, Title:  Doomsday
+1/30/2013 8:33:10 PM: Artist: Nero, Title:  Doomsday
+1/30/2013 8:33:10 PM: Got new Spotify item: [Song] Nero - Doomsday
+1/30/2013 8:33:11 PM: WinEventProc: got new window title.
+1/30/2013 8:33:11 PM: Artist: Nero, Title:  Doomsday
+1/30/2013 8:33:11 PM: Artist: Nero, Title:  Doomsday
+1/30/2013 8:33:11 PM: Got new Spotify item: [Song] Nero - Doomsday
+1/30/2013 8:33:11 PM: WinEventProc: got new window title.
+1/30/2013 8:33:11 PM: Artist: Nero, Title:  Doomsday
+1/30/2013 8:33:11 PM: Artist: Nero, Title:  Doomsday
+1/30/2013 8:33:11 PM: Got new Spotify item: [Song] Nero - Doomsday
+1/30/2013 8:36:24 PM: WinEventProc: got new window title.
+1/30/2013 8:36:24 PM: Artist: deadmau5 + Wolfgang Gartner, Title:  Animal Rights
+1/30/2013 8:36:24 PM: Artist: deadmau5 + Wolfgang Gartner, Title:  Animal Rights
+1/30/2013 8:36:24 PM: Got new Spotify item: [Song] deadmau5 + Wolfgang Gartner - Animal Rights
+1/30/2013 8:37:27 PM: WinEventProc: got new window title.
+1/30/2013 8:37:27 PM: Artist: deadmau5 + Wolfgang Gartner, Title:  Animal Rights
+1/30/2013 8:37:27 PM: Artist: deadmau5 + Wolfgang Gartner, Title:  Animal Rights
+1/30/2013 8:37:27 PM: Got new Spotify item: [Song] deadmau5 + Wolfgang Gartner - Animal Rights
+1/30/2013 8:37:27 PM: WinEventProc: got new window title.
+1/30/2013 8:37:27 PM: Artist: deadmau5 + Wolfgang Gartner, Title:  Animal Rights
+1/30/2013 8:37:27 PM: Artist: deadmau5 + Wolfgang Gartner, Title:  Animal Rights
+1/30/2013 8:37:27 PM: Got new Spotify item: [Song] deadmau5 + Wolfgang Gartner - Animal Rights
+1/30/2013 8:37:28 PM: WinEventProc: got new window title.
+1/30/2013 8:37:28 PM: Artist: deadmau5 + Wolfgang Gartner, Title:  Animal Rights
+1/30/2013 8:37:28 PM: Artist: deadmau5 + Wolfgang Gartner, Title:  Animal Rights
+1/30/2013 8:37:28 PM: Got new Spotify item: [Song] deadmau5 + Wolfgang Gartner - Animal Rights
+1/30/2013 8:37:28 PM: WinEventProc: got new window title.
+1/30/2013 8:37:28 PM: Artist: deadmau5 + Wolfgang Gartner, Title:  Animal Rights
+1/30/2013 8:37:28 PM: Artist: deadmau5 + Wolfgang Gartner, Title:  Animal Rights
+1/30/2013 8:37:28 PM: Got new Spotify item: [Song] deadmau5 + Wolfgang Gartner - Animal Rights
+1/30/2013 8:37:31 PM: WinEventProc: got new window title.
+1/30/2013 8:37:31 PM: Artist: Deadmau5, Title:  Ghosts n Stuff
+1/30/2013 8:37:31 PM: Artist: Deadmau5, Title:  Ghosts n Stuff
+1/30/2013 8:37:31 PM: Got new Spotify item: [Song] Deadmau5 - Ghosts n Stuff
+1/30/2013 8:37:52 PM: WinEventProc: got new window title.
+1/30/2013 8:37:52 PM: Artist: Deadmau5, Title:  Ghosts n Stuff
+1/30/2013 8:37:52 PM: Artist: Deadmau5, Title:  Ghosts n Stuff
+1/30/2013 8:37:52 PM: Got new Spotify item: [Song] Deadmau5 - Ghosts n Stuff
+1/30/2013 8:37:52 PM: WinEventProc: got new window title.
+1/30/2013 8:37:52 PM: Artist: Deadmau5, Title:  Ghosts n Stuff
+1/30/2013 8:37:52 PM: Artist: Deadmau5, Title:  Ghosts n Stuff
+1/30/2013 8:37:52 PM: Got new Spotify item: [Song] Deadmau5 - Ghosts n Stuff
+1/30/2013 8:40:46 PM: WinEventProc: got new window title.
+1/30/2013 8:40:46 PM: Artist: Pretty Lights, Title:  Let Em Know It's Time To Go
+1/30/2013 8:40:46 PM: Artist: Pretty Lights, Title:  Let Em Know It's Time To Go
+1/30/2013 8:40:46 PM: Got new Spotify item: [Song] Pretty Lights - Let Em Know It's Time To Go
+1/30/2013 8:40:49 PM: WinEventProc: got new window title.
+1/30/2013 8:40:49 PM: WARN: couldn't parse the artist/title from the raw window title.
+1/30/2013 8:48:54 PM: WinEventProc: got new window title.
+1/30/2013 8:48:54 PM: Artist: Pretty Lights, Title:  Let Em Know It's Time To Go
+1/30/2013 8:48:54 PM: Artist: Pretty Lights, Title:  Let Em Know It's Time To Go
+1/30/2013 8:48:54 PM: Got new Spotify item: [Song] Pretty Lights - Let Em Know It's Time To Go
+1/30/2013 8:54:08 PM: WinEventProc: got new window title.
+1/30/2013 8:54:08 PM: Artist: Spotify, Title:  Spotify
+1/30/2013 8:54:08 PM: Trying to skip song - waiting for a return from worker thread.
+1/30/2013 8:54:08 PM: Artist: Spotify, Title:  Spotify
+1/30/2013 8:54:08 PM: Sending keypress: MediaNextTrack
+1/30/2013 8:54:09 PM: Artist: Spotify, Title:  Spotify
+1/30/2013 8:54:09 PM: Worker thread: Tried to skip, song before: [Song] Spotify - Spotify vs. [Song] Spotify - Spotify
+1/30/2013 8:54:09 PM: Got our return, failure value: True
+1/30/2013 8:54:09 PM: Failed to skip the song. Muting song.
+1/30/2013 8:54:09 PM: Got spotify volume before mute: 1
+1/30/2013 8:54:09 PM: Setting spotify volume to: 0.1333333
+1/30/2013 8:54:09 PM: Playing replacement music at: elevator.mp3
+1/30/2013 8:54:09 PM: Sending keypress: MediaPlayPause
+1/30/2013 8:54:09 PM: WARN: couldn't parse the artist/title from the raw window title.
+1/30/2013 8:54:09 PM: After play, got this song: 
+1/30/2013 8:54:09 PM: WinEventProc: got new window title.
+1/30/2013 8:54:09 PM: WARN: couldn't parse the artist/title from the raw window title.
+1/30/2013 8:54:09 PM: WinEventProc: got new window title.
+1/30/2013 8:54:09 PM: Artist: Spotify, Title:  Spotify
+1/30/2013 8:54:09 PM: Trying to skip song - waiting for a return from worker thread.
+1/30/2013 8:54:09 PM: Artist: Spotify, Title:  Spotify
+1/30/2013 8:54:09 PM: Sending keypress: MediaNextTrack
+1/30/2013 8:54:10 PM: Artist: Spotify, Title:  Spotify
+1/30/2013 8:54:10 PM: Worker thread: Tried to skip, song before: [Song] Spotify - Spotify vs. [Song] Spotify - Spotify
+1/30/2013 8:54:10 PM: Got our return, failure value: True
+1/30/2013 8:54:10 PM: Failed to skip the song. Muting song.
+1/30/2013 8:54:10 PM: User's volume is already at 5%, will not try to change vol.
+1/30/2013 8:54:39 PM: WinEventProc: got new window title.
+1/30/2013 8:54:39 PM: Artist: MGMT, Title:  Electric Feel
+1/30/2013 8:54:39 PM: Stopping replacement music.
+1/30/2013 8:54:39 PM: Resetting master volume to: 1
+1/30/2013 8:54:39 PM: Artist: MGMT, Title:  Electric Feel
+1/30/2013 8:54:39 PM: Got new Spotify item: [Song] MGMT - Electric Feel
+1/30/2013 8:57:05 PM: WinEventProc: got new window title.
+1/30/2013 8:57:05 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 8:57:05 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 8:57:05 PM: Got new Spotify item: [Song] David Guetta - Titanium - feat. Sia
+1/30/2013 9:01:10 PM: WinEventProc: got new window title.
+1/30/2013 9:01:10 PM: Artist: Nero, Title:  Doomsday
+1/30/2013 9:01:10 PM: Artist: Nero, Title:  Doomsday
+1/30/2013 9:01:10 PM: Got new Spotify item: [Song] Nero - Doomsday
+1/30/2013 9:05:22 PM: WinEventProc: got new window title.
+1/30/2013 9:05:22 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 9:05:22 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 9:05:22 PM: Got new Spotify item: [Song] 311 - All Mixed Up
+1/30/2013 9:08:25 PM: WinEventProc: got new window title.
+1/30/2013 9:08:25 PM: Artist: Spotify, Title:  Spotify
+1/30/2013 9:08:25 PM: Trying to skip song - waiting for a return from worker thread.
+1/30/2013 9:08:25 PM: Artist: Spotify, Title:  Spotify
+1/30/2013 9:08:25 PM: Sending keypress: MediaNextTrack
+1/30/2013 9:08:26 PM: Artist: Spotify, Title:  Spotify
+1/30/2013 9:08:26 PM: Worker thread: Tried to skip, song before: [Song] Spotify - Spotify vs. [Song] Spotify - Spotify
+1/30/2013 9:08:26 PM: Got our return, failure value: True
+1/30/2013 9:08:26 PM: Failed to skip the song. Muting song.
+1/30/2013 9:08:26 PM: Got spotify volume before mute: 1
+1/30/2013 9:08:26 PM: Setting spotify volume to: 0.1333333
+1/30/2013 9:08:26 PM: Playing replacement music at: elevator.mp3
+1/30/2013 9:08:26 PM: Sending keypress: MediaPlayPause
+1/30/2013 9:08:26 PM: WARN: couldn't parse the artist/title from the raw window title.
+1/30/2013 9:08:26 PM: After play, got this song: 
+1/30/2013 9:08:26 PM: WinEventProc: got new window title.
+1/30/2013 9:08:26 PM: WARN: couldn't parse the artist/title from the raw window title.
+1/30/2013 9:08:26 PM: WinEventProc: got new window title.
+1/30/2013 9:08:26 PM: Artist: Spotify, Title:  Spotify
+1/30/2013 9:08:26 PM: Trying to skip song - waiting for a return from worker thread.
+1/30/2013 9:08:26 PM: Artist: Spotify, Title:  Spotify
+1/30/2013 9:08:26 PM: Sending keypress: MediaNextTrack
+1/30/2013 9:08:27 PM: Artist: Spotify, Title:  Spotify
+1/30/2013 9:08:27 PM: Worker thread: Tried to skip, song before: [Song] Spotify - Spotify vs. [Song] Spotify - Spotify
+1/30/2013 9:08:27 PM: Got our return, failure value: True
+1/30/2013 9:08:27 PM: Failed to skip the song. Muting song.
+1/30/2013 9:08:27 PM: User's volume is already at 5%, will not try to change vol.
+1/30/2013 9:08:50 PM: WinEventProc: got new window title.
+1/30/2013 9:08:50 PM: Artist: Skrillex, Title:  Kyoto - feat. Sirah
+1/30/2013 9:08:50 PM: Stopping replacement music.
+1/30/2013 9:08:50 PM: Resetting master volume to: 1
+1/30/2013 9:08:50 PM: Artist: Skrillex, Title:  Kyoto - feat. Sirah
+1/30/2013 9:08:50 PM: Got new Spotify item: [Song] Skrillex - Kyoto - feat. Sirah
+1/30/2013 9:11:23 PM: WinEventProc: got new window title.
+1/30/2013 9:11:23 PM: Artist: Skrillex, Title:  Kyoto - feat. Sirah
+1/30/2013 9:11:23 PM: Artist: Skrillex, Title:  Kyoto - feat. Sirah
+1/30/2013 9:11:23 PM: Got new Spotify item: [Song] Skrillex - Kyoto - feat. Sirah
+1/30/2013 9:11:23 PM: WinEventProc: got new window title.
+1/30/2013 9:11:23 PM: Artist: Skrillex, Title:  Kyoto - feat. Sirah
+1/30/2013 9:11:23 PM: Artist: Skrillex, Title:  Kyoto - feat. Sirah
+1/30/2013 9:11:23 PM: Got new Spotify item: [Song] Skrillex - Kyoto - feat. Sirah
+1/30/2013 9:11:23 PM: WinEventProc: got new window title.
+1/30/2013 9:11:23 PM: WinEventProc: got new window title.
+1/30/2013 9:11:23 PM: Artist: Skrillex, Title:  Kyoto - feat. Sirah
+1/30/2013 9:11:23 PM: Artist: Skrillex, Title:  Kyoto - feat. Sirah
+1/30/2013 9:11:23 PM: Got new Spotify item: [Song] Skrillex - Kyoto - feat. Sirah
+1/30/2013 9:11:23 PM: Artist: Skrillex, Title:  Kyoto - feat. Sirah
+1/30/2013 9:11:23 PM: Artist: Skrillex, Title:  Kyoto - feat. Sirah
+1/30/2013 9:11:23 PM: Got new Spotify item: [Song] Skrillex - Kyoto - feat. Sirah
+1/30/2013 9:11:26 PM: WinEventProc: got new window title.
+1/30/2013 9:11:26 PM: Artist: Skrillex, Title:  Kyoto - feat. Sirah
+1/30/2013 9:11:26 PM: Artist: Skrillex, Title:  Kyoto - feat. Sirah
+1/30/2013 9:11:26 PM: Got new Spotify item: [Song] Skrillex - Kyoto - feat. Sirah
+1/30/2013 9:11:26 PM: WinEventProc: got new window title.
+1/30/2013 9:11:26 PM: Artist: Skrillex, Title:  Kyoto - feat. Sirah
+1/30/2013 9:11:26 PM: Artist: Skrillex, Title:  Kyoto - feat. Sirah
+1/30/2013 9:11:26 PM: Got new Spotify item: [Song] Skrillex - Kyoto - feat. Sirah
+1/30/2013 9:11:26 PM: WinEventProc: got new window title.
+1/30/2013 9:11:26 PM: Artist: Skrillex, Title:  Kyoto - feat. Sirah
+1/30/2013 9:11:26 PM: Artist: Skrillex, Title:  Kyoto - feat. Sirah
+1/30/2013 9:11:26 PM: Got new Spotify item: [Song] Skrillex - Kyoto - feat. Sirah
+1/30/2013 9:11:26 PM: WinEventProc: got new window title.
+1/30/2013 9:11:26 PM: Artist: Skrillex, Title:  Kyoto - feat. Sirah
+1/30/2013 9:11:26 PM: Artist: Skrillex, Title:  Kyoto - feat. Sirah
+1/30/2013 9:11:26 PM: Got new Spotify item: [Song] Skrillex - Kyoto - feat. Sirah
+1/30/2013 9:11:27 PM: WinEventProc: got new window title.
+1/30/2013 9:11:27 PM: Artist: AWOLNATION, Title:  Sail
+1/30/2013 9:11:27 PM: Artist: AWOLNATION, Title:  Sail
+1/30/2013 9:11:27 PM: Got new Spotify item: [Song] AWOLNATION - Sail
+1/30/2013 9:11:29 PM: WinEventProc: got new window title.
+1/30/2013 9:11:29 PM: Artist: Skrillex, Title:  Scary Monsters And Nice Sprites
+1/30/2013 9:11:29 PM: Artist: Skrillex, Title:  Scary Monsters And Nice Sprites
+1/30/2013 9:11:29 PM: Got new Spotify item: [Song] Skrillex - Scary Monsters And Nice Sprites
+1/30/2013 9:11:30 PM: WinEventProc: got new window title.
+1/30/2013 9:11:30 PM: Artist: Pretty Lights, Title:  Keep Em Bouncin
+1/30/2013 9:11:30 PM: Artist: Pretty Lights, Title:  Keep Em Bouncin
+1/30/2013 9:11:30 PM: Got new Spotify item: [Song] Pretty Lights - Keep Em Bouncin
+1/30/2013 9:17:49 PM: WinEventProc: got new window title.
+1/30/2013 9:17:49 PM: Artist: Pretty Lights, Title:  Keep Em Bouncin
+1/30/2013 9:17:49 PM: Artist: Pretty Lights, Title:  Keep Em Bouncin
+1/30/2013 9:17:49 PM: Got new Spotify item: [Song] Pretty Lights - Keep Em Bouncin
+1/30/2013 9:17:49 PM: WinEventProc: got new window title.
+1/30/2013 9:17:49 PM: Artist: Pretty Lights, Title:  Keep Em Bouncin
+1/30/2013 9:17:49 PM: Artist: Pretty Lights, Title:  Keep Em Bouncin
+1/30/2013 9:17:49 PM: Got new Spotify item: [Song] Pretty Lights - Keep Em Bouncin
+1/30/2013 9:17:49 PM: WinEventProc: got new window title.
+1/30/2013 9:17:49 PM: Artist: Pretty Lights, Title:  Keep Em Bouncin
+1/30/2013 9:17:49 PM: Artist: Pretty Lights, Title:  Keep Em Bouncin
+1/30/2013 9:17:49 PM: Got new Spotify item: [Song] Pretty Lights - Keep Em Bouncin
+1/30/2013 9:17:49 PM: WinEventProc: got new window title.
+1/30/2013 9:17:49 PM: Artist: Pretty Lights, Title:  Keep Em Bouncin
+1/30/2013 9:17:49 PM: Artist: Pretty Lights, Title:  Keep Em Bouncin
+1/30/2013 9:17:49 PM: Got new Spotify item: [Song] Pretty Lights - Keep Em Bouncin
+1/30/2013 9:17:51 PM: WinEventProc: got new window title.
+1/30/2013 9:17:51 PM: Artist: Skrillex, Title:  First Of The Year - Equinox
+1/30/2013 9:17:51 PM: Artist: Skrillex, Title:  First Of The Year - Equinox
+1/30/2013 9:17:51 PM: Got new Spotify item: [Song] Skrillex - First Of The Year - Equinox
+1/30/2013 9:22:12 PM: WinEventProc: got new window title.
+1/30/2013 9:22:12 PM: Artist: Spotify, Title:  Spotify
+1/30/2013 9:22:12 PM: Trying to skip song - waiting for a return from worker thread.
+1/30/2013 9:22:12 PM: Artist: Spotify, Title:  Spotify
+1/30/2013 9:22:12 PM: Sending keypress: MediaNextTrack
+1/30/2013 9:22:13 PM: Artist: Spotify, Title:  Spotify
+1/30/2013 9:22:13 PM: Worker thread: Tried to skip, song before: [Song] Spotify - Spotify vs. [Song] Spotify - Spotify
+1/30/2013 9:22:13 PM: Got our return, failure value: True
+1/30/2013 9:22:13 PM: Failed to skip the song. Muting song.
+1/30/2013 9:22:13 PM: Got spotify volume before mute: 1
+1/30/2013 9:22:13 PM: Setting spotify volume to: 0.1333333
+1/30/2013 9:22:13 PM: Playing replacement music at: elevator.mp3
+1/30/2013 9:22:13 PM: Sending keypress: MediaPlayPause
+1/30/2013 9:22:13 PM: WinEventProc: got new window title.
+1/30/2013 9:22:13 PM: WARN: couldn't parse the artist/title from the raw window title.
+1/30/2013 9:22:13 PM: WARN: couldn't parse the artist/title from the raw window title.
+1/30/2013 9:22:13 PM: After play, got this song: 
+1/30/2013 9:22:13 PM: WinEventProc: got new window title.
+1/30/2013 9:22:13 PM: Artist: Spotify, Title:  Spotify
+1/30/2013 9:22:13 PM: Trying to skip song - waiting for a return from worker thread.
+1/30/2013 9:22:13 PM: Artist: Spotify, Title:  Spotify
+1/30/2013 9:22:13 PM: Sending keypress: MediaNextTrack
+1/30/2013 9:22:14 PM: Artist: Spotify, Title:  Spotify
+1/30/2013 9:22:14 PM: Worker thread: Tried to skip, song before: [Song] Spotify - Spotify vs. [Song] Spotify - Spotify
+1/30/2013 9:22:14 PM: Got our return, failure value: True
+1/30/2013 9:22:14 PM: Failed to skip the song. Muting song.
+1/30/2013 9:22:14 PM: User's volume is already at 5%, will not try to change vol.
+1/30/2013 9:22:38 PM: WinEventProc: got new window title.
+1/30/2013 9:22:38 PM: Artist: The Glitch Mob, Title:  We Can Make The World Stop
+1/30/2013 9:22:38 PM: Stopping replacement music.
+1/30/2013 9:22:38 PM: Resetting master volume to: 1
+1/30/2013 9:22:38 PM: Artist: The Glitch Mob, Title:  We Can Make The World Stop
+1/30/2013 9:22:38 PM: Got new Spotify item: [Song] The Glitch Mob - We Can Make The World Stop
+1/30/2013 9:27:02 PM: WinEventProc: got new window title.
+1/30/2013 9:27:02 PM: WARN: couldn't parse the artist/title from the raw window title.
+1/30/2013 10:15:07 PM: WinEventProc: got new window title.
+1/30/2013 10:15:07 PM: Artist: Deadmau5, Title:  Ghosts n Stuff
+1/30/2013 10:15:07 PM: Artist: Deadmau5, Title:  Ghosts n Stuff
+1/30/2013 10:15:07 PM: Got new Spotify item: [Song] Deadmau5 - Ghosts n Stuff
+1/30/2013 10:15:09 PM: WinEventProc: got new window title.
+1/30/2013 10:15:09 PM: Artist: Deadmau5, Title:  Ghosts n Stuff
+1/30/2013 10:15:09 PM: Artist: Deadmau5, Title:  Ghosts n Stuff
+1/30/2013 10:15:09 PM: Got new Spotify item: [Song] Deadmau5 - Ghosts n Stuff
+1/30/2013 10:15:09 PM: WinEventProc: got new window title.
+1/30/2013 10:15:09 PM: Artist: Deadmau5, Title:  Ghosts n Stuff
+1/30/2013 10:15:09 PM: Artist: Deadmau5, Title:  Ghosts n Stuff
+1/30/2013 10:15:09 PM: Got new Spotify item: [Song] Deadmau5 - Ghosts n Stuff
+1/30/2013 10:16:48 PM: WinEventProc: got new window title.
+1/30/2013 10:16:48 PM: WARN: couldn't parse the artist/title from the raw window title.
+1/30/2013 10:21:02 PM: WinEventProc: got new window title.
+1/30/2013 10:21:02 PM: Artist: Deadmau5, Title:  Ghosts n Stuff
+1/30/2013 10:21:02 PM: Artist: Deadmau5, Title:  Ghosts n Stuff
+1/30/2013 10:21:02 PM: Got new Spotify item: [Song] Deadmau5 - Ghosts n Stuff
+1/30/2013 10:21:48 PM: WinEventProc: got new window title.
+1/30/2013 10:21:48 PM: WARN: couldn't parse the artist/title from the raw window title.
+1/30/2013 11:08:22 PM: WinEventProc: got new window title.
+1/30/2013 11:08:22 PM: Artist: Deadmau5, Title:  Ghosts n Stuff
+1/30/2013 11:08:22 PM: Artist: Deadmau5, Title:  Ghosts n Stuff
+1/30/2013 11:08:22 PM: Got new Spotify item: [Song] Deadmau5 - Ghosts n Stuff
+1/30/2013 11:08:23 PM: WinEventProc: got new window title.
+1/30/2013 11:08:23 PM: Artist: Deadmau5, Title:  Ghosts n Stuff
+1/30/2013 11:08:23 PM: Artist: Deadmau5, Title:  Ghosts n Stuff
+1/30/2013 11:08:23 PM: Got new Spotify item: [Song] Deadmau5 - Ghosts n Stuff
+1/30/2013 11:08:23 PM: WinEventProc: got new window title.
+1/30/2013 11:08:23 PM: Artist: Deadmau5, Title:  Ghosts n Stuff
+1/30/2013 11:08:23 PM: Artist: Deadmau5, Title:  Ghosts n Stuff
+1/30/2013 11:08:23 PM: Got new Spotify item: [Song] Deadmau5 - Ghosts n Stuff
+1/30/2013 11:08:24 PM: WinEventProc: got new window title.
+1/30/2013 11:08:24 PM: Artist: Deadmau5, Title:  Ghosts n Stuff
+1/30/2013 11:08:24 PM: Artist: Deadmau5, Title:  Ghosts n Stuff
+1/30/2013 11:08:24 PM: Got new Spotify item: [Song] Deadmau5 - Ghosts n Stuff
+1/30/2013 11:08:24 PM: WinEventProc: got new window title.
+1/30/2013 11:08:24 PM: Artist: Deadmau5, Title:  Ghosts n Stuff
+1/30/2013 11:08:24 PM: Artist: Deadmau5, Title:  Ghosts n Stuff
+1/30/2013 11:08:24 PM: Got new Spotify item: [Song] Deadmau5 - Ghosts n Stuff
+1/30/2013 11:09:09 PM: WinEventProc: got new window title.
+1/30/2013 11:09:09 PM: Artist: Pretty Lights, Title:  Let Em Know It's Time To Go
+1/30/2013 11:09:09 PM: Artist: Pretty Lights, Title:  Let Em Know It's Time To Go
+1/30/2013 11:09:09 PM: Got new Spotify item: [Song] Pretty Lights - Let Em Know It's Time To Go
+1/30/2013 11:09:52 PM: WinEventProc: got new window title.
+1/30/2013 11:09:52 PM: Artist: Pretty Lights, Title:  Let Em Know It's Time To Go
+1/30/2013 11:09:52 PM: Artist: Pretty Lights, Title:  Let Em Know It's Time To Go
+1/30/2013 11:09:52 PM: Got new Spotify item: [Song] Pretty Lights - Let Em Know It's Time To Go
+1/30/2013 11:09:52 PM: WinEventProc: got new window title.
+1/30/2013 11:09:52 PM: Artist: Pretty Lights, Title:  Let Em Know It's Time To Go
+1/30/2013 11:09:52 PM: Artist: Pretty Lights, Title:  Let Em Know It's Time To Go
+1/30/2013 11:09:52 PM: Got new Spotify item: [Song] Pretty Lights - Let Em Know It's Time To Go
+1/30/2013 11:09:53 PM: WinEventProc: got new window title.
+1/30/2013 11:09:53 PM: Artist: Pretty Lights, Title:  Let Em Know It's Time To Go
+1/30/2013 11:09:53 PM: Artist: Pretty Lights, Title:  Let Em Know It's Time To Go
+1/30/2013 11:09:53 PM: Got new Spotify item: [Song] Pretty Lights - Let Em Know It's Time To Go
+1/30/2013 11:09:53 PM: WinEventProc: got new window title.
+1/30/2013 11:09:53 PM: Artist: Pretty Lights, Title:  Let Em Know It's Time To Go
+1/30/2013 11:09:53 PM: Artist: Pretty Lights, Title:  Let Em Know It's Time To Go
+1/30/2013 11:09:53 PM: Got new Spotify item: [Song] Pretty Lights - Let Em Know It's Time To Go
+1/30/2013 11:09:55 PM: WinEventProc: got new window title.
+1/30/2013 11:09:55 PM: Artist: The Glitch Mob, Title:  We Can Make The World Stop
+1/30/2013 11:09:55 PM: Artist: The Glitch Mob, Title:  We Can Make The World Stop
+1/30/2013 11:09:55 PM: Got new Spotify item: [Song] The Glitch Mob - We Can Make The World Stop
+1/30/2013 11:10:08 PM: WinEventProc: got new window title.
+1/30/2013 11:10:08 PM: Artist: AWOLNATION, Title:  Sail
+1/30/2013 11:10:08 PM: Artist: AWOLNATION, Title:  Sail
+1/30/2013 11:10:08 PM: Got new Spotify item: [Song] AWOLNATION - Sail
+1/30/2013 11:10:14 PM: WinEventProc: got new window title.
+1/30/2013 11:10:14 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:10:14 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:10:14 PM: Got new Spotify item: [Song] David Guetta - Titanium - feat. Sia
+1/30/2013 11:10:15 PM: WinEventProc: got new window title.
+1/30/2013 11:10:15 PM: Artist: deadmau5 + Wolfgang Gartner, Title:  Animal Rights
+1/30/2013 11:10:15 PM: Artist: deadmau5 + Wolfgang Gartner, Title:  Animal Rights
+1/30/2013 11:10:15 PM: Got new Spotify item: [Song] deadmau5 + Wolfgang Gartner - Animal Rights
+1/30/2013 11:10:34 PM: WinEventProc: got new window title.
+1/30/2013 11:10:34 PM: Artist: Broken Bells, Title:  The Ghost Inside
+1/30/2013 11:10:34 PM: Artist: Broken Bells, Title:  The Ghost Inside
+1/30/2013 11:10:34 PM: Got new Spotify item: [Song] Broken Bells - The Ghost Inside
+1/30/2013 11:10:36 PM: WinEventProc: got new window title.
+1/30/2013 11:10:36 PM: Artist: Broken Bells, Title:  The Ghost Inside
+1/30/2013 11:10:36 PM: Artist: Broken Bells, Title:  The Ghost Inside
+1/30/2013 11:10:36 PM: Got new Spotify item: [Song] Broken Bells - The Ghost Inside
+1/30/2013 11:10:36 PM: WinEventProc: got new window title.
+1/30/2013 11:10:36 PM: Artist: Broken Bells, Title:  The Ghost Inside
+1/30/2013 11:10:36 PM: Artist: Broken Bells, Title:  The Ghost Inside
+1/30/2013 11:10:36 PM: Got new Spotify item: [Song] Broken Bells - The Ghost Inside
+1/30/2013 11:10:37 PM: WinEventProc: got new window title.
+1/30/2013 11:10:37 PM: Artist: Broken Bells, Title:  The Ghost Inside
+1/30/2013 11:10:37 PM: Artist: Broken Bells, Title:  The Ghost Inside
+1/30/2013 11:10:37 PM: Got new Spotify item: [Song] Broken Bells - The Ghost Inside
+1/30/2013 11:10:37 PM: WinEventProc: got new window title.
+1/30/2013 11:10:37 PM: Artist: Broken Bells, Title:  The Ghost Inside
+1/30/2013 11:10:37 PM: Artist: Broken Bells, Title:  The Ghost Inside
+1/30/2013 11:10:37 PM: Got new Spotify item: [Song] Broken Bells - The Ghost Inside
+1/30/2013 11:10:47 PM: WinEventProc: got new window title.
+1/30/2013 11:10:47 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:10:47 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:10:47 PM: Got new Spotify item: [Song] 311 - All Mixed Up
+1/30/2013 11:11:37 PM: WinEventProc: got new window title.
+1/30/2013 11:11:37 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:11:37 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:11:37 PM: Got new Spotify item: [Song] 311 - All Mixed Up
+1/30/2013 11:11:37 PM: WinEventProc: got new window title.
+1/30/2013 11:11:37 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:11:37 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:11:37 PM: Got new Spotify item: [Song] 311 - All Mixed Up
+1/30/2013 11:11:38 PM: WinEventProc: got new window title.
+1/30/2013 11:11:38 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:11:38 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:11:38 PM: Got new Spotify item: [Song] 311 - All Mixed Up
+1/30/2013 11:11:38 PM: WinEventProc: got new window title.
+1/30/2013 11:11:38 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:11:38 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:11:38 PM: Got new Spotify item: [Song] 311 - All Mixed Up
+1/30/2013 11:11:38 PM: WinEventProc: got new window title.
+1/30/2013 11:11:38 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:11:38 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:11:38 PM: Got new Spotify item: [Song] 311 - All Mixed Up
+1/30/2013 11:11:39 PM: WinEventProc: got new window title.
+1/30/2013 11:11:39 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:11:39 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:11:39 PM: Got new Spotify item: [Song] 311 - All Mixed Up
+1/30/2013 11:11:39 PM: WinEventProc: got new window title.
+1/30/2013 11:11:39 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:11:39 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:11:39 PM: Got new Spotify item: [Song] 311 - All Mixed Up
+1/30/2013 11:11:39 PM: WinEventProc: got new window title.
+1/30/2013 11:11:39 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:11:39 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:11:39 PM: Got new Spotify item: [Song] 311 - All Mixed Up
+1/30/2013 11:11:54 PM: WinEventProc: got new window title.
+1/30/2013 11:11:54 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:11:54 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:11:54 PM: Got new Spotify item: [Song] 311 - All Mixed Up
+1/30/2013 11:11:54 PM: WinEventProc: got new window title.
+1/30/2013 11:11:54 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:11:54 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:11:54 PM: Got new Spotify item: [Song] 311 - All Mixed Up
+1/30/2013 11:11:54 PM: WinEventProc: got new window title.
+1/30/2013 11:11:54 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:11:54 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:11:54 PM: Got new Spotify item: [Song] 311 - All Mixed Up
+1/30/2013 11:11:54 PM: WinEventProc: got new window title.
+1/30/2013 11:11:54 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:11:54 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:11:54 PM: Got new Spotify item: [Song] 311 - All Mixed Up
+1/30/2013 11:11:55 PM: WinEventProc: got new window title.
+1/30/2013 11:11:55 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:11:55 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:11:55 PM: Got new Spotify item: [Song] 311 - All Mixed Up
+1/30/2013 11:11:55 PM: WinEventProc: got new window title.
+1/30/2013 11:11:55 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:11:55 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:11:55 PM: Got new Spotify item: [Song] 311 - All Mixed Up
+1/30/2013 11:11:55 PM: WinEventProc: got new window title.
+1/30/2013 11:11:55 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:11:55 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:11:55 PM: Got new Spotify item: [Song] 311 - All Mixed Up
+1/30/2013 11:11:55 PM: WinEventProc: got new window title.
+1/30/2013 11:11:55 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:11:55 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:11:55 PM: Got new Spotify item: [Song] 311 - All Mixed Up
+1/30/2013 11:11:55 PM: WinEventProc: got new window title.
+1/30/2013 11:11:55 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:11:55 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:11:55 PM: Got new Spotify item: [Song] 311 - All Mixed Up
+1/30/2013 11:11:55 PM: WinEventProc: got new window title.
+1/30/2013 11:11:55 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:11:55 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:11:55 PM: Got new Spotify item: [Song] 311 - All Mixed Up
+1/30/2013 11:11:55 PM: WinEventProc: got new window title.
+1/30/2013 11:11:55 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:11:55 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:11:55 PM: Got new Spotify item: [Song] 311 - All Mixed Up
+1/30/2013 11:11:55 PM: WinEventProc: got new window title.
+1/30/2013 11:11:55 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:11:55 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:11:55 PM: Got new Spotify item: [Song] 311 - All Mixed Up
+1/30/2013 11:11:55 PM: WinEventProc: got new window title.
+1/30/2013 11:11:55 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:11:55 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:11:55 PM: Got new Spotify item: [Song] 311 - All Mixed Up
+1/30/2013 11:11:56 PM: WinEventProc: got new window title.
+1/30/2013 11:11:56 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:11:56 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:11:56 PM: Got new Spotify item: [Song] 311 - All Mixed Up
+1/30/2013 11:12:01 PM: WinEventProc: got new window title.
+1/30/2013 11:12:01 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:12:01 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:12:01 PM: Got new Spotify item: [Song] 311 - All Mixed Up
+1/30/2013 11:12:01 PM: WinEventProc: got new window title.
+1/30/2013 11:12:01 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:12:01 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:12:01 PM: Got new Spotify item: [Song] 311 - All Mixed Up
+1/30/2013 11:12:07 PM: WinEventProc: got new window title.
+1/30/2013 11:12:07 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:12:07 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:12:07 PM: Got new Spotify item: [Song] 311 - All Mixed Up
+1/30/2013 11:12:08 PM: WinEventProc: got new window title.
+1/30/2013 11:12:08 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:12:08 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:12:08 PM: Got new Spotify item: [Song] 311 - All Mixed Up
+1/30/2013 11:13:23 PM: WinEventProc: got new window title.
+1/30/2013 11:13:23 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:13:23 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:13:23 PM: Got new Spotify item: [Song] 311 - All Mixed Up
+1/30/2013 11:13:24 PM: WinEventProc: got new window title.
+1/30/2013 11:13:24 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:13:24 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:13:24 PM: Got new Spotify item: [Song] 311 - All Mixed Up
+1/30/2013 11:13:28 PM: WinEventProc: got new window title.
+1/30/2013 11:13:28 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:13:28 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:13:28 PM: Got new Spotify item: [Song] 311 - All Mixed Up
+1/30/2013 11:13:28 PM: WinEventProc: got new window title.
+1/30/2013 11:13:28 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:13:28 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:13:28 PM: Got new Spotify item: [Song] 311 - All Mixed Up
+1/30/2013 11:13:28 PM: WinEventProc: got new window title.
+1/30/2013 11:13:28 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:13:28 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:13:28 PM: Got new Spotify item: [Song] 311 - All Mixed Up
+1/30/2013 11:13:28 PM: WinEventProc: got new window title.
+1/30/2013 11:13:28 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:13:28 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:13:28 PM: Got new Spotify item: [Song] 311 - All Mixed Up
+1/30/2013 11:13:28 PM: WinEventProc: got new window title.
+1/30/2013 11:13:28 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:13:28 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:13:28 PM: Got new Spotify item: [Song] 311 - All Mixed Up
+1/30/2013 11:13:28 PM: WinEventProc: got new window title.
+1/30/2013 11:13:28 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:13:28 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:13:28 PM: Got new Spotify item: [Song] 311 - All Mixed Up
+1/30/2013 11:13:28 PM: WinEventProc: got new window title.
+1/30/2013 11:13:28 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:13:28 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:13:28 PM: Got new Spotify item: [Song] 311 - All Mixed Up
+1/30/2013 11:13:28 PM: WinEventProc: got new window title.
+1/30/2013 11:13:28 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:13:28 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:13:28 PM: Got new Spotify item: [Song] 311 - All Mixed Up
+1/30/2013 11:13:33 PM: WinEventProc: got new window title.
+1/30/2013 11:13:33 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:13:33 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:13:33 PM: Got new Spotify item: [Song] 311 - All Mixed Up
+1/30/2013 11:13:33 PM: WinEventProc: got new window title.
+1/30/2013 11:13:33 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:13:33 PM: Artist: 311, Title:  All Mixed Up
+1/30/2013 11:13:33 PM: Got new Spotify item: [Song] 311 - All Mixed Up
+1/30/2013 11:13:41 PM: WinEventProc: got new window title.
+1/30/2013 11:13:41 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:13:41 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:13:41 PM: Got new Spotify item: [Song] David Guetta - Titanium - feat. Sia
+1/30/2013 11:14:19 PM: WinEventProc: got new window title.
+1/30/2013 11:14:19 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:19 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:19 PM: Got new Spotify item: [Song] David Guetta - Titanium - feat. Sia
+1/30/2013 11:14:19 PM: WinEventProc: got new window title.
+1/30/2013 11:14:19 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:19 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:19 PM: Got new Spotify item: [Song] David Guetta - Titanium - feat. Sia
+1/30/2013 11:14:20 PM: WinEventProc: got new window title.
+1/30/2013 11:14:20 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:20 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:20 PM: Got new Spotify item: [Song] David Guetta - Titanium - feat. Sia
+1/30/2013 11:14:20 PM: WinEventProc: got new window title.
+1/30/2013 11:14:20 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:20 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:20 PM: Got new Spotify item: [Song] David Guetta - Titanium - feat. Sia
+1/30/2013 11:14:21 PM: WinEventProc: got new window title.
+1/30/2013 11:14:21 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:21 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:21 PM: Got new Spotify item: [Song] David Guetta - Titanium - feat. Sia
+1/30/2013 11:14:21 PM: WinEventProc: got new window title.
+1/30/2013 11:14:21 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:21 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:21 PM: Got new Spotify item: [Song] David Guetta - Titanium - feat. Sia
+1/30/2013 11:14:21 PM: WinEventProc: got new window title.
+1/30/2013 11:14:21 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:21 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:21 PM: Got new Spotify item: [Song] David Guetta - Titanium - feat. Sia
+1/30/2013 11:14:21 PM: WinEventProc: got new window title.
+1/30/2013 11:14:21 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:21 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:21 PM: Got new Spotify item: [Song] David Guetta - Titanium - feat. Sia
+1/30/2013 11:14:21 PM: WinEventProc: got new window title.
+1/30/2013 11:14:21 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:21 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:21 PM: Got new Spotify item: [Song] David Guetta - Titanium - feat. Sia
+1/30/2013 11:14:22 PM: WinEventProc: got new window title.
+1/30/2013 11:14:22 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:22 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:22 PM: Got new Spotify item: [Song] David Guetta - Titanium - feat. Sia
+1/30/2013 11:14:22 PM: WinEventProc: got new window title.
+1/30/2013 11:14:22 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:22 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:22 PM: Got new Spotify item: [Song] David Guetta - Titanium - feat. Sia
+1/30/2013 11:14:22 PM: WinEventProc: got new window title.
+1/30/2013 11:14:22 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:22 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:22 PM: Got new Spotify item: [Song] David Guetta - Titanium - feat. Sia
+1/30/2013 11:14:22 PM: WinEventProc: got new window title.
+1/30/2013 11:14:22 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:22 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:22 PM: Got new Spotify item: [Song] David Guetta - Titanium - feat. Sia
+1/30/2013 11:14:22 PM: WinEventProc: got new window title.
+1/30/2013 11:14:22 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:22 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:22 PM: Got new Spotify item: [Song] David Guetta - Titanium - feat. Sia
+1/30/2013 11:14:23 PM: WinEventProc: got new window title.
+1/30/2013 11:14:23 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:23 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:23 PM: Got new Spotify item: [Song] David Guetta - Titanium - feat. Sia
+1/30/2013 11:14:23 PM: WinEventProc: got new window title.
+1/30/2013 11:14:23 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:23 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:23 PM: Got new Spotify item: [Song] David Guetta - Titanium - feat. Sia
+1/30/2013 11:14:23 PM: WinEventProc: got new window title.
+1/30/2013 11:14:23 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:23 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:23 PM: Got new Spotify item: [Song] David Guetta - Titanium - feat. Sia
+1/30/2013 11:14:23 PM: WinEventProc: got new window title.
+1/30/2013 11:14:23 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:23 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:23 PM: Got new Spotify item: [Song] David Guetta - Titanium - feat. Sia
+1/30/2013 11:14:24 PM: WinEventProc: got new window title.
+1/30/2013 11:14:24 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:24 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:24 PM: Got new Spotify item: [Song] David Guetta - Titanium - feat. Sia
+1/30/2013 11:14:24 PM: WinEventProc: got new window title.
+1/30/2013 11:14:24 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:24 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:24 PM: Got new Spotify item: [Song] David Guetta - Titanium - feat. Sia
+1/30/2013 11:14:24 PM: WinEventProc: got new window title.
+1/30/2013 11:14:24 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:24 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:24 PM: Got new Spotify item: [Song] David Guetta - Titanium - feat. Sia
+1/30/2013 11:14:24 PM: WinEventProc: got new window title.
+1/30/2013 11:14:24 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:24 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:24 PM: Got new Spotify item: [Song] David Guetta - Titanium - feat. Sia
+1/30/2013 11:14:24 PM: WinEventProc: got new window title.
+1/30/2013 11:14:24 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:24 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:24 PM: Got new Spotify item: [Song] David Guetta - Titanium - feat. Sia
+1/30/2013 11:14:24 PM: WinEventProc: got new window title.
+1/30/2013 11:14:24 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:24 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:24 PM: Got new Spotify item: [Song] David Guetta - Titanium - feat. Sia
+1/30/2013 11:14:24 PM: WinEventProc: got new window title.
+1/30/2013 11:14:24 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:24 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:24 PM: Got new Spotify item: [Song] David Guetta - Titanium - feat. Sia
+1/30/2013 11:14:24 PM: WinEventProc: got new window title.
+1/30/2013 11:14:24 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:24 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:24 PM: Got new Spotify item: [Song] David Guetta - Titanium - feat. Sia
+1/30/2013 11:14:25 PM: WinEventProc: got new window title.
+1/30/2013 11:14:25 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:25 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:25 PM: Got new Spotify item: [Song] David Guetta - Titanium - feat. Sia
+1/30/2013 11:14:26 PM: WinEventProc: got new window title.
+1/30/2013 11:14:26 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:26 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:26 PM: Got new Spotify item: [Song] David Guetta - Titanium - feat. Sia
+1/30/2013 11:14:30 PM: WinEventProc: got new window title.
+1/30/2013 11:14:30 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:30 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:30 PM: Got new Spotify item: [Song] David Guetta - Titanium - feat. Sia
+1/30/2013 11:14:30 PM: WinEventProc: got new window title.
+1/30/2013 11:14:30 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:30 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:30 PM: Got new Spotify item: [Song] David Guetta - Titanium - feat. Sia
+1/30/2013 11:14:30 PM: WinEventProc: got new window title.
+1/30/2013 11:14:30 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:30 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:30 PM: Got new Spotify item: [Song] David Guetta - Titanium - feat. Sia
+1/30/2013 11:14:30 PM: WinEventProc: got new window title.
+1/30/2013 11:14:30 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:30 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:30 PM: Got new Spotify item: [Song] David Guetta - Titanium - feat. Sia
+1/30/2013 11:14:30 PM: WinEventProc: got new window title.
+1/30/2013 11:14:30 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:30 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:30 PM: Got new Spotify item: [Song] David Guetta - Titanium - feat. Sia
+1/30/2013 11:14:30 PM: WinEventProc: got new window title.
+1/30/2013 11:14:30 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:30 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:30 PM: Got new Spotify item: [Song] David Guetta - Titanium - feat. Sia
+1/30/2013 11:14:33 PM: WinEventProc: got new window title.
+1/30/2013 11:14:33 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:33 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:33 PM: Got new Spotify item: [Song] David Guetta - Titanium - feat. Sia
+1/30/2013 11:14:33 PM: WinEventProc: got new window title.
+1/30/2013 11:14:33 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:33 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:33 PM: Got new Spotify item: [Song] David Guetta - Titanium - feat. Sia
+1/30/2013 11:14:33 PM: WinEventProc: got new window title.
+1/30/2013 11:14:33 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:33 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:33 PM: Got new Spotify item: [Song] David Guetta - Titanium - feat. Sia
+1/30/2013 11:14:33 PM: WinEventProc: got new window title.
+1/30/2013 11:14:33 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:33 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:33 PM: Got new Spotify item: [Song] David Guetta - Titanium - feat. Sia
+1/30/2013 11:14:34 PM: WinEventProc: got new window title.
+1/30/2013 11:14:34 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:34 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:34 PM: Got new Spotify item: [Song] David Guetta - Titanium - feat. Sia
+1/30/2013 11:14:37 PM: WinEventProc: got new window title.
+1/30/2013 11:14:37 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:37 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:37 PM: Got new Spotify item: [Song] David Guetta - Titanium - feat. Sia
+1/30/2013 11:14:37 PM: WinEventProc: got new window title.
+1/30/2013 11:14:37 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:37 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:37 PM: Got new Spotify item: [Song] David Guetta - Titanium - feat. Sia
+1/30/2013 11:14:38 PM: WinEventProc: got new window title.
+1/30/2013 11:14:38 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:38 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:38 PM: Got new Spotify item: [Song] David Guetta - Titanium - feat. Sia
+1/30/2013 11:14:38 PM: WinEventProc: got new window title.
+1/30/2013 11:14:38 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:38 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:38 PM: Got new Spotify item: [Song] David Guetta - Titanium - feat. Sia
+1/30/2013 11:14:38 PM: WinEventProc: got new window title.
+1/30/2013 11:14:38 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:38 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:38 PM: Got new Spotify item: [Song] David Guetta - Titanium - feat. Sia
+1/30/2013 11:14:38 PM: WinEventProc: got new window title.
+1/30/2013 11:14:38 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:38 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:38 PM: Got new Spotify item: [Song] David Guetta - Titanium - feat. Sia
+1/30/2013 11:14:38 PM: WinEventProc: got new window title.
+1/30/2013 11:14:38 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:38 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:38 PM: Got new Spotify item: [Song] David Guetta - Titanium - feat. Sia
+1/30/2013 11:14:39 PM: WinEventProc: got new window title.
+1/30/2013 11:14:39 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:39 PM: Artist: David Guetta, Title:  Titanium - feat. Sia
+1/30/2013 11:14:39 PM: Got new Spotify item: [Song] David Guetta - Titanium - feat. Sia
+1/30/2013 11:14:43 PM: WinEventProc: got new window title.
+1/30/2013 11:14:43 PM: Artist: M83, Title:  Midnight City
+1/30/2013 11:14:43 PM: Artist: M83, Title:  Midnight City
+1/30/2013 11:14:43 PM: Got new Spotify item: [Song] M83 - Midnight City
+1/30/2013 11:14:44 PM: WinEventProc: got new window title.
+1/30/2013 11:14:44 PM: Artist: M83, Title:  Midnight City
+1/30/2013 11:14:44 PM: Artist: M83, Title:  Midnight City
+1/30/2013 11:14:44 PM: Got new Spotify item: [Song] M83 - Midnight City
+1/30/2013 11:14:44 PM: WinEventProc: got new window title.
+1/30/2013 11:14:44 PM: Artist: M83, Title:  Midnight City
+1/30/2013 11:14:44 PM: Artist: M83, Title:  Midnight City
+1/30/2013 11:14:44 PM: Got new Spotify item: [Song] M83 - Midnight City
+1/30/2013 11:14:44 PM: WinEventProc: got new window title.
+1/30/2013 11:14:44 PM: Artist: M83, Title:  Midnight City
+1/30/2013 11:14:44 PM: Artist: M83, Title:  Midnight City
+1/30/2013 11:14:44 PM: Got new Spotify item: [Song] M83 - Midnight City
+1/30/2013 11:14:44 PM: WinEventProc: got new window title.
+1/30/2013 11:14:44 PM: Artist: M83, Title:  Midnight City
+1/30/2013 11:14:44 PM: Artist: M83, Title:  Midnight City
+1/30/2013 11:14:44 PM: Got new Spotify item: [Song] M83 - Midnight City
+1/30/2013 11:14:48 PM: WinEventProc: got new window title.
+1/30/2013 11:14:48 PM: Artist: M83, Title:  Midnight City
+1/30/2013 11:14:48 PM: Artist: M83, Title:  Midnight City
+1/30/2013 11:14:48 PM: Got new Spotify item: [Song] M83 - Midnight City
+1/30/2013 11:14:48 PM: WinEventProc: got new window title.
+1/30/2013 11:14:48 PM: Artist: M83, Title:  Midnight City
+1/30/2013 11:14:48 PM: Artist: M83, Title:  Midnight City
+1/30/2013 11:14:48 PM: Got new Spotify item: [Song] M83 - Midnight City
+1/30/2013 11:14:48 PM: WinEventProc: got new window title.
+1/30/2013 11:14:48 PM: Artist: M83, Title:  Midnight City
+1/30/2013 11:14:48 PM: Artist: M83, Title:  Midnight City
+1/30/2013 11:14:48 PM: Got new Spotify item: [Song] M83 - Midnight City
+1/30/2013 11:14:49 PM: WinEventProc: got new window title.
+1/30/2013 11:14:49 PM: Artist: M83, Title:  Midnight City
+1/30/2013 11:14:49 PM: Artist: M83, Title:  Midnight City
+1/30/2013 11:14:49 PM: Got new Spotify item: [Song] M83 - Midnight City
+1/30/2013 11:14:49 PM: WinEventProc: got new window title.
+1/30/2013 11:14:49 PM: Artist: M83, Title:  Midnight City
+1/30/2013 11:14:49 PM: Artist: M83, Title:  Midnight City
+1/30/2013 11:14:49 PM: Got new Spotify item: [Song] M83 - Midnight City
+1/30/2013 11:14:49 PM: WinEventProc: got new window title.
+1/30/2013 11:14:49 PM: Artist: M83, Title:  Midnight City
+1/30/2013 11:14:49 PM: Artist: M83, Title:  Midnight City
+1/30/2013 11:14:49 PM: Got new Spotify item: [Song] M83 - Midnight City
+1/30/2013 11:14:49 PM: WinEventProc: got new window title.
+1/30/2013 11:14:49 PM: Artist: M83, Title:  Midnight City
+1/30/2013 11:14:49 PM: Artist: M83, Title:  Midnight City
+1/30/2013 11:14:49 PM: Got new Spotify item: [Song] M83 - Midnight City
+1/30/2013 11:14:49 PM: WinEventProc: got new window title.
+1/30/2013 11:14:49 PM: Artist: M83, Title:  Midnight City
+1/30/2013 11:14:49 PM: Artist: M83, Title:  Midnight City
+1/30/2013 11:14:49 PM: Got new Spotify item: [Song] M83 - Midnight City
+1/30/2013 11:14:49 PM: WinEventProc: got new window title.
+1/30/2013 11:14:49 PM: Artist: M83, Title:  Midnight City
+1/30/2013 11:14:49 PM: Artist: M83, Title:  Midnight City
+1/30/2013 11:14:49 PM: Got new Spotify item: [Song] M83 - Midnight City
+1/30/2013 11:14:49 PM: WinEventProc: got new window title.
+1/30/2013 11:14:49 PM: Artist: M83, Title:  Midnight City
+1/30/2013 11:14:49 PM: Artist: M83, Title:  Midnight City
+1/30/2013 11:14:49 PM: Got new Spotify item: [Song] M83 - Midnight City
+1/30/2013 11:14:49 PM: WinEventProc: got new window title.
+1/30/2013 11:14:49 PM: Artist: M83, Title:  Midnight City
+1/30/2013 11:14:49 PM: Artist: M83, Title:  Midnight City
+1/30/2013 11:14:49 PM: Got new Spotify item: [Song] M83 - Midnight City
+1/30/2013 11:14:49 PM: WinEventProc: got new window title.
+1/30/2013 11:14:49 PM: Artist: M83, Title:  Midnight City
+1/30/2013 11:14:49 PM: Artist: M83, Title:  Midnight City
+1/30/2013 11:14:49 PM: Got new Spotify item: [Song] M83 - Midnight City
+1/30/2013 11:14:49 PM: WinEventProc: got new window title.
+1/30/2013 11:14:49 PM: Artist: M83, Title:  Midnight City
+1/30/2013 11:14:49 PM: Artist: M83, Title:  Midnight City
+1/30/2013 11:14:49 PM: Got new Spotify item: [Song] M83 - Midnight City
+1/30/2013 11:14:49 PM: WinEventProc: got new window title.
+1/30/2013 11:14:49 PM: Artist: M83, Title:  Midnight City
+1/30/2013 11:14:49 PM: Artist: M83, Title:  Midnight City
+1/30/2013 11:14:49 PM: Got new Spotify item: [Song] M83 - Midnight City
+1/30/2013 11:14:49 PM: WinEventProc: got new window title.
+1/30/2013 11:14:49 PM: Artist: M83, Title:  Midnight City
+1/30/2013 11:14:49 PM: Artist: M83, Title:  Midnight City
+1/30/2013 11:14:49 PM: Got new Spotify item: [Song] M83 - Midnight City
+1/30/2013 11:14:50 PM: WinEventProc: got new window title.
+1/30/2013 11:14:50 PM: Artist: M83, Title:  Midnight City
+1/30/2013 11:14:50 PM: Artist: M83, Title:  Midnight City
+1/30/2013 11:14:50 PM: Got new Spotify item: [Song] M83 - Midnight City
+1/30/2013 11:14:50 PM: WinEventProc: got new window title.
+1/30/2013 11:14:50 PM: Artist: M83, Title:  Midnight City
+1/30/2013 11:14:50 PM: Artist: M83, Title:  Midnight City
+1/30/2013 11:14:50 PM: Got new Spotify item: [Song] M83 - Midnight City
+1/30/2013 11:14:50 PM: WinEventProc: got new window title.
+1/30/2013 11:14:50 PM: Artist: M83, Title:  Midnight City
+1/30/2013 11:14:50 PM: Artist: M83, Title:  Midnight City
+1/30/2013 11:14:50 PM: Got new Spotify item: [Song] M83 - Midnight City
+1/30/2013 11:14:50 PM: WinEventProc: got new window title.
+1/30/2013 11:14:50 PM: Artist: M83, Title:  Midnight City
+1/30/2013 11:14:50 PM: Artist: M83, Title:  Midnight City
+1/30/2013 11:14:50 PM: Got new Spotify item: [Song] M83 - Midnight City
+1/30/2013 11:14:51 PM: WinEventProc: got new window title.
+1/30/2013 11:14:51 PM: Artist: M83, Title:  Midnight City
+1/30/2013 11:14:51 PM: Artist: M83, Title:  Midnight City
+1/30/2013 11:14:51 PM: Got new Spotify item: [Song] M83 - Midnight City
+1/30/2013 11:14:51 PM: WinEventProc: got new window title.
+1/30/2013 11:14:51 PM: Artist: M83, Title:  Midnight City
+1/30/2013 11:14:51 PM: Artist: M83, Title:  Midnight City
+1/30/2013 11:14:51 PM: Got new Spotify item: [Song] M83 - Midnight City
+1/30/2013 11:14:53 PM: WinEventProc: got new window title.
+1/30/2013 11:14:53 PM: Artist: M83, Title:  Midnight City
+1/30/2013 11:14:53 PM: Artist: M83, Title:  Midnight City
+1/30/2013 11:14:53 PM: Got new Spotify item: [Song] M83 - Midnight City
+1/30/2013 11:14:53 PM: WinEventProc: got new window title.
+1/30/2013 11:14:53 PM: Artist: M83, Title:  Midnight City
+1/30/2013 11:14:53 PM: Artist: M83, Title:  Midnight City
+1/30/2013 11:14:53 PM: Got new Spotify item: [Song] M83 - Midnight City
+1/30/2013 11:14:53 PM: WinEventProc: got new window title.
+1/30/2013 11:14:53 PM: Artist: M83, Title:  Midnight City
+1/30/2013 11:14:53 PM: Artist: M83, Title:  Midnight City
+1/30/2013 11:14:53 PM: Got new Spotify item: [Song] M83 - Midnight City
+1/30/2013 11:14:53 PM: WinEventProc: got new window title.
+1/30/2013 11:14:53 PM: Artist: M83, Title:  Midnight City
+1/30/2013 11:14:53 PM: Artist: M83, Title:  Midnight City
+1/30/2013 11:14:53 PM: Got new Spotify item: [Song] M83 - Midnight City
+1/30/2013 11:14:54 PM: WinEventProc: got new window title.
+1/30/2013 11:14:54 PM: Artist: M83, Title:  Midnight City
+1/30/2013 11:14:54 PM: Artist: M83, Title:  Midnight City
+1/30/2013 11:14:54 PM: Got new Spotify item: [Song] M83 - Midnight City
+1/30/2013 11:14:57 PM: WinEventProc: got new window title.
+1/30/2013 11:14:57 PM: Artist: Arcade Fire, Title:  Wake Up
+1/30/2013 11:14:57 PM: Artist: Arcade Fire, Title:  Wake Up
+1/30/2013 11:14:57 PM: Got new Spotify item: [Song] Arcade Fire - Wake Up
+1/30/2013 11:14:58 PM: WinEventProc: got new window title.
+1/30/2013 11:14:58 PM: Artist: Arcade Fire, Title:  Wake Up
+1/30/2013 11:14:58 PM: Artist: Arcade Fire, Title:  Wake Up
+1/30/2013 11:14:58 PM: Got new Spotify item: [Song] Arcade Fire - Wake Up
+1/30/2013 11:14:58 PM: WinEventProc: got new window title.
+1/30/2013 11:14:58 PM: Artist: Arcade Fire, Title:  Wake Up
+1/30/2013 11:14:58 PM: Artist: Arcade Fire, Title:  Wake Up
+1/30/2013 11:14:58 PM: Got new Spotify item: [Song] Arcade Fire - Wake Up
+1/30/2013 11:15:05 PM: WinEventProc: got new window title.
+1/30/2013 11:15:05 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:05 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:05 PM: Got new Spotify item: [Song] Arcade Fire - Ready to Start
+1/30/2013 11:15:07 PM: WinEventProc: got new window title.
+1/30/2013 11:15:07 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:07 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:07 PM: Got new Spotify item: [Song] Arcade Fire - Ready to Start
+1/30/2013 11:15:07 PM: WinEventProc: got new window title.
+1/30/2013 11:15:07 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:07 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:07 PM: Got new Spotify item: [Song] Arcade Fire - Ready to Start
+1/30/2013 11:15:07 PM: WinEventProc: got new window title.
+1/30/2013 11:15:07 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:07 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:07 PM: Got new Spotify item: [Song] Arcade Fire - Ready to Start
+1/30/2013 11:15:07 PM: WinEventProc: got new window title.
+1/30/2013 11:15:07 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:07 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:07 PM: Got new Spotify item: [Song] Arcade Fire - Ready to Start
+1/30/2013 11:15:08 PM: WinEventProc: got new window title.
+1/30/2013 11:15:08 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:08 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:08 PM: Got new Spotify item: [Song] Arcade Fire - Ready to Start
+1/30/2013 11:15:08 PM: WinEventProc: got new window title.
+1/30/2013 11:15:08 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:08 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:08 PM: Got new Spotify item: [Song] Arcade Fire - Ready to Start
+1/30/2013 11:15:08 PM: WinEventProc: got new window title.
+1/30/2013 11:15:08 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:08 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:08 PM: Got new Spotify item: [Song] Arcade Fire - Ready to Start
+1/30/2013 11:15:08 PM: WinEventProc: got new window title.
+1/30/2013 11:15:08 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:08 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:08 PM: Got new Spotify item: [Song] Arcade Fire - Ready to Start
+1/30/2013 11:15:08 PM: WinEventProc: got new window title.
+1/30/2013 11:15:08 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:08 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:08 PM: Got new Spotify item: [Song] Arcade Fire - Ready to Start
+1/30/2013 11:15:09 PM: WinEventProc: got new window title.
+1/30/2013 11:15:09 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:09 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:09 PM: Got new Spotify item: [Song] Arcade Fire - Ready to Start
+1/30/2013 11:15:09 PM: WinEventProc: got new window title.
+1/30/2013 11:15:09 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:09 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:09 PM: Got new Spotify item: [Song] Arcade Fire - Ready to Start
+1/30/2013 11:15:09 PM: WinEventProc: got new window title.
+1/30/2013 11:15:09 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:09 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:09 PM: Got new Spotify item: [Song] Arcade Fire - Ready to Start
+1/30/2013 11:15:09 PM: WinEventProc: got new window title.
+1/30/2013 11:15:09 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:09 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:09 PM: Got new Spotify item: [Song] Arcade Fire - Ready to Start
+1/30/2013 11:15:09 PM: WinEventProc: got new window title.
+1/30/2013 11:15:09 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:09 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:09 PM: Got new Spotify item: [Song] Arcade Fire - Ready to Start
+1/30/2013 11:15:09 PM: WinEventProc: got new window title.
+1/30/2013 11:15:09 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:09 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:09 PM: Got new Spotify item: [Song] Arcade Fire - Ready to Start
+1/30/2013 11:15:15 PM: WinEventProc: got new window title.
+1/30/2013 11:15:15 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:15 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:15 PM: Got new Spotify item: [Song] Arcade Fire - Ready to Start
+1/30/2013 11:15:16 PM: WinEventProc: got new window title.
+1/30/2013 11:15:16 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:16 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:16 PM: Got new Spotify item: [Song] Arcade Fire - Ready to Start
+1/30/2013 11:15:16 PM: WinEventProc: got new window title.
+1/30/2013 11:15:16 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:16 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:16 PM: Got new Spotify item: [Song] Arcade Fire - Ready to Start
+1/30/2013 11:15:16 PM: WinEventProc: got new window title.
+1/30/2013 11:15:16 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:16 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:16 PM: Got new Spotify item: [Song] Arcade Fire - Ready to Start
+1/30/2013 11:15:16 PM: WinEventProc: got new window title.
+1/30/2013 11:15:16 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:16 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:16 PM: Got new Spotify item: [Song] Arcade Fire - Ready to Start
+1/30/2013 11:15:16 PM: WinEventProc: got new window title.
+1/30/2013 11:15:16 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:16 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:16 PM: Got new Spotify item: [Song] Arcade Fire - Ready to Start
+1/30/2013 11:15:16 PM: WinEventProc: got new window title.
+1/30/2013 11:15:16 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:16 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:16 PM: Got new Spotify item: [Song] Arcade Fire - Ready to Start
+1/30/2013 11:15:16 PM: WinEventProc: got new window title.
+1/30/2013 11:15:16 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:16 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:16 PM: Got new Spotify item: [Song] Arcade Fire - Ready to Start
+1/30/2013 11:15:18 PM: WinEventProc: got new window title.
+1/30/2013 11:15:18 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:18 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:18 PM: Got new Spotify item: [Song] Arcade Fire - Ready to Start
+1/30/2013 11:15:18 PM: WinEventProc: got new window title.
+1/30/2013 11:15:18 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:18 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:18 PM: Got new Spotify item: [Song] Arcade Fire - Ready to Start
+1/30/2013 11:15:18 PM: WinEventProc: got new window title.
+1/30/2013 11:15:18 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:18 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:18 PM: Got new Spotify item: [Song] Arcade Fire - Ready to Start
+1/30/2013 11:15:18 PM: WinEventProc: got new window title.
+1/30/2013 11:15:18 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:18 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:18 PM: Got new Spotify item: [Song] Arcade Fire - Ready to Start
+1/30/2013 11:15:18 PM: WinEventProc: got new window title.
+1/30/2013 11:15:18 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:18 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:18 PM: Got new Spotify item: [Song] Arcade Fire - Ready to Start
+1/30/2013 11:15:18 PM: WinEventProc: got new window title.
+1/30/2013 11:15:18 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:18 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:18 PM: Got new Spotify item: [Song] Arcade Fire - Ready to Start
+1/30/2013 11:15:18 PM: WinEventProc: got new window title.
+1/30/2013 11:15:18 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:18 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:18 PM: Got new Spotify item: [Song] Arcade Fire - Ready to Start
+1/30/2013 11:15:18 PM: WinEventProc: got new window title.
+1/30/2013 11:15:18 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:18 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:18 PM: Got new Spotify item: [Song] Arcade Fire - Ready to Start
+1/30/2013 11:15:18 PM: WinEventProc: got new window title.
+1/30/2013 11:15:18 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:18 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:18 PM: Got new Spotify item: [Song] Arcade Fire - Ready to Start
+1/30/2013 11:15:18 PM: WinEventProc: got new window title.
+1/30/2013 11:15:18 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:18 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:18 PM: Got new Spotify item: [Song] Arcade Fire - Ready to Start
+1/30/2013 11:15:25 PM: WinEventProc: got new window title.
+1/30/2013 11:15:25 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:25 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:25 PM: Got new Spotify item: [Song] Arcade Fire - Ready to Start
+1/30/2013 11:15:25 PM: WinEventProc: got new window title.
+1/30/2013 11:15:25 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:25 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:25 PM: Got new Spotify item: [Song] Arcade Fire - Ready to Start
+1/30/2013 11:15:25 PM: WinEventProc: got new window title.
+1/30/2013 11:15:25 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:25 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:25 PM: Got new Spotify item: [Song] Arcade Fire - Ready to Start
+1/30/2013 11:15:25 PM: WinEventProc: got new window title.
+1/30/2013 11:15:26 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:26 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:26 PM: Got new Spotify item: [Song] Arcade Fire - Ready to Start
+1/30/2013 11:15:26 PM: WinEventProc: got new window title.
+1/30/2013 11:15:26 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:26 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:26 PM: Got new Spotify item: [Song] Arcade Fire - Ready to Start
+1/30/2013 11:15:26 PM: WinEventProc: got new window title.
+1/30/2013 11:15:26 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:26 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:26 PM: Got new Spotify item: [Song] Arcade Fire - Ready to Start
+1/30/2013 11:15:26 PM: WinEventProc: got new window title.
+1/30/2013 11:15:26 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:26 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:26 PM: Got new Spotify item: [Song] Arcade Fire - Ready to Start
+1/30/2013 11:15:26 PM: WinEventProc: got new window title.
+1/30/2013 11:15:26 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:26 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:26 PM: Got new Spotify item: [Song] Arcade Fire - Ready to Start
+1/30/2013 11:15:27 PM: WinEventProc: got new window title.
+1/30/2013 11:15:27 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:27 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:27 PM: Got new Spotify item: [Song] Arcade Fire - Ready to Start
+1/30/2013 11:15:27 PM: WinEventProc: got new window title.
+1/30/2013 11:15:27 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:27 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:27 PM: Got new Spotify item: [Song] Arcade Fire - Ready to Start
+1/30/2013 11:15:27 PM: WinEventProc: got new window title.
+1/30/2013 11:15:27 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:27 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:27 PM: Got new Spotify item: [Song] Arcade Fire - Ready to Start
+1/30/2013 11:15:27 PM: WinEventProc: got new window title.
+1/30/2013 11:15:27 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:27 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:27 PM: Got new Spotify item: [Song] Arcade Fire - Ready to Start
+1/30/2013 11:15:27 PM: WinEventProc: got new window title.
+1/30/2013 11:15:27 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:27 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:27 PM: Got new Spotify item: [Song] Arcade Fire - Ready to Start
+1/30/2013 11:15:27 PM: WinEventProc: got new window title.
+1/30/2013 11:15:27 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:27 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:27 PM: Got new Spotify item: [Song] Arcade Fire - Ready to Start
+1/30/2013 11:15:27 PM: WinEventProc: got new window title.
+1/30/2013 11:15:27 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:27 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:27 PM: Got new Spotify item: [Song] Arcade Fire - Ready to Start
+1/30/2013 11:15:27 PM: WinEventProc: got new window title.
+1/30/2013 11:15:27 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:27 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:27 PM: Got new Spotify item: [Song] Arcade Fire - Ready to Start
+1/30/2013 11:15:27 PM: WinEventProc: got new window title.
+1/30/2013 11:15:27 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:27 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:27 PM: Got new Spotify item: [Song] Arcade Fire - Ready to Start
+1/30/2013 11:15:27 PM: WinEventProc: got new window title.
+1/30/2013 11:15:27 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:27 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:27 PM: Got new Spotify item: [Song] Arcade Fire - Ready to Start
+1/30/2013 11:15:27 PM: WinEventProc: got new window title.
+1/30/2013 11:15:27 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:27 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:27 PM: Got new Spotify item: [Song] Arcade Fire - Ready to Start
+1/30/2013 11:15:27 PM: WinEventProc: got new window title.
+1/30/2013 11:15:27 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:27 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:27 PM: Got new Spotify item: [Song] Arcade Fire - Ready to Start
+1/30/2013 11:15:33 PM: WinEventProc: got new window title.
+1/30/2013 11:15:33 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:33 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:33 PM: Got new Spotify item: [Song] Arcade Fire - Ready to Start
+1/30/2013 11:15:34 PM: WinEventProc: got new window title.
+1/30/2013 11:15:34 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:34 PM: Artist: Arcade Fire, Title:  Ready to Start
+1/30/2013 11:15:34 PM: Got new Spotify item: [Song] Arcade Fire - Ready to Start
+1/30/2013 11:15:37 PM: WinEventProc: got new window title.
+1/30/2013 11:15:37 PM: Artist: Led Zeppelin, Title:  Good Times Bad Times
+1/30/2013 11:15:37 PM: Artist: Led Zeppelin, Title:  Good Times Bad Times
+1/30/2013 11:15:37 PM: Got new Spotify item: [Song] Led Zeppelin - Good Times Bad Times
+1/31/2013 12:02:05 AM: Stopping replacement music.
+1/31/2013 12:02:05 AM: STOP!
+1/31/2013 12:02:06 AM: Got FormClosing event in MainForm view. Trying to persist blacklist for use next time...
+1/31/2013 12:02:06 AM: Saving 18 blockTable items to disk.
+1/31/2013 12:02:06 AM: Saving 82865 bytes of logs to disk.

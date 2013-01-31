@@ -12,7 +12,6 @@ namespace SpotMute.Model
      */
     public class BlockTable
     {
-        //TODO: change this data structure to use Dictionary<BlockedArtist, Dictionary<BlockedSong, Boolean>> instead
         private Dictionary<Artist, Dictionary<Song, Boolean>> dict; // Key: Artist, Value: [Key: Song title - string, Value: dummy - bool] -- value is a dummy because all we need is the song title & we want O(1) lookup.
         private String persistFilePath;
         private int count; // we need to keep our own size because we want the total # of entries, not just # of key:value pairs

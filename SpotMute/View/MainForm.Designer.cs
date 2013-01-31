@@ -39,10 +39,11 @@
             this.showToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.blacklistContentsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.playMusicToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.usageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.playMusicToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.configureMusicToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -134,10 +135,20 @@
             // fileToolStripMenuItem
             // 
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.playMusicToolStripMenuItem});
+            this.playMusicToolStripMenuItem,
+            this.configureMusicToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
             this.fileToolStripMenuItem.Text = "Options";
+            // 
+            // playMusicToolStripMenuItem
+            // 
+            this.playMusicToolStripMenuItem.Checked = true;
+            this.playMusicToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.playMusicToolStripMenuItem.Name = "playMusicToolStripMenuItem";
+            this.playMusicToolStripMenuItem.Size = new System.Drawing.Size(258, 22);
+            this.playMusicToolStripMenuItem.Text = "Play music over unskippable songs";
+            this.playMusicToolStripMenuItem.Click += new System.EventHandler(this.playMusicToolStripMenuItem_Click);
             // 
             // helpToolStripMenuItem
             // 
@@ -151,25 +162,23 @@
             // usageToolStripMenuItem
             // 
             this.usageToolStripMenuItem.Name = "usageToolStripMenuItem";
-            this.usageToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.usageToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
             this.usageToolStripMenuItem.Text = "Usage";
             this.usageToolStripMenuItem.Click += new System.EventHandler(this.usageToolStripMenuItem_Click);
             // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
             this.aboutToolStripMenuItem.Text = "About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
-            // playMusicOverUnskippableSongsToolStripMenuItem
+            // configureMusicToolStripMenuItem
             // 
-            this.playMusicToolStripMenuItem.Checked = true;
-            this.playMusicToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.playMusicToolStripMenuItem.Name = "playMusicOverUnskippableSongsToolStripMenuItem";
-            this.playMusicToolStripMenuItem.Size = new System.Drawing.Size(258, 22);
-            this.playMusicToolStripMenuItem.Text = "Play music over unskippable songs";
-            this.playMusicToolStripMenuItem.Click += new System.EventHandler(this.playMusicToolStripMenuItem_Click);
+            this.configureMusicToolStripMenuItem.Name = "configureMusicToolStripMenuItem";
+            this.configureMusicToolStripMenuItem.Size = new System.Drawing.Size(258, 22);
+            this.configureMusicToolStripMenuItem.Text = "Set music directory ...";
+            this.configureMusicToolStripMenuItem.Click += new System.EventHandler(this.configureMusicToolStripMenuItem_Click);
             // 
             // MainForm
             // 
@@ -213,6 +222,7 @@
         private System.Windows.Forms.ToolStripMenuItem showToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem blacklistContentsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem playMusicToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem configureMusicToolStripMenuItem;
     }
 }
 

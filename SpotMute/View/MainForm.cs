@@ -126,5 +126,13 @@ namespace SpotMute
         {
             playMusicToolStripMenuItem.Checked = !playMusicToolStripMenuItem.Checked;
         }
+
+        private void configureMusicToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FolderBrowserDialog musicDialog = new FolderBrowserDialog();
+            if(musicDialog.ShowDialog() == DialogResult.OK) {
+                spotControl.addLog("Music path changed to: " + musicDialog.SelectedPath);
+            }
+        }
     }
 }
