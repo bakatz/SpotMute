@@ -12,12 +12,12 @@ namespace SpotMute.Model
      */
     public class BlockTable
     {
-        private Dictionary<Artist, Dictionary<Song, Boolean>> dict; // Key: Artist, Value: [Key: Song title - string, Value: dummy - bool] -- value is a dummy because all we need is the song title & we want O(1) lookup.
+        private Dictionary<Artist, HashSet<Song>> dict; // Key: Artist, Value: [Key: Song title - string, Value: dummy - bool] -- value is a dummy because all we need is the song title & we want O(1) lookup.
         private String persistFilePath;
         private int count; // we need to keep our own size because we want the total # of entries, not just # of key:value pairs
         public BlockTable() // create new blank blockTable
         {
-            dict = new Dictionary<Artist, Dictionary<Song, Boolean>>();
+            dict = new Dictionary<Artist, HashSet<Song>>();
             count = 0;
         }
 
@@ -69,9 +69,9 @@ namespace SpotMute.Model
 
                 if (!dict.ContainsKey(reqArtist))
                 {
-                    dict.Add(reqArtist, new Dictionary<Song, Boolean>());
+                    dict.Add(reqArtist, new HashSet<Song>());
                 }
-                dict[reqArtist].Add(song, true);
+                dict[reqArtist].Add(song);
                 count++;
             }
         }
@@ -186,7 +186,7 @@ namespace SpotMute.Model
                 return false;
             }
             Artist reqArtist = new Artist(song.getArtistName());
-            return dict.ContainsKey(reqArtist) && (dict[reqArtist] == null || dict[reqArtist].ContainsKey(song)); // true if the artistname is in the dict, and we either have an artist full block or the artist's dictionary object contains the song...
+            return dict.ContainsKey(reqArtist) && (dict[reqArtist] == null || dict[reqArtist].Contains(song)); // true if the artistname is in the dict, and we either have an artist full block or the artist's dictionary object contains the song...
         }
 
         /*
@@ -212,7 +212,7 @@ namespace SpotMute.Model
             return str.ToString();
         }
 
-        public List<KeyValuePair<Artist, Dictionary<Song, Boolean>>> toList()
+        public List<KeyValuePair<Artist, HashSet<Song>>> toList()
         {
             return dict.ToList();
         }
