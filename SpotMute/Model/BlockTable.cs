@@ -203,7 +203,7 @@ namespace SpotMute.Model
                 }
                 else // output song line
                 {
-                    foreach (Song song in dict[artist].Keys)
+                    foreach (Song song in dict[artist])
                     {
                         str.AppendLine("S|" + song.getArtistName() + "|" + song.getSongTitle());
                     }

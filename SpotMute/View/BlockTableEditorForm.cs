@@ -29,14 +29,14 @@ namespace SpotMute.View
         private void BlackListForm_Load(object sender, EventArgs e)
         {
             blockedListBox.Items.Clear();
-            List<KeyValuePair<Artist, Dictionary<Song, Boolean>>> list = spotControl.getBlockTable().toList();
+            List<KeyValuePair<Artist, HashSet<Song>>> list = spotControl.getBlockTable().toList();
             for (int i = 0; i < list.Count; i++)
             {
                 Artist artist = list[i].Key;
-                Dictionary<Song, Boolean> currSongs = list[i].Value;
-                if (currSongs != null && currSongs.Keys.Count > 0)
+                HashSet<Song> currSongs = list[i].Value;
+                if (currSongs != null && currSongs.Count > 0)
                 {
-                    foreach (Song song in currSongs.Keys)
+                    foreach (Song song in currSongs)
                     {
                         blockedListBox.Items.Add(song);
                     }
