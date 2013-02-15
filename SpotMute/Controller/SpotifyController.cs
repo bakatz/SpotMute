@@ -328,7 +328,6 @@ namespace SpotMute.Controller
         private static Boolean isSkipping = false;
         public void trySkipSong()
         {
-            Console.WriteLine("in trySkip");
             if (isSkipping) return; // bugfix: song would be attempted to be skipped over and over because spotify was sending multiple window title events.
             isSkipping = true;
             AutoResetEvent autoEvent = new AutoResetEvent(false);
@@ -357,7 +356,6 @@ namespace SpotMute.Controller
             }
             else
             {
-                Console.WriteLine("Checking current song after skip for bad values...");
                 isSkipping = false;
                 checkCurrentSong();
             }
