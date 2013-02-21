@@ -11,6 +11,8 @@ using System.Media;
 using System.Threading;
 using System.IO;
 using WMPLib;
+using System.Net;
+using System.Xml;
 
 namespace SpotMute.Controller
 {
@@ -47,6 +49,8 @@ namespace SpotMute.Controller
         // Set volume to 2% to simulate a "mute"
         private const float VOLUME_SCALED_PCT = 0.02F;
 
+        private const String SPOTIFY_API_URI = "http://ws.spotify.com/search/1/track?q=";
+
         // Enable logging?
         private const bool ENABLE_LOGGING = true;
 
@@ -70,8 +74,8 @@ namespace SpotMute.Controller
         public SpotifyController(Label nowPlaying, ToolStripMenuItem playElevatorMusic)
         {
             this.playElevatorMusic = playElevatorMusic;
-            this.nowPlayingLabel = nowPlaying;
-            this.logs = new StringBuilder();
+            nowPlayingLabel = nowPlaying;
+            logs = new StringBuilder();
             isRunning = false;
             player = new WindowsMediaPlayer();
             player.URL = REPLACEMENT_AUDIO_PATH;
@@ -289,6 +293,19 @@ namespace SpotMute.Controller
             return isMusicPlaying;
         }
 
+        private Boolean isAdvertisement(Song song)
+        {
+            StringBuilder strb = new StringBuilder();
+            strb.Append(SPOTIFY_API_URI);
+            strb.Append(song.getSongTitle());
+            XmlTextReader spotifyAPIReader = new XmlTextReader(strb.ToString());
+            while (spotifyAPIReader.Read())
+            {
+                Console.WriteLine("{0}: {1}", spotifyAPIReader.NodeType.ToString(), spotifyAPIReader.Name); 
+            }
+            return false;
+        }
+
         /*
          * Validates that the current song is not in the blockTable. If it is in the blockTable, the song is muted and startReplacementMusic() is called. 
          */
@@ -301,7 +318,20 @@ namespace SpotMute.Controller
                 return;
             }
             nowPlayingLabel.Text = currSong.getArtistName() + " - " + currSong.getSongTitle();
-            if (!blockTable.contains(currSong))
+            
+            if (blockTable.contains(currSong))// || autoDetect)
+            {
+                //if (autoDetect) blockTable.addSong(currSong);
+                trySkipSong();
+                return;
+            }
+
+            if (isAdvertisement(currSong))
+            {
+                blockTable.addSong(currSong);
+                trySkipSong();
+            } 
+            else//(!blockTable.contains(currSong))
             {
                 if (isReplacementMusicPlaying())
                 {
@@ -314,14 +344,6 @@ namespace SpotMute.Controller
                     }
                 }
                 addLog("Got new Spotify item: " + spotInfo.getCurrentSong());
-            }
-            else
-            {
-                //if (isReplacementMusicPlaying() && !isSkipping)
-                //{
-                //    stopReplacementMusic();
-                //}
-                trySkipSong();
             }
         }
 

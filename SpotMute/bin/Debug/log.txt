@@ -1,81 +1,10 @@
-2/15/2013 1:21:19 AM: Found spotify proc.
-2/15/2013 1:21:19 AM: Spotify hook successful. Started.
-2/15/2013 1:21:19 AM: WARN: couldn't parse the artist/title from the raw window title.
-2/15/2013 1:21:22 AM: WinEventProc: got new window title.
-2/15/2013 1:21:22 AM: WARN: couldn't parse the artist/title from the raw window title.
-2/15/2013 1:21:23 AM: WinEventProc: got new window title.
-2/15/2013 1:21:23 AM: Artist: Röyksopp, Title:  What Else Is There ?
-2/15/2013 1:21:23 AM: Artist: Röyksopp, Title:  What Else Is There ?
-2/15/2013 1:21:23 AM: Got new Spotify item: [Song] Röyksopp - What Else Is There ?
-2/15/2013 1:22:51 AM: WinEventProc: got new window title.
-2/15/2013 1:22:51 AM: Artist: Masters Of Reality, Title:  How High The Moon
-2/15/2013 1:22:51 AM: Artist: Masters Of Reality, Title:  How High The Moon
-2/15/2013 1:22:51 AM: Got new Spotify item: [Song] Masters Of Reality - How High The Moon
-2/15/2013 1:24:09 AM: WinEventProc: got new window title.
-2/15/2013 1:24:09 AM: Artist: Interpol, Title:  Slow Hands
-2/15/2013 1:24:09 AM: Artist: Interpol, Title:  Slow Hands
-2/15/2013 1:24:09 AM: Got new Spotify item: [Song] Interpol - Slow Hands
-2/15/2013 1:27:14 AM: WinEventProc: got new window title.
-2/15/2013 1:27:14 AM: Artist: The Dolly Rocker Movement, Title:  The Ecstacy Once Told
-2/15/2013 1:27:14 AM: Artist: The Dolly Rocker Movement, Title:  The Ecstacy Once Told
-2/15/2013 1:27:14 AM: Got new Spotify item: [Song] The Dolly Rocker Movement - The Ecstacy Once Told
-2/15/2013 1:32:17 AM: WinEventProc: got new window title.
-2/15/2013 1:32:17 AM: Artist: Röyksopp, Title:  This Must Be It
-2/15/2013 1:32:17 AM: Artist: Röyksopp, Title:  This Must Be It
-2/15/2013 1:32:17 AM: Got new Spotify item: [Song] Röyksopp - This Must Be It
-2/15/2013 1:36:59 AM: WinEventProc: got new window title.
-2/15/2013 1:36:59 AM: Artist: 20th Century Fox, Title:  Stoker
-2/15/2013 1:36:59 AM: Artist: 20th Century Fox, Title:  Stoker
-2/15/2013 1:36:59 AM: Got new Spotify item: [Song] 20th Century Fox - Stoker
-2/15/2013 1:37:29 AM: WinEventProc: got new window title.
-2/15/2013 1:37:29 AM: Artist: Spotify, Title:  Spotify
-2/15/2013 1:37:29 AM: Trying to skip song - waiting for a return from worker thread.
-2/15/2013 1:37:29 AM: Artist: Spotify, Title:  Spotify
-2/15/2013 1:37:29 AM: Sending keypress: MediaNextTrack
-2/15/2013 1:37:30 AM: Artist: Spotify, Title:  Spotify
-2/15/2013 1:37:30 AM: Worker thread: Tried to skip, song before: [Song] Spotify - Spotify vs. [Song] Spotify - Spotify
-2/15/2013 1:37:30 AM: Got our return, failure value: True
-2/15/2013 1:37:30 AM: Failed to skip the song. Muting song.
-2/15/2013 1:37:30 AM: Got spotify volume before mute: 0.9999999
-2/15/2013 1:37:30 AM: Setting spotify volume to: 0.1333333
-2/15/2013 1:37:30 AM: Playing replacement music at: elevator.mp3
-2/15/2013 1:37:30 AM: Sending keypress: MediaPlayPause
-2/15/2013 1:37:30 AM: WARN: couldn't parse the artist/title from the raw window title.
-2/15/2013 1:37:30 AM: After play, got this song: 
-2/15/2013 1:37:30 AM: WinEventProc: got new window title.
-2/15/2013 1:37:30 AM: WARN: couldn't parse the artist/title from the raw window title.
-2/15/2013 1:37:30 AM: WinEventProc: got new window title.
-2/15/2013 1:37:30 AM: Artist: Spotify, Title:  Spotify
-2/15/2013 1:37:30 AM: Trying to skip song - waiting for a return from worker thread.
-2/15/2013 1:37:30 AM: Artist: Spotify, Title:  Spotify
-2/15/2013 1:37:30 AM: Sending keypress: MediaNextTrack
-2/15/2013 1:37:31 AM: Artist: Spotify, Title:  Spotify
-2/15/2013 1:37:31 AM: Worker thread: Tried to skip, song before: [Song] Spotify - Spotify vs. [Song] Spotify - Spotify
-2/15/2013 1:37:31 AM: Got our return, failure value: True
-2/15/2013 1:37:31 AM: Failed to skip the song. Muting song.
-2/15/2013 1:37:31 AM: User's volume is already at 5%, will not try to change vol.
-2/15/2013 1:38:01 AM: WinEventProc: got new window title.
-2/15/2013 1:38:01 AM: Artist: Dire Straits, Title:  Sultans Of Swing
-2/15/2013 1:38:01 AM: Stopping replacement music.
-2/15/2013 1:38:01 AM: Resetting master volume to: 0.9999999
-2/15/2013 1:38:01 AM: Artist: Dire Straits, Title:  Sultans Of Swing
-2/15/2013 1:38:01 AM: Got new Spotify item: [Song] Dire Straits - Sultans Of Swing
-2/15/2013 1:43:50 AM: WinEventProc: got new window title.
-2/15/2013 1:43:50 AM: Artist: The Dolly Rocker Movement, Title:  The Only One
-2/15/2013 1:43:50 AM: Artist: The Dolly Rocker Movement, Title:  The Only One
-2/15/2013 1:43:50 AM: Got new Spotify item: [Song] The Dolly Rocker Movement - The Only One
-2/15/2013 1:48:43 AM: WinEventProc: got new window title.
-2/15/2013 1:48:43 AM: Artist: Radiohead, Title:  Sail To The Moon
-2/15/2013 1:48:43 AM: Artist: Radiohead, Title:  Sail To The Moon
-2/15/2013 1:48:43 AM: Got new Spotify item: [Song] Radiohead - Sail To The Moon
-2/15/2013 1:51:25 AM: WinEventProc: got new window title.
-2/15/2013 1:51:25 AM: Artist: Motörhead, Title:  Eat The Rich
-2/15/2013 1:51:25 AM: Artist: Motörhead, Title:  Eat The Rich
-2/15/2013 1:51:25 AM: Got new Spotify item: [Song] Motörhead - Eat The Rich
-2/15/2013 1:51:26 AM: WinEventProc: got new window title.
-2/15/2013 1:51:26 AM: WARN: couldn't parse the artist/title from the raw window title.
-2/15/2013 1:57:04 AM: Stopping replacement music.
-2/15/2013 1:57:04 AM: STOP!
-2/15/2013 1:57:05 AM: Got FormClosing event in MainForm view. Trying to persist blacklist for use next time...
-2/15/2013 1:57:05 AM: Saving 18 blockTable items to disk.
-2/15/2013 1:57:05 AM: Saving 5518 bytes of logs to disk.
+2/19/2013 2:17:01 AM: Found spotify proc.
+2/19/2013 2:17:01 AM: Spotify hook successful. Started.
+2/19/2013 2:17:01 AM: Artist: Danzig, Title:  Mother
+2/19/2013 2:17:04 AM: Artist: Danzig, Title:  Mother
+2/19/2013 2:17:04 AM: Got new Spotify item: [Song] Danzig - Mother
+2/19/2013 2:17:08 AM: Stopping replacement music.
+2/19/2013 2:17:08 AM: STOP!
+2/19/2013 2:17:09 AM: Got FormClosing event in MainForm view. Trying to persist blacklist for use next time...
+2/19/2013 2:17:09 AM: Saving 22 blockTable items to disk.
+2/19/2013 2:17:09 AM: Saving 527 bytes of logs to disk.

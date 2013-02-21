@@ -53,7 +53,7 @@ namespace SpotMute.Model
             }
 
             // Return true if the fields match:
-            return artistName.Equals(p.getArtistName());
+            return artistName.Equals(p.getArtistName(), StringComparison.CurrentCultureIgnoreCase);//.Equals(p.getArtistName());
         }
     }
 }
