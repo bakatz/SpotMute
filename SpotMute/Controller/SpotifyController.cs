@@ -300,6 +300,7 @@ namespace SpotMute.Controller
             return isMusicPlaying;
         }
 
+        //TODO: make this function faster. hashtable, limit result set
         private Boolean isAdvertisement(Song song)
         {
             StringBuilder strb = new StringBuilder();
@@ -312,16 +313,16 @@ namespace SpotMute.Controller
             try
             {
                 string jsonResponse = wc.DownloadString(strb.ToString());
-                //MessageBox.Show(JsonConvert.DeserializeObject("").ToString());
                 JObject jo = (JObject)JsonConvert.DeserializeObject(jsonResponse);
                 foreach (JObject result in jo["tracks"])
                 {
 
-                    if (result["name"].ToString().Equals(song.getSongTitle()))
+                    if (result["name"].ToString().Equals(song.getSongTitle(), StringComparison.InvariantCultureIgnoreCase))
                     {
+                        // If our song title matches, we then need to check the artist as well because some names of ads are actually valid song titles!
                         foreach (JObject resultArtist in result["artists"])
                         {
-                            if (resultArtist["name"].ToString().Equals(song.getArtistName()))
+                            if (resultArtist["name"].ToString().Equals(song.getArtistName(), StringComparison.InvariantCultureIgnoreCase))
                             {
                                 return false;
                             }
@@ -329,7 +330,7 @@ namespace SpotMute.Controller
                     }
                 }
             }
-            catch (Exception e)
+            catch (Exception e) // TODO: stop being lazy about exception handling and handle the web exception instead of the generic one.
             {
                 addLog("ERROR: got exception - " + e.ToString());
                 return false;
