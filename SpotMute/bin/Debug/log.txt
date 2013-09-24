@@ -1,10 +1,534 @@
-2/19/2013 2:17:01 AM: Found spotify proc.
-2/19/2013 2:17:01 AM: Spotify hook successful. Started.
-2/19/2013 2:17:01 AM: Artist: Danzig, Title:  Mother
-2/19/2013 2:17:04 AM: Artist: Danzig, Title:  Mother
-2/19/2013 2:17:04 AM: Got new Spotify item: [Song] Danzig - Mother
-2/19/2013 2:17:08 AM: Stopping replacement music.
-2/19/2013 2:17:08 AM: STOP!
-2/19/2013 2:17:09 AM: Got FormClosing event in MainForm view. Trying to persist blacklist for use next time...
-2/19/2013 2:17:09 AM: Saving 22 blockTable items to disk.
-2/19/2013 2:17:09 AM: Saving 527 bytes of logs to disk.
+9/24/2013 12:58:25 AM: Found spotify proc.
+9/24/2013 12:58:25 AM: Spotify hook successful. Started.
+9/24/2013 12:58:25 AM: Artist: Mark Lanagan & Duke Garwood, Title:  Carry Home
+9/24/2013 12:58:25 AM: Artist: Mark Lanagan & Duke Garwood, Title:  Carry Home
+9/24/2013 12:58:25 AM: Got new Spotify item: [Song] Mark Lanagan & Duke Garwood - Carry Home
+9/24/2013 12:58:31 AM: WinEventProc: got new window title.
+9/24/2013 12:58:31 AM: Artist: Mark Lanagan & Duke Garwood, Title:  Carry Home
+9/24/2013 12:58:31 AM: WinEventProc: got new window title.
+9/24/2013 12:58:31 AM: Artist: Mark Lanagan & Duke Garwood, Title:  Carry Home
+9/24/2013 12:58:31 AM: Artist: Mark Lanagan & Duke Garwood, Title:  Carry Home
+9/24/2013 12:58:31 AM: Got new Spotify item: [Song] Mark Lanagan & Duke Garwood - Carry Home
+9/24/2013 12:58:31 AM: WinEventProc: got new window title.
+9/24/2013 12:58:31 AM: Artist: Mark Lanagan & Duke Garwood, Title:  Carry Home
+9/24/2013 12:58:31 AM: Artist: Mark Lanagan & Duke Garwood, Title:  Carry Home
+9/24/2013 12:58:31 AM: Got new Spotify item: [Song] Mark Lanagan & Duke Garwood - Carry Home
+9/24/2013 12:58:31 AM: WinEventProc: got new window title.
+9/24/2013 12:58:31 AM: Artist: Mark Lanagan & Duke Garwood, Title:  Carry Home
+9/24/2013 12:58:31 AM: WinEventProc: got new window title.
+9/24/2013 12:58:31 AM: Artist: Mark Lanagan & Duke Garwood, Title:  Carry Home
+9/24/2013 12:58:31 AM: Artist: Mark Lanagan & Duke Garwood, Title:  Carry Home
+9/24/2013 12:58:31 AM: Got new Spotify item: [Song] Mark Lanagan & Duke Garwood - Carry Home
+9/24/2013 12:58:31 AM: Artist: Mark Lanagan & Duke Garwood, Title:  Carry Home
+9/24/2013 12:58:31 AM: Got new Spotify item: [Song] Mark Lanagan & Duke Garwood - Carry Home
+9/24/2013 12:58:31 AM: WinEventProc: got new window title.
+9/24/2013 12:58:31 AM: Artist: Mark Lanagan & Duke Garwood, Title:  Carry Home
+9/24/2013 12:58:31 AM: WinEventProc: got new window title.
+9/24/2013 12:58:31 AM: Artist: Mark Lanagan & Duke Garwood, Title:  Carry Home
+9/24/2013 12:58:32 AM: Artist: Mark Lanagan & Duke Garwood, Title:  Carry Home
+9/24/2013 12:58:32 AM: Got new Spotify item: [Song] Mark Lanagan & Duke Garwood - Carry Home
+9/24/2013 12:58:32 AM: WinEventProc: got new window title.
+9/24/2013 12:58:32 AM: Artist: Mark Lanagan & Duke Garwood, Title:  Carry Home
+9/24/2013 12:58:32 AM: WinEventProc: got new window title.
+9/24/2013 12:58:32 AM: Artist: Mark Lanagan & Duke Garwood, Title:  Carry Home
+9/24/2013 12:58:32 AM: Artist: Mark Lanagan & Duke Garwood, Title:  Carry Home
+9/24/2013 12:58:32 AM: Got new Spotify item: [Song] Mark Lanagan & Duke Garwood - Carry Home
+9/24/2013 12:58:32 AM: Artist: Mark Lanagan & Duke Garwood, Title:  Carry Home
+9/24/2013 12:58:32 AM: Got new Spotify item: [Song] Mark Lanagan & Duke Garwood - Carry Home
+9/24/2013 12:58:33 AM: Artist: Mark Lanagan & Duke Garwood, Title:  Carry Home
+9/24/2013 12:58:33 AM: Got new Spotify item: [Song] Mark Lanagan & Duke Garwood - Carry Home
+9/24/2013 12:58:33 AM: Artist: Mark Lanagan & Duke Garwood, Title:  Carry Home
+9/24/2013 12:58:33 AM: Got new Spotify item: [Song] Mark Lanagan & Duke Garwood - Carry Home
+9/24/2013 12:58:33 AM: WinEventProc: got new window title.
+9/24/2013 12:58:33 AM: Artist: Mark Lanagan & Duke Garwood, Title:  Carry Home
+9/24/2013 12:58:34 AM: Artist: Mark Lanagan & Duke Garwood, Title:  Carry Home
+9/24/2013 12:58:34 AM: Got new Spotify item: [Song] Mark Lanagan & Duke Garwood - Carry Home
+9/24/2013 12:58:34 AM: WinEventProc: got new window title.
+9/24/2013 12:58:34 AM: Artist: Mark Lanagan & Duke Garwood, Title:  Carry Home
+9/24/2013 12:58:34 AM: Artist: Mark Lanagan & Duke Garwood, Title:  Carry Home
+9/24/2013 12:58:34 AM: Got new Spotify item: [Song] Mark Lanagan & Duke Garwood - Carry Home
+9/24/2013 12:58:35 AM: WinEventProc: got new window title.
+9/24/2013 12:58:35 AM: Artist: Roanoke, Title:  McDonald's Local
+9/24/2013 12:58:35 AM: [Song] Roanoke - McDonald's Local IS AN ADVERTISEMENT, GONNA MUTE!
+9/24/2013 12:58:35 AM: Trying to skip song - waiting for a return from worker thread.
+9/24/2013 12:58:35 AM: Artist: Roanoke, Title:  McDonald's Local
+9/24/2013 12:58:35 AM: Sending keypress: MediaNextTrack
+9/24/2013 12:58:36 AM: Artist: Roanoke, Title:  McDonald's Local
+9/24/2013 12:58:36 AM: Worker thread: Tried to skip, song before: [Song] Roanoke - McDonald's Local vs. [Song] Roanoke - McDonald's Local
+9/24/2013 12:58:36 AM: Got our return, failure value: True
+9/24/2013 12:58:36 AM: Failed to skip the song. Muting song.
+9/24/2013 12:58:36 AM: Got spotify volume before mute: 1
+9/24/2013 12:58:36 AM: Setting spotify volume to: 0.06451613
+9/24/2013 12:58:36 AM: Playing replacement music at: elevator.mp3
+9/24/2013 12:58:36 AM: Sending keypress: MediaPlayPause
+9/24/2013 12:58:36 AM: WARN: couldn't parse the artist/title from the raw window title.
+9/24/2013 12:58:36 AM: After play, got this song: 
+9/24/2013 12:58:36 AM: WinEventProc: got new window title.
+9/24/2013 12:58:36 AM: WARN: couldn't parse the artist/title from the raw window title.
+9/24/2013 12:58:36 AM: WinEventProc: got new window title.
+9/24/2013 12:58:36 AM: Artist: Roanoke, Title:  McDonald's Local
+9/24/2013 12:58:36 AM: Trying to skip song - waiting for a return from worker thread.
+9/24/2013 12:58:36 AM: Artist: Roanoke, Title:  McDonald's Local
+9/24/2013 12:58:36 AM: Sending keypress: MediaNextTrack
+9/24/2013 12:58:36 AM: WinEventProc: got new window title.
+9/24/2013 12:58:36 AM: Artist: Roanoke, Title:  McDonald's Local
+9/24/2013 12:58:36 AM: WinEventProc: got new window title.
+9/24/2013 12:58:36 AM: Artist: Roanoke, Title:  McDonald's Local
+9/24/2013 12:58:37 AM: WinEventProc: got new window title.
+9/24/2013 12:58:37 AM: Artist: Roanoke, Title:  McDonald's Local
+9/24/2013 12:58:37 AM: Artist: Roanoke, Title:  McDonald's Local
+9/24/2013 12:58:37 AM: Worker thread: Tried to skip, song before: [Song] Roanoke - McDonald's Local vs. [Song] Roanoke - McDonald's Local
+9/24/2013 12:58:37 AM: Got our return, failure value: True
+9/24/2013 12:58:37 AM: Failed to skip the song. Muting song.
+9/24/2013 12:58:37 AM: User's volume is already at 5%, will not try to change vol.
+9/24/2013 12:58:49 AM: Artist: Roanoke, Title:  McDonald's Local
+9/24/2013 12:58:49 AM: [Song] Roanoke - McDonald's Local IS AN ADVERTISEMENT, GONNA MUTE!
+9/24/2013 12:58:49 AM: Trying to skip song - waiting for a return from worker thread.
+9/24/2013 12:58:49 AM: Artist: Roanoke, Title:  McDonald's Local
+9/24/2013 12:58:49 AM: Sending keypress: MediaNextTrack
+9/24/2013 12:58:50 AM: Artist: Roanoke, Title:  McDonald's Local
+9/24/2013 12:58:50 AM: Worker thread: Tried to skip, song before: [Song] Roanoke - McDonald's Local vs. [Song] Roanoke - McDonald's Local
+9/24/2013 12:58:50 AM: Got our return, failure value: True
+9/24/2013 12:58:50 AM: Failed to skip the song. Muting song.
+9/24/2013 12:58:50 AM: User's volume is already at 5%, will not try to change vol.
+9/24/2013 12:58:57 AM: WinEventProc: got new window title.
+9/24/2013 12:58:57 AM: Artist: Roanoke, Title:  McDonald's Local
+9/24/2013 12:58:57 AM: Trying to skip song - waiting for a return from worker thread.
+9/24/2013 12:58:57 AM: WinEventProc: got new window title.
+9/24/2013 12:58:57 AM: Artist: Roanoke, Title:  McDonald's Local
+9/24/2013 12:58:57 AM: Artist: Roanoke, Title:  McDonald's Local
+9/24/2013 12:58:57 AM: Sending keypress: MediaNextTrack
+9/24/2013 12:58:57 AM: WinEventProc: got new window title.
+9/24/2013 12:58:57 AM: Artist: Roanoke, Title:  McDonald's Local
+9/24/2013 12:58:57 AM: WinEventProc: got new window title.
+9/24/2013 12:58:57 AM: Artist: Roanoke, Title:  McDonald's Local
+9/24/2013 12:58:57 AM: WinEventProc: got new window title.
+9/24/2013 12:58:57 AM: Artist: Roanoke, Title:  McDonald's Local
+9/24/2013 12:58:57 AM: WinEventProc: got new window title.
+9/24/2013 12:58:57 AM: Artist: Roanoke, Title:  McDonald's Local
+9/24/2013 12:58:57 AM: WinEventProc: got new window title.
+9/24/2013 12:58:57 AM: Artist: Roanoke, Title:  McDonald's Local
+9/24/2013 12:58:57 AM: WinEventProc: got new window title.
+9/24/2013 12:58:57 AM: Artist: Roanoke, Title:  McDonald's Local
+9/24/2013 12:58:57 AM: WinEventProc: got new window title.
+9/24/2013 12:58:57 AM: Artist: Roanoke, Title:  McDonald's Local
+9/24/2013 12:58:57 AM: WinEventProc: got new window title.
+9/24/2013 12:58:57 AM: Artist: Roanoke, Title:  McDonald's Local
+9/24/2013 12:58:57 AM: WinEventProc: got new window title.
+9/24/2013 12:58:57 AM: Artist: Roanoke, Title:  McDonald's Local
+9/24/2013 12:58:57 AM: WinEventProc: got new window title.
+9/24/2013 12:58:57 AM: Artist: Roanoke, Title:  McDonald's Local
+9/24/2013 12:58:57 AM: WinEventProc: got new window title.
+9/24/2013 12:58:57 AM: Artist: Roanoke, Title:  McDonald's Local
+9/24/2013 12:58:57 AM: WinEventProc: got new window title.
+9/24/2013 12:58:57 AM: Artist: Roanoke, Title:  McDonald's Local
+9/24/2013 12:58:58 AM: Artist: Roanoke, Title:  McDonald's Local
+9/24/2013 12:58:58 AM: Worker thread: Tried to skip, song before: [Song] Roanoke - McDonald's Local vs. [Song] Roanoke - McDonald's Local
+9/24/2013 12:58:58 AM: Got our return, failure value: True
+9/24/2013 12:58:58 AM: Failed to skip the song. Muting song.
+9/24/2013 12:58:58 AM: User's volume is already at 5%, will not try to change vol.
+9/24/2013 12:59:05 AM: WinEventProc: got new window title.
+9/24/2013 12:59:05 AM: Artist: Mark Lanagan & Duke Garwood, Title:  Badi-da
+9/24/2013 12:59:05 AM: Stopping replacement music.
+9/24/2013 12:59:05 AM: Resetting master volume to: 1
+9/24/2013 12:59:05 AM: Artist: Mark Lanagan & Duke Garwood, Title:  Badi-da
+9/24/2013 12:59:05 AM: Got new Spotify item: [Song] Mark Lanagan & Duke Garwood - Badi-da
+9/24/2013 12:59:05 AM: WinEventProc: got new window title.
+9/24/2013 12:59:05 AM: Artist: Mark Lanagan & Duke Garwood, Title:  Badi-da
+9/24/2013 12:59:06 AM: Artist: Mark Lanagan & Duke Garwood, Title:  Badi-da
+9/24/2013 12:59:06 AM: Got new Spotify item: [Song] Mark Lanagan & Duke Garwood - Badi-da
+9/24/2013 12:59:06 AM: WinEventProc: got new window title.
+9/24/2013 12:59:06 AM: Artist: Mark Lanagan & Duke Garwood, Title:  Badi-da
+9/24/2013 12:59:06 AM: Artist: Mark Lanagan & Duke Garwood, Title:  Badi-da
+9/24/2013 12:59:06 AM: Got new Spotify item: [Song] Mark Lanagan & Duke Garwood - Badi-da
+9/24/2013 12:59:06 AM: WinEventProc: got new window title.
+9/24/2013 12:59:06 AM: Artist: Mark Lanagan & Duke Garwood, Title:  Badi-da
+9/24/2013 12:59:06 AM: Artist: Mark Lanagan & Duke Garwood, Title:  Badi-da
+9/24/2013 12:59:06 AM: Got new Spotify item: [Song] Mark Lanagan & Duke Garwood - Badi-da
+9/24/2013 12:59:06 AM: WinEventProc: got new window title.
+9/24/2013 12:59:06 AM: Artist: Mark Lanagan & Duke Garwood, Title:  Badi-da
+9/24/2013 12:59:06 AM: Artist: Mark Lanagan & Duke Garwood, Title:  Badi-da
+9/24/2013 12:59:06 AM: Got new Spotify item: [Song] Mark Lanagan & Duke Garwood - Badi-da
+9/24/2013 12:59:06 AM: WinEventProc: got new window title.
+9/24/2013 12:59:06 AM: Artist: Mark Lanagan & Duke Garwood, Title:  Badi-da
+9/24/2013 12:59:06 AM: Artist: Mark Lanagan & Duke Garwood, Title:  Badi-da
+9/24/2013 12:59:06 AM: Got new Spotify item: [Song] Mark Lanagan & Duke Garwood - Badi-da
+9/24/2013 12:59:06 AM: WinEventProc: got new window title.
+9/24/2013 12:59:06 AM: Artist: Mark Lanagan & Duke Garwood, Title:  Badi-da
+9/24/2013 12:59:06 AM: Artist: Mark Lanagan & Duke Garwood, Title:  Badi-da
+9/24/2013 12:59:06 AM: Got new Spotify item: [Song] Mark Lanagan & Duke Garwood - Badi-da
+9/24/2013 12:59:06 AM: WinEventProc: got new window title.
+9/24/2013 12:59:06 AM: Artist: Mark Lanagan & Duke Garwood, Title:  Badi-da
+9/24/2013 12:59:06 AM: Artist: Mark Lanagan & Duke Garwood, Title:  Badi-da
+9/24/2013 12:59:06 AM: Got new Spotify item: [Song] Mark Lanagan & Duke Garwood - Badi-da
+9/24/2013 12:59:06 AM: WinEventProc: got new window title.
+9/24/2013 12:59:06 AM: Artist: Mark Lanagan & Duke Garwood, Title:  Badi-da
+9/24/2013 12:59:07 AM: Artist: Mark Lanagan & Duke Garwood, Title:  Badi-da
+9/24/2013 12:59:07 AM: Got new Spotify item: [Song] Mark Lanagan & Duke Garwood - Badi-da
+9/24/2013 12:59:07 AM: WinEventProc: got new window title.
+9/24/2013 12:59:07 AM: Artist: Mark Lanagan & Duke Garwood, Title:  Badi-da
+9/24/2013 12:59:07 AM: Artist: Mark Lanagan & Duke Garwood, Title:  Badi-da
+9/24/2013 12:59:07 AM: Got new Spotify item: [Song] Mark Lanagan & Duke Garwood - Badi-da
+9/24/2013 12:59:07 AM: WinEventProc: got new window title.
+9/24/2013 12:59:07 AM: Artist: Mark Lanagan & Duke Garwood, Title:  Badi-da
+9/24/2013 12:59:07 AM: WinEventProc: got new window title.
+9/24/2013 12:59:07 AM: Artist: Mark Lanagan & Duke Garwood, Title:  Badi-da
+9/24/2013 12:59:07 AM: Artist: Mark Lanagan & Duke Garwood, Title:  Badi-da
+9/24/2013 12:59:07 AM: Got new Spotify item: [Song] Mark Lanagan & Duke Garwood - Badi-da
+9/24/2013 12:59:07 AM: Artist: Mark Lanagan & Duke Garwood, Title:  Badi-da
+9/24/2013 12:59:07 AM: Got new Spotify item: [Song] Mark Lanagan & Duke Garwood - Badi-da
+9/24/2013 12:59:07 AM: WinEventProc: got new window title.
+9/24/2013 12:59:07 AM: Artist: Mark Lanagan & Duke Garwood, Title:  Badi-da
+9/24/2013 12:59:07 AM: Artist: Mark Lanagan & Duke Garwood, Title:  Badi-da
+9/24/2013 12:59:07 AM: Got new Spotify item: [Song] Mark Lanagan & Duke Garwood - Badi-da
+9/24/2013 12:59:09 AM: WinEventProc: got new window title.
+9/24/2013 12:59:09 AM: Artist: Roanoke, Title:  McDonald's Local
+9/24/2013 12:59:09 AM: Trying to skip song - waiting for a return from worker thread.
+9/24/2013 12:59:09 AM: Artist: Roanoke, Title:  McDonald's Local
+9/24/2013 12:59:09 AM: Sending keypress: MediaNextTrack
+9/24/2013 12:59:10 AM: Artist: Roanoke, Title:  McDonald's Local
+9/24/2013 12:59:10 AM: Worker thread: Tried to skip, song before: [Song] Roanoke - McDonald's Local vs. [Song] Roanoke - McDonald's Local
+9/24/2013 12:59:10 AM: Got our return, failure value: True
+9/24/2013 12:59:10 AM: Failed to skip the song. Muting song.
+9/24/2013 12:59:10 AM: Got spotify volume before mute: 1
+9/24/2013 12:59:10 AM: Setting spotify volume to: 0.06451613
+9/24/2013 12:59:10 AM: Playing replacement music at: elevator.mp3
+9/24/2013 12:59:10 AM: Sending keypress: MediaPlayPause
+9/24/2013 12:59:10 AM: Artist: Roanoke, Title:  McDonald's Local
+9/24/2013 12:59:10 AM: After play, got this song: [Song] Roanoke - McDonald's Local
+9/24/2013 12:59:10 AM: WinEventProc: got new window title.
+9/24/2013 12:59:10 AM: WARN: couldn't parse the artist/title from the raw window title.
+9/24/2013 12:59:10 AM: WinEventProc: got new window title.
+9/24/2013 12:59:10 AM: Artist: Roanoke, Title:  McDonald's Local
+9/24/2013 12:59:10 AM: Trying to skip song - waiting for a return from worker thread.
+9/24/2013 12:59:10 AM: Artist: Roanoke, Title:  McDonald's Local
+9/24/2013 12:59:10 AM: Sending keypress: MediaNextTrack
+9/24/2013 12:59:10 AM: WinEventProc: got new window title.
+9/24/2013 12:59:10 AM: Artist: Roanoke, Title:  McDonald's Local
+9/24/2013 12:59:10 AM: WinEventProc: got new window title.
+9/24/2013 12:59:10 AM: Artist: Roanoke, Title:  McDonald's Local
+9/24/2013 12:59:10 AM: WinEventProc: got new window title.
+9/24/2013 12:59:10 AM: Artist: Roanoke, Title:  McDonald's Local
+9/24/2013 12:59:10 AM: WinEventProc: got new window title.
+9/24/2013 12:59:10 AM: WinEventProc: got new window title.
+9/24/2013 12:59:10 AM: Artist: Roanoke, Title:  McDonald's Local
+9/24/2013 12:59:10 AM: Artist: Roanoke, Title:  McDonald's Local
+9/24/2013 12:59:10 AM: WinEventProc: got new window title.
+9/24/2013 12:59:10 AM: Artist: Roanoke, Title:  McDonald's Local
+9/24/2013 12:59:11 AM: Artist: Roanoke, Title:  McDonald's Local
+9/24/2013 12:59:11 AM: Worker thread: Tried to skip, song before: [Song] Roanoke - McDonald's Local vs. [Song] Roanoke - McDonald's Local
+9/24/2013 12:59:11 AM: Got our return, failure value: True
+9/24/2013 12:59:11 AM: Failed to skip the song. Muting song.
+9/24/2013 12:59:11 AM: User's volume is already at 5%, will not try to change vol.
+9/24/2013 12:59:11 AM: WinEventProc: got new window title.
+9/24/2013 12:59:11 AM: Artist: Roanoke, Title:  McDonald's Local
+9/24/2013 12:59:11 AM: Trying to skip song - waiting for a return from worker thread.
+9/24/2013 12:59:11 AM: Artist: Roanoke, Title:  McDonald's Local
+9/24/2013 12:59:11 AM: Sending keypress: MediaNextTrack
+9/24/2013 12:59:11 AM: WinEventProc: got new window title.
+9/24/2013 12:59:11 AM: Artist: Roanoke, Title:  McDonald's Local
+9/24/2013 12:59:12 AM: WinEventProc: got new window title.
+9/24/2013 12:59:12 AM: Artist: Roanoke, Title:  McDonald's Local
+9/24/2013 12:59:12 AM: WinEventProc: got new window title.
+9/24/2013 12:59:12 AM: Artist: Roanoke, Title:  McDonald's Local
+9/24/2013 12:59:12 AM: WinEventProc: got new window title.
+9/24/2013 12:59:12 AM: Artist: Roanoke, Title:  McDonald's Local
+9/24/2013 12:59:12 AM: WinEventProc: got new window title.
+9/24/2013 12:59:12 AM: Artist: Roanoke, Title:  McDonald's Local
+9/24/2013 12:59:12 AM: WinEventProc: got new window title.
+9/24/2013 12:59:12 AM: Artist: Roanoke, Title:  McDonald's Local
+9/24/2013 12:59:12 AM: Artist: Roanoke, Title:  McDonald's Local
+9/24/2013 12:59:12 AM: Worker thread: Tried to skip, song before: [Song] Roanoke - McDonald's Local vs. [Song] Roanoke - McDonald's Local
+9/24/2013 12:59:12 AM: Got our return, failure value: True
+9/24/2013 12:59:12 AM: Failed to skip the song. Muting song.
+9/24/2013 12:59:12 AM: User's volume is already at 5%, will not try to change vol.
+9/24/2013 12:59:22 AM: WinEventProc: got new window title.
+9/24/2013 12:59:22 AM: Artist: Roanoke, Title:  McDonald's Local
+9/24/2013 12:59:22 AM: Trying to skip song - waiting for a return from worker thread.
+9/24/2013 12:59:22 AM: Artist: Roanoke, Title:  McDonald's Local
+9/24/2013 12:59:22 AM: Sending keypress: MediaNextTrack
+9/24/2013 12:59:23 AM: Artist: Roanoke, Title:  McDonald's Local
+9/24/2013 12:59:23 AM: Worker thread: Tried to skip, song before: [Song] Roanoke - McDonald's Local vs. [Song] Roanoke - McDonald's Local
+9/24/2013 12:59:23 AM: Got our return, failure value: True
+9/24/2013 12:59:23 AM: Failed to skip the song. Muting song.
+9/24/2013 12:59:23 AM: User's volume is already at 5%, will not try to change vol.
+9/24/2013 12:59:24 AM: WinEventProc: got new window title.
+9/24/2013 12:59:24 AM: Artist: Roanoke, Title:  McDonald's Local
+9/24/2013 12:59:24 AM: Trying to skip song - waiting for a return from worker thread.
+9/24/2013 12:59:24 AM: WinEventProc: got new window title.
+9/24/2013 12:59:24 AM: Artist: Roanoke, Title:  McDonald's Local
+9/24/2013 12:59:24 AM: Artist: Roanoke, Title:  McDonald's Local
+9/24/2013 12:59:24 AM: Sending keypress: MediaNextTrack
+9/24/2013 12:59:24 AM: WinEventProc: got new window title.
+9/24/2013 12:59:24 AM: Artist: Roanoke, Title:  McDonald's Local
+9/24/2013 12:59:24 AM: WinEventProc: got new window title.
+9/24/2013 12:59:24 AM: Artist: Roanoke, Title:  McDonald's Local
+9/24/2013 12:59:25 AM: WinEventProc: got new window title.
+9/24/2013 12:59:25 AM: Artist: Roanoke, Title:  McDonald's Local
+9/24/2013 12:59:25 AM: Artist: Roanoke, Title:  McDonald's Local
+9/24/2013 12:59:25 AM: Worker thread: Tried to skip, song before: [Song] Roanoke - McDonald's Local vs. [Song] Roanoke - McDonald's Local
+9/24/2013 12:59:25 AM: Got our return, failure value: True
+9/24/2013 12:59:25 AM: Failed to skip the song. Muting song.
+9/24/2013 12:59:25 AM: User's volume is already at 5%, will not try to change vol.
+9/24/2013 12:59:39 AM: WinEventProc: got new window title.
+9/24/2013 12:59:39 AM: Artist: Mark Lanagan & Duke Garwood, Title:  I'll Take Care Of You
+9/24/2013 12:59:39 AM: Stopping replacement music.
+9/24/2013 12:59:39 AM: Resetting master volume to: 1
+9/24/2013 12:59:39 AM: Artist: Mark Lanagan & Duke Garwood, Title:  I'll Take Care Of You
+9/24/2013 12:59:39 AM: Got new Spotify item: [Song] Mark Lanagan & Duke Garwood - I'll Take Care Of You
+9/24/2013 12:59:40 AM: WinEventProc: got new window title.
+9/24/2013 12:59:40 AM: Artist: Mark Lanagan & Duke Garwood, Title:  I'll Take Care Of You
+9/24/2013 12:59:40 AM: Artist: Mark Lanagan & Duke Garwood, Title:  I'll Take Care Of You
+9/24/2013 12:59:40 AM: Got new Spotify item: [Song] Mark Lanagan & Duke Garwood - I'll Take Care Of You
+9/24/2013 12:59:40 AM: WinEventProc: got new window title.
+9/24/2013 12:59:40 AM: Artist: Mark Lanagan & Duke Garwood, Title:  I'll Take Care Of You
+9/24/2013 12:59:40 AM: WinEventProc: got new window title.
+9/24/2013 12:59:40 AM: Artist: Mark Lanagan & Duke Garwood, Title:  I'll Take Care Of You
+9/24/2013 12:59:40 AM: Artist: Mark Lanagan & Duke Garwood, Title:  I'll Take Care Of You
+9/24/2013 12:59:40 AM: Got new Spotify item: [Song] Mark Lanagan & Duke Garwood - I'll Take Care Of You
+9/24/2013 12:59:40 AM: WinEventProc: got new window title.
+9/24/2013 12:59:40 AM: Artist: Mark Lanagan & Duke Garwood, Title:  I'll Take Care Of You
+9/24/2013 12:59:41 AM: Artist: Mark Lanagan & Duke Garwood, Title:  I'll Take Care Of You
+9/24/2013 12:59:41 AM: Got new Spotify item: [Song] Mark Lanagan & Duke Garwood - I'll Take Care Of You
+9/24/2013 12:59:41 AM: Artist: Mark Lanagan & Duke Garwood, Title:  I'll Take Care Of You
+9/24/2013 12:59:41 AM: Got new Spotify item: [Song] Mark Lanagan & Duke Garwood - I'll Take Care Of You
+9/24/2013 12:59:45 AM: WinEventProc: got new window title.
+9/24/2013 12:59:45 AM: Artist: Lumosity, Title:  Lumosity
+9/24/2013 12:59:45 AM: [Song] Lumosity - Lumosity IS AN ADVERTISEMENT, GONNA MUTE!
+9/24/2013 12:59:45 AM: Trying to skip song - waiting for a return from worker thread.
+9/24/2013 12:59:45 AM: Artist: Lumosity, Title:  Lumosity
+9/24/2013 12:59:45 AM: Sending keypress: MediaNextTrack
+9/24/2013 12:59:46 AM: Artist: Lumosity, Title:  Lumosity
+9/24/2013 12:59:46 AM: Worker thread: Tried to skip, song before: [Song] Lumosity - Lumosity vs. [Song] Lumosity - Lumosity
+9/24/2013 12:59:46 AM: Got our return, failure value: True
+9/24/2013 12:59:46 AM: Failed to skip the song. Muting song.
+9/24/2013 12:59:46 AM: Got spotify volume before mute: 1
+9/24/2013 12:59:46 AM: Setting spotify volume to: 0.06451613
+9/24/2013 12:59:46 AM: Playing replacement music at: elevator.mp3
+9/24/2013 12:59:46 AM: Sending keypress: MediaPlayPause
+9/24/2013 12:59:46 AM: WARN: couldn't parse the artist/title from the raw window title.
+9/24/2013 12:59:46 AM: After play, got this song: 
+9/24/2013 12:59:46 AM: WinEventProc: got new window title.
+9/24/2013 12:59:46 AM: WARN: couldn't parse the artist/title from the raw window title.
+9/24/2013 12:59:46 AM: WinEventProc: got new window title.
+9/24/2013 12:59:46 AM: Artist: Lumosity, Title:  Lumosity
+9/24/2013 12:59:46 AM: Trying to skip song - waiting for a return from worker thread.
+9/24/2013 12:59:46 AM: Artist: Lumosity, Title:  Lumosity
+9/24/2013 12:59:46 AM: Sending keypress: MediaNextTrack
+9/24/2013 12:59:47 AM: Artist: Lumosity, Title:  Lumosity
+9/24/2013 12:59:47 AM: Worker thread: Tried to skip, song before: [Song] Lumosity - Lumosity vs. [Song] Lumosity - Lumosity
+9/24/2013 12:59:47 AM: Got our return, failure value: True
+9/24/2013 12:59:47 AM: Failed to skip the song. Muting song.
+9/24/2013 12:59:47 AM: User's volume is already at 5%, will not try to change vol.
+9/24/2013 12:59:48 AM: WinEventProc: got new window title.
+9/24/2013 12:59:48 AM: Artist: Lumosity, Title:  Lumosity
+9/24/2013 12:59:48 AM: Trying to skip song - waiting for a return from worker thread.
+9/24/2013 12:59:48 AM: Artist: Lumosity, Title:  Lumosity
+9/24/2013 12:59:48 AM: Sending keypress: MediaNextTrack
+9/24/2013 12:59:48 AM: WinEventProc: got new window title.
+9/24/2013 12:59:48 AM: Artist: Lumosity, Title:  Lumosity
+9/24/2013 12:59:48 AM: WinEventProc: got new window title.
+9/24/2013 12:59:48 AM: Artist: Lumosity, Title:  Lumosity
+9/24/2013 12:59:48 AM: WinEventProc: got new window title.
+9/24/2013 12:59:48 AM: Artist: Lumosity, Title:  Lumosity
+9/24/2013 12:59:48 AM: WinEventProc: got new window title.
+9/24/2013 12:59:48 AM: Artist: Lumosity, Title:  Lumosity
+9/24/2013 12:59:48 AM: WinEventProc: got new window title.
+9/24/2013 12:59:48 AM: Artist: Lumosity, Title:  Lumosity
+9/24/2013 12:59:49 AM: Artist: Lumosity, Title:  Lumosity
+9/24/2013 12:59:49 AM: Worker thread: Tried to skip, song before: [Song] Lumosity - Lumosity vs. [Song] Lumosity - Lumosity
+9/24/2013 12:59:49 AM: Got our return, failure value: True
+9/24/2013 12:59:49 AM: Failed to skip the song. Muting song.
+9/24/2013 12:59:49 AM: User's volume is already at 5%, will not try to change vol.
+9/24/2013 12:59:50 AM: WinEventProc: got new window title.
+9/24/2013 12:59:50 AM: Artist: Lumosity, Title:  Lumosity
+9/24/2013 12:59:50 AM: Trying to skip song - waiting for a return from worker thread.
+9/24/2013 12:59:50 AM: Artist: Lumosity, Title:  Lumosity
+9/24/2013 12:59:50 AM: Sending keypress: MediaNextTrack
+9/24/2013 12:59:50 AM: WinEventProc: got new window title.
+9/24/2013 12:59:50 AM: Artist: Lumosity, Title:  Lumosity
+9/24/2013 12:59:51 AM: WinEventProc: got new window title.
+9/24/2013 12:59:51 AM: Artist: Lumosity, Title:  Lumosity
+9/24/2013 12:59:51 AM: WinEventProc: got new window title.
+9/24/2013 12:59:51 AM: Artist: Lumosity, Title:  Lumosity
+9/24/2013 12:59:51 AM: WinEventProc: got new window title.
+9/24/2013 12:59:51 AM: Artist: Lumosity, Title:  Lumosity
+9/24/2013 12:59:51 AM: WinEventProc: got new window title.
+9/24/2013 12:59:51 AM: Artist: Lumosity, Title:  Lumosity
+9/24/2013 12:59:51 AM: WinEventProc: got new window title.
+9/24/2013 12:59:51 AM: Artist: Lumosity, Title:  Lumosity
+9/24/2013 12:59:51 AM: WinEventProc: got new window title.
+9/24/2013 12:59:51 AM: Artist: Lumosity, Title:  Lumosity
+9/24/2013 12:59:51 AM: Artist: Lumosity, Title:  Lumosity
+9/24/2013 12:59:51 AM: Worker thread: Tried to skip, song before: [Song] Lumosity - Lumosity vs. [Song] Lumosity - Lumosity
+9/24/2013 12:59:51 AM: Got our return, failure value: True
+9/24/2013 12:59:51 AM: Failed to skip the song. Muting song.
+9/24/2013 12:59:51 AM: User's volume is already at 5%, will not try to change vol.
+9/24/2013 12:59:51 AM: WinEventProc: got new window title.
+9/24/2013 12:59:51 AM: Artist: Lumosity, Title:  Lumosity
+9/24/2013 12:59:51 AM: Trying to skip song - waiting for a return from worker thread.
+9/24/2013 12:59:51 AM: Artist: Lumosity, Title:  Lumosity
+9/24/2013 12:59:51 AM: WinEventProc: got new window title.
+9/24/2013 12:59:51 AM: Sending keypress: MediaNextTrack
+9/24/2013 12:59:51 AM: Artist: Lumosity, Title:  Lumosity
+9/24/2013 12:59:51 AM: WinEventProc: got new window title.
+9/24/2013 12:59:51 AM: Artist: Lumosity, Title:  Lumosity
+9/24/2013 12:59:52 AM: Artist: Lumosity, Title:  Lumosity
+9/24/2013 12:59:52 AM: Worker thread: Tried to skip, song before: [Song] Lumosity - Lumosity vs. [Song] Lumosity - Lumosity
+9/24/2013 12:59:52 AM: Got our return, failure value: True
+9/24/2013 12:59:52 AM: Failed to skip the song. Muting song.
+9/24/2013 12:59:52 AM: User's volume is already at 5%, will not try to change vol.
+9/24/2013 12:59:55 AM: WinEventProc: got new window title.
+9/24/2013 12:59:55 AM: Artist: Lumosity, Title:  Lumosity
+9/24/2013 12:59:55 AM: Trying to skip song - waiting for a return from worker thread.
+9/24/2013 12:59:55 AM: Artist: Lumosity, Title:  Lumosity
+9/24/2013 12:59:55 AM: Sending keypress: MediaNextTrack
+9/24/2013 12:59:56 AM: Artist: Lumosity, Title:  Lumosity
+9/24/2013 12:59:56 AM: Worker thread: Tried to skip, song before: [Song] Lumosity - Lumosity vs. [Song] Lumosity - Lumosity
+9/24/2013 12:59:56 AM: Got our return, failure value: True
+9/24/2013 12:59:56 AM: Failed to skip the song. Muting song.
+9/24/2013 12:59:56 AM: User's volume is already at 5%, will not try to change vol.
+9/24/2013 12:59:59 AM: WinEventProc: got new window title.
+9/24/2013 12:59:59 AM: Artist: Lumosity, Title:  Lumosity
+9/24/2013 12:59:59 AM: Trying to skip song - waiting for a return from worker thread.
+9/24/2013 12:59:59 AM: Artist: Lumosity, Title:  Lumosity
+9/24/2013 12:59:59 AM: Sending keypress: MediaNextTrack
+9/24/2013 1:00:00 AM: Artist: Lumosity, Title:  Lumosity
+9/24/2013 1:00:00 AM: Worker thread: Tried to skip, song before: [Song] Lumosity - Lumosity vs. [Song] Lumosity - Lumosity
+9/24/2013 1:00:00 AM: Got our return, failure value: True
+9/24/2013 1:00:00 AM: Failed to skip the song. Muting song.
+9/24/2013 1:00:00 AM: User's volume is already at 5%, will not try to change vol.
+9/24/2013 1:00:12 AM: WinEventProc: got new window title.
+9/24/2013 1:00:12 AM: Artist: Mark Lanagan & Duke Garwood, Title:  Little Sadie
+9/24/2013 1:00:12 AM: Stopping replacement music.
+9/24/2013 1:00:12 AM: Resetting master volume to: 1
+9/24/2013 1:00:12 AM: Artist: Mark Lanagan & Duke Garwood, Title:  Little Sadie
+9/24/2013 1:00:12 AM: Got new Spotify item: [Song] Mark Lanagan & Duke Garwood - Little Sadie
+9/24/2013 1:00:25 AM: WinEventProc: got new window title.
+9/24/2013 1:00:25 AM: Artist: Mark Lanagan & Duke Garwood, Title:  Little Sadie
+9/24/2013 1:00:25 AM: Artist: Mark Lanagan & Duke Garwood, Title:  Little Sadie
+9/24/2013 1:00:25 AM: Got new Spotify item: [Song] Mark Lanagan & Duke Garwood - Little Sadie
+9/24/2013 1:00:25 AM: WinEventProc: got new window title.
+9/24/2013 1:00:25 AM: Artist: Mark Lanagan & Duke Garwood, Title:  Little Sadie
+9/24/2013 1:00:26 AM: Artist: Mark Lanagan & Duke Garwood, Title:  Little Sadie
+9/24/2013 1:00:26 AM: Got new Spotify item: [Song] Mark Lanagan & Duke Garwood - Little Sadie
+9/24/2013 1:00:26 AM: WinEventProc: got new window title.
+9/24/2013 1:00:26 AM: Artist: Lumosity, Title:  Lumosity
+9/24/2013 1:00:26 AM: Trying to skip song - waiting for a return from worker thread.
+9/24/2013 1:00:26 AM: Artist: Lumosity, Title:  Lumosity
+9/24/2013 1:00:26 AM: Sending keypress: MediaNextTrack
+9/24/2013 1:00:26 AM: WinEventProc: got new window title.
+9/24/2013 1:00:26 AM: Artist: Lumosity, Title:  Lumosity
+9/24/2013 1:00:26 AM: WinEventProc: got new window title.
+9/24/2013 1:00:27 AM: Artist: Lumosity, Title:  Lumosity
+9/24/2013 1:00:27 AM: WinEventProc: got new window title.
+9/24/2013 1:00:27 AM: Artist: Lumosity, Title:  Lumosity
+9/24/2013 1:00:27 AM: Artist: Lumosity, Title:  Lumosity
+9/24/2013 1:00:27 AM: Worker thread: Tried to skip, song before: [Song] Lumosity - Lumosity vs. [Song] Lumosity - Lumosity
+9/24/2013 1:00:27 AM: Got our return, failure value: True
+9/24/2013 1:00:27 AM: Failed to skip the song. Muting song.
+9/24/2013 1:00:27 AM: Got spotify volume before mute: 1
+9/24/2013 1:00:27 AM: Setting spotify volume to: 0.06451613
+9/24/2013 1:00:27 AM: Playing replacement music at: elevator.mp3
+9/24/2013 1:00:27 AM: Sending keypress: MediaPlayPause
+9/24/2013 1:00:27 AM: WARN: couldn't parse the artist/title from the raw window title.
+9/24/2013 1:00:27 AM: After play, got this song: 
+9/24/2013 1:00:27 AM: WinEventProc: got new window title.
+9/24/2013 1:00:27 AM: WARN: couldn't parse the artist/title from the raw window title.
+9/24/2013 1:00:27 AM: WinEventProc: got new window title.
+9/24/2013 1:00:27 AM: Artist: Lumosity, Title:  Lumosity
+9/24/2013 1:00:27 AM: Trying to skip song - waiting for a return from worker thread.
+9/24/2013 1:00:27 AM: Artist: Lumosity, Title:  Lumosity
+9/24/2013 1:00:27 AM: Sending keypress: MediaNextTrack
+9/24/2013 1:00:28 AM: WinEventProc: got new window title.
+9/24/2013 1:00:28 AM: Artist: Lumosity, Title:  Lumosity
+9/24/2013 1:00:28 AM: WinEventProc: got new window title.
+9/24/2013 1:00:28 AM: Artist: Lumosity, Title:  Lumosity
+9/24/2013 1:00:28 AM: WinEventProc: got new window title.
+9/24/2013 1:00:28 AM: Artist: Lumosity, Title:  Lumosity
+9/24/2013 1:00:28 AM: WinEventProc: got new window title.
+9/24/2013 1:00:28 AM: Artist: Lumosity, Title:  Lumosity
+9/24/2013 1:00:28 AM: WinEventProc: got new window title.
+9/24/2013 1:00:28 AM: Artist: Lumosity, Title:  Lumosity
+9/24/2013 1:00:28 AM: WinEventProc: got new window title.
+9/24/2013 1:00:28 AM: Artist: Lumosity, Title:  Lumosity
+9/24/2013 1:00:28 AM: WinEventProc: got new window title.
+9/24/2013 1:00:28 AM: Artist: Lumosity, Title:  Lumosity
+9/24/2013 1:00:28 AM: Artist: Lumosity, Title:  Lumosity
+9/24/2013 1:00:28 AM: Worker thread: Tried to skip, song before: [Song] Lumosity - Lumosity vs. [Song] Lumosity - Lumosity
+9/24/2013 1:00:28 AM: Got our return, failure value: True
+9/24/2013 1:00:28 AM: Failed to skip the song. Muting song.
+9/24/2013 1:00:28 AM: User's volume is already at 5%, will not try to change vol.
+9/24/2013 1:00:30 AM: WinEventProc: got new window title.
+9/24/2013 1:00:30 AM: Artist: Lumosity, Title:  Lumosity
+9/24/2013 1:00:30 AM: Trying to skip song - waiting for a return from worker thread.
+9/24/2013 1:00:30 AM: Artist: Lumosity, Title:  Lumosity
+9/24/2013 1:00:30 AM: Sending keypress: MediaNextTrack
+9/24/2013 1:00:31 AM: WinEventProc: got new window title.
+9/24/2013 1:00:31 AM: Artist: Lumosity, Title:  Lumosity
+9/24/2013 1:00:31 AM: Artist: Lumosity, Title:  Lumosity
+9/24/2013 1:00:31 AM: Worker thread: Tried to skip, song before: [Song] Lumosity - Lumosity vs. [Song] Lumosity - Lumosity
+9/24/2013 1:00:31 AM: Got our return, failure value: True
+9/24/2013 1:00:31 AM: Failed to skip the song. Muting song.
+9/24/2013 1:00:31 AM: User's volume is already at 5%, will not try to change vol.
+9/24/2013 1:00:32 AM: WinEventProc: got new window title.
+9/24/2013 1:00:32 AM: Artist: Lumosity, Title:  Lumosity
+9/24/2013 1:00:32 AM: Trying to skip song - waiting for a return from worker thread.
+9/24/2013 1:00:32 AM: Artist: Lumosity, Title:  Lumosity
+9/24/2013 1:00:32 AM: Sending keypress: MediaNextTrack
+9/24/2013 1:00:32 AM: WinEventProc: got new window title.
+9/24/2013 1:00:32 AM: Artist: Lumosity, Title:  Lumosity
+9/24/2013 1:00:33 AM: Artist: Lumosity, Title:  Lumosity
+9/24/2013 1:00:33 AM: Worker thread: Tried to skip, song before: [Song] Lumosity - Lumosity vs. [Song] Lumosity - Lumosity
+9/24/2013 1:00:33 AM: Got our return, failure value: True
+9/24/2013 1:00:33 AM: Failed to skip the song. Muting song.
+9/24/2013 1:00:33 AM: User's volume is already at 5%, will not try to change vol.
+9/24/2013 1:00:53 AM: WinEventProc: got new window title.
+9/24/2013 1:00:53 AM: Artist: Mark Lanagan & Duke Garwood, Title:  Together Again
+9/24/2013 1:00:53 AM: Stopping replacement music.
+9/24/2013 1:00:53 AM: Resetting master volume to: 1
+9/24/2013 1:00:53 AM: Artist: Mark Lanagan & Duke Garwood, Title:  Together Again
+9/24/2013 1:00:53 AM: Got new Spotify item: [Song] Mark Lanagan & Duke Garwood - Together Again
+9/24/2013 1:00:57 AM: WinEventProc: got new window title.
+9/24/2013 1:00:57 AM: Artist: Mark Lanagan & Duke Garwood, Title:  Together Again
+9/24/2013 1:00:57 AM: Artist: Mark Lanagan & Duke Garwood, Title:  Together Again
+9/24/2013 1:00:57 AM: Got new Spotify item: [Song] Mark Lanagan & Duke Garwood - Together Again
+9/24/2013 1:00:58 AM: WinEventProc: got new window title.
+9/24/2013 1:00:58 AM: Artist: The Flying Eyes, Title:  Eye of Storm
+9/24/2013 1:00:59 AM: Artist: The Flying Eyes, Title:  Eye of Storm
+9/24/2013 1:00:59 AM: Got new Spotify item: [Song] The Flying Eyes - Eye of Storm
+9/24/2013 1:01:00 AM: WinEventProc: got new window title.
+9/24/2013 1:01:00 AM: Artist: The Flying Eyes, Title:  Eye of Storm
+9/24/2013 1:01:01 AM: Artist: The Flying Eyes, Title:  Eye of Storm
+9/24/2013 1:01:01 AM: Got new Spotify item: [Song] The Flying Eyes - Eye of Storm
+9/24/2013 1:01:01 AM: WinEventProc: got new window title.
+9/24/2013 1:01:01 AM: Artist: The Flying Eyes, Title:  Eye of Storm
+9/24/2013 1:01:01 AM: WinEventProc: got new window title.
+9/24/2013 1:01:01 AM: Artist: The Flying Eyes, Title:  Eye of Storm
+9/24/2013 1:01:01 AM: Artist: The Flying Eyes, Title:  Eye of Storm
+9/24/2013 1:01:01 AM: Got new Spotify item: [Song] The Flying Eyes - Eye of Storm
+9/24/2013 1:01:01 AM: WinEventProc: got new window title.
+9/24/2013 1:01:01 AM: WinEventProc: got new window title.
+9/24/2013 1:01:01 AM: WinEventProc: got new window title.
+9/24/2013 1:01:01 AM: WinEventProc: got new window title.
+9/24/2013 1:01:01 AM: WinEventProc: got new window title.
+9/24/2013 1:01:01 AM: Artist: The Flying Eyes, Title:  Eye of Storm
+9/24/2013 1:01:01 AM: Artist: The Flying Eyes, Title:  Eye of Storm
+9/24/2013 1:01:01 AM: Got new Spotify item: [Song] The Flying Eyes - Eye of Storm
+9/24/2013 1:01:01 AM: Artist: The Flying Eyes, Title:  Eye of Storm
+9/24/2013 1:01:01 AM: Artist: The Flying Eyes, Title:  Eye of Storm
+9/24/2013 1:01:01 AM: Got new Spotify item: [Song] The Flying Eyes - Eye of Storm
+9/24/2013 1:01:01 AM: Artist: The Flying Eyes, Title:  Eye of Storm
+9/24/2013 1:01:01 AM: Artist: The Flying Eyes, Title:  Eye of Storm
+9/24/2013 1:01:01 AM: Got new Spotify item: [Song] The Flying Eyes - Eye of Storm
+9/24/2013 1:01:01 AM: Artist: The Flying Eyes, Title:  Eye of Storm
+9/24/2013 1:01:01 AM: Artist: The Flying Eyes, Title:  Eye of Storm
+9/24/2013 1:01:01 AM: Got new Spotify item: [Song] The Flying Eyes - Eye of Storm
+9/24/2013 1:01:01 AM: Artist: The Flying Eyes, Title:  Eye of Storm
+9/24/2013 1:01:01 AM: Artist: The Flying Eyes, Title:  Eye of Storm
+9/24/2013 1:01:01 AM: Got new Spotify item: [Song] The Flying Eyes - Eye of Storm
+9/24/2013 1:01:01 AM: Artist: The Flying Eyes, Title:  Eye of Storm
+9/24/2013 1:01:01 AM: Got new Spotify item: [Song] The Flying Eyes - Eye of Storm
+9/24/2013 1:01:08 AM: Got FormClosing event in MainForm view. Trying to persist blacklist for use next time...
+9/24/2013 1:01:08 AM: Saving 2 blockTable items to disk.
+9/24/2013 1:01:08 AM: Saving 37833 bytes of logs to disk.

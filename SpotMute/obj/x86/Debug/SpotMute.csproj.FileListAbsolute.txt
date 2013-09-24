@@ -13,3 +13,17 @@ C:\Users\Ben\Dropbox\Projects\Visual Studio\SpotMute\SpotMute\obj\x86\Debug\Gene
 C:\Users\Ben\Dropbox\Projects\Visual Studio\SpotMute\SpotMute\obj\x86\Debug\GenerateResource.write.1.tlog
 C:\Users\Ben\Dropbox\Projects\Visual Studio\SpotMute\SpotMute\obj\x86\Debug\SpotMute.exe
 C:\Users\Ben\Dropbox\Projects\Visual Studio\SpotMute\SpotMute\obj\x86\Debug\SpotMute.pdb
+D:\Dropbox\Projects\Visual Studio\SpotMute\SpotMute\bin\Debug\SpotMute.exe
+D:\Dropbox\Projects\Visual Studio\SpotMute\SpotMute\bin\Debug\SpotMute.pdb
+D:\Dropbox\Projects\Visual Studio\SpotMute\SpotMute\bin\Debug\CoreAudioApi.dll
+D:\Dropbox\Projects\Visual Studio\SpotMute\SpotMute\obj\x86\Debug\Interop.WMPLib.dll
+D:\Dropbox\Projects\Visual Studio\SpotMute\SpotMute\obj\x86\Debug\SpotMute.csproj.ResolveComReference.cache
+D:\Dropbox\Projects\Visual Studio\SpotMute\SpotMute\obj\x86\Debug\SpotMute.View.AboutBox.resources
+D:\Dropbox\Projects\Visual Studio\SpotMute\SpotMute\obj\x86\Debug\SpotMute.View.AddItemDialog.resources
+D:\Dropbox\Projects\Visual Studio\SpotMute\SpotMute\obj\x86\Debug\SpotMute.View.BlockTableEditorForm.resources
+D:\Dropbox\Projects\Visual Studio\SpotMute\SpotMute\obj\x86\Debug\SpotMute.MainForm.resources
+D:\Dropbox\Projects\Visual Studio\SpotMute\SpotMute\obj\x86\Debug\SpotMute.Properties.Resources.resources
+D:\Dropbox\Projects\Visual Studio\SpotMute\SpotMute\obj\x86\Debug\SpotMute.csproj.GenerateResource.Cache
+D:\Dropbox\Projects\Visual Studio\SpotMute\SpotMute\obj\x86\Debug\SpotMute.exe
+D:\Dropbox\Projects\Visual Studio\SpotMute\SpotMute\obj\x86\Debug\SpotMute.pdb
+D:\Dropbox\Projects\Visual Studio\SpotMute\SpotMute\bin\Debug\Newtonsoft.Json.dll

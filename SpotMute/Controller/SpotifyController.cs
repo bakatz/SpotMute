@@ -4,15 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Runtime.InteropServices;
 using System.Diagnostics;
-using CoreAudioApi;
 using System.Windows.Forms;
 using SpotMute.Model;
 using System.Media;
 using System.Threading;
 using System.IO;
-using WMPLib;
 using System.Net;
+using System.Web;
 using System.Xml;
+
+using CoreAudioApi;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using WMPLib;
 
 namespace SpotMute.Controller
 {
@@ -49,7 +53,7 @@ namespace SpotMute.Controller
         // Set volume to 2% to simulate a "mute"
         private const float VOLUME_SCALED_PCT = 0.02F;
 
-        private const String SPOTIFY_API_URI = "http://ws.spotify.com/search/1/track?q=";
+        private const String SPOTIFY_API_URI = "http://ws.spotify.com/search/1/track.json?q=";
 
         // Enable logging?
         private const bool ENABLE_LOGGING = true;
@@ -83,6 +87,9 @@ namespace SpotMute.Controller
             blockTable = new BlockTable(BLOCKTABLE_FILE_PATH);
             spotInfo = new SpotifyInformation(this);
             savedVol = -1;
+            //bool result = this.isAdvertisement(new Song("The Strokes", "Heart In A Cage"));
+            //Console.WriteLine(result);
+
         }
 
         public Boolean isListening()
@@ -297,13 +304,37 @@ namespace SpotMute.Controller
         {
             StringBuilder strb = new StringBuilder();
             strb.Append(SPOTIFY_API_URI);
-            strb.Append(song.getSongTitle());
-            XmlTextReader spotifyAPIReader = new XmlTextReader(strb.ToString());
-            while (spotifyAPIReader.Read())
+            strb.Append(Uri.EscapeDataString(song.getArtistName()));
+            strb.Append("%20");
+            strb.Append(Uri.EscapeDataString(song.getSongTitle()));
+            WebClient wc = new WebClient();
+
+            try
             {
-                Console.WriteLine("{0}: {1}", spotifyAPIReader.NodeType.ToString(), spotifyAPIReader.Name); 
+                string jsonResponse = wc.DownloadString(strb.ToString());
+                //MessageBox.Show(JsonConvert.DeserializeObject("").ToString());
+                JObject jo = (JObject)JsonConvert.DeserializeObject(jsonResponse);
+                foreach (JObject result in jo["tracks"])
+                {
+
+                    if (result["name"].ToString().Equals(song.getSongTitle()))
+                    {
+                        foreach (JObject resultArtist in result["artists"])
+                        {
+                            if (resultArtist["name"].ToString().Equals(song.getArtistName()))
+                            {
+                                return false;
+                            }
+                        }
+                    }
+                }
             }
-            return false;
+            catch (Exception e)
+            {
+                addLog("ERROR: got exception - " + e.ToString());
+                return false;
+            }
+            return true;
         }
 
         /*
@@ -323,15 +354,14 @@ namespace SpotMute.Controller
             {
                 //if (autoDetect) blockTable.addSong(currSong);
                 trySkipSong();
-                return;
             }
-
-            if (isAdvertisement(currSong))
+            else if (isAdvertisement(currSong))
             {
+                addLog(currSong + " IS AN ADVERTISEMENT, GONNA MUTE!");
                 blockTable.addSong(currSong);
                 trySkipSong();
-            } 
-            else//(!blockTable.contains(currSong))
+            }             
+            else if(!blockTable.contains(currSong))
             {
                 if (isReplacementMusicPlaying())
                 {

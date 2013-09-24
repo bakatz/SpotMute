@@ -12,7 +12,7 @@ namespace SpotMute.Model
      */
     public class BlockTable
     {
-        private Dictionary<Artist, HashSet<Song>> dict; // Key: Artist, Value: [Key: Song title - string, Value: dummy - bool] -- value is a dummy because all we need is the song title & we want O(1) lookup.
+        private Dictionary<Artist, HashSet<Song>> dict;
         private String persistFilePath;
         private int count; // we need to keep our own size because we want the total # of entries, not just # of key:value pairs
         public BlockTable() // create new blank blockTable
