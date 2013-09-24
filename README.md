@@ -4,19 +4,16 @@ A simple blacklist and volume control application for Spotify. Uses a blacklist 
 If a song cannot be skipped, some happy elevator music will be played over the song, and the song's individual volume will be reduced to 2%.
 
 ##Requirements
-================
 * Windows 7 or later
 * .NET Framework 4.0 or later
 * Spotify
 
 ##Important Links
-================
 * **Download latest version**: <http://www.bakatz.com/scripts/download.php?id=SpotMute>
 * Contact: Ben Katz (<bakatz@vt.edu>)
 * Bug tracker: <https://github.com/bakatz/SpotMute/issues>
 
 ##Usage
-================
 
 1. Click start.
 1. Verify that SpotMute has detected the current song.
