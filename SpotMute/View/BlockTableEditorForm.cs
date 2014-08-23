@@ -53,10 +53,10 @@ namespace SpotMute.View
             if (blockedListBox.SelectedItems.Count == 0) return;
             while(blockedListBox.SelectedItems.Count > 0)
             {
-                IBlockableItem currSelectedItem = (IBlockableItem)blockedListBox.SelectedItems[0];
-                if (currSelectedItem.getSongTitle() == null)
+                BlockableItemBase currSelectedItem = (BlockableItemBase)blockedListBox.SelectedItems[0];
+                if (currSelectedItem.SongTitle == null)
                 {
-                    Artist currSelectedArtist = new Artist(currSelectedItem.getArtistName());
+                    Artist currSelectedArtist = new Artist(currSelectedItem.ArtistName);
                     spotControl.getBlockTable().removeArtist(currSelectedArtist);
                 }
                 else

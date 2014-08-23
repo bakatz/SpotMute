@@ -76,7 +76,7 @@
   <ItemGroup>
     <Compile Include="Model\Artist.cs" />
     <Compile Include="Model\BlockTable.cs" />
-    <Compile Include="Model\Interface\IBlockableItem.cs" />
+    <Compile Include="Model\Interface\BlockableItemBase.cs" />
     <Compile Include="Model\Song.cs" />
     <Compile Include="Model\SpotifyInformation.cs" />
     <Compile Include="View\AboutBox.cs">

@@ -8,36 +8,24 @@ namespace SpotMute.Model
     /*
      * Represents a song that could be played in Spotify. 
      */
-    public class Song : IBlockableItem
+    public class Song : BlockableItemBase
     {
-        private String artistName;
-        private String title;
         public Song(String artistName, String title)
         {
-            this.artistName = artistName;
-            this.title = title;
-        }
-
-        public String getArtistName()
-        {
-            return artistName;
-        }
-
-        public String getSongTitle()
-        {
-            return title;
+            ArtistName = artistName;
+            SongTitle = title;
         }
 
         public override string ToString()
         {
-            return "[Song] " + artistName + " - " + title;
+            return "[Song] " + ArtistName + " - " + SongTitle;
         }
 
         public override int GetHashCode()
         {
             int hash = 13;
-            hash = (hash * 7) + artistName.GetHashCode();
-            hash = (hash * 7) + title.GetHashCode();
+            hash = (hash * 7) + ArtistName.GetHashCode();
+            hash = (hash * 7) + SongTitle.GetHashCode();
             return hash;
         }
 
@@ -57,7 +45,7 @@ namespace SpotMute.Model
             }
 
             // Return true if the fields match:
-            return artistName.Equals(p.getArtistName(), StringComparison.CurrentCultureIgnoreCase) && title.Equals(p.getSongTitle(), StringComparison.CurrentCultureIgnoreCase);
+            return ArtistName.Equals(p.ArtistName, StringComparison.CurrentCultureIgnoreCase) && SongTitle.Equals(p.SongTitle, StringComparison.CurrentCultureIgnoreCase);
         }
     }
 }

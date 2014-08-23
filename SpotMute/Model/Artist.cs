@@ -8,32 +8,23 @@ namespace SpotMute.Model
     /*
      * Represents an Artist in Spotify. TODO: change blocktable such that Artists "have many" songs instead of creating an inner hashtable in BlockTable
      */
-    public class Artist : IBlockableItem
+    public class Artist : BlockableItemBase
     {
-        private String artistName;
         public Artist(String artistName)
         {
-            this.artistName = artistName;
-        }
-        public String getSongTitle()
-        {
-            return null;
-        }
-
-        public String getArtistName()
-        {
-            return this.artistName;
+            ArtistName = artistName;
+            //Artist
         }
 
         public override String ToString()
         {
-            return "[Artist] " + this.artistName;
+            return "[Artist] " + ArtistName;
         }
 
         public override int GetHashCode()
         {
             int hash = 13;
-            hash = (hash * 7) + artistName.GetHashCode();
+            hash = (hash * 7) + ArtistName.GetHashCode();
             return hash;
         }
 
@@ -53,7 +44,7 @@ namespace SpotMute.Model
             }
 
             // Return true if the fields match:
-            return artistName.Equals(p.getArtistName(), StringComparison.CurrentCultureIgnoreCase);//.Equals(p.getArtistName());
+            return ArtistName.Equals(p.ArtistName, StringComparison.CurrentCultureIgnoreCase);//.Equals(p.ArtistName);
         }
     }
 }

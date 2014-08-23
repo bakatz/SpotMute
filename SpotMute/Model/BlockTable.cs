@@ -58,13 +58,13 @@ namespace SpotMute.Model
          */
         public void addSong(Song song)
         {
-            if (song.getArtistName() == null || song.getSongTitle() == null || song.getArtistName().Length == 0 || song.getSongTitle().Length == 0)
+            if (song.ArtistName == null || song.SongTitle == null || song.ArtistName.Length == 0 || song.SongTitle.Length == 0)
             {
                 throw new ArgumentException("Null or zero-length artist or song specified.");
             }
             else
             {
-                Artist reqArtist = new Artist(song.getArtistName());
+                Artist reqArtist = new Artist(song.ArtistName);
                 if (dict.ContainsKey(reqArtist) && dict[reqArtist] == null) return; // artist's songs are all blocked, ignore and return
 
                 if (!dict.ContainsKey(reqArtist))
@@ -81,11 +81,11 @@ namespace SpotMute.Model
          */
         public void removeSong(Song song)
         {
-            if (song.getArtistName() == null || song.getSongTitle() == null || song.getArtistName().Length == 0 || song.getSongTitle().Length == 0)
+            if (song.ArtistName == null || song.SongTitle == null || song.ArtistName.Length == 0 || song.SongTitle.Length == 0)
             {
                 throw new ArgumentException("Null or zero-length artist or song specified.");
             }
-            Artist reqArtist = new Artist(song.getArtistName());
+            Artist reqArtist = new Artist(song.ArtistName);
             if (dict.ContainsKey(reqArtist)) 
             {
                 if (dict[reqArtist] == null) return; // can't remove one song from a globally blocked artist.
@@ -99,7 +99,7 @@ namespace SpotMute.Model
          */
         public void addArtist(Artist artist)
         {
-            if (artist.getArtistName() == null || artist.getArtistName().Length == 0)
+            if (artist.ArtistName == null || artist.ArtistName.Length == 0)
             {
                 throw new ArgumentException("Null or zero-length artist name specified.");
             }
@@ -120,7 +120,7 @@ namespace SpotMute.Model
          */
         public void removeArtist(Artist artist)
         {
-            if (artist == null || artist.getArtistName().Length == 0)
+            if (artist == null || artist.ArtistName.Length == 0)
             {
                 throw new ArgumentException("Null or zero-length artist name specified.");
             } 
@@ -181,11 +181,11 @@ namespace SpotMute.Model
          */
         public Boolean contains(Song song)
         {
-            if (song == null || song.getArtistName() == null || song.getSongTitle() == null)
+            if (song == null || song.ArtistName == null || song.SongTitle == null)
             {
                 return false;
             }
-            Artist reqArtist = new Artist(song.getArtistName());
+            Artist reqArtist = new Artist(song.ArtistName);
             return dict.ContainsKey(reqArtist) && (dict[reqArtist] == null || dict[reqArtist].Contains(song)); // true if the artistname is in the dict, and we either have an artist full block or the artist's dictionary object contains the song...
         }
 
@@ -199,13 +199,13 @@ namespace SpotMute.Model
             {
                 if (dict[artist] == null) // output artist line
                 {
-                    str.AppendLine("A|" + artist.getArtistName());
+                    str.AppendLine("A|" + artist.ArtistName);
                 }
                 else // output song line
                 {
                     foreach (Song song in dict[artist])
                     {
-                        str.AppendLine("S|" + song.getArtistName() + "|" + song.getSongTitle());
+                        str.AppendLine("S|" + song.ArtistName + "|" + song.SongTitle);
                     }
                 }
             }

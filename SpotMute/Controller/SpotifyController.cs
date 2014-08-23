@@ -40,7 +40,6 @@ namespace SpotMute.Controller
         private static extern bool UnhookWinEvent(IntPtr hWinEventHook);
 
         //TODO: put these in some external configuration file
-        private const String BLOCKTABLE_FILE_PATH = "blocktable.conf"; // TODO: should move to blocktable if decision is made to remove/modify 2nd constructor from blocktable
         private String REPLACEMENT_AUDIO_PATH = "elevator.mp3";
         private const String LOG_FILE_PATH = "log.txt";
 
@@ -84,7 +83,7 @@ namespace SpotMute.Controller
             player = new WindowsMediaPlayer();
             player.URL = REPLACEMENT_AUDIO_PATH;
             player.controls.stop();
-            blockTable = new BlockTable(BLOCKTABLE_FILE_PATH);
+            blockTable = new BlockTable(Directory.GetCurrentDirectory() + "\\blocktable.conf");
             spotInfo = new SpotifyInformation(this);
             savedVol = -1;
             //bool result = this.isAdvertisement(new Song("The Strokes", "Heart In A Cage"));
@@ -236,7 +235,7 @@ namespace SpotMute.Controller
             if (currSong != null)
             {
                 
-                blockTable.addArtist(new Artist(currSong.getArtistName()));
+                blockTable.addArtist(new Artist(currSong.ArtistName));
                 addLog("Current artist added to the blockTable.");
                 trySkipSong();
             }
@@ -305,9 +304,9 @@ namespace SpotMute.Controller
         {
             StringBuilder strb = new StringBuilder();
             strb.Append(SPOTIFY_API_URI);
-            strb.Append(Uri.EscapeDataString(song.getArtistName()));
+            strb.Append(Uri.EscapeDataString(song.ArtistName));
             strb.Append("%20");
-            strb.Append(Uri.EscapeDataString(song.getSongTitle()));
+            strb.Append(Uri.EscapeDataString(song.SongTitle));
             WebClient wc = new WebClient();
 
             try
@@ -317,12 +316,12 @@ namespace SpotMute.Controller
                 foreach (JObject result in jo["tracks"])
                 {
 
-                    if (result["name"].ToString().Equals(song.getSongTitle(), StringComparison.InvariantCultureIgnoreCase))
+                    if (result["name"].ToString().Equals(song.SongTitle, StringComparison.InvariantCultureIgnoreCase))
                     {
                         // If our song title matches, we then need to check the artist as well because some names of ads are actually valid song titles!
                         foreach (JObject resultArtist in result["artists"])
                         {
-                            if (resultArtist["name"].ToString().Equals(song.getArtistName(), StringComparison.InvariantCultureIgnoreCase))
+                            if (resultArtist["name"].ToString().Equals(song.ArtistName, StringComparison.InvariantCultureIgnoreCase))
                             {
                                 return false;
                             }
@@ -349,7 +348,7 @@ namespace SpotMute.Controller
                 nowPlayingLabel.Text = "[PAUSED]";
                 return;
             }
-            nowPlayingLabel.Text = currSong.getArtistName() + " - " + currSong.getSongTitle();
+            nowPlayingLabel.Text = currSong.ArtistName + " - " + currSong.SongTitle;
             
             if (blockTable.contains(currSong))// || autoDetect)
             {
@@ -358,7 +357,7 @@ namespace SpotMute.Controller
             }
             else if (isAdvertisement(currSong))
             {
-                addLog(currSong + " IS AN ADVERTISEMENT, GONNA MUTE!");
+                addLog(currSong + " is an advertisement, going to mute.");
                 blockTable.addSong(currSong);
                 trySkipSong();
             }             
