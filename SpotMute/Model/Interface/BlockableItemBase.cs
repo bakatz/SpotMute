@@ -10,7 +10,7 @@ namespace SpotMute.Model
      */
     public class BlockableItemBase
     {
-        public string ArtistName { get; set; }
-        public string SongTitle { get; set; }
+        public string ArtistName { get; protected set; }
+        public string SongTitle { get; protected set; }
     }
 }
