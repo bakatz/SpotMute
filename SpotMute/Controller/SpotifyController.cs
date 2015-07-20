@@ -136,7 +136,7 @@ namespace SpotMute.Controller
          */
         public void stopListening()
         {
-            AudioSessionControl spotifyASC = spotInfo.getSpotifyAudioSession();
+            AudioSessionControl spotifyASC = spotInfo.GetSpotifyAudioSession();
             if (spotifyASC != null && savedVol != -1)
             {
                 spotifyASC.SimpleAudioVolume.MasterVolume = savedVol;
@@ -187,7 +187,7 @@ namespace SpotMute.Controller
          */
         private Boolean forceSpotifyMute()
         {
-            AudioSessionControl spotifyASC = spotInfo.getSpotifyAudioSession();
+            AudioSessionControl spotifyASC = spotInfo.GetSpotifyAudioSession();
             if (Math.Abs(spotifyASC.SimpleAudioVolume.MasterVolume - (VOLUME_SCALED_PCT / defaultDevice.AudioEndpointVolume.MasterVolumeLevelScalar)) < 0.0001 && savedVol > 0) // bugfix: muting twice leads to never unmuting even on a whitelisted song
             {
                 addLog("User's volume is already at 5%, will not try to change vol.");
@@ -208,7 +208,7 @@ namespace SpotMute.Controller
          */
         public void blockCurrentSong()
         {
-            Song currSong = spotInfo.getCurrentSong();
+            Song currSong = spotInfo.GetCurrentSong();
             if (currSong != null)
             {
                 blockTable.addSong(currSong);
@@ -231,7 +231,7 @@ namespace SpotMute.Controller
          */
         public void blockCurrentArtist()
         {
-            Song currSong = spotInfo.getCurrentSong();
+            Song currSong = spotInfo.GetCurrentSong();
             if (currSong != null)
             {
                 
@@ -342,7 +342,7 @@ namespace SpotMute.Controller
          */
         public void checkCurrentSong()
         {
-            Song currSong = spotInfo.getCurrentSong();
+            Song currSong = spotInfo.GetCurrentSong();
             if (currSong == null)
             {
                 nowPlayingLabel.Text = "[PAUSED]";
@@ -369,11 +369,11 @@ namespace SpotMute.Controller
                     if (savedVol > 0)
                     {
                         addLog("Resetting master volume to: " + savedVol);
-                        AudioSessionControl spotifyASC = spotInfo.getSpotifyAudioSession();
+                        AudioSessionControl spotifyASC = spotInfo.GetSpotifyAudioSession();
                         spotifyASC.SimpleAudioVolume.MasterVolume = savedVol;
                     }
                 }
-                addLog("Got new Spotify item: " + spotInfo.getCurrentSong());
+                addLog("Got new Spotify item: " + spotInfo.GetCurrentSong());
             }
         }
 
@@ -402,7 +402,7 @@ namespace SpotMute.Controller
                 if (muteSuccess)
                 {
                     sendKeyPress(Keys.MediaPlayPause);
-                    addLog("After play, got this song: " + spotInfo.getCurrentSong());
+                    addLog("After play, got this song: " + spotInfo.GetCurrentSong());
                 }
                 isSkipping = false;
             }
@@ -416,12 +416,12 @@ namespace SpotMute.Controller
 
         private void trySkipSongThread(object stateInfo)
         {
-                Song songBefore = spotInfo.getCurrentSong();
+                Song songBefore = spotInfo.GetCurrentSong();
                 
                 sendKeyPress(Keys.MediaNextTrack);
 
                 Thread.Sleep(1000); // give some time for events to be sent to spotify, window title to be changed, etc. TODO: add some sort of event to avoid sleeping.
-                Song songAfter = spotInfo.getCurrentSong();
+                Song songAfter = spotInfo.GetCurrentSong();
                 addLog("Worker thread: Tried to skip, song before: " + songBefore + " vs. " + songAfter);
                 if (songAfter == null || songBefore.Equals(songAfter))
                 {

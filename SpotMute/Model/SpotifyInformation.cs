@@ -29,9 +29,9 @@ namespace SpotMute.Model
         /*
          * Returns the current song from the window title of spotify.
          */
-        public Song getCurrentSong()
+        public Song GetCurrentSong()
         {
-            updateNowPlaying();
+            UpdateNowPlaying();
             return currSong;
 
         }
@@ -39,7 +39,7 @@ namespace SpotMute.Model
         /*
          * Returns Spotify's current audio session. Used to modify the scalar volume level.
          */
-        public AudioSessionControl getSpotifyAudioSession()
+        public AudioSessionControl GetSpotifyAudioSession()
         {
             return spotifyASC;
         }
@@ -47,24 +47,34 @@ namespace SpotMute.Model
         /*
          * Retreives the current 'now playing' item by parsing Spotify's window title.
          */
-        public void updateNowPlaying()
+        public void UpdateNowPlaying()
         {
             if (!controller.isListening()) return;
-            Process[] procs = Process.GetProcessesByName("spotify"); // we need to refresh the spotify process each time, because spotify tends to change process id when hiding/unhiding.
-            if (procs.Length > 0)
+            Process[] processes = Process.GetProcessesByName("spotify"); // we need to refresh the spotify process each time, because spotify tends to change process id when hiding/unhiding.
+            if (processes.Length > 0)
             {
-                spotProc = procs[0];
-                spotifyASC = controller.getSpotifyAudioSession(spotProc.Id);
 
-                if (spotifyASC == null /*|| spotProc.MainWindowTitle.Equals(lastItem)*/) // if we couldn't open an audio session //or the song is the same as the last one, ignore
+                foreach (Process process in processes)
                 {
+                    spotProc = process;
+                    spotifyASC = controller.getSpotifyAudioSession(spotProc.Id);
+                    if (spotifyASC != null)
+                    {
+                        break;
+                    }
+                }
+
+                if (spotifyASC == null)
+                {
+                    controller.addLog("ERROR: couldn't find the necessary spotify process to attach to");
                     return;
                 }
-                String[] theItem = spotProc.MainWindowTitle.Split('–'); // this is a 'long' dash (– vs. -)
+
+                String[] theItem = spotProc.MainWindowTitle.Split('-');
                 if (theItem.Length >= 2)
                 {
                     String title = theItem[1].Trim();
-                    String artist = theItem[0].Remove(0, 10).Trim(); // remove the prefix: "Spotify - "
+                    String artist = theItem[0].Trim();
                     controller.addLog("Artist: " + artist + ", Title: " + theItem[1]);
                     currSong = new Song(artist, title);
                     lastItem = spotProc.MainWindowTitle;
@@ -74,6 +84,10 @@ namespace SpotMute.Model
                     currSong = null;
                     controller.addLog("WARN: couldn't parse the artist/title from the raw window title.");
                 }
+            }
+            else
+            {
+                controller.addLog("ERROR: expected to find multiple spotify processes, found one or none");
             }
         }
     }
